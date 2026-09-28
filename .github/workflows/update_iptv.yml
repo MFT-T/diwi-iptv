@@ -41,11 +41,11 @@ jobs:
       - name: Run IPTV updater
         run: python update_iptv.py
 
-      - name: Commit & push http-iptv.m3u
+      - name: Commit & push http-iptv.m3u8
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add http-iptv.m3u
+          git add http-iptv.m3u8
           
           # Lấy thời gian hiện tại theo định dạng VN
           VIETNAM_TIME=$(date +'%d/%m/%Y %H:%M')
