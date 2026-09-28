@@ -1,5 +1,5 @@
-#EXTM3U url-tvg="https://epg.io.vn/epg.xml"
-#EXTM3U x-tvg-url="https://epg.io.vn/epg.xml"
+f.write(f'#EXTM3U url-tvg="https://epg.io.vn/epg.xml" x-tvg-url="https://epg.io.vn/epg.xml"\n')
+
 #EXTM3U-SOURCE:https://dl.dropboxusercontent.com/s/o5vygit34v9ryly71gam4/coban66.m3u?rlkey=auyoon54hfubajt16nc7u7dbn&st=70gyvtcu&dl=0
 #EXTINF:-1 tvg-id="vtv1hd" tvg-logo="https://i.postimg.cc/F1FvzstX/V1.png" group-title="VTV",VTV1
 https://live.fptplay53.net/live/media/vtv1/live247-hls-avc/index.m3u8
