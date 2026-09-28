@@ -275,14 +275,15 @@ _HTV_ORDER: Final[list[str]] = [
     "HTV5",
     "HTV7",
     "HTV9",
-    "HTVC Thể Thao",
+    "HTVC+",
     "HTVC Ca Nhạc",
     "HTVC Du Lịch",
     "HTVC Gia Đình",
     "HTVC Phim",
     "HTVC Phụ Nữ",
+    "HTVC Thể Thao",
     "HTVC Thuần Việt",
-    "HTVC+",
+    
 ]
 _PROVINCE_ORDER: Final[list[str]] = [
     "Hà Giang",
