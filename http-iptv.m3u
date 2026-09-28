@@ -59,6 +59,10 @@ https://live.fptplay53.net/epzhd1/htvcthethao_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="htvcthuanviethd" tvg-logo="https://i.imgur.com/KtMeo6q.png" group-title="HTV",HTVC Thuần Việt
 https://live.fptplay53.net/epzhd1/htvcthuanviethd_vhls.smil/chunklist_b5000000.m3u8
 
+#EXTINF:-1 tvg-id="antvhd" tvg-logo="https://r2.epg.io.vn/2026-09-17/70.png" group-title="VTV",ANTV
+https://vtvgolive-liveh12.vtvdigital.vn/LpQ5FepgNF7oQ_MV-dUt4g/1790626732/hls/ANNINHTV/04.m3u8
+#EXTINF:-1 tvg-id="qpvnhd" tvg-logo=""https://r2.epg.io.vn/2026-09-17/71.png" group-title="VTV",QPVN
+https://vtvgolive-liveh12.vtvdigital.vn/1aYfibmh9aLP8WbmX_3G6w/1790627544/hls/QPTV/03.m3u8
 #EXTINF:-1 tvg-id="angiang1" tvg-logo="https://i.imgur.com/mgp6RAU.png" group-title="Địa phương",An Giang 1
 https://live.fptplay53.net/epzsd1/angiang01_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="angiang2" tvg-logo="https://i.imgur.com/efrauLr.png" group-title="Địa phương",An Giang 2
