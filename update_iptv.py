@@ -629,5 +629,8 @@ def main() -> None:
     final = sort_channels(merge_sources(processed))
 
     gcnt = Counter(ch.group_key for ch in final)
-    print(
+        print(f"Tổng số kênh: {len(final)}")
+    for group, count in gcnt.items():
+        print(f"  - {group}: {count} kênh")
+
      
