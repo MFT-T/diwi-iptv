@@ -6,7 +6,7 @@ IPTV Auto-updater
 - EPG: vnepg.site (thêm trực tiếp, không kiểm tra)
 - Sắp xếp địa phương Bắc → Nam
 - tvg-id chuẩn hóa theo vnepg (viết liền, không dấu gạch ngang)
-- Output: http-iptv.m3u8
+- Output: http-iptv.m3u
 """
 
 import re
@@ -29,7 +29,7 @@ SOURCES: Final[list[str]] = [
 ]
 
 EPG_URL: Final[str] = "https://epg.io.vn/epg.xml"
-OUTPUT_FILE: Final[str] = "http-iptv.m3u8"
+OUTPUT_FILE: Final[str] = "http-iptv.m3u"
 GLOBAL_TIMEOUT: Final[int] = 20
 HTTP_HEADERS: Final[dict[str, str]] = {
     "User-Agent": (
@@ -479,7 +479,7 @@ def _is_noise(tvg_id: str, upper_name: str) -> bool:
 # ──────────────────────────────────────────────────────────────────────
 # PARSER
 # ──────────────────────────────────────────────────────────────────────
-def parse_m3u8(text: str) -> list[Channel]:
+def parse_m3u(text: str) -> list[Channel]:
     channels: list[Channel] = []
     current_extinf: Optional[str] = None
 
@@ -583,7 +583,7 @@ def sort_channels(channels: list[Channel]) -> list[Channel]:
 # ──────────────────────────────────────────────────────────────────────
 # OUTPUT
 # ──────────────────────────────────────────────────────────────────────
-def write_m3u8(channels: list[Channel], path: str) -> None:
+def write_m3u(channels: list[Channel], path: str) -> None:
     try:
         with open(path, "w", encoding="utf-8") as f:
             f.write(f'#EXTM3U url-tvg="{EPG_URL}"\n')
