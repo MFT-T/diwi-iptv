@@ -60,9 +60,9 @@ https://live.fptplay53.net/epzhd1/htvcthethao_vhls.smil/chunklist_b5000000.m3u8
 https://live.fptplay53.net/epzhd1/htvcthuanviethd_vhls.smil/chunklist_b5000000.m3u8
 
 #EXTINF:-1 tvg-id="antvhd" tvg-logo="https://r2.epg.io.vn/2026-09-17/70.png" group-title="VTV",ANTV
-https://vtvgolive-liveh12.vtvdigital.vn/LpQ5FepgNF7oQ_MV-dUt4g/1790626732/hls/ANNINHTV/04.m3u8
+https://livecdn-vthcm-bp.vieon.vn/43f71d4340ce08ed10feb61a941ac024/1790740659000/livetv/group-04/0b31e022261adf9fc6ce82660ed452d1/playlist.m3u8?c=h
 #EXTINF:-1 tvg-id="qpvnhd" tvg-logo="https://r2.epg.io.vn/2026-09-17/71.png" group-title="VTV",QPVN
-https://vtvgolive-liveh12.vtvdigital.vn/Oj9CN_qp_KsLsyI-n5hkyA/1790628063/hls/QPTV/index.m3u8
+https://livecdn-vthcm-bp.vieon.vn/cc21b8d538c1f8a471704fd5042ea930/1790740740000/livetv/group-04/fc5f01a96c49d406910925ef5f5cb48b/playlist.m3u8?c=h
 #EXTINF:-1 tvg-id="angiang1" tvg-logo="https://i.imgur.com/mgp6RAU.png" group-title="Địa phương",An Giang 1
 https://live.fptplay53.net/epzsd1/angiang01_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="angiang2" tvg-logo="https://i.imgur.com/efrauLr.png" group-title="Địa phương",An Giang 2
