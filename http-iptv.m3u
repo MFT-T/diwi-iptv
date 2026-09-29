@@ -1,6 +1,7 @@
 f.write(f'#EXTM3U url-tvg="https://epg.io.vn/epg.xml" x-tvg-url="https://epg.io.vn/epg.xml"\n')
 
 #EXTM3U-SOURCE:https://dl.dropboxusercontent.com/s/o5vygit34v9ryly71gam4/coban66.m3u?rlkey=auyoon54hfubajt16nc7u7dbn&st=70gyvtcu&dl=0
+
 #EXTINF:-1 tvg-id="vtv1hd" tvg-logo="https://i.postimg.cc/F1FvzstX/V1.png" group-title="VTV",VTV1
 https://live.fptplay53.net/live/media/vtv1/live247-hls-avc/index.m3u8
 #EXTINF:-1 tvg-id="vtv2hd" tvg-logo="https://i.postimg.cc/yDR4tDRm/V2.png" group-title="VTV",VTV2
@@ -58,12 +59,12 @@ https://live.fptplay53.net/epzhd1/htvcphunu_vhls.smil/chunklist_b5000000.m3u8
 https://live.fptplay53.net/epzhd1/htvcthethao_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="htvcthuanviethd" tvg-logo="https://i.imgur.com/KtMeo6q.png" group-title="HTV",HTVC Thuần Việt
 https://live.fptplay53.net/epzhd1/htvcthuanviethd_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="onviedramas" tvg-logo="https://r2.epg.io.vn/2026-09-17/29.png"  group-title="HTV",ON Vie Dramas
+#EXTINF:-1 tvg-id="onviedramas" tvg-logo="https://i.ibb.co/VptvgFVx/IMG-2530.webp"  group-title="HTV",ON Vie Dramas
 https://livecdn-vthcm-bp.vieon.vn/3e6f2755eea79ab32349e83b6ab40371/1790741148000/livetv/group-06/9416aa65cec57d5b01ed0e2297e1b4e3/playlist.m3u8?c=h
 
-#EXTINF:-1 tvg-id="antvhd" tvg-logo="https://r2.epg.io.vn/2026-09-17/70.png" group-title="VTV",ANTV
+#EXTINF:-1 tvg-id="antvhd" tvg-logo="https://static.wikia.nocookie.net/logos/images/1/1a/ANTV_2023.png/revision/latest/scale-to-width-down/512?path-prefix=vi" group-title="VTV",ANTV
 https://livecdn-vthcm-bp.vieon.vn/43f71d4340ce08ed10feb61a941ac024/1790740659000/livetv/group-04/0b31e022261adf9fc6ce82660ed452d1/playlist.m3u8?c=h
-#EXTINF:-1 tvg-id="qpvnhd" tvg-logo="https://r2.epg.io.vn/2026-09-17/71.png" group-title="VTV",QPVN
+#EXTINF:-1 tvg-id="qpvnhd" tvg-logo="https://i.imgur.com/GQO7UNu.png" group-title="VTV",QPVN
 https://livecdn-vthcm-bp.vieon.vn/cc21b8d538c1f8a471704fd5042ea930/1790740740000/livetv/group-04/fc5f01a96c49d406910925ef5f5cb48b/playlist.m3u8?c=h
 #EXTINF:-1 tvg-id="angiang1" tvg-logo="https://i.imgur.com/mgp6RAU.png" group-title="Địa phương",An Giang 1
 https://live.fptplay53.net/epzsd1/angiang01_hls.smil/chunklist_b2500000.m3u8
