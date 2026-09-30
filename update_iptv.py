@@ -6,7 +6,7 @@ IPTV Auto-updater
 - EPG: Tự động tải, sửa múi giờ Việt Nam (+0700) và xuất file iptv.epg.xml
 - Sắp xếp địa phương: Tên tỉnh thành A-Z (63 tỉnh thành)
 - tvg-id chuẩn hóa theo vnepg (viết liền, không dấu gạch ngang)
-- Output: http-iptv.m3u & iptv.epg.xml
+- Output: http-iptv.m3u, my-custom-iptv.m3u & iptv.epg.xml
 """
 
 import re
@@ -514,6 +514,32 @@ def write_m3u(channels: list[Channel], path: str) -> None:
 
 
 # ──────────────────────────────────────────────────────────────────────
+# XỬ LÝ FILE M3U THỦ CÔNG
+# ──────────────────────────────────────────────────────────────────────
+def update_manual_m3u(input_path: str, output_path: str) -> None:
+    """Đọc file M3U thủ công, giữ nguyên tất cả kênh/thứ tự, chỉ chèn link EPG mới vào đầu."""
+    print(f"\n📝 Đang cập nhật EPG cho file thủ công: {input_path}...")
+    try:
+        with open(input_path, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+
+        # Lọc bỏ các dòng #EXTM3U cũ (nếu có)
+        content_lines = [line for line in lines if not line.startswith("#EXTM3U")]
+
+        # Ghi file mới với Header EPG cá nhân lên đầu
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write(f'#EXTM3U url-tvg="{MY_EPG_URL}"\n')
+            f.write(f'#EXTM3U x-tvg-url="{MY_EPG_URL}"\n')
+            f.writelines(content_lines)
+
+        print(f"✅ Đã tạo file M3U thủ công kèm EPG mới → {output_path}")
+    except FileNotFoundError:
+        print(f"  ⚠ Không tìm thấy file {input_path}, bỏ qua bước này.")
+    except Exception as e:
+        print(f"  ⚠ Lỗi xử lý file M3U thủ công: {e}", file=sys.stderr)
+
+
+# ──────────────────────────────────────────────────────────────────────
 # CẬP NHẬT MÚI GIỜ EPG
 # ──────────────────────────────────────────────────────────────────────
 def fix_epg_timezone(input_xml_url: str, output_xml_path: str = EPG_OUTPUT_FILE) -> None:
@@ -549,7 +575,7 @@ def main() -> None:
     # 1. Tải và xử lý EPG XML
     fix_epg_timezone(RAW_EPG_SOURCE, EPG_OUTPUT_FILE)
     
-    # 2. Tải danh sách kênh IPTV
+    # 2. Tải và xử lý danh sách kênh IPTV tự động
     processed: list[list[Channel]] = []
     for idx, src in enumerate(SOURCES, 1):
         print(f"\n[{idx}/{len(SOURCES)}] Tải: {src}")
@@ -562,16 +588,19 @@ def main() -> None:
         if parsed:
             processed.append(parsed)
 
-    if not processed:
-        print("❌  Không có nguồn nào hợp lệ.", file=sys.stderr)
-        sys.exit(1)
+    if processed:
+        # Gộp, lọc trùng và sắp xếp cho danh sách tự động
+        print("\n🔀  Gộp & dedup danh sách tự động…")
+        final = sort_channels(merge_sources(processed))
+        # Xuất file M3U tự động
+        write_m3u(final, OUTPUT_FILE)
+    else:
+        print("⚠  Không có nguồn tự động nào hợp lệ.", file=sys.stderr)
 
-    # 3. Gộp, lọc trùng và sắp xếp
-    print("\n🔀  Gộp & dedup…")
-    final = sort_channels(merge_sources(processed))
-    
-    # 4. Xuất file M3U kết quả
-    write_m3u(final, OUTPUT_FILE)
+    # 3. Xử lý file M3U thủ công (Giữ nguyên danh sách/thứ tự, chỉ gắn EPG)
+    # File gốc bạn sưu tập đặt trên repository là: my_list.m3u
+    # File đầu ra để dùng trên ứng dụng TV là: my-custom-iptv.m3u
+    update_manual_m3u("my_list.m3u", "my-custom-iptv.m3u")
 
 
 if __name__ == "__main__":
