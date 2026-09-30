@@ -41,14 +41,16 @@ jobs:
       - name: Run IPTV updater
         run: python update_iptv.py
 
-      - name: Commit & push http-iptv.m3u
+      - name: Commit & push playlist and EPG
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add http-iptv.m3u
+          
+          # Lưu cả file playlist .m3u và file EPG .xml vừa tạo
+          git add http-iptv.m3u iptv.epg.xml
           
           # Lấy thời gian hiện tại theo định dạng VN
           VIETNAM_TIME=$(date +'%d/%m/%Y %H:%M')
           
-          git diff --cached --quiet || git commit -m "🔄 Auto-update IPTV ($VIETNAM_TIME ICT) and EPG"
+          git diff --cached --quiet || git commit -m "🔄 Auto-update IPTV & EPG ($VIETNAM_TIME ICT)"
           git push
