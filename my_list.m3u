@@ -185,7 +185,7 @@ https://live.fptplay53.net/epzhd2/camauhd_vhls.smil/chunklist_b5000000.m3u8
 https://live.fptplay53.net/epzhd2/cantho01_vhls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="cantho2" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/thdp/cantho2.png" group-title="Địa phương",Cần Thơ 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
-https://livecdn-vthcm-bp.vieon.vn/0884dc18ed179318cfd1401c2b938571/1790688142000/livetv/group-07/5c0ef0a46e5a1e0547f6c844247f8466/playlist.m3u8?c=h
+https://live.fptplay53.net/epzsd1/cantho02_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="cantho3" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/thdp/cantho3.png" group-title="Địa phương",Cần Thơ 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
 https://live.fptplay53.net/epzsd1/cantho03_hls.smil/chunklist_b2500000.m3u8
