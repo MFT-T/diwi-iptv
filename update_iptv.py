@@ -138,6 +138,8 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "vtv9hd": ("VTV9", "VTV"),
     "vtv10hd": ("VTV10", "VTV"),
     "vietnamtoday": ("Vietnam Today", "VTV"),
+    "antvhd": ("ANTV", "VTV"),
+    "qpvnhd": ("QPVN", "VTV"),
     # ── HTV / HTVC ───────────────────────────────────────────────────
     "htv1hd": ("HTV1", "HTV"),
     "htv2hd": ("HTV2", "HTV"),
@@ -154,6 +156,32 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "htvcphunuhd": ("HTVC Phụ Nữ", "HTV"),
     "htvcthuanviethd": ("HTVC Thuần Việt", "HTV"),
     "htvcplushd": ("HTVC+", "HTV"),
+    # -----VTVcab--------
+    
+    "onphimviet": ("ON Phim Việt", "VTVcab"),
+    "ongolf": ("ON Golf", "VTVcab"),
+    "OnHomeShopping": ("ON HomeShopping", "VTVcab"),
+    "ONKids.vn@SD": ("ON Kids", "VTVcab"),
+    "ONLife.vn@SD": ("ON Life", "VTVcab"),
+    "ONMovies.vn@SD": ("ON Movies", "VTVcab"),
+    "onviedramas": ("ON Vie DRAMAS", "VTVcab"),
+    "TVBVietnam.vn@SD": ("TVB ViệtNam", "VTVcab"),
+    #------SCTV-------
+    
+    "sctv2hd": ("SCTV2", "SCTV"),
+    "SCTV3.vn@SD": ("SCTV3", "SCTV"),
+    "SCTV4.vn@SD": ("SCTV4", "SCTV"),
+    "sctv6hd": ("SCTV6", "SCTV"),
+    "SCTV7.vn@SD": ("SCTV7", "SCTV"),
+    "SCTV9.vn@SD": ("SCTV9", "SCTV"),
+    "SCTV11.vn@SD": ("SCTV11", "SCTV"),
+    "SCTV12.vn@SD": ("SCTV12", "SCTV"),
+    "SCTV13.vn@SD": ("SCTV13", "SCTV"),
+    "SCTV14.vn@SD": ("SCTV14", "SCTV"),
+    "SCTV16.vn@SD": ("SCTV16", "SCTV"),
+    "SCTV18.vn@SD": ("SCTV18", "SCTV"),
+    "SCTV19.vn@SD": ("SCTV19", "SCTV"),
+    "SCTV20.vn@SD": ("SCTV20", "SCTV"),
     # ── ĐỊA PHƯƠNG — Miền Bắc ────────────────────────────────────────
     "hagiang": ("Hà Giang", "Hà Giang"),
     "tuyenquang": ("Tuyên Quang", "Tuyên Quang"),
@@ -216,6 +244,7 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "binhduong": ("Bình Dương", "Bình Dương"),
     "dongnai1": ("Đồng Nai 1", "Đồng Nai"),
     "dongnai2": ("Đồng Nai 2", "Đồng Nai"),
+    "DongNaiTV3.vn@SD": ("Đồng Nai 3", "Đồng Nai"),
     "baria": ("Bà Rịa - Vũng Tàu", "Bà Rịa - Vũng Tàu"),
     "longan": ("Long An", "Long An"),
     "tiengiang": ("Tiền Giang", "Tiền Giang"),
@@ -248,28 +277,35 @@ _KNOWN_IDS: Final[frozenset[str]] = frozenset(_CHANNEL_DATA)
 # ──────────────────────────────────────────────────────────────────────
 _VTV_ORDER: Final[list[str]] = [
     "VTV1", "VTV2", "VTV3", "VTV4", "VTV5", "VTV5 Tây Nam Bộ",
-    "VTV5 Tây Nguyên", "VTV6", "VTV7", "VTV8", "VTV9", "VTV10", "VietNamToDay"
+    "VTV5 Tây Nguyên", "VTV6", "VTV7", "VTV8", "VTV9", "VTV10", "VietNamToDay", "ANTV", "QPVN"
 ]
 _HTV_ORDER: Final[list[str]] = [
     "HTV1", "HTV2", "HTV3", "HTV4", "HTV5", "HTV7", "HTV9", "HTVC+",
     "HTVC Ca Nhạc", "HTVC Du Lịch", "HTVC Gia Đình", "HTVC Phim",
     "HTVC Phụ Nữ", "HTVC Thể Thao", "HTVC Thuần Việt"
 ]
+_VTVcab_ORDER: Final[list[str]] = [
+    "ON Golf", "ON HomeShopping", "ON Kids", "ON Life", "ON Movies", "ON Phim Việt", "ON Vie DRAMAS", "TVB ViệtNam"
+]
+_SCTV_ORDER: Final[list[str]] = [
+    "SCTV2", "SCTV3", "SCTV4", "SCTV6", "SCTV7", "SCTV9", "SCTV11", "SCTV12", "SCTV13", "SCTV14", "SCTV16", "SCTV18", "SCTV19", "SCTV20"
+]
 _PROVINCE_ORDER: Final[list[str]] = [
-    "Hà Giang", "Tuyên Quang", "Cao Bằng", "Lạng Sơn", "Bắc Kạn", "Thái Nguyên",
-    "Quảng Ninh", "Bắc Giang", "Bắc Ninh", "Lào Cai", "Yên Bái", "Phú Thọ",
-    "Vĩnh Phúc", "Hà Nội", "Hòa Bình", "Sơn La", "Điện Biên", "Lai Châu",
-    "Hải Phòng", "Hải Dương", "Hưng Yên", "Thái Bình", "Nam Định", "Hà Nam",
-    "Ninh Bình", "Thanh Hóa", "Nghệ An", "Hà Tĩnh", "Quảng Bình", "Quảng Trị",
-    "Thừa Thiên Huế", "Đà Nẵng", "Quảng Nam", "Quảng Ngãi", "Bình Định",
-    "Phú Yên", "Khánh Hòa", "Ninh Thuận", "Bình Thuận", "Kon Tum", "Gia Lai",
-    "Đắk Lắk", "Đắk Nông", "Lâm Đồng", "Bình Phước", "Tây Ninh", "Bình Dương",
-    "Đồng Nai", "Bà Rịa - Vũng Tàu", "Long An", "Tiền Giang", "Bến Tre",
-    "Đồng Tháp", "Vĩnh Long", "Trà Vinh", "An Giang", "Kiên Giang", "Cần Thơ",
-    "Hậu Giang", "Sóc Trăng", "Bạc Liêu", "Cà Mau"
+    "An Giang", "Bà Rịa - Vũng Tàu", "Bạc Liêu", "Bắc Giang", "Bắc Kạn", "Bắc Ninh",
+    "Bến Tre", "Bình Định", "Bình Dương", "Bình Phước", "Bình Thuận", "Cà Mau",
+    "Cao Bằng", "Cần Thơ", "Đà Nẵng", "Đắk Lắk", "Đắk Nông", "Điện Biên",
+    "Đồng Nai", "Đồng Tháp", "Gia Lai", "Hà Giang", "Hà Nam", "Hà Nội",
+    "Hà Tĩnh", "Hải Dương", "Hải Phòng", "Hậu Giang", "Hòa Bình", "Hưng Yên",
+    "Khánh Hòa", "Kiên Giang", "Kon Tum", "Lai Châu", "Lạng Sơn", "Lào Cai",
+    "Lâm Đồng", "Long An", "Nam Định", "Nghệ An", "Ninh Bình", "Ninh Thuận",
+    "Phú Thọ", "Phú Yên", "Quảng Bình", "Quảng Nam", "Quảng Ngãi", "Quảng Ninh",
+    "Quảng Trị", "Sóc Trăng", "Sơn La", "Tây Ninh", "Thái Bình", "Thái Nguyên",
+    "Thanh Hóa", "Thừa Thiên Huế", "Tiền Giang", "Trà Vinh", "Tuyên Quang", "Vĩnh Long",
+    "Vĩnh Phúc", "Yên Bái"
 ]
 
-_GROUP_ORDER: Final[dict[str, int]] = {"VTV": 0, "HTV": 1, "LOCAL": 2, "QDVN": 3}
+
+_GROUP_ORDER: Final[dict[str, int]] = {"VTV": 0, "HTV": 1, "VTVcab": 2, "SCTV": 3, "LOCAL": 4, "QDVN": 5}
 _VTV_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_VTV_ORDER)}
 _HTV_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_HTV_ORDER)}
 _PROVINCE_IDX: Final[dict[str, int]] = {p: i for i, p in enumerate(_PROVINCE_ORDER)}
@@ -277,6 +313,8 @@ _PROVINCE_IDX: Final[dict[str, int]] = {p: i for i, p in enumerate(_PROVINCE_ORD
 _LABEL: Final[dict[str, str]] = {
     "VTV": "VTV",
     "HTV": "HTV",
+    "VTVcab": "VTVcab",
+    "SCTV": "SCTV",
     "LOCAL": "Địa phương"
 }
 
