@@ -3,14 +3,15 @@
 IPTV Auto-updater
 - Nguồn: 1.org.vn/vmttv (ưu tiên) + fallback
 - Kênh TV: VTV, HTV, địa phương, ANTV, QPVN
-- EPG: vnepg.site (thêm trực tiếp, không kiểm tra)
+- EPG: Tự động tải, sửa múi giờ Việt Nam (+0700) và xuất file iptv.epg.xml
 - Sắp xếp địa phương Bắc → Nam
 - tvg-id chuẩn hóa theo vnepg (viết liền, không dấu gạch ngang)
-- Output: http-iptv.m3u
+- Output: http-iptv.m3u & iptv.epg.xml
 """
 
 import re
 import sys
+import xml.etree.ElementTree as ET
 from collections import Counter
 from dataclasses import dataclass
 from typing import Final, Optional
@@ -28,7 +29,15 @@ SOURCES: Final[list[str]] = [
     # "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/vn.m3u",
 ]
 
-EPG_URL: Final[str] = "https://epg.io.vn/epg.xml"
+# Nguồn EPG gốc để tải nội dung
+RAW_EPG_SOURCE: Final[str] = "https://epg.io.vn/epg.xml"
+
+# Tên file EPG xuất ra kho chứa của bạn
+EPG_OUTPUT_FILE: Final[str] = "iptv.epg.xml"
+
+# Link EPG cá nhân đã sửa giờ để ghi vào file M3U
+MY_EPG_URL: Final[str] = f"https://raw.githubusercontent.com/MFT-T/diwi-iptv/main/{EPG_OUTPUT_FILE}"
+
 OUTPUT_FILE: Final[str] = "http-iptv.m3u"
 GLOBAL_TIMEOUT: Final[int] = 20
 HTTP_HEADERS: Final[dict[str, str]] = {
@@ -40,7 +49,7 @@ HTTP_HEADERS: Final[dict[str, str]] = {
 }
 
 # ──────────────────────────────────────────────────────────────────────
-# REGEX PRE-COMPILED (khai báo đầu tiên để các hàm/dict bên dưới dùng được)
+# REGEX PRE-COMPILED
 # ──────────────────────────────────────────────────────────────────────
 _NORM_RE = re.compile(r"\s+")
 _DEDUP_RE = re.compile(r"[\s\-._]+")
@@ -76,29 +85,23 @@ def _dedup_key(name: str) -> str:
 
 
 # ──────────────────────────────────────────────────────────────────────
-# CHUẨN HÓA TVG-ID THEO VNEPG (viết liền, không dấu gạch ngang)
+# CHUẨN HÓA TVG-ID THEO VNEPG
 # ──────────────────────────────────────────────────────────────────────
 TVG_ID_MAP: Final[dict[str, str]] = {
-    # VTV alias không có hd
     "vtv6": "vtv6hd",
     "vtv10": "vtv10hd",
-    # HTV — vnepg dùng dạng *hd
     "htv1": "htv1hd",
     "htv3": "htv3hd",
     "htv4": "htv4hd",
-    # HTVC alias
     "htvccanhachd": "htvccanachd",
     "htvcthuanviet": "htvcthuanviethd",
-    # Quốc phòng — bỏ gạch ngang
     "antv-hd": "antv",
     "qpvn-hd": "qpvn",
-    # Địa phương alias
     "tayninhtv": "tayninh1",
     "dongthap": "dongthap1",
     "cantho": "cantho1",
     "lamdong": "lamdong1",
     "ltv": "laichau",
-    # THVL → vinhlong
     "thvl1hd": "vinhlong1hd",
     "thvl1": "vinhlong1hd",
     "thvl2hd": "vinhlong2hd",
@@ -113,21 +116,12 @@ TVG_ID_MAP: Final[dict[str, str]] = {
 
 
 def normalize_tvg_id(raw_id: str) -> str:
-    """Chuẩn hóa tvg-id: tra map alias trước, fallback bỏ dấu gạch ngang."""
     clean = raw_id.strip().lower()
     return TVG_ID_MAP.get(clean, clean.replace("-", ""))
 
 
 # ──────────────────────────────────────────────────────────────────────
-# DỮ LIỆU KÊNH: tvg-id → (tên hiển thị, nhóm/tỉnh)
-#
-# Dùng một dict duy nhất _CHANNEL_DATA thay vì 3 dict riêng biệt
-# (DISPLAY_NAME, TVGID_TO_PROVINCE, TVGID_TO_GROUP) để tránh trùng lặp
-# key và phải giữ đồng bộ thủ công.
-#
-# Giá trị (display_name, tag):
-#   tag = "VTV" | "HTV" | "QDVN"  → nhóm tương ứng
-#   tag = <tên tỉnh>               → nhóm "Địa phương"
+# DỮ LIỆU KÊNH
 # ──────────────────────────────────────────────────────────────────────
 _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     # ── VTV ──────────────────────────────────────────────────────────
@@ -253,101 +247,26 @@ _KNOWN_IDS: Final[frozenset[str]] = frozenset(_CHANNEL_DATA)
 # THỨ TỰ HIỂN THỊ & INDEX SORT
 # ──────────────────────────────────────────────────────────────────────
 _VTV_ORDER: Final[list[str]] = [
-    "VTV1",
-    "VTV2",
-    "VTV3",
-    "VTV4",
-    "VTV5",
-    "VTV5 Tây Nam Bộ",
-    "VTV5 Tây Nguyên",
-    "VTV6",
-    "VTV7",
-    "VTV8",
-    "VTV9",
-    "VTV10",
-    "VietNamToDay",
+    "VTV1", "VTV2", "VTV3", "VTV4", "VTV5", "VTV5 Tây Nam Bộ",
+    "VTV5 Tây Nguyên", "VTV6", "VTV7", "VTV8", "VTV9", "VTV10", "VietNamToDay"
 ]
 _HTV_ORDER: Final[list[str]] = [
-    "HTV1",
-    "HTV2",
-    "HTV3",
-    "HTV4",
-    "HTV5",
-    "HTV7",
-    "HTV9",
-    "HTVC+",
-    "HTVC Ca Nhạc",
-    "HTVC Du Lịch",
-    "HTVC Gia Đình",
-    "HTVC Phim",
-    "HTVC Phụ Nữ",
-    "HTVC Thể Thao",
-    "HTVC Thuần Việt",
-    
+    "HTV1", "HTV2", "HTV3", "HTV4", "HTV5", "HTV7", "HTV9", "HTVC+",
+    "HTVC Ca Nhạc", "HTVC Du Lịch", "HTVC Gia Đình", "HTVC Phim",
+    "HTVC Phụ Nữ", "HTVC Thể Thao", "HTVC Thuần Việt"
 ]
 _PROVINCE_ORDER: Final[list[str]] = [
-    "Hà Giang",
-    "Tuyên Quang",
-    "Cao Bằng",
-    "Lạng Sơn",
-    "Bắc Kạn",
-    "Thái Nguyên",
-    "Quảng Ninh",
-    "Bắc Giang",
-    "Bắc Ninh",
-    "Lào Cai",
-    "Yên Bái",
-    "Phú Thọ",
-    "Vĩnh Phúc",
-    "Hà Nội",
-    "Hòa Bình",
-    "Sơn La",
-    "Điện Biên",
-    "Lai Châu",
-    "Hải Phòng",
-    "Hải Dương",
-    "Hưng Yên",
-    "Thái Bình",
-    "Nam Định",
-    "Hà Nam",
-    "Ninh Bình",
-    "Thanh Hóa",
-    "Nghệ An",
-    "Hà Tĩnh",
-    "Quảng Bình",
-    "Quảng Trị",
-    "Thừa Thiên Huế",
-    "Đà Nẵng",
-    "Quảng Nam",
-    "Quảng Ngãi",
-    "Bình Định",
-    "Phú Yên",
-    "Khánh Hòa",
-    "Ninh Thuận",
-    "Bình Thuận",
-    "Kon Tum",
-    "Gia Lai",
-    "Đắk Lắk",
-    "Đắk Nông",
-    "Lâm Đồng",
-    "Bình Phước",
-    "Tây Ninh",
-    "Bình Dương",
-    "Đồng Nai",
-    "Bà Rịa - Vũng Tàu",
-    "Long An",
-    "Tiền Giang",
-    "Bến Tre",
-    "Đồng Tháp",
-    "Vĩnh Long",
-    "Trà Vinh",
-    "An Giang",
-    "Kiên Giang",
-    "Cần Thơ",
-    "Hậu Giang",
-    "Sóc Trăng",
-    "Bạc Liêu",
-    "Cà Mau",
+    "Hà Giang", "Tuyên Quang", "Cao Bằng", "Lạng Sơn", "Bắc Kạn", "Thái Nguyên",
+    "Quảng Ninh", "Bắc Giang", "Bắc Ninh", "Lào Cai", "Yên Bái", "Phú Thọ",
+    "Vĩnh Phúc", "Hà Nội", "Hòa Bình", "Sơn La", "Điện Biên", "Lai Châu",
+    "Hải Phòng", "Hải Dương", "Hưng Yên", "Thái Bình", "Nam Định", "Hà Nam",
+    "Ninh Bình", "Thanh Hóa", "Nghệ An", "Hà Tĩnh", "Quảng Bình", "Quảng Trị",
+    "Thừa Thiên Huế", "Đà Nẵng", "Quảng Nam", "Quảng Ngãi", "Bình Định",
+    "Phú Yên", "Khánh Hòa", "Ninh Thuận", "Bình Thuận", "Kon Tum", "Gia Lai",
+    "Đắk Lắk", "Đắk Nông", "Lâm Đồng", "Bình Phước", "Tây Ninh", "Bình Dương",
+    "Đồng Nai", "Bà Rịa - Vũng Tàu", "Long An", "Tiền Giang", "Bến Tre",
+    "Đồng Tháp", "Vĩnh Long", "Trà Vinh", "An Giang", "Kiên Giang", "Cần Thơ",
+    "Hậu Giang", "Sóc Trăng", "Bạc Liêu", "Cà Mau"
 ]
 
 _GROUP_ORDER: Final[dict[str, int]] = {"VTV": 0, "HTV": 1, "LOCAL": 2, "QDVN": 3}
@@ -361,44 +280,23 @@ _LABEL: Final[dict[str, str]] = {
     "LOCAL": "Địa phương"
 }
 
-# Keywords nhận diện nhóm địa phương từ group-title
 _LOCAL_KEYWORDS: Final[frozenset[str]] = frozenset(
-    [
-        "địa phương",
-        "dia phuong",
-        "tỉnh",
-        "tinh",
-        "thiết yếu",
-        "thiet yeu",
-    ]
+    ["địa phương", "dia phuong", "tỉnh", "tinh", "thiết yếu", "thiet yeu"]
 )
 
-# Tên kênh rác cần loại bỏ
 _NOISE_NAMES: Final[frozenset[str]] = frozenset(
-    [
-        "SỰ KIỆN",
-        "VTVPRIME",
-        "FPT",
-        "VOV",
-        "VTVCAB",
-        "SPOTV",
-        "O2",
-        "ĐỒNG NAI 3",
-        "ĐNNRTV3",
-        "VIETNAM TODAY"
-    ]
+    ["SỰ KIỆN", "VTVPRIME", "FPT", "VOV", "VTVCAB", "SPOTV", "O2", "ĐỒNG NAI 3", "ĐNNRTV3", "VIETNAM TODAY"]
 )
-
 
 # ──────────────────────────────────────────────────────────────────────
-# DATA MODEL
+# DATA MODEL & HELPER
 # ──────────────────────────────────────────────────────────────────────
 @dataclass(slots=True)
 class Channel:
     name: str
     url: str
-    group_key: str  # "VTV" | "HTV" | "LOCAL" | "QDVN"
-    province: str  # tên tỉnh (chỉ LOCAL), hoặc ""
+    group_key: str
+    province: str
     province_idx: int
     quality: tuple[int, float]
     tvg_id: str = ""
@@ -409,9 +307,6 @@ class Channel:
         return _LABEL[self.group_key]
 
 
-# ──────────────────────────────────────────────────────────────────────
-# HELPER FUNCTIONS
-# ──────────────────────────────────────────────────────────────────────
 def quality_score(raw: str) -> tuple[int, float]:
     tier = 40
     for pat, score in _QUALITY_TIERS:
@@ -433,7 +328,6 @@ def fetch(url: str) -> Optional[str]:
 
 
 def resolve_display_name(raw: str, tvg_id: str) -> str:
-    """Tra cứu tên đẹp theo tvg-id; fallback: tên sạch noise."""
     if tvg_id:
         entry = _CHANNEL_DATA.get(tvg_id)
         if entry:
@@ -444,10 +338,6 @@ def resolve_display_name(raw: str, tvg_id: str) -> str:
 
 
 def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
-    """
-    Trả về group_key hoặc None nếu không nhận ra kênh.
-    Ưu tiên: group-title → _CHANNEL_DATA → tvg-id prefix.
-    """
     grp = src_grp.lower()
     if "vtv" in grp:
         return "VTV"
@@ -458,7 +348,6 @@ def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
     if "quốc phòng" in grp or "quoc phong" in grp:
         return "QDVN"
 
-    # Fallback qua tvg-id
     if tvg_id in _KNOWN_IDS:
         tag = _CHANNEL_DATA[tvg_id][1]
         return tag if tag in ("VTV", "HTV", "QDVN") else "LOCAL"
@@ -476,9 +365,8 @@ def _is_noise(tvg_id: str, upper_name: str) -> bool:
         or any(kw in upper_name for kw in _NOISE_NAMES)
     )
 
-
 # ──────────────────────────────────────────────────────────────────────
-# PARSER
+# PARSER, MERGE, SORT & WRITE
 # ──────────────────────────────────────────────────────────────────────
 def parse_m3u(text: str) -> list[Channel]:
     channels: list[Channel] = []
@@ -539,13 +427,7 @@ def parse_m3u(text: str) -> list[Channel]:
     return channels
 
 
-# ──────────────────────────────────────────────────────────────────────
-# DEDUP & MERGE
-# Gộp pick_best + merge_sources thành một hàm duy nhất:
-# xử lý trong một pass, dedup cả theo tên lẫn URL.
-# ──────────────────────────────────────────────────────────────────────
 def merge_sources(lists: list[list[Channel]]) -> list[Channel]:
-    """Gộp nhiều nguồn: quality-wins, dedup URL xuyên nguồn."""
     best: dict[str, Channel] = {}
     seen_urls: set[str] = set()
 
@@ -564,9 +446,6 @@ def merge_sources(lists: list[list[Channel]]) -> list[Channel]:
     return list(best.values())
 
 
-# ──────────────────────────────────────────────────────────────────────
-# SORT
-# ──────────────────────────────────────────────────────────────────────
 def sort_channels(channels: list[Channel]) -> list[Channel]:
     def key(ch: Channel) -> tuple:
         g = _GROUP_ORDER[ch.group_key]
@@ -576,19 +455,16 @@ def sort_channels(channels: list[Channel]) -> list[Channel]:
             return (g, _HTV_IDX.get(_norm_key(ch.name), 999), ch.name)
         if ch.group_key == "LOCAL":
             return (g, ch.province_idx, ch.name)
-        return (g, 0, ch.name)  # QDVN
+        return (g, 0, ch.name)
 
     return sorted(channels, key=key)
 
 
-# ──────────────────────────────────────────────────────────────────────
-# OUTPUT
-# ──────────────────────────────────────────────────────────────────────
 def write_m3u(channels: list[Channel], path: str) -> None:
     try:
         with open(path, "w", encoding="utf-8") as f:
-            f.write(f'#EXTM3U url-tvg="{EPG_URL}"\n')
-            f.write(f'#EXTM3U x-tvg-url="{EPG_URL}"\n')
+            f.write(f'#EXTM3U url-tvg="{MY_EPG_URL}"\n')
+            f.write(f'#EXTM3U x-tvg-url="{MY_EPG_URL}"\n')
             for src in SOURCES:
                 f.write(f"#EXTM3U-SOURCE:{src}\n")
             for ch in channels:
@@ -605,11 +481,42 @@ def write_m3u(channels: list[Channel], path: str) -> None:
 
 
 # ──────────────────────────────────────────────────────────────────────
+# CẬP NHẬT MÚI GIỜ EPG
+# ──────────────────────────────────────────────────────────────────────
+def fix_epg_timezone(input_xml_url: str, output_xml_path: str = EPG_OUTPUT_FILE) -> None:
+    print(f"\n⏳ Đang tải và sửa múi giờ EPG từ {input_xml_url}...")
+    xml_text = fetch(input_xml_url)
+    if not xml_text:
+        print("  ⚠ Không thể tải file EPG XML")
+        return
+
+    try:
+        root = ET.fromstring(xml_text)
+        for prog in root.findall('programme'):
+            for attr in ['start', 'stop']:
+                val = prog.get(attr)
+                if val:
+                    clean_val = val.split()[0]
+                    if len(clean_val) == 14:
+                        prog.set(attr, f"{clean_val} +0700")
+
+        tree = ET.ElementTree(root)
+        tree.write(output_xml_path, encoding='utf-8', xml_declaration=True)
+        print(f"✅ Đã xử lý và lưu EPG chuẩn giờ Việt Nam → {output_xml_path}")
+    except Exception as e:
+        print(f"  ⚠ Lỗi xử lý XML EPG: {e}", file=sys.stderr)
+
+
+# ──────────────────────────────────────────────────────────────────────
 # MAIN
 # ──────────────────────────────────────────────────────────────────────
 def main() -> None:
-    print(f"📡  EPG: {EPG_URL}")
-
+    print(f"📡  EPG Target: {MY_EPG_URL}")
+    
+    # 1. Tải và xử lý EPG XML
+    fix_epg_timezone(RAW_EPG_SOURCE, EPG_OUTPUT_FILE)
+    
+    # 2. Tải danh sách kênh IPTV
     processed: list[list[Channel]] = []
     for idx, src in enumerate(SOURCES, 1):
         print(f"\n[{idx}/{len(SOURCES)}] Tải: {src}")
@@ -626,6 +533,13 @@ def main() -> None:
         print("❌  Không có nguồn nào hợp lệ.", file=sys.stderr)
         sys.exit(1)
 
+    # 3. Gộp, lọc trùng và sắp xếp
     print("\n🔀  Gộp & dedup…")
     final = sort_channels(merge_sources(processed))
+    
+    # 4. Xuất file M3U kết quả
+    write_m3u(final, OUTPUT_FILE)
 
+
+if __name__ == "__main__":
+    main()
