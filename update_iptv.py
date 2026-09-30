@@ -600,7 +600,7 @@ def main() -> None:
     # 3. Xử lý file M3U thủ công (Giữ nguyên danh sách/thứ tự, chỉ gắn EPG)
     # File gốc bạn sưu tập đặt trên repository là: my_list.m3u
     # File đầu ra để dùng trên ứng dụng TV là: my-custom-iptv.m3u
-    update_manual_m3u("my_list.m3u", "my-custom-iptv.m3u")
+    update_manual_m3u("my_list.m3u")
 
 
 if __name__ == "__main__":
