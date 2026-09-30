@@ -45,7 +45,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add http-iptv.m3u iptv.epg.xml my-custom-iptv.m3u
+          git add http-iptv.m3u iptv.epg.xml my_list.m3u
           
           VIETNAM_TIME=$(date +'%d/%m/%Y %H:%M')
           
