@@ -50,5 +50,5 @@ jobs:
           # Lấy thời gian hiện tại theo định dạng VN
           VIETNAM_TIME=$(date +'%d/%m/%Y %H:%M')
           
-          git diff --cached --quiet || git commit -m "🔄 Auto-update IPTV ($VIETNAM_TIME ICT)"
+          git diff --cached --quiet || git commit -m "🔄 Auto-update IPTV ($VIETNAM_TIME ICT) and EPG"
           git push
