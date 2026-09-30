@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
 IPTV Auto-updater
-- Nguồn: 1.org.vn/vmttv (ưu tiên) + fallback
-- Kênh TV: VTV, HTV, địa phương, ANTV, QPVN
+- Nguồn: Danh sách M3U tổng hợp / sưu tập
+- Kênh TV: VTV, HTV, VTVcab, SCTV, địa phương, ANTV, QPVN
 - EPG: Tự động tải, sửa múi giờ Việt Nam (+0700) và xuất file iptv.epg.xml
-- Sắp xếp địa phương Bắc → Nam
+- Sắp xếp địa phương: Tên tỉnh thành A-Z (63 tỉnh thành)
 - tvg-id chuẩn hóa theo vnepg (viết liền, không dấu gạch ngang)
 - Output: http-iptv.m3u & iptv.epg.xml
 """
@@ -12,7 +12,6 @@ IPTV Auto-updater
 import re
 import sys
 import xml.etree.ElementTree as ET
-from collections import Counter
 from dataclasses import dataclass
 from typing import Final, Optional
 
@@ -23,21 +22,11 @@ import requests
 # ──────────────────────────────────────────────────────────────────────
 SOURCES: Final[list[str]] = [
     "https://dl.dropboxusercontent.com/s/o5vygit34v9ryly71gam4/coban66.m3u?rlkey=auyoon54hfubajt16nc7u7dbn&st=70gyvtcu&dl=0",
-    # "https://raw.githubusercontent.com/quanlehong539/TVPub/patch-3/TVPub%20IPTV",
-    # "https://1.org.vn/vmttv",
-    # "https://vmttv.duckdns.org/",
-    # "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/vn.m3u",
 ]
 
-# Nguồn EPG gốc để tải nội dung
-RAW_EPG_SOURCE: Final[str] = "https://epg.io.vn/epg.xml"
-
-# Tên file EPG xuất ra kho chứa của bạn
+RAW_EPG_SOURCE: Final[str] = "https://epg.io.vn/epgu.xml"
 EPG_OUTPUT_FILE: Final[str] = "iptv.epg.xml"
-
-# Link EPG cá nhân đã sửa giờ để ghi vào file M3U
 MY_EPG_URL: Final[str] = f"https://raw.githubusercontent.com/MFT-T/diwi-iptv/main/{EPG_OUTPUT_FILE}"
-
 OUTPUT_FILE: Final[str] = "http-iptv.m3u"
 GLOBAL_TIMEOUT: Final[int] = 20
 HTTP_HEADERS: Final[dict[str, str]] = {
@@ -75,12 +64,10 @@ _QUALITY_TIERS: Final[list[tuple[re.Pattern, int]]] = [
 
 
 def _norm_key(s: str) -> str:
-    """Chuẩn hóa chuỗi để so sánh: bỏ khoảng trắng, uppercase."""
     return _NORM_RE.sub("", s).upper()
 
 
 def _dedup_key(name: str) -> str:
-    """Key dedup: lowercase, bỏ khoảng trắng/dấu câu."""
     return _DEDUP_RE.sub("", name.lower())
 
 
@@ -156,8 +143,7 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "htvcphunuhd": ("HTVC Phụ Nữ", "HTV"),
     "htvcthuanviethd": ("HTVC Thuần Việt", "HTV"),
     "htvcplushd": ("HTVC+", "HTV"),
-    # -----VTVcab--------
-    
+    # ── VTVcab ───────────────────────────────────────────────────────
     "onphimviet": ("ON Phim Việt", "VTVcab"),
     "ongolf": ("ON Golf", "VTVcab"),
     "OnHomeShopping": ("ON HomeShopping", "VTVcab"),
@@ -166,8 +152,7 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "ONMovies.vn@SD": ("ON Movies", "VTVcab"),
     "onviedramas": ("ON Vie DRAMAS", "VTVcab"),
     "TVBVietnam.vn@SD": ("TVB ViệtNam", "VTVcab"),
-    #------SCTV-------
-    
+    # ── SCTV ─────────────────────────────────────────────────────────
     "sctv2hd": ("SCTV2", "SCTV"),
     "SCTV3.vn@SD": ("SCTV3", "SCTV"),
     "SCTV4.vn@SD": ("SCTV4", "SCTV"),
@@ -304,14 +289,16 @@ _PROVINCE_ORDER: Final[list[str]] = [
     "Vĩnh Phúc", "Yên Bái"
 ]
 
-
 _GROUP_ORDER: Final[dict[str, int]] = {"VTV": 0, "HTV": 1, "VTVcab": 2, "SCTV": 3, "LOCAL": 4, "QDVN": 5}
 _VTV_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_VTV_ORDER)}
 _HTV_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_HTV_ORDER)}
+_VTVcab_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_VTVcab_ORDER)}
+_SCTV_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_SCTV_ORDER)}
 _PROVINCE_IDX: Final[dict[str, int]] = {p: i for i, p in enumerate(_PROVINCE_ORDER)}
 
 _LABEL: Final[dict[str, str]] = {
     "VTV": "VTV",
+    "QDVN": "QDVN",
     "HTV": "HTV",
     "VTVcab": "VTVcab",
     "SCTV": "SCTV",
@@ -323,7 +310,7 @@ _LOCAL_KEYWORDS: Final[frozenset[str]] = frozenset(
 )
 
 _NOISE_NAMES: Final[frozenset[str]] = frozenset(
-    ["SỰ KIỆN", "VTVPRIME", "FPT", "VOV", "VTVCAB", "SPOTV", "O2", "ĐỒNG NAI 3", "ĐNNRTV3", "VIETNAM TODAY"]
+    ["SỰ KIỆN", "VTVPRIME", "FPT", "VOV", "O2", "ĐNNRTV3"]
 )
 
 # ──────────────────────────────────────────────────────────────────────
@@ -381,6 +368,10 @@ def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
         return "VTV"
     if "htv" in grp:
         return "HTV"
+    if "vtvcab" in grp:
+        return "VTVcab"
+    if "sctv" in grp:
+        return "SCTV"
     if any(kw in grp for kw in _LOCAL_KEYWORDS):
         return "LOCAL"
     if "quốc phòng" in grp or "quoc phong" in grp:
@@ -388,20 +379,20 @@ def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
 
     if tvg_id in _KNOWN_IDS:
         tag = _CHANNEL_DATA[tvg_id][1]
-        return tag if tag in ("VTV", "HTV", "QDVN") else "LOCAL"
+        return tag if tag in ("VTV", "HTV", "VTVcab", "SCTV", "QDVN") else "LOCAL"
     if tvg_id.startswith("vtv"):
         return "VTV"
     if tvg_id.startswith("htv"):
         return "HTV"
+    if tvg_id.startswith("vtvcab"):
+        return "VTVcab"
+    if tvg_id.startswith("sctv"):
+        return "SCTV"
     return None
 
 
 def _is_noise(tvg_id: str, upper_name: str) -> bool:
-    return (
-        tvg_id.startswith("on")
-        or upper_name.startswith("ON ")
-        or any(kw in upper_name for kw in _NOISE_NAMES)
-    )
+    return any(kw in upper_name for kw in _NOISE_NAMES)
 
 # ──────────────────────────────────────────────────────────────────────
 # PARSER, MERGE, SORT & WRITE
@@ -439,15 +430,14 @@ def parse_m3u(text: str) -> list[Channel]:
         if group_key is None:
             continue
 
-        province = province_idx = 0
+        province = ""
+        province_idx = 999
         if group_key == "LOCAL":
             entry = _CHANNEL_DATA.get(tvg_id)
             if not entry:
                 continue
             province = entry[1]
             province_idx = _PROVINCE_IDX.get(province, 999)
-        else:
-            province = ""
 
         channels.append(
             Channel(
@@ -487,10 +477,15 @@ def merge_sources(lists: list[list[Channel]]) -> list[Channel]:
 def sort_channels(channels: list[Channel]) -> list[Channel]:
     def key(ch: Channel) -> tuple:
         g = _GROUP_ORDER[ch.group_key]
+        norm_n = _norm_key(ch.name)
         if ch.group_key == "VTV":
-            return (g, _VTV_IDX.get(_norm_key(ch.name), 999), ch.name)
+            return (g, _VTV_IDX.get(norm_n, 999), ch.name)
         if ch.group_key == "HTV":
-            return (g, _HTV_IDX.get(_norm_key(ch.name), 999), ch.name)
+            return (g, _HTV_IDX.get(norm_n, 999), ch.name)
+        if ch.group_key == "VTVcab":
+            return (g, _VTVcab_IDX.get(norm_n, 999), ch.name)
+        if ch.group_key == "SCTV":
+            return (g, _SCTV_IDX.get(norm_n, 999), ch.name)
         if ch.group_key == "LOCAL":
             return (g, ch.province_idx, ch.name)
         return (g, 0, ch.name)
