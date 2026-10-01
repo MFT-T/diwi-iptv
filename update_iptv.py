@@ -295,7 +295,7 @@ _PROVINCE_ORDER: Final[list[str]] = [
     "Vĩnh Phúc", "Yên Bái"
 ]
 
-_GROUP_ORDER: Final[dict[str, int]] = {"VTV": 0, "HTV": 1, "VTVcab": 2, "SCTV": 3, "LOCAL": 4, "ANQP": 5}
+_GROUP_ORDER: Final[dict[str, int]] = {"VTV": 0, "ANQP": 1, "HTV": 2, "VTVcab": 3, "SCTV": 4, "LOCAL": 5}
 _VTV_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_VTV_ORDER)}
 _HTV_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_HTV_ORDER)}
 _VTVcab_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_VTVcab_ORDER)}
