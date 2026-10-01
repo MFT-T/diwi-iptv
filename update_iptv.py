@@ -157,11 +157,13 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "onviedramas": ("ON Vie DRAMAS", "VTVcab"),
     "TVBVietnam.vn@SD": ("TVB ViệtNam", "VTVcab"),
     # ── SCTV ─────────────────────────────────────────────────────────
+    "sctv1hd": ("SCTV1", "SCTV"),
     "sctv2hd": ("SCTV2", "SCTV"),
     "sctv3hd": ("SCTV3", "SCTV"),
     "sctv4hd": ("SCTV4", "SCTV"),
     "sctv6hd": ("SCTV6", "SCTV"),
     "sctv7hd": ("SCTV7", "SCTV"),
+    "sctv8hd": ("SCTV8", "SCTV"),
     "sctv9hd": ("SCTV9", "SCTV"),
     "sctv11hd": ("SCTV11", "SCTV"),
     "sctv12hd": ("SCTV12", "SCTV"),
@@ -171,6 +173,8 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "sctv18hd": ("SCTV18", "SCTV"),
     "sctv19hd": ("SCTV19", "SCTV"),
     "sctv20hd": ("SCTV20", "SCTV"),
+    "sctv21hd": ("SCTV21", "SCTV"),
+    "sctvhdpth": ("SCTV Phim tổng hợp", "SCTV"),
     # ── ĐỊA PHƯƠNG — Miền Bắc ────────────────────────────────────────
     "hagiang": ("Hà Giang", "Hà Giang"),
     "tuyenquang": ("Tuyên Quang", "Tuyên Quang"),
@@ -280,7 +284,7 @@ _VTVcab_ORDER: Final[list[str]] = [
     "ON Golf", "ON HomeShopping", "ON Kids", "ON Life", "ON Movies", "ON Phim Việt", "ON Vie DRAMAS", "TVB ViệtNam"
 ]
 _SCTV_ORDER: Final[list[str]] = [
-    "SCTV2", "SCTV3", "SCTV4", "SCTV6", "SCTV7", "SCTV9", "SCTV11", "SCTV12", "SCTV13", "SCTV14", "SCTV16", "SCTV18", "SCTV19", "SCTV20"
+    "CSTV1", "SCTV2", "SCTV3", "SCTV4", "SCTV5", "SCTV6", "SCTV7", "SCTV8", "SCTV9", "SCTV11", "SCTV12", "SCTV13", "SCTV14", "SCTV15", "SCTV16", "SCTV17", "SCTV18", "SCTV19", "SCTV20", "SCTV21", "SCTV22", "SCTV Phim tổng hợp"
 ]
 _PROVINCE_ORDER: Final[list[str]] = [
     "An Giang", "Bà Rịa - Vũng Tàu", "Bạc Liêu", "Bắc Giang", "Bắc Kạn", "Bắc Ninh",
