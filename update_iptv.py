@@ -402,7 +402,7 @@ def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
         return "ANQP"
     if any(kw in grp for kw in _LOCAL_KEYWORDS):
         return "LOCAL"
-    if "DongNaiTV3.vn@SD" in grp or "dongnaitv3.vn@sd" in gtp:
+    if "DongNaiTV3.vn@SD" in grp or "dongnaitv3.vn@sd" in grp:
         return "LOCAL"
     if "quốc phòng" in grp or "quoc phong" in grp:
         return "ANQP"
@@ -423,7 +423,7 @@ def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
         return "VTVcab"
         
     _PROVINCE_KEYWORDS = (
-     "dongnaitv3.vn@sd", 
+     "dongnaitv3.vn@sd",
     )
     if any(kw in tid for kw in _PROVINCE_KEYWORDS):
         return "LOCAL"
