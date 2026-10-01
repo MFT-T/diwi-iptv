@@ -421,7 +421,7 @@ def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
         return "VTVcab"
 
     _PROVINCE_KEYWORDS = (
-        "dongnaitv3.vn@sd"
+        "dongnaitv3.vn@sd",
     )
     if any(kw in tid for kw in _PROVINCE_KEYWORDS):
         return "LOCAL"
@@ -435,9 +435,7 @@ def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
         return "SCTV"
     if tid.startswith("anqp"):
         return "ANQP"
-    if tid.startswith("dongnai"):
-        return "LOCAL"
-
+    
     return None
 
 
