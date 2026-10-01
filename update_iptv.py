@@ -2,7 +2,7 @@
 """
 IPTV Auto-updater
 - Nguồn: Danh sách M3U tổng hợp / sưu tập
-- Kênh TV: VTV, ANQP, HTV, VTVcab, SCTV, địa phương
+- Kênh TV: VTV, HTV, VTVcab, SCTV, địa phương, ANTV, QPVN
 - EPG: Tự động tải, sửa múi giờ Việt Nam (+0700) và xuất file iptv.epg.xml
 - Sắp xếp địa phương: Tên tỉnh thành A-Z (63 tỉnh thành)
 - tvg-id chuẩn hóa theo vnepg (viết liền, không dấu gạch ngang)
@@ -21,12 +21,8 @@ import requests
 # CẤU HÌNH
 # ──────────────────────────────────────────────────────────────────────
 SOURCES: Final[list[str]] = [
-    #___Để chọn nhiều nguồn khác nhau chỉ cần xoá bỏ # ở trước links nguồn _______
-    
     "https://dl.dropboxusercontent.com/s/o5vygit34v9ryly71gam4/coban66.m3u?rlkey=auyoon54hfubajt16nc7u7dbn&st=70gyvtcu&dl=0",
     "https://raw.githubusercontent.com/MFT-T/diwi-iptv/refs/heads/main/my_list.m3u",
-    # "https://raw.githubusercontent.com/quanlehong539/TVPub/patch-3/TVPub%20IPTV",
-    # "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/vn.m3u",
 ]
 
 RAW_EPG_SOURCE: Final[str] = "https://epg.io.vn/epgu.xml"
@@ -291,7 +287,7 @@ _PROVINCE_ORDER: Final[list[str]] = [
     "Bến Tre", "Bình Định", "Bình Dương", "Bình Phước", "Bình Thuận", "Cà Mau",
     "Cao Bằng", "Cần Thơ", "Đà Nẵng", "Đắk Lắk", "Đắk Nông", "Điện Biên",
     "Đồng Nai", "Đồng Tháp", "Gia Lai", "Hà Giang", "Hà Nam", "Hà Nội",
-    "Hà Tĩnh", "Hải Dương", "Hải Phòng", "Hậu Giang", "Hòa Bình", "Thừa Thiên Huế", "Hưng Yên", 
+    "Hà Tĩnh", "Hải Dương", "Hải Phòng", "Hậu Giang", "Hòa Bình", "Hưng Yên", "Huế",
     "Khánh Hòa", "Kiên Giang", "Kon Tum", "Lai Châu", "Lạng Sơn", "Lào Cai",
     "Lâm Đồng", "Long An", "Nam Định", "Nghệ An", "Ninh Bình", "Ninh Thuận",
     "Phú Thọ", "Phú Yên", "Quảng Bình", "Quảng Nam", "Quảng Ngãi", "Quảng Ninh",
@@ -300,7 +296,7 @@ _PROVINCE_ORDER: Final[list[str]] = [
     "Vĩnh Phúc", "Yên Bái"
 ]
 
-_GROUP_ORDER: Final[dict[str, int]] = {"VTV": 0, "ANQP": 1, "HTV": 2, "VTVcab": 3, "SCTV": 4, "LOCAL": 5}
+_GROUP_ORDER: Final[dict[str, int]] = {"VTV": 0, "ANQP": 1, "HTV": 2, "VTVcab": 3, "SCTV": 4, "LOCAL": 5, }
 _VTV_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_VTV_ORDER)}
 _HTV_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_HTV_ORDER)}
 _VTVcab_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_VTVcab_ORDER)}
@@ -376,12 +372,17 @@ def resolve_display_name(raw: str, tvg_id: str) -> str:
 
 def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
     grp = src_grp.lower()
+    
+    # Chuẩn hóa tvg_id để dễ bắt từ khóa (loại bỏ '-', '_')
+    tid = tvg_id.lower().replace("-", "").replace("_", "")
+
+    # LỚP 1: Kiểm tra theo Group Name (src_grp)
+    if "vtvcab" in grp:
+        return "VTVcab"
     if "vtv" in grp:
         return "VTV"
     if "htv" in grp:
         return "HTV"
-    if "vtvcab" in grp:
-        return "VTVcab"
     if "sctv" in grp:
         return "SCTV"
     if "anqp" in grp:
@@ -391,20 +392,29 @@ def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
     if "quốc phòng" in grp or "quoc phong" in grp:
         return "ANQP"
 
+    # LỚP 2: Tra cứu Bảng ID cố định (_KNOWN_IDS)
     if tvg_id in _KNOWN_IDS:
         tag = _CHANNEL_DATA[tvg_id][1]
         return tag if tag in ("VTV", "HTV", "VTVcab", "SCTV", "ANQP") else "LOCAL"
-    if tvg_id.startswith("vtv"):
-        return "VTV"
-    if tvg_id.startswith("htv"):
-        return "HTV"
-    if tvg_id.startswith("vtvcab"):
+
+    # LỚP 3: Kiểm tra tvg_id đã chuẩn hóa (tid)
+    # 3a. Bắt tiền tố hoặc từ khóa đặc trưng của VTVcab
+    _VTVCAB_KEYWORDS = ("vtvcab", "onsports", "oncine", "ongolf", "onmovies", "onkids", "bongdatv", "thethaotv", "onphimviet", "onlife", "OnHomeShopping", "onviedramas", "TVBVietnam.vn@SD)
+    if any(kw in tid for kw in _VTVCAB_KEYWORDS):
         return "VTVcab"
-    if tvg_id.startswith("sctv"):
+
+    # 3b. Kiểm tra các đài khác
+    if tid.startswith("vtv"):
+        return "VTV"
+    if tid.startswith("htv"):
+        return "HTV"
+    if tid.startswith("sctv"):
         return "SCTV"
-    if tvg_id.startswith("anqp"):
+    if tid.startswith("anqp"):
         return "ANQP"
+
     return None
+
 
 
 def _is_noise(tvg_id: str, upper_name: str) -> bool:
