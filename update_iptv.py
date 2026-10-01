@@ -243,7 +243,7 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "binhduong": ("Bình Dương", "Bình Dương"),
     "dongnai1": ("Đồng Nai 1", "Đồng Nai"),
     "dongnai2": ("Đồng Nai 2", "Đồng Nai"),
-    "dongnaitv3.vn@sd": ("Đồng Nai 3", "Đồng Nai"),
+    "DongNaiTV3.vn@SD": ("Đồng Nai 3", "Đồng Nai"),
     "baria": ("Bà Rịa - Vũng Tàu", "Bà Rịa - Vũng Tàu"),
     "longan": ("Long An", "Long An"),
     "tiengiang": ("Tiền Giang", "Tiền Giang"),
@@ -420,6 +420,12 @@ def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
     if any(kw in tid for kw in _VTVCAB_KEYWORDS):
         return "VTVcab"
 
+    _PROVINCE_KEYWORDS = (
+        "dongnaitv3.vn@sd"
+    )
+    if any(kw in tid for kw in _PROVINCE_KEYWORDS):
+        return "LOCAL"
+        
     # 3b. Kiểm tra các đài khác
     if tid.startswith("vtv"):
         return "VTV"
