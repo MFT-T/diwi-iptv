@@ -143,6 +143,8 @@ https://live.fptplay53.net/fnxsd1/dienbien_hls.smil/chunklist_b2500000.m3u8
 https://live.fptplay53.net/epzsd1/dongnai1_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="dongnai2" tvg-logo="https://i.postimg.cc/Mf75Q8r8/DN2.png" group-title="Địa phương",Đồng Nai 2
 https://live.fptplay53.net/epzsd1/dongnai2_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="dongnaitv3.vn@sd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/thdp/dongnai3.png" group-title="Địa phương",Đồng Nai 3
+https://dethich.pw/dongnai3/index.m3u8
 #EXTINF:-1 tvg-id="dongthap1" tvg-logo="https://i.imgur.com/TqAz7ET.png" group-title="Địa phương",Đồng Tháp 1
 https://live.fptplay53.net/epzhd2/dongthap01_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="dongthap2" tvg-logo="https://i.imgur.com/PfETBEp.png" group-title="Địa phương",Đồng Tháp 2
