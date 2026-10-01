@@ -6,7 +6,7 @@ IPTV Auto-updater
 - EPG: Tự động tải, sửa múi giờ Việt Nam (+0700) và xuất file iptv.epg.xml
 - Sắp xếp địa phương: Tên tỉnh thành A-Z (63 tỉnh thành)
 - tvg-id chuẩn hóa theo vnepg (viết liền, không dấu gạch ngang)
-- Output: http-iptv.m3u, my-custom-iptv.m3u & iptv.epg.xml
+- Output: http-iptv.m3u, my_list.m3u & iptv.epg.xml
 """
 
 import re
@@ -125,8 +125,11 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "vtv9hd": ("VTV9", "VTV"),
     "vtv10hd": ("VTV10", "VTV"),
     "vietnamtoday": ("Vietnam Today", "VTV"),
-    "antvhd": ("ANTV", "VTV"),
-    "qpvnhd": ("QPVN", "VTV"),
+    
+    #_________ANQP_________
+    
+    "antvhd": ("ANTV", "ANQP"),
+    "qpvnhd": ("QPVN", "ANQP"),
     # ── HTV / HTVC ───────────────────────────────────────────────────
     "htv1hd": ("HTV1", "HTV"),
     "htv2hd": ("HTV2", "HTV"),
@@ -147,26 +150,26 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "onphimviet": ("ON Phim Việt", "VTVcab"),
     "ongolf": ("ON Golf", "VTVcab"),
     "OnHomeShopping": ("ON HomeShopping", "VTVcab"),
-    "ONKids.vn@SD": ("ON Kids", "VTVcab"),
-    "ONLife.vn@SD": ("ON Life", "VTVcab"),
-    "ONMovies.vn@SD": ("ON Movies", "VTVcab"),
+    "onkids": ("ON Kids", "VTVcab"),
+    "onlife": ("ON Life", "VTVcab"),
+    "onmovies": ("ON Movies", "VTVcab"),
     "onviedramas": ("ON Vie DRAMAS", "VTVcab"),
     "TVBVietnam.vn@SD": ("TVB ViệtNam", "VTVcab"),
     # ── SCTV ─────────────────────────────────────────────────────────
     "sctv2hd": ("SCTV2", "SCTV"),
-    "SCTV3.vn@SD": ("SCTV3", "SCTV"),
-    "SCTV4.vn@SD": ("SCTV4", "SCTV"),
+    "sctv3hd": ("SCTV3", "SCTV"),
+    "sctv4hd": ("SCTV4", "SCTV"),
     "sctv6hd": ("SCTV6", "SCTV"),
-    "SCTV7.vn@SD": ("SCTV7", "SCTV"),
-    "SCTV9.vn@SD": ("SCTV9", "SCTV"),
-    "SCTV11.vn@SD": ("SCTV11", "SCTV"),
-    "SCTV12.vn@SD": ("SCTV12", "SCTV"),
-    "SCTV13.vn@SD": ("SCTV13", "SCTV"),
-    "SCTV14.vn@SD": ("SCTV14", "SCTV"),
-    "SCTV16.vn@SD": ("SCTV16", "SCTV"),
-    "SCTV18.vn@SD": ("SCTV18", "SCTV"),
-    "SCTV19.vn@SD": ("SCTV19", "SCTV"),
-    "SCTV20.vn@SD": ("SCTV20", "SCTV"),
+    "sctv7hd": ("SCTV7", "SCTV"),
+    "sctv9hd": ("SCTV9", "SCTV"),
+    "sctv11hd": ("SCTV11", "SCTV"),
+    "sctv12hd": ("SCTV12", "SCTV"),
+    "sctv13hd": ("SCTV13", "SCTV"),
+    "sctv14hd": ("SCTV14", "SCTV"),
+    "sctv16hd": ("SCTV16", "SCTV"),
+    "sctv18hd": ("SCTV18", "SCTV"),
+    "sctv19hd": ("SCTV19", "SCTV"),
+    "sctv20hd": ("SCTV20", "SCTV"),
     # ── ĐỊA PHƯƠNG — Miền Bắc ────────────────────────────────────────
     "hagiang": ("Hà Giang", "Hà Giang"),
     "tuyenquang": ("Tuyên Quang", "Tuyên Quang"),
@@ -262,7 +265,10 @@ _KNOWN_IDS: Final[frozenset[str]] = frozenset(_CHANNEL_DATA)
 # ──────────────────────────────────────────────────────────────────────
 _VTV_ORDER: Final[list[str]] = [
     "VTV1", "VTV2", "VTV3", "VTV4", "VTV5", "VTV5 Tây Nam Bộ",
-    "VTV5 Tây Nguyên", "VTV6", "VTV7", "VTV8", "VTV9", "VTV10", "VietNamToDay", "ANTV", "QPVN"
+    "VTV5 Tây Nguyên", "VTV6", "VTV7", "VTV8", "VTV9", "VTV10", "VietNamToDay"
+]
+_ANQP_ORDER: Final[list[str]] = [
+    "ANTV", "QPVN"
 ]
 _HTV_ORDER: Final[list[str]] = [
     "HTV1", "HTV2", "HTV3", "HTV4", "HTV5", "HTV7", "HTV9", "HTVC+",
@@ -289,16 +295,17 @@ _PROVINCE_ORDER: Final[list[str]] = [
     "Vĩnh Phúc", "Yên Bái"
 ]
 
-_GROUP_ORDER: Final[dict[str, int]] = {"VTV": 0, "HTV": 1, "VTVcab": 2, "SCTV": 3, "LOCAL": 4, "QDVN": 5}
+_GROUP_ORDER: Final[dict[str, int]] = {"VTV": 0, "HTV": 1, "VTVcab": 2, "SCTV": 3, "LOCAL": 4, "ANQP": 5}
 _VTV_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_VTV_ORDER)}
 _HTV_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_HTV_ORDER)}
 _VTVcab_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_VTVcab_ORDER)}
 _SCTV_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_SCTV_ORDER)}
+_ANQP_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_ANQP_ORDER)}
 _PROVINCE_IDX: Final[dict[str, int]] = {p: i for i, p in enumerate(_PROVINCE_ORDER)}
 
 _LABEL: Final[dict[str, str]] = {
     "VTV": "VTV",
-    "QDVN": "QDVN",
+    "ANQP": "ANQP",
     "HTV": "HTV",
     "VTVcab": "VTVcab",
     "SCTV": "SCTV",
@@ -306,11 +313,11 @@ _LABEL: Final[dict[str, str]] = {
 }
 
 _LOCAL_KEYWORDS: Final[frozenset[str]] = frozenset(
-    ["địa phương", "dia phuong", "tỉnh", "tinh", "thiết yếu", "thiet yeu"]
+    ["địa phương", "dia phuong", "tỉnh", "tinh"]
 )
 
 _NOISE_NAMES: Final[frozenset[str]] = frozenset(
-    ["SỰ KIỆN", "VTVPRIME", "FPT", "VOV", "O2", "ĐNNRTV3"]
+    ["SỰ KIỆN", "VTVPRIME", "FPT", "VOV", "O2"]
 )
 
 # ──────────────────────────────────────────────────────────────────────
@@ -372,14 +379,16 @@ def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
         return "VTVcab"
     if "sctv" in grp:
         return "SCTV"
+    if "anqp" in grp:
+        return "ANQP"
     if any(kw in grp for kw in _LOCAL_KEYWORDS):
         return "LOCAL"
     if "quốc phòng" in grp or "quoc phong" in grp:
-        return "QDVN"
+        return "ANQP"
 
     if tvg_id in _KNOWN_IDS:
         tag = _CHANNEL_DATA[tvg_id][1]
-        return tag if tag in ("VTV", "HTV", "VTVcab", "SCTV", "QDVN") else "LOCAL"
+        return tag if tag in ("VTV", "HTV", "VTVcab", "SCTV", "ANQP") else "LOCAL"
     if tvg_id.startswith("vtv"):
         return "VTV"
     if tvg_id.startswith("htv"):
@@ -388,6 +397,8 @@ def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
         return "VTVcab"
     if tvg_id.startswith("sctv"):
         return "SCTV"
+    if tvg_id.startswith("anqp"):
+        return "ANQP"
     return None
 
 
@@ -480,6 +491,8 @@ def sort_channels(channels: list[Channel]) -> list[Channel]:
         norm_n = _norm_key(ch.name)
         if ch.group_key == "VTV":
             return (g, _VTV_IDX.get(norm_n, 999), ch.name)
+        if ch.group_key == "ANQP":
+            return (g, _ANQP_IDX.get(norm_n,999), ch.name)
         if ch.group_key == "HTV":
             return (g, _HTV_IDX.get(norm_n, 999), ch.name)
         if ch.group_key == "VTVcab":
@@ -599,7 +612,7 @@ def main() -> None:
 
     # 3. Xử lý file M3U thủ công (Giữ nguyên danh sách/thứ tự, chỉ gắn EPG)
     # File gốc bạn sưu tập đặt trên repository là: my_list.m3u
-    # File đầu ra để dùng trên ứng dụng TV là: my-custom-iptv.m3u
+    # File đầu ra để dùng trên ứng dụng TV là ghi đè lên file gốc: my_list.m3u
     update_manual_m3u("my_list.m3u", "my_list.m3u")
 
 
