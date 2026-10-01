@@ -215,7 +215,7 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "hatinh": ("Hà Tĩnh", "Hà Tĩnh"),
     "quangbinh": ("Quảng Bình", "Quảng Bình"),
     "quangtri": ("Quảng Trị", "Quảng Trị"),
-    "hue": ("Huế", "Thừa Thiên Huế"),
+    "hue": ("Huế", "Huế"),
     "danang1": ("Đà Nẵng 1", "Đà Nẵng"),
     "danang2": ("Đà Nẵng 2", "Đà Nẵng"),
     "quangnam": ("Quảng Nam", "Quảng Nam"),
