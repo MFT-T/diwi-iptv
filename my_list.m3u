@@ -28,9 +28,9 @@ https://vips-livecdn.fptplay.net/live/media/vtv10/live247-hls-avc/index.m3u8
 #EXTINF:-1 tvg-id="vietnamtoday" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/vtv/vietnamtoday.png" group-title="VTV",Vietnam Today
 https://vips-livecdn.fptplay.net/live/media/vietnamtoday/live-hls-avc/index.m3u8
 
-#EXTINF:-1 tvg-id="antvhd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/vtv/antv.png" group-title="An Ninh Quốc Phòng",ANTV
+#EXTINF:-1 tvg-id="antvhd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/vtv/antv.png" group-title="ANQP",ANTV
 https://live.fptplay53.net/fnxhd2/anninhtv_vhls.smil/chunklist.m3u8
-#EXTINF:-1 tvg-id="qpvnhd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/vtv/qpvn.png" group-title="An Ninh Quốc Phòng",QPVN
+#EXTINF:-1 tvg-id="qpvnhd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/vtv/qpvn.png" group-title="ANQP",QPVN
 https://live.fptplay53.net/fnxhd2/quocphongvnhd_vhls.smil/chunklist.m3u8
 
 #EXTINF:-1 tvg-id="htv1" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/htv/htv1.png" group-title="HTV",HTV1
