@@ -33,6 +33,7 @@ https://raw.githubusercontent.com/MFT-T/diwi-iptv/refs/heads/main/my_list.m3u
 - **Phân nhóm & Sắp xếp Khoa học:**
   - **VTV:** Sắp xếp cố định từ VTV1 đến VTV10 và các kênh khu vực (Tây Nam Bộ, Tây Nguyên).
   - **HTV / HTVC:** Sắp xếp chuẩn theo hệ thống kênh HTV và HTVC.
+  - **VTVCab / SCTV:** Sắp xếp theo thứ tự.
   - **Địa phương:** Gom gọn vào 1 nhóm duy nhất, tự động sắp xếp thứ tự A-Z theo tên các tỉnh/thành đầy đủ.
   - **Quốc Phòng:** Tách riêng ANTV và QPVN thành một nhóm chuyên biệt, không bị lẫn vào nhóm địa phương.
 
