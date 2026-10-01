@@ -1,4 +1,5 @@
-#EXTM3U url-tvg="https://raw.githubusercontent.com/MFT-T/diwi-iptv/main/iptv.epg.xml" x-tvg-url="https://raw.githubusercontent.com/MFT-T/diwi-iptv/main/iptv.epg.xml"
+#EXTM3U url-tvg="https://raw.githubusercontent.com/MFT-T/diwi-iptv/main/iptv.epg.xml"
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/MFT-T/diwi-iptv/main/iptv.epg.xml"
 
 #EXTINF:-1 tvg-id="vtv1hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/vtv/vtv1.png" group-title="VTV", VTV1
 https://freem3u.xyz/api/live/play.m3u8?vid=2
@@ -80,6 +81,8 @@ https://freem3u.xyz/api/live/play.m3u8?vid=181
 https://vmttv.dpdns.org/tv360/?id=vtvcab-2-phim-viet-hd
 #EXTINF:-1 tvg-id="onviedramas" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/vtvcab/on-viedramas.png"  group-title="VTVcab",ON Vie DRAMAS
 http://dvrfl05.bozztv.com/vch_vchannel18/index.m3u8
+#EXTINF:-1 tvg-id="TVBVietnam.vn@SD" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/vtvcab/tvb-vietnam.png" group-title="VTVcab",TVB Vietnam
+https://amg01868-amg01868c3-tvbanywhere-us-4491.playouts.now.amagi.tv/playlist/amg01868-tvbusa-tvbvietnam-tvbanywhereus/playlist.m3u8
 
 #EXTINF:-1 tvg-id="sctv1hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/sctv/sctv1.png" group-title="SCTV",SCTV1
 https://vmttv.dpdns.org/VTVGo/?sctv1
@@ -117,8 +120,6 @@ https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv20/master.m3u8
 https://vmttv.dpdns.org/VTVGo/?sctv21
 #EXTINF:-1 tvg-id="sctvhdpth" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/sctv/sctvphim.png" group-title="SCTV",SCTV Phim tổng hợp
 https://vmttv.dpdns.org/VTVGo/?sctvphim
-#EXTINF:-1 tvg-id="TVBVietnam.vn@SD" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/vtvcab/tvb-vietnam.png" group-title="VTVcab",TVB Vietnam
-https://amg01868-amg01868c3-tvbanywhere-us-4491.playouts.now.amagi.tv/playlist/amg01868-tvbusa-tvbvietnam-tvbanywhereus/playlist.m3u8
 
 #EXTINF:-1 tvg-id="angiang1" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/thdp/atv1.png" group-title="Địa phương",An Giang 1
 https://live.fptplay53.net/epzsd1/angiang01_hls.smil/chunklist_b2500000.m3u8
