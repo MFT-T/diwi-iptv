@@ -2,7 +2,7 @@
 """
 IPTV Auto-updater
 - Nguồn: Danh sách M3U tổng hợp / sưu tập
-- Kênh TV: VTV, HTV, VTVcab, SCTV, địa phương, ANTV, QPVN
+- Kênh TV: VTV, ANQP, HTV, VTVcab, SCTV, địa phương
 - EPG: Tự động tải, sửa múi giờ Việt Nam (+0700) và xuất file iptv.epg.xml
 - Sắp xếp địa phương: Tên tỉnh thành A-Z (63 tỉnh thành)
 - tvg-id chuẩn hóa theo vnepg (viết liền, không dấu gạch ngang)
@@ -21,7 +21,13 @@ import requests
 # CẤU HÌNH
 # ──────────────────────────────────────────────────────────────────────
 SOURCES: Final[list[str]] = [
+    #___Để chọn nhiều nguồn khác nhau chỉ cần xoá bỏ # ở đầu dòng _______
+    
     "https://dl.dropboxusercontent.com/s/o5vygit34v9ryly71gam4/coban66.m3u?rlkey=auyoon54hfubajt16nc7u7dbn&st=70gyvtcu&dl=0",
+    # "https://raw.githubusercontent.com/quanlehong539/TVPub/patch-3/TVPub%20IPTV",
+    "https://1.org.vn/vmttv",
+    # "https://vmttv.duckdns.org/",
+    # "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/vn.m3u",
 ]
 
 RAW_EPG_SOURCE: Final[str] = "https://epg.io.vn/epgu.xml"
