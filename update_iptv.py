@@ -284,7 +284,7 @@ _VTVcab_ORDER: Final[list[str]] = [
     "ON Golf", "ON HomeShopping", "ON Kids", "ON Life", "ON Movies", "ON Phim Việt", "ON Vie DRAMAS", "TVB ViệtNam"
 ]
 _SCTV_ORDER: Final[list[str]] = [
-    "CSTV1", "SCTV2", "SCTV3", "SCTV4", "SCTV5", "SCTV6", "SCTV7", "SCTV8", "SCTV9", "SCTV11", "SCTV12", "SCTV13", "SCTV14", "SCTV15", "SCTV16", "SCTV17", "SCTV18", "SCTV19", "SCTV20", "SCTV21", "SCTV22", "SCTV Phim tổng hợp"
+    "SCTV1", "SCTV2", "SCTV3", "SCTV4", "SCTV5", "SCTV6", "SCTV7", "SCTV8", "SCTV9", "SCTV11", "SCTV12", "SCTV13", "SCTV14", "SCTV15", "SCTV16", "SCTV17", "SCTV18", "SCTV19", "SCTV20", "SCTV21", "SCTV22", "SCTV Phim tổng hợp"
 ]
 _PROVINCE_ORDER: Final[list[str]] = [
     "An Giang", "Bà Rịa - Vũng Tàu", "Bạc Liêu", "Bắc Giang", "Bắc Kạn", "Bắc Ninh",
@@ -403,7 +403,7 @@ def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
 
     # LỚP 3: Kiểm tra tvg_id đã chuẩn hóa (tid)
     # 3a. Bắt tiền tố hoặc từ khóa đặc trưng của VTVcab
-    _VTVCAB_KEYWORDS = ("vtvcab", "onsports", "oncine", "ongolf", "onmovies", "onkids", "bongdatv", "thethaotv", "onphimviet", "onlife", "OnHomeShopping", "onviedramas", "TVBVietnam.vn@SD)
+    _VTVCAB_KEYWORDS = ("vtvcab", "onsports", "oncine", "ongolf", "onmovies", "onkids", "bongdatv", "thethaotv", "onphimviet", "onlife", "OnHomeShopping", "onviedramas", "tvbvietnam.vn@sd")
     if any(kw in tid for kw in _VTVCAB_KEYWORDS):
         return "VTVcab"
 
@@ -528,8 +528,7 @@ def sort_channels(channels: list[Channel]) -> list[Channel]:
 def write_m3u(channels: list[Channel], path: str) -> None:
     try:
         with open(path, "w", encoding="utf-8") as f:
-            f.write(f'#EXTM3U url-tvg="{MY_EPG_URL}"\n')
-            f.write(f'#EXTM3U x-tvg-url="{MY_EPG_URL}"\n')
+            f.write(f'#EXTM3U url-tvg="{MY_EPG_URL}" x-tvg-url="{MY_EPG_URL}"\n')
             for src in SOURCES:
                 f.write(f"#EXTM3U-SOURCE:{src}\n")
             for ch in channels:
