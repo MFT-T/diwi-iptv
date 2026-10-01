@@ -127,10 +127,10 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "vtv10hd": ("VTV10", "VTV"),
     "vietnamtoday": ("Vietnam Today", "VTV"),
     
-    #_________ANQP_________
-    
+    # ── ANQP ─────────────────────────────────────────────────────────
     "antvhd": ("ANTV", "ANQP"),
     "qpvnhd": ("QPVN", "ANQP"),
+    
     # ── HTV / HTVC ───────────────────────────────────────────────────
     "htv1hd": ("HTV1", "HTV"),
     "htv2hd": ("HTV2", "HTV"),
@@ -147,6 +147,7 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "htvcphunuhd": ("HTVC Phụ Nữ", "HTV"),
     "htvcthuanviethd": ("HTVC Thuần Việt", "HTV"),
     "htvcplushd": ("HTVC+", "HTV"),
+    
     # ── VTVcab ───────────────────────────────────────────────────────
     "onphimviet": ("ON Phim Việt", "VTVcab"),
     "ongolf": ("ON Golf", "VTVcab"),
@@ -156,6 +157,7 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "onmovies": ("ON Movies", "VTVcab"),
     "onviedramas": ("ON Vie DRAMAS", "VTVcab"),
     "TVBVietnam.vn@SD": ("TVB ViệtNam", "VTVcab"),
+    
     # ── SCTV ─────────────────────────────────────────────────────────
     "sctv1hd": ("SCTV1", "SCTV"),
     "sctv2hd": ("SCTV2", "SCTV"),
@@ -175,6 +177,7 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "sctv20hd": ("SCTV20", "SCTV"),
     "sctv21hd": ("SCTV21", "SCTV"),
     "sctvhdpth": ("SCTV Phim tổng hợp", "SCTV"),
+    
     # ── ĐỊA PHƯƠNG — Miền Bắc ────────────────────────────────────────
     "hagiang": ("Hà Giang", "Hà Giang"),
     "tuyenquang": ("Tuyên Quang", "Tuyên Quang"),
@@ -205,6 +208,7 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "namdinh": ("Nam Định", "Nam Định"),
     "hanam": ("Hà Nam", "Hà Nam"),
     "ninhbinh": ("Ninh Bình", "Ninh Bình"),
+    
     # ── ĐỊA PHƯƠNG — Miền Trung ──────────────────────────────────────
     "thanhhoa": ("Thanh Hóa", "Thanh Hóa"),
     "nghean": ("Nghệ An", "Nghệ An"),
@@ -224,6 +228,7 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "khanhhoa2": ("Khánh Hòa 2", "Khánh Hòa"),
     "ninhthuan": ("Ninh Thuận", "Ninh Thuận"),
     "binhthuan": ("Bình Thuận", "Bình Thuận"),
+    
     # ── ĐỊA PHƯƠNG — Tây Nguyên ──────────────────────────────────────
     "kontum": ("Kon Tum", "Kon Tum"),
     "gialai": ("Gia Lai", "Gia Lai"),
@@ -231,6 +236,7 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "daknong": ("Đắk Nông", "Đắk Nông"),
     "lamdong1": ("Lâm Đồng 1", "Lâm Đồng"),
     "lamdong2": ("Lâm Đồng 2", "Lâm Đồng"),
+    
     # ── ĐỊA PHƯƠNG — Miền Nam ────────────────────────────────────────
     "binhphuoc": ("Bình Phước", "Bình Phước"),
     "tayninh1": ("Tây Ninh", "Tây Ninh"),
@@ -281,17 +287,20 @@ _HTV_ORDER: Final[list[str]] = [
     "HTVC Phụ Nữ", "HTVC Thể Thao", "HTVC Thuần Việt"
 ]
 _VTVcab_ORDER: Final[list[str]] = [
-    "ON Golf", "ON HomeShopping", "ON Kids", "ON Life", "ON Movies", "ON Phim Việt", "ON Vie DRAMAS", "TVB ViệtNam"
+    "ON Golf", "ON HomeShopping", "ON Kids", "ON Life", 
+    "ON Movies", "ON Phim Việt", "ON Vie DRAMAS", "TVB ViệtNam"
 ]
 _SCTV_ORDER: Final[list[str]] = [
-    "SCTV1", "SCTV2", "SCTV3", "SCTV4", "SCTV5", "SCTV6", "SCTV7", "SCTV8", "SCTV9", "SCTV11", "SCTV12", "SCTV13", "SCTV14", "SCTV15", "SCTV16", "SCTV17", "SCTV18", "SCTV19", "SCTV20", "SCTV21", "SCTV22", "SCTV Phim tổng hợp"
+    "SCTV1", "SCTV2", "SCTV3", "SCTV4", "SCTV5", "SCTV6", "SCTV7", "SCTV8", "SCTV9", 
+    "SCTV11", "SCTV12", "SCTV13", "SCTV14", "SCTV15", "SCTV16", "SCTV17", "SCTV18", 
+    "SCTV19", "SCTV20", "SCTV21", "SCTV22", "SCTV Phim tổng hợp"
 ]
 _PROVINCE_ORDER: Final[list[str]] = [
     "An Giang", "Bà Rịa - Vũng Tàu", "Bạc Liêu", "Bắc Giang", "Bắc Kạn", "Bắc Ninh",
     "Bến Tre", "Bình Định", "Bình Dương", "Bình Phước", "Bình Thuận", "Cà Mau",
     "Cao Bằng", "Cần Thơ", "Đà Nẵng", "Đắk Lắk", "Đắk Nông", "Điện Biên",
     "Đồng Nai", "Đồng Tháp", "Gia Lai", "Hà Giang", "Hà Nam", "Hà Nội",
-    "Hà Tĩnh", "Hải Dương", "Hải Phòng", "Hậu Giang", "Hòa Bình", "Hưng Yên", "Huế",
+    "Hà Tĩnh", "Hải Dương", "Hải Phòng", "Hậu Giang", "Hòa Bình", "Huế", "Hưng Yên", 
     "Khánh Hòa", "Kiên Giang", "Kon Tum", "Lai Châu", "Lạng Sơn", "Lào Cai",
     "Lâm Đồng", "Long An", "Nam Định", "Nghệ An", "Ninh Bình", "Ninh Thuận",
     "Phú Thọ", "Phú Yên", "Quảng Bình", "Quảng Nam", "Quảng Ngãi", "Quảng Ninh",
@@ -300,7 +309,7 @@ _PROVINCE_ORDER: Final[list[str]] = [
     "Vĩnh Phúc", "Yên Bái"
 ]
 
-_GROUP_ORDER: Final[dict[str, int]] = {"VTV": 0, "ANQP": 1, "HTV": 2, "VTVcab": 3, "SCTV": 4, "LOCAL": 5, }
+_GROUP_ORDER: Final[dict[str, int]] = {"VTV": 0, "ANQP": 1, "HTV": 2, "VTVcab": 3, "SCTV": 4, "LOCAL": 5}
 _VTV_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_VTV_ORDER)}
 _HTV_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_HTV_ORDER)}
 _VTVcab_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_VTVcab_ORDER)}
@@ -403,7 +412,11 @@ def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
 
     # LỚP 3: Kiểm tra tvg_id đã chuẩn hóa (tid)
     # 3a. Bắt tiền tố hoặc từ khóa đặc trưng của VTVcab
-    _VTVCAB_KEYWORDS = ("vtvcab", "onsports", "oncine", "ongolf", "onmovies", "onkids", "bongdatv", "thethaotv", "onphimviet", "onlife", "OnHomeShopping", "onviedramas", "tvbvietnam.vn@sd")
+    _VTVCAB_KEYWORDS = (
+        "vtvcab", "onsports", "oncine", "ongolf", "onmovies", 
+        "onkids", "bongdatv", "thethaotv", "onphimviet", "onlife", 
+        "onhomeshopping", "onviedramas", "tvbvietnam.vn@sd"
+    )
     if any(kw in tid for kw in _VTVCAB_KEYWORDS):
         return "VTVcab"
 
@@ -418,7 +431,6 @@ def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
         return "ANQP"
 
     return None
-
 
 
 def _is_noise(tvg_id: str, upper_name: str) -> bool:
@@ -511,7 +523,7 @@ def sort_channels(channels: list[Channel]) -> list[Channel]:
         if ch.group_key == "VTV":
             return (g, _VTV_IDX.get(norm_n, 999), ch.name)
         if ch.group_key == "ANQP":
-            return (g, _ANQP_IDX.get(norm_n,999), ch.name)
+            return (g, _ANQP_IDX.get(norm_n, 999), ch.name)
         if ch.group_key == "HTV":
             return (g, _HTV_IDX.get(norm_n, 999), ch.name)
         if ch.group_key == "VTVcab":
@@ -554,13 +566,12 @@ def update_manual_m3u(input_path: str, output_path: str) -> None:
         with open(input_path, "r", encoding="utf-8") as f:
             lines = f.readlines()
 
-        # Lọc bỏ các dòng #EXTM3U cũ (nếu có)
+        # Lọc bỏ các dòng #EXTM3U cũ
         content_lines = [line for line in lines if not line.startswith("#EXTM3U")]
 
         # Ghi file mới với Header EPG cá nhân lên đầu
         with open(output_path, "w", encoding="utf-8") as f:
-            f.write(f'#EXTM3U url-tvg="{MY_EPG_URL}"\n')
-            f.write(f'#EXTM3U x-tvg-url="{MY_EPG_URL}"\n')
+            f.write(f'#EXTM3U url-tvg="{MY_EPG_URL}" x-tvg-url="{MY_EPG_URL}"\n')
             f.writelines(content_lines)
 
         print(f"✅ Đã tạo file M3U thủ công kèm EPG mới → {output_path}")
@@ -629,8 +640,6 @@ def main() -> None:
         print("⚠  Không có nguồn tự động nào hợp lệ.", file=sys.stderr)
 
     # 3. Xử lý file M3U thủ công (Giữ nguyên danh sách/thứ tự, chỉ gắn EPG)
-    # File gốc bạn sưu tập đặt trên repository là: my_list.m3u
-    # File đầu ra để dùng trên ứng dụng TV là ghi đè lên file gốc: my_list.m3u
     update_manual_m3u("my_list.m3u", "my_list.m3u")
 
 
