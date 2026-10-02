@@ -645,7 +645,7 @@ def merge_sources(lists: list[list[Channel]]) -> list[Channel]:
     # ------------------------------------------------------------------
         for lst in lists[1:]:
             for ch in lst:
-            key = _dedup_key(ch.name)
+                key = _dedup_key(ch.name)
             
             # ĐIỀU KIỆN QUAN TRỌNG:
             # 1. Nếu kênh đã xuất hiện ở Nguồn 1 -> BỎ QUA HOÀN TOÀN (dù Nguồn 2/3 có HD/4K)
