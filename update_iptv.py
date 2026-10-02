@@ -527,7 +527,17 @@ def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
         "tvbvietnam.vn@sd",
     )
     if any(kw in tid for kw in _VTVCAB_KEYWORDS):
-        return "VTVcab"       
+        return "VTVcab"     
+
+    _PROVINCE_KEYWORDS = (
+        "DongNaiTV3.vn@SD",
+        "dongnaitv3.vn@sd",
+        "dongnaitv3",
+        "đnnrtv3",
+        "dnnrtv3",
+    )
+    if any(kw in tid for kw in _PROVINCE_KEYWORDS):
+        return "LOCAL"
 
     # 3b. Kiểm tra các đài khác
     if tid.startswith("vtv"):
