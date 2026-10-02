@@ -301,6 +301,7 @@ _HTV_ORDER: Final[list[str]] = [
     "HTV5",
     "HTV7",
     "HTV9",
+    "HTVC+",
     "HTVC Ca Nhạc",
     "HTVC Du Lịch",
     "HTVC Gia Đình",
@@ -308,7 +309,7 @@ _HTV_ORDER: Final[list[str]] = [
     "HTVC Phụ Nữ",
     "HTV Thể Thao",
     "HTVC Thuần Việt",
-    "HTVC+",
+    
 ]
 _VTVcab_ORDER: Final[list[str]] = [
     "ON Golf",
