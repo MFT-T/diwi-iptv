@@ -151,7 +151,7 @@ https://live.fptplay53.net/fnxsd1/dienbien_hls.smil/chunklist_b2500000.m3u8
 https://live.fptplay53.net/epzsd1/dongnai1_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="dongnai2" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/thdp_logo/dongnai2.png" group-title="Địa phương",Đồng Nai 2
 https://live.fptplay53.net/epzsd1/dongnai2_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 tvg-id="dongnaitv3.vn@sd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/thdp_logo/dongnai3.png" group-title="Địa phương",Đồng Nai 3
+#EXTINF:-1 tvg-id="dongnaitv3.vn@sd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/thdp_logo/dongnaitv3.vn@sd.png" group-title="Địa phương",Đồng Nai 3
 https://dethich.pw/dongnai3/index.m3u8
 #EXTINF:-1 tvg-id="dongthap1" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/thdp_logo/dongthap1.png" group-title="Địa phương",Đồng Tháp 1
 https://live.fptplay53.net/epzhd2/dongthap01_vhls.smil/chunklist_b5000000.m3u8
@@ -213,13 +213,13 @@ https://live.fptplay53.net/fnxsd1/thainguyen_hls.smil/chunklist_b2500000.m3u8
 https://live.fptplay53.net/fnxsd1/thanhhoa_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="tuyenquang" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/thdp_logo/tuyenquang.png" group-title="Địa phương",Tuyên Quang
 https://live.fptplay53.net/fnxsd1/tuyenquang_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 tvg-id="vinhlong1hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/thdp_logo/vinhlong1.png" group-title="Địa phương",Vĩnh Long 1
+#EXTINF:-1 tvg-id="vinhlong1hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/thdp_logo/vinhlong1hd.png" group-title="Địa phương",Vĩnh Long 1
 https://live.fptplay53.net/epzhd2/vinhlong1_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="vinhlong2hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/thdp_logo/vinhlong2.png" group-title="Địa phương",Vĩnh Long 2
+#EXTINF:-1 tvg-id="vinhlong2hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/thdp_logo/vinhlong2hd.png" group-title="Địa phương",Vĩnh Long 2
 https://live.fptplay53.net/epzhd2/vinhlong2_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="vinhlong3hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/thdp_logo/vinhlong3.png" group-title="Địa phương",Vĩnh Long 3
+#EXTINF:-1 tvg-id="vinhlong3hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/thdp_logo/vinhlong3hd.png" group-title="Địa phương",Vĩnh Long 3
 https://live.fptplay53.net/epzhd2/vinhlong3_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="vinhlong4hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/thdp_logo/vinhlong4.png" group-title="Địa phương",Vĩnh Long 4
+#EXTINF:-1 tvg-id="vinhlong4hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/thdp_logo/vinhlong4hd.png" group-title="Địa phương",Vĩnh Long 4
 https://live.fptplay53.net/epzhd2/vinhlong4-hd_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="vinhlong5hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/thdp_logo/vinhlong5.png" group-title="Địa phương",Vĩnh Long 5
+#EXTINF:-1 tvg-id="vinhlong5hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/thdp_logo/vinhlong5hd.png" group-title="Địa phương",Vĩnh Long 5
 https://live.fptplay53.net/epzhd2/vinhlong5hd_vhls.smil/chunklist_b5000000.m3u8
