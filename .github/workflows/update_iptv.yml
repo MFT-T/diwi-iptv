@@ -30,19 +30,15 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Set Timezone to Vietnam (ICT)
-        run: sudo timedatectl set-timezone Asia/Ho_Chi_Minh
-
-      - name: List files (debug)
+      - name: Set Timezone & Get Current Time
         run: |
-          echo "Hiện tại là: $(date +'%Y-%m-%d %H:%M:%S %Z')"
-          ls -la
+          sudo timedatectl set-timezone Asia/Ho_Chi_Minh
+          NOW=$(date +'%d/%m/%Y %H:%M')
+          echo "VIETNAM_TIME=$NOW" >> $GITHUB_ENV
+          echo "Thời gian hiện tại: $NOW ICT"
 
       - name: Run IPTV updater
         run: python update_iptv.py
-
-      - name: Get current time
-        run: echo "VIETNAM_TIME=$(date +'%d/%m/%Y %H:%M')" >> $GITHUB_ENV
 
       - name: Commit & push playlist and EPG
         uses: stefanzweifel/git-auto-commit-action@v5
