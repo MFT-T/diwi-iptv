@@ -11,6 +11,7 @@ IPTV Auto-updater
 
 import re
 import sys
+import unicodedata
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from typing import Final, Optional
@@ -43,7 +44,7 @@ HTTP_HEADERS: Final[dict[str, str]] = {
 MY_LOGO_BASE_URL: Final[str] = "https://raw.githubusercontent.com/MFT-T/tvn-logo/main"
 
 # ──────────────────────────────────────────────────────────────────────
-# REGEX PRE-COMPILED
+# REGEX & BỎ DẤU TIẾNG VIỆT
 # ──────────────────────────────────────────────────────────────────────
 _NORM_RE = re.compile(r"\s+")
 _DEDUP_RE = re.compile(r"[\s\-._]+")
@@ -69,12 +70,21 @@ _QUALITY_TIERS: Final[list[tuple[re.Pattern, int]]] = [
 ]
 
 
+def strip_accents(s: str) -> str:
+    """Loại bỏ hoàn toàn dấu tiếng Việt để so sánh tên không dấu."""
+    s = unicodedata.normalize("NFD", s)
+    s = "".join(c for c in s if unicodedata.category(c) != "MN")
+    return s.replace("Đ", "D").replace("đ", "d")
+
+
 def _norm_key(s: str) -> str:
-    return _NORM_RE.sub("", s).upper()
+    return _NORM_RE.sub("", strip_accents(s)).upper()
 
 
 def _dedup_key(name: str) -> str:
-    return _DEDUP_RE.sub("", name.lower())
+    """Tạo key lọc trùng chuẩn xác, loại bỏ dấu và ký tự đặc biệt."""
+    clean_name = strip_accents(name)
+    return _DEDUP_RE.sub("", clean_name.lower())
 
 
 # ──────────────────────────────────────────────────────────────────────
@@ -276,15 +286,19 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "camau": ("Cà Mau", "Cà Mau"),
 }
 
+# Tự động ánh định các tên kênh KHÔNG DẤU phổ biến về tên CÓ DẤU chuẩn
+_UNACCENTED_NAME_MAP: Final[dict[str, str]] = {
+    _dedup_key(v[0]): v[0] for v in _CHANNEL_DATA.values()
+}
+
 _KNOWN_IDS: Final[frozenset[str]] = frozenset(_CHANNEL_DATA)
 
 # ──────────────────────────────────────────────────────────────────────
 # THỨ TỰ HIỂN THỊ & INDEX SORT
 # ──────────────────────────────────────────────────────────────────────
 _VTV_ORDER: Final[list[str]] = [
-    "VTV1", "VTV2", "VTV3", "VTV4", "VTV5", "VTV5 Tây Nam Bộ",
-    "VTV5 Tây Nguyên", "VTV6",
-    "VTV7", "VTV8", "VTV9", "VTV10", "VietNamToDay",
+    "VTV1", "VTV2", "VTV3", "VTV4", "VTV5", "VTV5 Tây Nam Bộ", "VTV5 Tây Nguyên",
+    "VTV6", "VTV7", "VTV8", "VTV9", "VTV10", "VietNamToDay",
 ]
 _ANQP_ORDER: Final[list[str]] = ["ANTV", "QPVN"]
 _HTV_ORDER: Final[list[str]] = [
@@ -387,22 +401,25 @@ def fetch(url: str) -> Optional[str]:
 
 
 def resolve_display_name(raw: str, tvg_id: str) -> str:
+    # 1. Tra cứu theo tvg_id
     if tvg_id:
         entry = _CHANNEL_DATA.get(tvg_id)
         if entry:
             return entry[0]
 
-    # 1. Xóa dấu ngoặc chứa độ phân giải như (720p), (1080p)...
+    # 2. Xóa ngoặc đơn chứa độ phân giải và từ nhiễu
     s = re.sub(r"\(\s*\d+p\s*\)", "", raw, flags=re.I)
-    
-    # 2. Thay thế từ sports sang Thể Thao
     s = re.sub(r"\bsports\b", "Thể Thao", s, flags=re.I)
-
-    # 3. Lọc nhiễu độ phân giải dạng đứng lẻ (720p, 1080p, HD, FHD...)
     s = _NOISE_RE.sub("", s).strip()
     s = _PIPE_RE.sub("", s).strip()
+    s = _MULTI_SPACE_RE.sub(" ", s) or raw.strip()
 
-    return _MULTI_SPACE_RE.sub(" ", s) or raw.strip()
+    # 3. Tra cứu theo Tên Không Dấu trong _UNACCENTED_NAME_MAP
+    dedup_k = _dedup_key(s)
+    if dedup_k in _UNACCENTED_NAME_MAP:
+        return _UNACCENTED_NAME_MAP[dedup_k]
+
+    return s
 
 
 def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
