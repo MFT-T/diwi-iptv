@@ -91,6 +91,8 @@ def _dedup_key(name: str) -> str:
 # CHUẨN HÓA TVG-ID THEO VNEPG
 # ──────────────────────────────────────────────────────────────────────
 TVG_ID_MAP: Final[dict[str, str]] = {
+    "vtv5taynambo.vn@hd": "vtv5hdtnb",
+    "vtv5taynguyen.vn@hd": "vtv5hdtn",
     "vtv6": "vtv6hd",
     "vtv10": "vtv10hd",
     "htv1": "htv1hd",
@@ -342,7 +344,7 @@ _LABEL: Final[dict[str, str]] = {
 }
 
 _LOCAL_KEYWORDS: Final[frozenset[str]] = frozenset(["địa phương", "dia phuong", "tỉnh", "tinh"])
-_NOISE_NAMES: Final[frozenset[str]] = frozenset(["SỰ KIỆN", "VTVPRIME", "FPT", "VOV", "O2", "VTV5 Tay Nguyen", "VTV5 Tay Nam Bo",])
+_NOISE_NAMES: Final[frozenset[str]] = frozenset(["SỰ KIỆN", "VTVPRIME", "FPT", "VOV", "O2",])
 
 # ──────────────────────────────────────────────────────────────────────
 # DATA MODEL & HELPER
