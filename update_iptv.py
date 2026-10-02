@@ -529,9 +529,10 @@ def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
     if any(kw in tid for kw in _VTVCAB_KEYWORDS):
         return "VTVcab"     
 
-        _PROVINCE_KEYWORDS = (
+    _PROVINCE_KEYWORDS = (
         "dongnaitv3.vn@sd",
         "dongnaitv3",
+        "dongnai3",
         "đnnrtv3",
         "dnnrtv3",
     )
