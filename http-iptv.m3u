@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/MFT-T/diwi-iptv/main/iptv.epg.xml" x-tvg-url="https://raw.githubusercontent.com/MFT-T/diwi-iptv/main/iptv.epg.xml"
+#EXTM3U-SOURCE:https://vips-livecdn.fptplay.net/live/media/vtv8/live-hls-avc/index.m3u8
+#EXTM3U-SOURCE:https://live.canthotv.vn/cs2/live.stream/playlist.m3u8
 #EXTM3U-SOURCE:https://iptv-org.github.io/iptv/countries/vn.m3u
 #EXTM3U-SOURCE:https://dl.dropboxusercontent.com/s/o5vygit34v9ryly71gam4/coban66.m3u?rlkey=auyoon54hfubajt16nc7u7dbn&st=70gyvtcu&dl=0
 #EXTINF:-1 tvg-id="vtv1.vn@hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtv_logo/vtv1.vn@hd.png" group-title="VTV",VTV1
