@@ -24,7 +24,7 @@ import requests
 SOURCES: Final[list[str]] = [
     "https://iptv-org.github.io/iptv/countries/vn.m3u",
     "https://dl.dropboxusercontent.com/s/o5vygit34v9ryly71gam4/coban66.m3u?rlkey=auyoon54hfubajt16nc7u7dbn&st=70gyvtcu&dl=0",
-    "https://raw.githubusercontent.com/MFT-T/diwi-iptv/refs/heads/main/my_list.m3u",
+    # "https://raw.githubusercontent.com/MFT-T/diwi-iptv/refs/heads/main/my_list.m3u",
 ]
 
 RAW_EPG_SOURCE: Final[str] = "https://epg.io.vn/epgu.xml"
