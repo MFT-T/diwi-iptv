@@ -15,13 +15,6 @@ https://raw.githubusercontent.com/MFT-T/diwi-iptv/main/http-iptv.m3u
 
 ---
 
-## 🔗 Link Playlist Cố Định, Chỉ Cập Nhật Tự Động EPG
-
-```
-https://raw.githubusercontent.com/MFT-T/diwi-iptv/refs/heads/main/my_list.m3u
-```
-
----
 ## 🛠 Cơ Chế Hoạt Động Của Hệ Thống
 
 - **Bộ lọc thông minh (Deduplication & Quality Max Selection):** Nếu một kênh xuất hiện ở nhiều nguồn hoặc có nhiều luồng dữ liệu, hệ thống tự động chấm điểm kỹ thuật (Tier phân giải từ 8K/4K/FHD/HD/SD kết hợp với Bitrate) để chỉ giữ lại duy nhất luồng có chất lượng tốt nhất, dedup đồng thời theo cả tên kênh lẫn URL xuyên suốt các nguồn.
