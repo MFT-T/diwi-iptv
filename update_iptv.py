@@ -342,7 +342,7 @@ _LABEL: Final[dict[str, str]] = {
 }
 
 _LOCAL_KEYWORDS: Final[frozenset[str]] = frozenset(["địa phương", "dia phuong", "tỉnh", "tinh"])
-_NOISE_NAMES: Final[frozenset[str]] = frozenset(["SỰ KIỆN", "VTVPRIME", "FPT", "VOV", "O2"])
+_NOISE_NAMES: Final[frozenset[str]] = frozenset(["SỰ KIỆN", "VTVPRIME", "FPT", "VOV", "O2", "VTV5 Tay Nguyen", "VTV5 Tay Nam Bo",])
 
 # ──────────────────────────────────────────────────────────────────────
 # DATA MODEL & HELPER
