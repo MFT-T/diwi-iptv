@@ -410,17 +410,59 @@ def fetch(url: str) -> Optional[str]:
 # ──────────────────────────────────────────────────────────────────────
 # BỔ SUNG: KIỂM TRA SỐNG CHẾT LUỒNG LUỒNG IPTV
 # ──────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────────
+# CẢI TIẾN: KIỂM TRA SỐNG CHẾT LUỒNG IPTV CHUẨN
+# ──────────────────────────────────────────────────────────────────────
 def is_stream_alive(url: str, timeout: int = STREAM_CHECK_TIMEOUT) -> bool:
-    """Kiểm tra URL luồng IPTV xem còn sống hay không."""
+    """
+    Kiểm tra URL luồng IPTV chuẩn xác hơn.
+    - Thêm User-Agent giả lập thiết bị IPTV/VLC.
+    - Cho phép Redirect (allow_redirects=True).
+    - Bỏ qua lỗi SSL (verify=False).
+    - Thử cả phương thức HEAD và GET.
+    """
+    # Giả lập User-Agent của trình phát VLC / OTT IPTV phổ biến
+    iptv_headers = {
+        "User-Agent": "VLC/3.0.18 LibVLC/3.0.18",
+        "Accept": "*/*",
+        "Connection": "keep-alive"
+    }
+    
     try:
-        with requests.get(url, headers=HTTP_HEADERS, timeout=timeout, stream=True) as response:
-            return response.status_code == 200
+        # Thử phương thức HEAD trước cho nhanh
+        res = requests.head(
+            url, 
+            headers=iptv_headers, 
+            timeout=timeout, 
+            allow_redirects=True, 
+            verify=False
+        )
+        if res.status_code in (200, 206, 301, 302):
+            return True
+    except Exception:
+        pass
+
+    try:
+        # Nếu HEAD bị server chặn, gửi request GET (chỉ lấy phần đầu luồng data)
+        with requests.get(
+            url, 
+            headers=iptv_headers, 
+            timeout=timeout, 
+            stream=True, 
+            allow_redirects=True, 
+            verify=False
+        ) as res:
+            return res.status_code in (200, 206, 301, 302)
     except Exception:
         return False
 
 
 def filter_alive_channels(channels: list[Channel], max_workers: int = MAX_CHECK_WORKERS) -> list[Channel]:
     """Kiểm tra song song trạng thái các kênh và loại bỏ link chết."""
+    # Tắt các cảnh báo urllib3 khi verify=False
+    import urllib3
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
     print(f"\n🔍 Đang kiểm tra trạng thái luồng phát ({len(channels)} kênh)...")
 
     def check_channel(ch: Channel) -> Optional[Channel]:
@@ -437,6 +479,7 @@ def filter_alive_channels(channels: list[Channel], max_workers: int = MAX_CHECK_
     alive_channels = [ch for ch in results if ch is not None]
     print(f"📊 Kết quả kiểm tra: {len(alive_channels)}/{len(channels)} kênh còn hoạt động.")
     return alive_channels
+
 
 
 def resolve_display_name(raw: str, tvg_id: str) -> str:
