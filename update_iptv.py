@@ -643,23 +643,23 @@ def merge_sources(lists: list[list[Channel]]) -> list[Channel]:
     # ------------------------------------------------------------------
     # BƯỚC 2: Xử lý các nguồn còn lại (Nguồn 2, Nguồn 3,...)
     # ------------------------------------------------------------------
-        for lst in lists[1:]:
-            for ch in lst:
-                key = _dedup_key(ch.name)
+    for lst in lists[1:]:
+        for ch in lst:
+            key = _dedup_key(ch.name)
             
             # ĐIỀU KIỆN QUAN TRỌNG:
             # 1. Nếu kênh đã xuất hiện ở Nguồn 1 -> BỎ QUA HOÀN TOÀN (dù Nguồn 2/3 có HD/4K)
-                if key in source_1_keys:
+            if key in source_1_keys:
                 continue
                 
             # 2. Nếu kênh chưa từng có -> Thêm mới (và so chất lượng nội bộ giữa các nguồn phụ)
             existing = best.get(key)
-                if existing is None or ch.quality > existing.quality:
+            if existing is None or ch.quality > existing.quality:
                 best[key] = ch
 
     return list(best.values())
-    
 
+    
 
 def sort_channels(channels: list[Channel]) -> list[Channel]:
     def key(ch: Channel) -> tuple:
