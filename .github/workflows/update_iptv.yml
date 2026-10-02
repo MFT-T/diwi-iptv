@@ -25,7 +25,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.14.6"
+          python-version: "3.12"
 
       - name: Install dependencies
         run: pip install requests
@@ -41,11 +41,11 @@ jobs:
       - name: Run IPTV updater
         run: python update_iptv.py
 
+      - name: Get current time
+        run: echo "VIETNAM_TIME=$(date +'%d/%m/%Y %H:%M')" >> $GITHUB_ENV
+
       - name: Commit & push playlist and EPG
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add http-iptv.m3u iptv.epg.xml my_list.m3u
-          VIETNAM_TIME=$(date +'%d/%m/%Y %H:%M')
-          git diff --cached --quiet || git commit -m "🔄 Auto-update IPTV & EPG ($VIETNAM_TIME ICT)"
-          git push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🔄 Auto-update IPTV & EPG (${{ env.VIETNAM_TIME }} ICT)"
+          file_pattern: "http-iptv.m3u iptv.epg.xml my_list.m3u"
