@@ -22,6 +22,8 @@ import requests
 # CẤU HÌNH
 # ──────────────────────────────────────────────────────────────────────
 SOURCES: Final[list[str]] = [
+    "https://vips-livecdn.fptplay.net/live/media/vtv8/live-hls-avc/index.m3u8",
+    "https://live.canthotv.vn/cs2/live.stream/playlist.m3u8",
     "https://iptv-org.github.io/iptv/countries/vn.m3u",
     "https://dl.dropboxusercontent.com/s/o5vygit34v9ryly71gam4/coban66.m3u?rlkey=auyoon54hfubajt16nc7u7dbn&st=70gyvtcu&dl=0",
     # "https://raw.githubusercontent.com/MFT-T/diwi-iptv/refs/heads/main/my_list.m3u",
