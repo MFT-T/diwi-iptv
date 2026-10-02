@@ -21,6 +21,7 @@ import requests
 # CẤU HÌNH
 # ──────────────────────────────────────────────────────────────────────
 SOURCES: Final[list[str]] = [
+    "https://iptv-org.github.io/iptv/countries/vn.m3u",
     "https://dl.dropboxusercontent.com/s/o5vygit34v9ryly71gam4/coban66.m3u?rlkey=auyoon54hfubajt16nc7u7dbn&st=70gyvtcu&dl=0",
     "https://raw.githubusercontent.com/MFT-T/diwi-iptv/refs/heads/main/my_list.m3u",
 ]
@@ -622,21 +623,42 @@ def parse_m3u(text: str) -> list[Channel]:
 
 def merge_sources(lists: list[list[Channel]]) -> list[Channel]:
     best: dict[str, Channel] = {}
-    seen_urls: set[str] = set()
+    
+    # Tập hợp các kênh (đã chuẩn hóa tên) đã lấy được từ Nguồn 1
+    source_1_keys: set[str] = set()
 
-    for ch in (ch for lst in lists for ch in lst):
-        url = ch.url.strip()
-        if url in seen_urls:
-            continue
-        key = _dedup_key(ch.name)
-        existing = best.get(key)
-        if existing is None or ch.quality > existing.quality:
-            if existing is not None:
-                seen_urls.discard(existing.url.strip())
-            best[key] = ch
-            seen_urls.add(url)
+    # ------------------------------------------------------------------
+    # BƯỚC 1: Xử lý riêng Nguồn 1 (lists[0])
+    # ------------------------------------------------------------------
+    if lists:
+        for ch in lists[0]:
+            key = _dedup_key(ch.name)
+            existing = best.get(key)
+            
+            # Nếu kênh chưa có HOẶC gặp link mới có chất lượng CAO HƠN trong Nguồn 1
+            if existing is None or ch.quality > existing.quality:
+                best[key] = ch
+                source_1_keys.add(key)
+
+    # ------------------------------------------------------------------
+    # BƯỚC 2: Xử lý các nguồn còn lại (Nguồn 2, Nguồn 3,...)
+    # ------------------------------------------------------------------
+        for lst in lists[1:]:
+            for ch in lst:
+            key = _dedup_key(ch.name)
+            
+            # ĐIỀU KIỆN QUAN TRỌNG:
+            # 1. Nếu kênh đã xuất hiện ở Nguồn 1 -> BỎ QUA HOÀN TOÀN (dù Nguồn 2/3 có HD/4K)
+                if key in source_1_keys:
+                continue
+                
+            # 2. Nếu kênh chưa từng có -> Thêm mới (và so chất lượng nội bộ giữa các nguồn phụ)
+            existing = best.get(key)
+                if existing is None or ch.quality > existing.quality:
+                best[key] = ch
 
     return list(best.values())
+    
 
 
 def sort_channels(channels: list[Channel]) -> list[Channel]:
