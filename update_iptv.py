@@ -1,3 +1,4 @@
+```python
 #!/usr/bin/env python3
 """
 IPTV Auto-updater
@@ -39,6 +40,9 @@ HTTP_HEADERS: Final[dict[str, str]] = {
     )
 }
 
+# Link gốc chứa Logo từ Repository tvn-logo
+MY_LOGO_BASE_URL: Final[str] = "https://raw.githubusercontent.com/MFT-T/tvn-logo/main"
+
 # ──────────────────────────────────────────────────────────────────────
 # REGEX PRE-COMPILED
 # ──────────────────────────────────────────────────────────────────────
@@ -47,9 +51,10 @@ _DEDUP_RE = re.compile(r"[\s\-._]+")
 _BITRATE_RE = re.compile(r"(\d+(?:\.\d+)?)\s*mb(?:ps)?", re.I)
 _NOISE_RE = re.compile(
     r"[\s\-–|]*\b(?:fhd|full\s*hd|hd|sd|4k|8k|uhd|h\.?264|h\.?265|hevc|avc"
-    r"|\d+(?:\.\d+)?\s*mbps|\d+\s*kbps)\b.*$",
+    r"|\d+p|\d+(?:\.\d+)?\s*mbps|\d+\s*kbps)\b.*$",
     re.IGNORECASE,
 )
+
 _PIPE_RE = re.compile(r"\s*\|.*$")
 _MULTI_SPACE_RE = re.compile(r"\s{2,}")
 _TVG_ID_RE = re.compile(r'tvg-id="([^"]*)"')
@@ -278,140 +283,36 @@ _KNOWN_IDS: Final[frozenset[str]] = frozenset(_CHANNEL_DATA)
 # THỨ TỰ HIỂN THỊ & INDEX SORT
 # ──────────────────────────────────────────────────────────────────────
 _VTV_ORDER: Final[list[str]] = [
-    "VTV1",
-    "VTV2",
-    "VTV3",
-    "VTV4",
-    "VTV5",
-    "VTV5 Tây Nam Bộ",
-    "VTV5 Tây Nguyên",
-    "VTV6",
-    "VTV6 Dự Phòng 1",
-    "VTV6 Dự Phòng 2",
-    "VTV7",
-    "VTV8",
-    "VTV9",
-    "VTV10",
-    "VietNamToDay",
+    "VTV1", "VTV2", "VTV3", "VTV4", "VTV5", "VTV5 Tây Nam Bộ",
+    "VTV5 Tây Nguyên", "VTV6",
+    "VTV7", "VTV8", "VTV9", "VTV10", "VietNamToDay",
 ]
-_ANQP_ORDER: Final[list[str]] = [
-    "ANTV",
-    "QPVN",
-]
+_ANQP_ORDER: Final[list[str]] = ["ANTV", "QPVN"]
 _HTV_ORDER: Final[list[str]] = [
-    "HTV1",
-    "HTV2",
-    "HTV3",
-    "HTV4",
-    "HTV5",
-    "HTV7",
-    "HTV9",
-    "HTVC+",
-    "HTVC Ca Nhạc",
-    "HTVC Du Lịch",
-    "HTVC Gia Đình",
-    "HTVC Phim",
-    "HTVC Phụ Nữ",
-    "HTV Thể Thao",
-    "HTVC Thuần Việt",
-    
+    "HTV1", "HTV2", "HTV3", "HTV4", "HTV5", "HTV7", "HTV9",
+    "HTVC+", "HTVC Ca Nhạc", "HTVC Du Lịch", "HTVC Gia Đình",
+    "HTVC Phim", "HTVC Phụ Nữ", "HTV Thể Thao", "HTVC Thuần Việt",
 ]
 _VTVcab_ORDER: Final[list[str]] = [
-    "ON Golf",
-    "ON HomeShopping",
-    "ON Kids", "ON Life", 
-    "ON Movies",
-    "ON Phim Việt",
-    "ON Vie DRAMAS",
-    "TVB ViệtNam",
+    "ON Golf", "ON HomeShopping", "ON Kids", "ON Life",
+    "ON Movies", "ON Phim Việt", "ON Vie DRAMAS", "TVB ViệtNam",
 ]
 _SCTV_ORDER: Final[list[str]] = [
-    "SCTV1",
-    "SCTV2",
-    "SCTV3",
-    "SCTV4",
-    "SCTV5",
-    "SCTV6",
-    "SCTV7",
-    "SCTV8",
-    "SCTV9", 
-    "SCTV11",
-    "SCTV12",
-    "SCTV13",
-    "SCTV14",
-    "SCTV15",
-    "SCTV16",
-    "SCTV17",
-    "SCTV18", 
-    "SCTV19",
-    "SCTV20",
-    "SCTV21",
-    "SCTV22",
-    "SCTV Phim tổng hợp",
+    "SCTV1", "SCTV2", "SCTV3", "SCTV4", "SCTV5", "SCTV6", "SCTV7", "SCTV8", "SCTV9",
+    "SCTV11", "SCTV12", "SCTV13", "SCTV14", "SCTV15", "SCTV16", "SCTV17", "SCTV18",
+    "SCTV19", "SCTV20", "SCTV21", "SCTV22", "SCTV Phim tổng hợp",
 ]
 _PROVINCE_ORDER: Final[list[str]] = [
-    "An Giang",
-    "Bà Rịa - Vũng Tàu",
-    "Bạc Liêu",
-    "Bắc Giang",
-    "Bắc Kạn",
-    "Bắc Ninh",
-    "Bến Tre",
-    "Bình Định",
-    "Bình Dương",
-    "Bình Phước",
-    "Bình Thuận",
-    "Cà Mau",
-    "Cao Bằng",
-    "Cần Thơ",
-    "Đà Nẵng",
-    "Đắk Lắk",
-    "Đắk Nông",
-    "Điện Biên",
-    "Đồng Nai",
-    "Đồng Tháp",
-    "Gia Lai",
-    "Hà Giang",
-    "Hà Nam",
-    "Hà Nội",
-    "Hà Tĩnh",
-    "Hải Dương",
-    "Hải Phòng",
-    "Hậu Giang",
-    "Hòa Bình",
-    "Huế",
-    "Hưng Yên", 
-    "Khánh Hòa",
-    "Kiên Giang",
-    "Kon Tum",
-    "Lai Châu",
-    "Lạng Sơn",
-    "Lào Cai",
-    "Lâm Đồng",
-    "Long An",
-    "Nam Định",
-    "Nghệ An",
-    "Ninh Bình",
-    "Ninh Thuận",
-    "Phú Thọ",
-    "Phú Yên",
-    "Quảng Bình",
-    "Quảng Nam",
-    "Quảng Ngãi",
-    "Quảng Ninh",
-    "Quảng Trị",
-    "Sóc Trăng",
-    "Sơn La",
-    "Tây Ninh",
-    "Thái Bình",
-    "Thái Nguyên",
-    "Thanh Hóa",
-    "Tiền Giang",
-    "Trà Vinh",
-    "Tuyên Quang",
-    "Vĩnh Long",
-    "Vĩnh Phúc",
-    "Yên Bái",
+    "An Giang", "Bà Rịa - Vũng Tàu", "Bạc Liêu", "Bắc Giang", "Bắc Kạn", "Bắc Ninh",
+    "Bến Tre", "Bình Định", "Bình Dương", "Bình Phước", "Bình Thuận", "Cà Mau",
+    "Cao Bằng", "Cần Thơ", "Đà Nẵng", "Đắk Lắk", "Đắk Nông", "Điện Biên", "Đồng Nai",
+    "Đồng Tháp", "Gia Lai", "Hà Giang", "Hà Nam", "Hà Nội", "Hà Tĩnh", "Hải Dương",
+    "Hải Phòng", "Hậu Giang", "Hòa Bình", "Huế", "Hưng Yên", "Khánh Hòa", "Kiên Giang",
+    "Kon Tum", "Lai Châu", "Lạng Sơn", "Lào Cai", "Lâm Đồng", "Long An", "Nam Định",
+    "Nghệ An", "Ninh Bình", "Ninh Thuận", "Phú Thọ", "Phú Yên", "Quảng Bình",
+    "Quảng Nam", "Quảng Ngãi", "Quảng Ninh", "Quảng Trị", "Sóc Trăng", "Sơn La",
+    "Tây Ninh", "Thái Bình", "Thái Nguyên", "Thanh Hóa", "Tiền Giang", "Trà Vinh",
+    "Tuyên Quang", "Vĩnh Long", "Vĩnh Phúc", "Yên Bái",
 ]
 
 _GROUP_ORDER: Final[dict[str, int]] = {"VTV": 0, "ANQP": 1, "HTV": 2, "VTVcab": 3, "SCTV": 4, "LOCAL": 5}
@@ -423,21 +324,12 @@ _ANQP_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_ANQP_
 _PROVINCE_IDX: Final[dict[str, int]] = {p: i for i, p in enumerate(_PROVINCE_ORDER)}
 
 _LABEL: Final[dict[str, str]] = {
-    "VTV": "VTV",
-    "ANQP": "ANQP",
-    "HTV": "HTV",
-    "VTVcab": "VTVcab",
-    "SCTV": "SCTV",
-    "LOCAL": "Địa phương"
+    "VTV": "VTV", "ANQP": "ANQP", "HTV": "HTV",
+    "VTVcab": "VTVcab", "SCTV": "SCTV", "LOCAL": "Địa phương"
 }
 
-_LOCAL_KEYWORDS: Final[frozenset[str]] = frozenset(
-    ["địa phương", "dia phuong", "tỉnh", "tinh"]
-)
-
-_NOISE_NAMES: Final[frozenset[str]] = frozenset(
-    ["SỰ KIỆN", "VTVPRIME", "FPT", "VOV", "O2"]
-)
+_LOCAL_KEYWORDS: Final[frozenset[str]] = frozenset(["địa phương", "dia phuong", "tỉnh", "tinh"])
+_NOISE_NAMES: Final[frozenset[str]] = frozenset(["SỰ KIỆN", "VTVPRIME", "FPT", "VOV", "O2"])
 
 # ──────────────────────────────────────────────────────────────────────
 # DATA MODEL & HELPER
@@ -456,6 +348,23 @@ class Channel:
     @property
     def group_label(self) -> str:
         return _LABEL[self.group_key]
+
+
+def get_custom_logo(ch: Channel) -> str:
+    """Tự động trả về URL logo từ repository tvn-logo dựa trên group_key và tvg_id"""
+    if ch.tvg_id:
+        folder_map = {
+            "VTV": "vtv_logo",
+            "ANQP": "anqp_logo",
+            "HTV": "htv_logo",
+            "VTVcab": "vtvcab_logo",
+            "SCTV": "sctv_logo",
+            "LOCAL": "thdp_logo",
+        }
+        folder = folder_map.get(ch.group_key, "vtv_logo")
+        return f"{MY_LOGO_BASE_URL}/{folder}/{ch.tvg_id}.png"
+        
+    return ch.tvg_logo
 
 
 def quality_score(raw: str) -> tuple[int, float]:
@@ -483,32 +392,32 @@ def resolve_display_name(raw: str, tvg_id: str) -> str:
         entry = _CHANNEL_DATA.get(tvg_id)
         if entry:
             return entry[0]
-    s = _NOISE_RE.sub("", raw).strip()
+
+    # 1. Xóa dấu ngoặc chứa độ phân giải như (720p), (1080p)...
+    s = re.sub(r"\(\s*\d+p\s*\)", "", raw, flags=re.I)
+    
+    # 2. Thay thế từ sports sang Thể Thao
+    s = re.sub(r"\bsports\b", "Thể Thao", s, flags=re.I)
+
+    # 3. Lọc nhiễu độ phân giải dạng đứng lẻ (720p, 1080p, HD, FHD...)
+    s = _NOISE_RE.sub("", s).strip()
     s = _PIPE_RE.sub("", s).strip()
+
     return _MULTI_SPACE_RE.sub(" ", s) or raw.strip()
 
 
 def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
     grp = src_grp.lower()
-    
-    # Chuẩn hóa tvg_id để dễ bắt từ khóa (loại bỏ '-', '_')
     tid = tvg_id.lower().replace("-", "").replace("_", "")
 
     # LỚP 1: Kiểm tra theo Group Name (src_grp)
-    if "vtvcab" in grp:
-        return "VTVcab"
-    if "vtv" in grp:
-        return "VTV"
-    if "htv" in grp:
-        return "HTV"
-    if "sctv" in grp:
-        return "SCTV"
-    if "anqp" in grp:
-        return "ANQP"
-    if any(kw in grp for kw in _LOCAL_KEYWORDS):
-        return "LOCAL"
-    if "quốc phòng" in grp or "quoc phong" in grp:
-        return "ANQP"
+    if "vtvcab" in grp: return "VTVcab"
+    if "vtv" in grp: return "VTV"
+    if "htv" in grp: return "HTV"
+    if "sctv" in grp: return "SCTV"
+    if "anqp" in grp: return "ANQP"
+    if any(kw in grp for kw in _LOCAL_KEYWORDS): return "LOCAL"
+    if "quốc phòng" in grp or "quoc phong" in grp: return "ANQP"
 
     # LỚP 2: Tra cứu Bảng ID cố định (_KNOWN_IDS)
     if tvg_id in _KNOWN_IDS:
@@ -516,49 +425,29 @@ def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
         return tag if tag in ("VTV", "HTV", "VTVcab", "SCTV", "ANQP") else "LOCAL"
 
     # LỚP 3: Kiểm tra tvg_id đã chuẩn hóa (tid)
-    # 3a. Bắt tiền tố hoặc từ khóa đặc trưng của VTVcab
     _VTVCAB_KEYWORDS = (
-        "vtvcab",
-        "onsports",
-        "oncine",
-        "ongolf",
-        "onmovies", 
-        "onkids",
-        "bongdatv",
-        "thethaotv",
-        "onphimviet",
-        "onlife", 
-        "onhomeshopping",
-        "onviedramas",
-        "tvbvietnam.vn@sd",
+        "vtvcab", "onsports", "oncine", "ongolf", "onmovies", 
+        "onkids", "bongdatv", "thethaotv", "onphimviet", "onlife", 
+        "onhomeshopping", "onviedramas", "tvbvietnam.vn@sd",
     )
     if any(kw in tid for kw in _VTVCAB_KEYWORDS):
         return "VTVcab"     
 
-    _PROVINCE_KEYWORDS = (
-        "dongnaitv3.vn@sd",
-        "dongnaitv3",
-        "dongnai3",
-    )
+    _PROVINCE_KEYWORDS = ("dongnaitv3.vn@sd", "dongnaitv3", "dongnai3")
     if any(kw in tid for kw in _PROVINCE_KEYWORDS):
         return "LOCAL"
 
-
-    # 3b. Kiểm tra các đài khác
-    if tid.startswith("vtv"):
-        return "VTV"
-    if tid.startswith("htv"):
-        return "HTV"
-    if tid.startswith("sctv"):
-        return "SCTV"
-    if tid.startswith("anqp"):
-        return "ANQP"
+    if tid.startswith("vtv"): return "VTV"
+    if tid.startswith("htv"): return "HTV"
+    if tid.startswith("sctv"): return "SCTV"
+    if tid.startswith("anqp"): return "ANQP"
         
     return None
 
 
 def _is_noise(tvg_id: str, upper_name: str) -> bool:
     return any(kw in upper_name for kw in _NOISE_NAMES)
+
 
 # ──────────────────────────────────────────────────────────────────────
 # PARSER, MERGE, SORT & WRITE
@@ -623,43 +512,30 @@ def parse_m3u(text: str) -> list[Channel]:
 
 def merge_sources(lists: list[list[Channel]]) -> list[Channel]:
     best: dict[str, Channel] = {}
-    
-    # Tập hợp các kênh (đã chuẩn hóa tên) đã lấy được từ Nguồn 1
     source_1_keys: set[str] = set()
 
-    # ------------------------------------------------------------------
-    # BƯỚC 1: Xử lý riêng Nguồn 1 (lists[0])
-    # ------------------------------------------------------------------
+    # BƯỚC 1: Xử lý Nguồn 1
     if lists:
         for ch in lists[0]:
             key = _dedup_key(ch.name)
             existing = best.get(key)
-            
-            # Nếu kênh chưa có HOẶC gặp link mới có chất lượng CAO HƠN trong Nguồn 1
             if existing is None or ch.quality > existing.quality:
                 best[key] = ch
                 source_1_keys.add(key)
 
-    # ------------------------------------------------------------------
-    # BƯỚC 2: Xử lý các nguồn còn lại (Nguồn 2, Nguồn 3,...)
-    # ------------------------------------------------------------------
+    # BƯỚC 2: Xử lý Nguồn 2, Nguồn 3...
     for lst in lists[1:]:
         for ch in lst:
             key = _dedup_key(ch.name)
-            
-            # ĐIỀU KIỆN QUAN TRỌNG:
-            # 1. Nếu kênh đã xuất hiện ở Nguồn 1 -> BỎ QUA HOÀN TOÀN (dù Nguồn 2/3 có HD/4K)
             if key in source_1_keys:
                 continue
                 
-            # 2. Nếu kênh chưa từng có -> Thêm mới (và so chất lượng nội bộ giữa các nguồn phụ)
             existing = best.get(key)
             if existing is None or ch.quality > existing.quality:
                 best[key] = ch
 
     return list(best.values())
 
-    
 
 def sort_channels(channels: list[Channel]) -> list[Channel]:
     def key(ch: Channel) -> tuple:
@@ -689,9 +565,10 @@ def write_m3u(channels: list[Channel], path: str) -> None:
             for src in SOURCES:
                 f.write(f"#EXTM3U-SOURCE:{src}\n")
             for ch in channels:
+                final_logo = get_custom_logo(ch)
                 f.write(
                     f'#EXTINF:-1 tvg-id="{ch.tvg_id}" '
-                    f'tvg-logo="{ch.tvg_logo}" '
+                    f'tvg-logo="{final_logo}" '
                     f'group-title="{ch.group_label}",{ch.name}\n'
                     f"{ch.url}\n"
                 )
@@ -705,16 +582,13 @@ def write_m3u(channels: list[Channel], path: str) -> None:
 # XỬ LÝ FILE M3U THỦ CÔNG
 # ──────────────────────────────────────────────────────────────────────
 def update_manual_m3u(input_path: str, output_path: str) -> None:
-    """Đọc file M3U thủ công, giữ nguyên tất cả kênh/thứ tự, chỉ chèn link EPG mới vào đầu."""
     print(f"\n📝 Đang cập nhật EPG cho file thủ công: {input_path}...")
     try:
         with open(input_path, "r", encoding="utf-8") as f:
             lines = f.readlines()
 
-        # Lọc bỏ các dòng #EXTM3U cũ
         content_lines = [line for line in lines if not line.startswith("#EXTM3U")]
 
-        # Ghi file mới với Header EPG cá nhân lên đầu
         with open(output_path, "w", encoding="utf-8") as f:
             f.write(f'#EXTM3U url-tvg="{MY_EPG_URL}" x-tvg-url="{MY_EPG_URL}"\n')
             f.writelines(content_lines)
@@ -776,15 +650,13 @@ def main() -> None:
             processed.append(parsed)
 
     if processed:
-        # Gộp, lọc trùng và sắp xếp cho danh sách tự động
         print("\n🔀  Gộp & dedup danh sách tự động…")
         final = sort_channels(merge_sources(processed))
-        # Xuất file M3U tự động
         write_m3u(final, OUTPUT_FILE)
     else:
         print("⚠  Không có nguồn tự động nào hợp lệ.", file=sys.stderr)
 
-    # 3. Xử lý file M3U thủ công (Giữ nguyên danh sách/thứ tự, chỉ gắn EPG)
+    # 3. Xử lý file M3U thủ công
     update_manual_m3u("my_list.m3u", "my_list.m3u")
 
 
