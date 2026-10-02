@@ -151,7 +151,7 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     # ── VTVcab ───────────────────────────────────────────────────────
     "onphimviet": ("ON Phim Việt", "VTVcab"),
     "ongolf": ("ON Golf", "VTVcab"),
-    "OnHomeShopping": ("ON HomeShopping", "VTVcab"),
+    "onhomeshopping": ("ON HomeShopping", "VTVcab"),
     "onkids": ("ON Kids", "VTVcab"),
     "onlife": ("ON Life", "VTVcab"),
     "onmovies": ("ON Movies", "VTVcab"),
@@ -533,8 +533,6 @@ def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
         "dongnaitv3.vn@sd",
         "dongnaitv3",
         "dongnai3",
-        "đnnrtv3",
-        "dnnrtv3",
     )
     if any(kw in tid for kw in _PROVINCE_KEYWORDS):
         return "LOCAL"
