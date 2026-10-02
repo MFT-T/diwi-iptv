@@ -306,7 +306,7 @@ _HTV_ORDER: Final[list[str]] = [
     "HTVC Gia Đình",
     "HTVC Phim",
     "HTVC Phụ Nữ",
-    "HTVC Thể Thao",
+    "HTV Thể Thao",
     "HTVC Thuần Việt",
     "HTVC+",
 ]
