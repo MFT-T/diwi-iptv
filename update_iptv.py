@@ -6,6 +6,7 @@ IPTV Auto-updater
 - EPG: Tự động tải, sửa múi giờ Việt Nam (+0700) và xuất file iptv.epg.xml
 - Sắp xếp địa phương: Tên tỉnh thành A-Z (63 tỉnh thành)
 - tvg-id chuẩn hóa theo vnepg (viết liền, không dấu gạch ngang)
+- Kiểm tra luồng: Kiểm tra song song và loại bỏ link chết trước khi ghi file
 - Output: http-iptv.m3u, my_list.m3u & iptv.epg.xml
 """
 
@@ -13,6 +14,7 @@ import re
 import sys
 import unicodedata
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 from typing import Final, Optional
 
@@ -24,7 +26,7 @@ import requests
 SOURCES: Final[list[str]] = [
     "https://iptv-org.github.io/iptv/countries/vn.m3u",
     "https://dl.dropboxusercontent.com/s/o5vygit34v9ryly71gam4/coban66.m3u?rlkey=auyoon54hfubajt16nc7u7dbn&st=70gyvtcu&dl=0",
-    "https://raw.githubusercontent.com/MFT-T/diwi-iptv/refs/heads/main/my_list.m3u",
+   # "https://raw.githubusercontent.com/MFT-T/diwi-iptv/refs/heads/main/my_list.m3u",
 ]
 
 RAW_EPG_SOURCE: Final[str] = "https://epg.io.vn/epgu.xml"
@@ -32,6 +34,9 @@ EPG_OUTPUT_FILE: Final[str] = "iptv.epg.xml"
 MY_EPG_URL: Final[str] = f"https://raw.githubusercontent.com/MFT-T/diwi-iptv/main/{EPG_OUTPUT_FILE}"
 OUTPUT_FILE: Final[str] = "http-iptv.m3u"
 GLOBAL_TIMEOUT: Final[int] = 20
+STREAM_CHECK_TIMEOUT: Final[int] = 5  # Timeout kiểm tra sống chết cho mỗi luồng (giây)
+MAX_CHECK_WORKERS: Final[int] = 10     # Số luồng kiểm tra song song cùng lúc
+
 HTTP_HEADERS: Final[dict[str, str]] = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -402,6 +407,38 @@ def fetch(url: str) -> Optional[str]:
         return None
 
 
+# ──────────────────────────────────────────────────────────────────────
+# BỔ SUNG: KIỂM TRA SỐNG CHẾT LUỒNG LUỒNG IPTV
+# ──────────────────────────────────────────────────────────────────────
+def is_stream_alive(url: str, timeout: int = STREAM_CHECK_TIMEOUT) -> bool:
+    """Kiểm tra URL luồng IPTV xem còn sống hay không."""
+    try:
+        with requests.get(url, headers=HTTP_HEADERS, timeout=timeout, stream=True) as response:
+            return response.status_code == 200
+    except Exception:
+        return False
+
+
+def filter_alive_channels(channels: list[Channel], max_workers: int = MAX_CHECK_WORKERS) -> list[Channel]:
+    """Kiểm tra song song trạng thái các kênh và loại bỏ link chết."""
+    print(f"\n🔍 Đang kiểm tra trạng thái luồng phát ({len(channels)} kênh)...")
+
+    def check_channel(ch: Channel) -> Optional[Channel]:
+        if is_stream_alive(ch.url):
+            print(f"  ✅ Sống: {ch.name}")
+            return ch
+        else:
+            print(f"  ❌ Đã chết: {ch.name} (Đã loại bỏ)")
+            return None
+
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        results = list(executor.map(check_channel, channels))
+
+    alive_channels = [ch for ch in results if ch is not None]
+    print(f"📊 Kết quả kiểm tra: {len(alive_channels)}/{len(channels)} kênh còn hoạt động.")
+    return alive_channels
+
+
 def resolve_display_name(raw: str, tvg_id: str) -> str:
     # 1. Tra cứu theo tvg_id
     if tvg_id:
@@ -669,8 +706,13 @@ def main() -> None:
 
     if processed:
         print("\n🔀  Gộp & dedup danh sách tự động…")
-        final = sort_channels(merge_sources(processed))
-        write_m3u(final, OUTPUT_FILE)
+        merged_channels = sort_channels(merge_sources(processed))
+        
+        # Lọc danh sách: Kiểm tra và loại bỏ các link đã chết
+        final_alive_channels = filter_alive_channels(merged_channels)
+        
+        # Ghi các kênh còn hoạt động ra file output
+        write_m3u(final_alive_channels, OUTPUT_FILE)
     else:
         print("⚠  Không có nguồn tự động nào hợp lệ.", file=sys.stderr)
 
