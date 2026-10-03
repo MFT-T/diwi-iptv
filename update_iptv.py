@@ -22,11 +22,11 @@ import requests
 # CẤU HÌNH
 # ──────────────────────────────────────────────────────────────────────
 SOURCES: Final[list[str]] = [
-	"htps://dl.dropboxusercontent.com/s/o5vygit34v9ryly71gam4/coban66.m3u?rlkey=auyoon54hfubajt16nc7u7dbn&st=70gyvtcu&dl=0",
-    "https://iptv-org.github.io/iptv/countries/vn.m3u",
+    "https://dl.dropboxusercontent.com/s/o5vygit34v9ryly71gam4/coban66.m3u?rlkey=auyoon54hfubajt16nc7u7dbn&st=70gyvtcu&dl=0",
+    "https://iptv-org.github.io/iptv/countries/vn.m3u",    
 ]
 
-RAW_EPG_SOURCE: Final[str] = "https://lichphatsong.io.vn/epgu.xml"
+RAW_EPG_SOURCE: Final[str] = "https://epg.io.vn/epgu.xml"
 EPG_OUTPUT_FILE: Final[str] = "iptv.epg.xml"
 MY_EPG_URL: Final[str] = f"https://raw.githubusercontent.com/MFT-T/diwi-iptv/main/{EPG_OUTPUT_FILE}"
 OUTPUT_FILE: Final[str] = "http-iptv.m3u"
