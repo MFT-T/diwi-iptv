@@ -26,7 +26,7 @@ SOURCES: Final[list[str]] = [
     "https://iptv-org.github.io/iptv/countries/vn.m3u",
 ]
 
-RAW_EPG_SOURCE: Final[str] = "https://epg.io.vn/epgu.xml"
+RAW_EPG_SOURCE: Final[str] = "https://lichphatsong.io.vn/epgu.xml"
 EPG_OUTPUT_FILE: Final[str] = "iptv.epg.xml"
 MY_EPG_URL: Final[str] = f"https://raw.githubusercontent.com/MFT-T/diwi-iptv/main/{EPG_OUTPUT_FILE}"
 OUTPUT_FILE: Final[str] = "http-iptv.m3u"
