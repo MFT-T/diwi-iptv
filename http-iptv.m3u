@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/MFT-T/diwi-iptv/main/iptv.epg.xml" x-tvg-url="https://raw.githubusercontent.com/MFT-T/diwi-iptv/main/iptv.epg.xml"
-#EXTM3U-SOURCE:https://dl.dropboxusercontent.com/s/o5vygit34v9ryly71gam4/coban66.m3u?rlkey=auyoon54hfubajt16nc7u7dbn&st=70gyvtcu&dl=0&seo_visit=1
+#EXTM3U-SOURCE:https://dl.dropboxusercontent.com/s/o5vygit34v9ryly71gam4/coban66.m3u?rlkey=auyoon54hfubajt16nc7u7dbn&st=70gyvtcu&dl=0
 #EXTINF:-1 tvg-id="vtv1hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtv_logo/vtv1hd.png" group-title="VTV",VTV1
 https://live.fptplay53.net/live/media/vtv1/live247-hls-avc/index.m3u8
 #EXTINF:-1 tvg-id="vtv2hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtv_logo/vtv2hd.png" group-title="VTV",VTV2
