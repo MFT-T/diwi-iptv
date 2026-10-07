@@ -126,7 +126,6 @@ TVG_ID_MAP: Final[dict[str, str]] = {
     "htvkey": "htv4hd",
     "sctv5": "sctv5hd",
     "sctv10": "sctv10hd",
-    "tvbvn": "tvbvn",
     "tvbvietnam.vn@sd": "tvbvn",
 }
 
