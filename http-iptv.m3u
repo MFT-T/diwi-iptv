@@ -58,12 +58,18 @@ https://live.fptplay53.net/epzhd1/htvcphunu_vhls.smil/chunklist.m3u8
 https://vips-livecdn.fptplay.net/live/media/htvthethao/live247-hls-avc/htvthethao-avc1_5600000=10000-mp4a_131600=20000.m3u8
 #EXTINF:-1 tvg-id="htvcthuanviethd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/htv_logo/htvcthuanviethd.png" group-title="HTV",HTVC Thuần Việt
 https://live.fptplay53.net/epzhd1/htvcthuanviethd_vhls.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="onbibi" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/onbibi.png" group-title="VTVcab",ON Bibi
+https://freem3u.xyz/api/live/play.m3u8?vid=178
+#EXTINF:-1 tvg-id="oncine" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/oncine.png" group-title="VTVcab",ON Cine
+https://freem3u.xyz/api/live/play.m3u8?vid=176
 #EXTINF:-1 tvg-id="ongolf" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/ongolf.png" group-title="VTVcab",ON Golf
 https://vmttv.dpdns.org/tv360/?id=vtvcab-23-golf-channel
 #EXTINF:-1 tvg-id="onkids" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/onkids.png" group-title="VTVcab",ON Kids
 https://freem3u.xyz/api/live/play.m3u8?vid=179
 #EXTINF:-1 tvg-id="onlife" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/onlife.png" group-title="VTVcab",ON Life
 https://freem3u.xyz/api/live/play.m3u8?vid=188
+#EXTINF:-1 tvg-id="onmusic" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/onmusic.png" group-title="VTVcab",ON Music
+https://freem3u.xyz/api/live/play.m3u8?vid=185
 #EXTINF:-1 tvg-id="onmovies" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/onmovies.png" group-title="VTVcab",ON Movies
 https://freem3u.xyz/api/live/play.m3u8?vid=181
 #EXTINF:-1 tvg-id="onphimviet" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/onphimviet.png" group-title="VTVcab",ON Phim Việt
@@ -76,12 +82,6 @@ https://freem3u.xyz/api/live/play.m3u8?vid=177
 https://amg01868-amg01868c3-tvbanywhere-us-4491.playouts.now.amagi.tv/playlist1080p.m3u8
 #EXTINF:-1 tvg-id="hitv" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/hitv.png" group-title="VTVcab",HiTV
 https://vmttv.dpdns.org/tv360/?id=hitv
-#EXTINF:-1 tvg-id="onbibi" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/onbibi.png" group-title="VTVcab",ON Bibi
-https://freem3u.xyz/api/live/play.m3u8?vid=178
-#EXTINF:-1 tvg-id="oncine" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/oncine.png" group-title="VTVcab",ON Cine
-https://freem3u.xyz/api/live/play.m3u8?vid=176
-#EXTINF:-1 tvg-id="onmusic" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/onmusic.png" group-title="VTVcab",ON Music
-https://freem3u.xyz/api/live/play.m3u8?vid=185
 #EXTINF:-1 tvg-id="onviegiaitri" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/onviegiaitri.png" group-title="VTVcab",ON Vie Giải Trí
 https://freem3u.xyz/api/live/play.m3u8?vid=180
 #EXTINF:-1 tvg-id="sctv1hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv1hd.png" group-title="SCTV",SCTV1
