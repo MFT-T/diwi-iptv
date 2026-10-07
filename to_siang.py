@@ -22,8 +22,8 @@ import requests
 # CẤU HÌNH
 # ──────────────────────────────────────────────────────────────────────
 SOURCES: Final[list[str]] = [
-   # "https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/main/vmttv",
-    "https://vietmitv.id.vn/vietmitv.m3u"
+    "https://vietmitv.id.vn/vietmitv.m3u",
+	"https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/main/vmttv",
 ]
 
 RAW_EPG_SOURCE: Final[str] = "https://epg.io.vn/epgu.xml"
