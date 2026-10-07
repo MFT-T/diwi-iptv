@@ -66,6 +66,8 @@ https://vietmitv.id.vn/c.php?k=6d5e19c
 https://vietmitv.id.vn/c.php?k=0fa218e
 #EXTINF:-1 tvg-id="onviedramas" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/onviedramas.png" group-title="VTVcab",ON Vie DRAMAS
 https://vietmitv.id.vn/c.php?k=2a92be7
+#EXTINF:-1 tvg-id="onbibi" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/onbibi.png" group-title="VTVcab",ON Bibi
+https://vietmitv.id.vn/c.php?k=0009010
 #EXTINF:-1 tvg-id="oncine" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/oncine.png" group-title="VTVcab",ON Cine
 https://vietmitv.id.vn/c.php?k=13fa5d2
 #EXTINF:-1 tvg-id="onechannel" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/onechannel.png" group-title="VTVcab",ON E- Channel
@@ -74,6 +76,8 @@ https://vietmitv.id.vn/c.php?k=2094832
 https://vietmitv.id.vn/c.php?k=d53ed82
 #EXTINF:-1 tvg-id="oninfotv" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/oninfotv.png" group-title="VTVcab",ON Info TV
 https://vietmitv.id.vn/c.php?k=bcb8ad9
+#EXTINF:-1 tvg-id="onmusic" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/onmusic.png" group-title="VTVcab",ON Music
+https://vietmitv.id.vn/c.php?k=2406e6c
 #EXTINF:-1 tvg-id="onstyle" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/onstyle.png" group-title="VTVcab",ON Style TV
 https://vietmitv.id.vn/c.php?k=db10182
 #EXTINF:-1 tvg-id="ontrending" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/ontrending.png" group-title="VTVcab",ON TRENDING TV
@@ -88,10 +92,6 @@ https://vietmitv.id.vn/c.php?k=be48ef9
 https://vietmitv.id.vn/c.php?k=a666bb8
 #EXTINF:-1 tvg-id="onviegiaitri" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/onviegiaitri.png" group-title="VTVcab",ON Vie Giải Trí
 https://vietmitv.id.vn/c.php?k=5c975ba
-#EXTINF:-1 tvg-id="onbibi" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/onbibi.png" group-title="VTVcab",On BiBi
-https://vietmitv.id.vn/c.php?k=0009010
-#EXTINF:-1 tvg-id="onmusic" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/onmusic.png" group-title="VTVcab",On Music
-https://vietmitv.id.vn/c.php?k=2406e6c
 #EXTINF:-1 tvg-id="sctv1hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv1hd.png" group-title="SCTV",SCTV1
 https://vietmitv.id.vn/c.php?k=82e5f0b
 #EXTINF:-1 tvg-id="sctv2hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv2hd.png" group-title="SCTV",SCTV2
