@@ -112,6 +112,8 @@ https://vmttv.dpdns.org/VTVGo/?sctv7
 https://vmttv.dpdns.org/ https://vips-livecdn.fptplay.net/live/media/event-04/hls_avc_v6/index.m3u8VTVGo/?sctv8
 #EXTINF:-1 tvg-id="sctv9hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv9hd.png" group-title="SCTV",SCTV9
 https://vmttv.dpdns.org/VTVGo/?sctv9
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/SCTV10.jpg" group-title="SCTV",SCTV10
+https://vmttv.dpdns.org/VTVGo/?sctv10
 #EXTINF:-1 tvg-id="sctv11hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv11hd.png" group-title="SCTV",SCTV11
 https://vmttv.dpdns.org/VTVGo/?sctv11
 #EXTINF:-1 tvg-id="sctv12hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv12hd.png" group-title="SCTV",SCTV12
@@ -138,8 +140,6 @@ https://vmttv.dpdns.org/VTVGo/?sctv21
 https://liveatmvng.vtvprime.vn/live/data8/SCTV22/Live_DASHDRM/SCTV22.mpd
 #EXTINF:-1 tvg-id="sctvhdpth" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctvhdpth.png" group-title="SCTV",SCTV Phim tổng hợp
 https://vmttv.dpdns.org/VTVGo/?sctvphim
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/SCTV10.jpg" group-title="SCTV",SCTV10
-https://vmttv.dpdns.org/VTVGo/?sctv10
 #EXTINF:-1 tvg-id="sctv4k" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv4k.png" group-title="SCTV",SCTV4K
 https://vietanhtv.id.vn/sctv/sctv-4k/index.m3u8
 #EXTINF:-1 tvg-id="angiang1" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/thdp_logo/angiang1.png" group-title="Địa phương",An Giang 1
