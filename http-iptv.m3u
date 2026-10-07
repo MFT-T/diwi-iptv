@@ -32,6 +32,8 @@ https://vietmitv.id.vn/c.php?k=d68c81a
 https://vietmitv.id.vn/c.php?k=be5d3ca
 #EXTINF:-1 tvg-id="htv3hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/htv_logo/htv3hd.png" group-title="HTV",HTV3
 https://vietmitv.id.vn/c.php?k=0e7df9a
+#EXTINF:-1 tvg-id="htv4hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/htv_logo/htv4hd.png" group-title="HTV",HTV4
+https://vietmitv.id.vn/c.php?k=11dc023
 #EXTINF:-1 tvg-id="htv7hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/htv_logo/htv7hd.png" group-title="HTV",HTV7
 https://vietmitv.id.vn/c.php?k=2a99d18
 #EXTINF:-1 tvg-id="htv9hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/htv_logo/htv9hd.png" group-title="HTV",HTV9
@@ -52,8 +54,6 @@ https://vietmitv.id.vn/c.php?k=fde41e1
 https://vietmitv.id.vn/c.php?k=32d75b2
 #EXTINF:-1 tvg-id="htvcthuanviethd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/htv_logo/htvcthuanviethd.png" group-title="HTV",HTVC Thuần Việt
 https://vietmitv.id.vn/c.php?k=bc5919a
-#EXTINF:-1 tvg-id="htvkey" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/htv_logo/htvkey.png" group-title="HTV",HTV Key
-https://vietmitv.id.vn/c.php?k=11dc023
 #EXTINF:-1 tvg-id="ongolf" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/ongolf.png" group-title="VTVcab",ON Golf
 https://vietmitv.id.vn/c.php?k=7c1dc3a
 #EXTINF:-1 tvg-id="onkids" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/onkids.png" group-title="VTVcab",ON Kids
