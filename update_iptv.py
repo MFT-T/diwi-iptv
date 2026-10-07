@@ -183,7 +183,7 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "ongolf": ("ON Golf", "VTVcab"),
     "onhomeshopping": ("ON HomeShopping", "VTVcab"),
     "onkids": ("ON Kids", "VTVcab"),
-    "onlife": ("ON Life TV", "VTVcab"),
+    "onlife": ("ON Life", "VTVcab"),
     "onmovies": ("ON Movies", "VTVcab"),
     "onviedramas": ("ON Vie DRAMAS", "VTVcab"),
     "onechannel": ("ON E-Channel", "VTVcab"),
@@ -375,7 +375,7 @@ _HTV_ORDER: Final[list[str]] = [
     "HTVC Phim", "HTVC Phụ Nữ", "HTV Thể Thao", "HTVC Thuần Việt",
 ]
 _VTVcab_ORDER: Final[list[str]] = [
-    "ON Bibi", "ON Cine", "ON E-Channel", "ON Golf", "ON HomeShopping", "ON Kids", "ON Life TV", "ON Music",
+    "ON Bibi", "ON Cine", "ON E-Channel", "ON Golf", "ON HomeShopping", "ON Kids", "ON Life", "ON Music",
     "ON Movies", "ON O2TV", "ON Phim Việt", "ON Style TV", "ON Trending", "ON Vie DRAMAS", "ON V Family", "ON Vie Giải Trí", "TVB Việt Nam", "HiTV",
 ]
 _SCTV_ORDER: Final[list[str]] = [
@@ -418,7 +418,7 @@ _LABEL: Final[dict[str, str]] = {
 }
 
 _LOCAL_KEYWORDS: Final[frozenset[str]] = frozenset(["địa phương", "dia phuong", "tỉnh", "tinh"])
-_NOISE_NAMES: Final[frozenset[str]] = frozenset(["SỰ KIỆN", "VTVPRIME", "FPT", "VOV", "O2"])
+_NOISE_NAMES: Final[frozenset[str]] = frozenset(["SỰ KIỆN", "VTVPRIME", "FPT", "VOV"])
 
 # ──────────────────────────────────────────────────────────────────────
 # DATA MODEL & HELPER
