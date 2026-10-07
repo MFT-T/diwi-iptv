@@ -186,6 +186,7 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "sctv2hd": ("SCTV2", "SCTV"),
     "sctv3hd": ("SCTV3", "SCTV"),
     "sctv4hd": ("SCTV4", "SCTV"),
+	"sctv5hd": ("SCTV5", "SCTV"),
     "sctv6hd": ("SCTV6", "SCTV"),
     "sctv7hd": ("SCTV7", "SCTV"),
     "sctv8hd": ("SCTV8", "SCTV"),
@@ -459,6 +460,10 @@ def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
     _PROVINCE_KEYWORDS = ("dongnaitv3.vn@sd", "dongnaitv3", "dongnai3")
     if any(kw in tid for kw in _PROVINCE_KEYWORDS):
         return "LOCAL"
+
+	_SCTV_KEYWORDS = ("sctv5", "sctv10", "",)
+	if any(kw in tid for kw in _SCTV_KEYWORDS):
+		return "SCTV"
 
     if tid.startswith("vtv"): return "VTV"
     if tid.startswith("htv"): return "HTV"
