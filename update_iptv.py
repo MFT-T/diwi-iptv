@@ -41,6 +41,14 @@ HTTP_HEADERS: Final[dict[str, str]] = {
 # Link gốc chứa Logo từ Repository tvn-logo
 MY_LOGO_BASE_URL: Final[str] = "https://raw.githubusercontent.com/MFT-T/tvn-logo/main"
 
+# DANH SÁCH CHẶN (Bất kỳ kênh nào có tvg_id hoặc tên thuộc danh sách này sẽ bị loại bỏ)
+BLOCKED_CHANNELS: Final[frozenset[str]] = frozenset([
+    "onfootball",
+    "onsportsplus",
+    "onsports",
+    "oninfotv"
+])
+
 # ──────────────────────────────────────────────────────────────────────
 # REGEX & BỎ DẤU TIẾNG VIỆT
 # ──────────────────────────────────────────────────────────────────────
@@ -369,7 +377,7 @@ _SCTV_ORDER: Final[list[str]] = [
 _PROVINCE_ORDER: Final[list[str]] = [
     "An Giang", "Bà Rịa - Vũng Tàu", "Bạc Liêu", "Bắc Giang", "Bắc Kạn", "Bắc Ninh",
     "Bến Tre", "Bình Định", "Bình Dương", "Bình Phước", "Bình Thuận", "Cà Mau",
-    "Cao Bằng", "Cần Thơ", "Đà Nẵng", "Đắk Lắk", "Đắk Nông", "Điện Biên", "Đồng Nai",
+    "Cao Bằng", "Cần Thơ", "Đà Nẵng", "Đắc Lắk", "Đắk Nông", "Điện Biên", "Đồng Nai",
     "Đồng Tháp", "Gia Lai", "Hà Giang", "Hà Nam", "Hà Nội", "Hà Tĩnh", "Hải Dương",
     "Hải Phòng", "Hậu Giang", "Hòa Bình", "Huế", "Hưng Yên", "Khánh Hòa", "Kiên Giang",
     "Kon Tum", "Lai Châu", "Lạng Sơn", "Lào Cai", "Lâm Đồng", "Long An", "Nam Định",
@@ -401,7 +409,7 @@ _LABEL: Final[dict[str, str]] = {
 }
 
 _LOCAL_KEYWORDS: Final[frozenset[str]] = frozenset(["địa phương", "dia phuong", "tỉnh", "tinh"])
-_NOISE_NAMES: Final[frozenset[str]] = frozenset(["SỰ KIỆN", "VTVPRIME", "FPT", "VOV", "O2",])
+_NOISE_NAMES: Final[frozenset[str]] = frozenset(["SỰ KIỆN", "VTVPRIME", "FPT", "VOV", "O2"])
 
 # ──────────────────────────────────────────────────────────────────────
 # DATA MODEL & HELPER
@@ -483,49 +491,25 @@ def resolve_display_name(raw: str, tvg_id: str) -> str:
 
 
 def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
-    grp = src_grp.lower()
-    tid = tvg_id.lower().replace("-", "").replace("_", "")
+    # Kiểm tra bắt buộc: Bỏ qua nếu kênh không thuộc danh sách _CHANNEL_DATA
+    if tvg_id not in _KNOWN_IDS:
+        return None
 
-    # LỚP 1: Kiểm tra theo Group Name
-    if "trung quốc" in grp or "china" in grp or "cctv" in grp: return "CHINA"
-    if "vtvcab" in grp: return "VTVcab"
-    if "vtv" in grp: return "VTV"
-    if "htv" in grp: return "HTV"
-    if "sctv" in grp: return "SCTV"
-    if "anqp" in grp: return "ANQP"
-    if any(kw in grp for kw in _LOCAL_KEYWORDS): return "LOCAL"
-    if "quốc phòng" in grp or "quoc phong" in grp: return "ANQP"
+    entry = _CHANNEL_DATA[tvg_id]
+    tag = entry[1]
 
-    # LỚP 2: Tra cứu Bảng ID cố định
-    if tvg_id in _KNOWN_IDS:
-        tag = _CHANNEL_DATA[tvg_id][1]
-        if tag == "Trung Quốc": return "CHINA"
-        return tag if tag in ("VTV", "HTV", "VTVcab", "SCTV", "ANQP") else "LOCAL"
-
-    # LỚP 3: Kiểm tra tvg_id đã chuẩn hóa (tid)
-    if tid.startswith("cctv"): return "CHINA"
+    if tag == "Trung Quốc":
+        return "CHINA"
+    if tag in ("VTV", "HTV", "VTVcab", "SCTV", "ANQP"):
+        return tag
     
-    _VTVCAB_KEYWORDS = (
-        "vtvcab", "onsports", "oncine", "ongolf", "onmovies", 
-        "onkids", "bongdatv", "thethaotv", "onphimviet", "onlife", 
-        "onhomeshopping", "onviedramas", "tvbvietnam.vn@sd",
-    )
-    if any(kw in tid for kw in _VTVCAB_KEYWORDS):
-        return "VTVcab"     
-
-    _PROVINCE_KEYWORDS = ("dongnaitv3.vn@sd", "dongnaitv3", "dongnai3")
-    if any(kw in tid for kw in _PROVINCE_KEYWORDS):
-        return "LOCAL"
-
-    if tid.startswith("vtv"): return "VTV"
-    if tid.startswith("htv"): return "HTV"
-    if tid.startswith("sctv"): return "SCTV"
-    if tid.startswith("anqp"): return "ANQP"
-        
-    return None
+    return "LOCAL"
 
 
 def _is_noise(tvg_id: str, upper_name: str) -> bool:
+    # Lọc nếu nằm trong từ khóa nhiễu, danh sách chặn BLOCKED_CHANNELS, hoặc tvg_id bị chặn
+    if tvg_id in BLOCKED_CHANNELS or _dedup_key(upper_name) in BLOCKED_CHANNELS:
+        return True
     return any(kw in upper_name for kw in _NOISE_NAMES)
 
 
