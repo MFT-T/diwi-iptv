@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://raw.githubusercontent.com/MFT-T/diwi-iptv/main/iptv.epg.xml" x-tvg-url="https://raw.githubusercontent.com/MFT-T/diwi-iptv/main/iptv.epg.xml"
+#EXTM3U url-tvg="https://raw.githubusercontent.com/MFT-T/diwi-iptv/main/diwi.epg.xml" x-tvg-url="https://raw.githubusercontent.com/MFT-T/diwi-iptv/main/diwi.epg.xml"
 
 #EXTINF:-1 tvg-id="vtv1hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/refs/heads/main/vtv_logo/vtv1hd.png" group-title="VTV", VTV1
 https://freem3u.xyz/api/live/play.m3u8?vid=2
