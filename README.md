@@ -7,7 +7,7 @@ Playlist này được tự động thu thập và sưu tập từ nhiều ngu�
 các bạn có thể copy liên kết này để thêm trực tiếp vào các ứng dụng xem IPTV (như Tivimate, OTT Navigator, Perfect Player, VLC...):
 
 ```
-https://raw.githubusercontent.com/MFT-T/diwi-iptv/main/http-iptv.m3u
+https://raw.githubusercontent.com/MFT-T/diwi-iptv/main/diwi.m3u
 ```
 
 ---
