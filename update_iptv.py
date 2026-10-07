@@ -126,7 +126,8 @@ TVG_ID_MAP: Final[dict[str, str]] = {
     "htvkey": "htv4hd",
     "sctv5": "sctv5hd",
     "sctv10": "sctv10hd",
-    "h_550/cctv11_logo_by_amazingtoludada3000_dew5uz3fullview.png?token=eyj0exaioijkv1qilcjhbgcioijiuzi1nij9.eyjzdwiioij1cm46yxbwojdlmgqxodg5odiynjqznznhnwywzdqxnwvhmgqynmuwiiwiaxnzijoidxjuomfwcdo3ztbkmtg4otgymjy0mzczytvmmgq0mtvlytbkmjzlmcisim9iaii6w1t7imhlawdodci6ijw9ntuwiiwicgf0aci6ilwvzlwvzwnknteynjmtymiwzi00ndy1lwfmodytzjdlzdi1ztu4ztcwxc9kzxc1dxozltbkm2yzy2fhltdhyzitngm5zc1hywy1lthhytzhymmzm2y0yi5wbmcilcj3awr0aci6ijw9mti4mcj9xv0simf1zci6wyj1cm46c2vydmljztppbwfnzs5vcgvyyxrpb25zil19.8ug6sn5aufjijretheuwek0cimretxyjcpnyih0u2bm": "cctv11",
+    "tvbvn": "tvbvn",
+    "tvbvietnam.vn@sd": "tvbvn",
 }
 
 
@@ -186,12 +187,14 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "onlife": ("ON Life", "VTVcab"),
     "onmovies": ("ON Movies", "VTVcab"),
     "onviedramas": ("ON Vie DRAMAS", "VTVcab"),
-    "tvbvietnam.vn@sd": ("TVB ViệtNam", "VTVcab"),
+    "tvbvn": ("TVB ViệtNam", "VTVcab"),
     "onviegiaitri": ("ON Vie Giải Trí", "VTVcab"),
     "ono2tv": ("ON O2TV", "VTVcab"),
     "onbibi": ("ON Bibi", "VTVcab"),
     "oncine": ("ON Cine", "VTVcab"),
     "onmusic": ("ON Music", "VTVcab"),
+    "ontrending": ("ON Trending", "VTVcab"),
+    "hitv": ("HiTV", "VTVcab"),
     
     # ── SCTV ─────────────────────────────────────────────────────────
     "sctv1hd": ("SCTV1", "SCTV"),
@@ -208,12 +211,16 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "sctv12hd": ("SCTV12", "SCTV"),
     "sctv13hd": ("SCTV13", "SCTV"),
     "sctv14hd": ("SCTV14", "SCTV"),
+    "sctv15hd": ("SCTV15", "SCTV"),
     "sctv16hd": ("SCTV16", "SCTV"),
+    "sctv17hd": ("SCTV17", "SCTV"),
     "sctv18hd": ("SCTV18", "SCTV"),
     "sctv19hd": ("SCTV19", "SCTV"),
     "sctv20hd": ("SCTV20", "SCTV"),
     "sctv21hd": ("SCTV21", "SCTV"),
+    "sctv22hd": ("SCTV22", "SCTV"),
     "sctvhdpth": ("SCTV Phim tổng hợp", "SCTV"),
+    "sctv4k": ("SCTV4K", "SCTV"),
     
     # ── ĐỊA PHƯƠNG — Miền Bắc ────────────────────────────────────────
     "hagiang": ("Hà Giang", "Hà Giang"),
@@ -367,12 +374,12 @@ _HTV_ORDER: Final[list[str]] = [
 ]
 _VTVcab_ORDER: Final[list[str]] = [
     "ON Golf", "ON HomeShopping", "ON Kids", "ON Life",
-    "ON Movies", "ON Phim Việt", "ON Vie DRAMAS", "TVB ViệtNam",
+    "ON Movies", "ON Phim Việt", "ON Trending", "ON Vie DRAMAS", "TVB ViệtNam", "HiTV",
 ]
 _SCTV_ORDER: Final[list[str]] = [
     "SCTV1", "SCTV2", "SCTV3", "SCTV4", "SCTV5", "SCTV6", "SCTV7", "SCTV8", "SCTV9",
     "SCTV10", "SCTV11", "SCTV12", "SCTV13", "SCTV14", "SCTV15", "SCTV16", "SCTV17", "SCTV18",
-    "SCTV19", "SCTV20", "SCTV21", "SCTV22", "SCTV Phim tổng hợp",
+    "SCTV19", "SCTV20", "SCTV21", "SCTV22", "SCTV Phim tổng hợp", "SCTV4K",
 ]
 _PROVINCE_ORDER: Final[list[str]] = [
     "An Giang", "Bà Rịa - Vũng Tàu", "Bạc Liêu", "Bắc Giang", "Bắc Kạn", "Bắc Ninh",
