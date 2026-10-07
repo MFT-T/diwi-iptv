@@ -1,12 +1,12 @@
-name: Update IPTV Playlist
+name: Siang IPTV Playlist
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # Tự động chạy 6 tiếng một lần
+    - cron: "0 */3 * * *"  # Tự động chạy 3 tiếng một lần
   workflow_dispatch:
   push:
     paths:
-      - "update_iptv.py"   # Tự chạy khi cập nhật code
+      - "to_siang.py"   # Tự chạy khi cập nhật code
 
 permissions:
   contents: write
@@ -38,10 +38,10 @@ jobs:
           echo "Thời gian hiện tại: $NOW ICT"
 
       - name: Run IPTV updater
-        run: python update_iptv.py
+        run: python to_siang.py
 
       - name: Commit & push playlist and EPG
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "🔄 Auto-update IPTV & EPG (${{ env.VIETNAM_TIME }} ICT)"
-          file_pattern: "http-iptv.m3u iptv.epg.xml my_list.m3u"
+          file_pattern: "diwi.m3u diwi.epg.xml my_list.m3u"
