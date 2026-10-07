@@ -371,6 +371,7 @@ _VTVcab_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_VTV
 _SCTV_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_SCTV_ORDER)}
 _ANQP_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_ANQP_ORDER)}
 _PROVINCE_IDX: Final[dict[str, int]] = {p: i for i, p in enumerate(_PROVINCE_ORDER)}
+_CCTV_IDX: Final[dict[str, int]] = {p: i for i, p in enumerrate(_CCTV_ORDER)}
 
 _LABEL: Final[dict[str, str]] = {
     "VTV": "VTV", "ANQP": "ANQP", "HTV": "HTV",
