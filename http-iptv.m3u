@@ -172,6 +172,8 @@ https://freem3u.xyz/api/live/play.m3u8?vid=52
 https://freem3u.xyz/api/live/play.m3u8?vid=53
 #EXTINF:-1 tvg-id="dongnai2" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/thdp_logo/dongnai2.png" group-title="Địa phương",Đồng Nai 2
 https://freem3u.xyz/api/live/play.m3u8?vid=255
+#EXTINF:-1 tvg-id="dongnai3" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/thdp_logo/dongnai3.png" group-title="Địa phương",Đồng Nai 3
+https://tv.vietanhtv.top/vieon/vieon.php?id=dong-nai-3
 #EXTINF:-1 tvg-id="dongthap1" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/thdp_logo/dongthap1.png" group-title="Địa phương",Đồng Tháp 1
 https://live.fptplay53.net/epzhd2/dongthap01_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="dongthap2" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/thdp_logo/dongthap2.png" group-title="Địa phương",Đồng Tháp 2
