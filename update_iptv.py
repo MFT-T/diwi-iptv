@@ -115,6 +115,7 @@ TVG_ID_MAP: Final[dict[str, str]] = {
     "thvl4": "vinhlong4hd",
     "thvl5hd": "vinhlong5hd",
     "thvl5": "vinhlong5hd",
+	"htvkey": "htv4hd",
 }
 
 
