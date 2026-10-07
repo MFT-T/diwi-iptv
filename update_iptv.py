@@ -553,7 +553,7 @@ def parse_m3u(text: str) -> list[Channel]:
         m_logo = _TVG_LOGO_RE.search(extinf_line)
         m_grp = _GROUP_TITLE_RE.search(extinf_line)
 
-        raw_name = extinf_line.split(",", 1)[-1].strip() if "," in extinf_line else ""
+        raw_name = extinf_line.rsplit(",", 1)[-1].strip() if "," in extinf_line else ""
 
         # Lấy tvg-id từ thẻ. Nếu không có hoặc rỗng thì tự động suy ra từ tên kênh (raw_name)
         raw_tvg_id = m_id.group(1) if (m_id and m_id.group(1).strip()) else raw_name
