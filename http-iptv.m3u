@@ -102,7 +102,7 @@ https://freem3u.xyz/api/live/play.m3u8?vid=201
 https://vmttv.dpdns.org/VTVGo/?sctv3
 #EXTINF:-1 tvg-id="sctv4hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv4hd.png" group-title="SCTV",SCTV4
 https://vmttv.dpdns.org/VTVGo/?sctv4
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/Logo/refs/heads/main/SCTV5.jpg" group-title="SCTV",SCTV5
+#EXTINF:-1 tvg-id="sctv5" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv5.png" group-title="SCTV",SCTV5
 https://vmttv.dpdns.org/VTVGo/?sctv5
 #EXTINF:-1 tvg-id="sctv6hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv6hd.png" group-title="SCTV",SCTV6
 https://freem3u.xyz/api/live/play.m3u8?vid=232
@@ -112,7 +112,7 @@ https://vmttv.dpdns.org/VTVGo/?sctv7
 https://vmttv.dpdns.org/ https://vips-livecdn.fptplay.net/live/media/event-04/hls_avc_v6/index.m3u8VTVGo/?sctv8
 #EXTINF:-1 tvg-id="sctv9hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv9hd.png" group-title="SCTV",SCTV9
 https://vmttv.dpdns.org/VTVGo/?sctv9
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/SCTV10.jpg" group-title="SCTV",SCTV10
+#EXTINF:-1 tvg-id="sctv10" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv10.png" group-title="SCTV",SCTV10
 https://vmttv.dpdns.org/VTVGo/?sctv10
 #EXTINF:-1 tvg-id="sctv11hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv11hd.png" group-title="SCTV",SCTV11
 https://vmttv.dpdns.org/VTVGo/?sctv11
@@ -244,39 +244,39 @@ https://vips-livecdn.fptplay.net/live/media/vinhlong3/live247-hls-avc/vinhlong3-
 https://live.fptplay53.net/epzhd2/vinhlong4-hd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="vinhlong5hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/thdp_logo/vinhlong5hd.png" group-title="Địa Phương",Vĩnh Long 5
 https://live.fptplay53.net/epzhd2/vinhlong5hd_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch541_425_305" group-title="🇨🇳| Trung Quốc",CCTV1
+#EXTINF:-1 tvg-id="cctv1" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/cctv_logo/cctv1.png" group-title="🇨🇳| Trung Quốc",CCTV1
 http://74.91.26.218:82/live/cctv1hd.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/he/2/2f/1920px-CCTV-2_Logo.svg.png" group-title="🇨🇳| Trung Quốc",CCTV2
+#EXTINF:-1 tvg-id="cctv2" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/cctv_logo/cctv2.png" group-title="🇨🇳| Trung Quốc",CCTV2
 http://74.91.26.218:82/live/cctv2hd.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/f/f2/CCTV3.png/revision/latest/scale-to-width-down/680?cb=20230514030148&path-prefix=vi" group-title="🇨🇳| Trung Quốc",CCTV3
+#EXTINF:-1 tvg-id="cctv3" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/cctv_logo/cctv3.png" group-title="🇨🇳| Trung Quốc",CCTV3
 http://74.91.26.218:82/live/cctv3hd.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/d/da/CCTV4.png/revision/latest?cb=20230520135601&path-prefix=vi" group-title="🇨🇳| Trung Quốc",CCTV4
+#EXTINF:-1 tvg-id="cctv4" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/cctv_logo/cctv4.png" group-title="🇨🇳| Trung Quốc",CCTV4
 http://74.91.26.218:82/live/cctv4hd.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/8/86/CCTV5.png/revision/latest/scale-to-width-down/1280?cb=20250201092935&path-prefix=vi" group-title="🇨🇳| Trung Quốc",CCTV5
+#EXTINF:-1 tvg-id="cctv5" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/cctv_logo/cctv5.png" group-title="🇨🇳| Trung Quốc",CCTV5
 https://cdn.qd.je/163189/cctv5
-#EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/6/62/CCTV5%2B_logo.png/revision/latest?cb=20220226104639&path-prefix=vi" group-title="🇨🇳| Trung Quốc",CCTV5+
+#EXTINF:-1 tvg-id="cctv5p" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/cctv_logo/cctv5p.png" group-title="🇨🇳| Trung Quốc",CCTV5+
 https://cdn.qd.je/163189/cctv5p
-#EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/d/d9/CCTV6.png/revision/latest?cb=20230816063202&path-prefix=vi" group-title="🇨🇳| Trung Quốc",CCTV6
+#EXTINF:-1 tvg-id="cctv6" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/cctv_logo/cctv6.png" group-title="🇨🇳| Trung Quốc",CCTV6
 http://74.91.26.218:82/live/cctv6hd.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/a/a6/CCTV7_tr%C6%B0%E1%BB%9Bc_2019.png/revision/latest/scale-to-width-down/1547?cb=20230104111736&path-prefix=vi" group-title="🇨🇳| Trung Quốc",CCTV7
+#EXTINF:-1 tvg-id="cctv7" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/cctv_logo/cctv7.png" group-title="🇨🇳| Trung Quốc",CCTV7
 http://74.91.26.218:82/live/cctv7hd.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://www.tvchinese.net/uploads/tv/cctv8.jpg" group-title="🇨🇳| Trung Quốc",CCTV8
+#EXTINF:-1 tvg-id="cctv8" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/cctv_logo/cctv8.png" group-title="🇨🇳| Trung Quốc",CCTV8
 http://74.91.26.218:82/live/cctv8hd.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/ba/CCTV-9.png/revision/latest?cb=20220111064222" group-title="🇨🇳| Trung Quốc",CCTV9
+#EXTINF:-1 tvg-id="cctv9" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/cctv_logo/cctv9.png" group-title="🇨🇳| Trung Quốc",CCTV9
 http://74.91.26.218:82/live/cctv9hd.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmUMEKDTwahilfUCb6CEmVmyRG5vjn-1QAUQ&usqp=CAU" group-title="🇨🇳| Trung Quốc",CCTV10
+#EXTINF:-1 tvg-id="cctv10" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/cctv_logo/cctv10.png" group-title="🇨🇳| Trung Quốc",CCTV10
 http://74.91.26.218:82/live/cctv10hd.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/7/7b/CCTV12.png/revision/latest/scale-to-width-down/1131?cb=20230513114830&path-prefix=vi" group-title="🇨🇳| Trung Quốc",CCTV12
+#EXTINF:-1 tvg-id="cctv12" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/cctv_logo/cctv12.png" group-title="🇨🇳| Trung Quốc",CCTV12
 http://74.91.26.218:82/live/cctv12hd.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logos/images/e/e4/CCTV13.png/revision/latest/scale-to-width-down/1131?cb=20230513114844&path-prefix=vi" group-title="🇨🇳| Trung Quốc",CCTV13
+#EXTINF:-1 tvg-id="cctv13" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/cctv_logo/cctv13.png" group-title="🇨🇳| Trung Quốc",CCTV13
 http://74.91.26.218:82/live/cctv13hd.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/happy-heroes/images/c/c8/CCTV-14_Logo.png/revision/latest?cb=20201002050804" group-title="🇨🇳| Trung Quốc",CCTV14
+#EXTINF:-1 tvg-id="cctv14" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/cctv_logo/cctv14.png" group-title="🇨🇳| Trung Quốc",CCTV14
 http://74.91.26.218:82/live/cctv14hd.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/MXep2Zc.png" group-title="🇨🇳| Trung Quốc",CCTV15
+#EXTINF:-1 tvg-id="cctv15" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/cctv_logo/cctv15.png" group-title="🇨🇳| Trung Quốc",CCTV15
 http://74.91.26.218:82/live/cctv15hd.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/39/CCTV-16.png/revision/latest?cb=20211107032828" group-title="🇨🇳| Trung Quốc",CCTV16
+#EXTINF:-1 tvg-id="cctv16" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/cctv_logo/cctv16.png" group-title="🇨🇳| Trung Quốc",CCTV16
 https://cdn.qd.je/163189/cctv16
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/omJsYRq.png" group-title="🇨🇳| Trung Quốc",CCTV17
+#EXTINF:-1 tvg-id="cctv17" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/cctv_logo/cctv17.png" group-title="🇨🇳| Trung Quốc",CCTV17
 http://74.91.26.218:82/live/cctv17hd.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ecd51263-bb0f-4465-af86-f7ed25e58e70/dew5uz3-0d3f3caa-7ac2-4c9d-aaf5-8aa6abc33f4b.png/v1/fill/w_1280,h_550/cctv11_logo_by_amazingtoludada3000_dew5uz3-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTUwIiwicGF0aCI6IlwvZlwvZWNkNTEyNjMtYmIwZi00NDY1LWFmODYtZjdlZDI1ZTU4ZTcwXC9kZXc1dXozLTBkM2YzY2FhLTdhYzItNGM5ZC1hYWY1LThhYTZhYmMzM2Y0Yi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.8ug6Sn5aUfjIJREthEuWeK0cIMretxYjCpnyiH0U2BM" group-title="🇨🇳| Trung Quốc",h_550/cctv11_logo_by_amazingtoludada3000_dew5uz3-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTUwIiwicGF0aCI6IlwvZlwvZWNkNTEyNjMtYmIwZi00NDY1LWFmODYtZjdlZDI1ZTU4ZTcwXC9kZXc1dXozLTBkM2YzY2FhLTdhYzItNGM5ZC1hYWY1LThhYTZhYmMzM2Y0Yi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.8ug6Sn5aUfjIJREthEuWeK0cIMretxYjCpnyiH0U2BM", CCTV11
+#EXTINF:-1 tvg-id="h_550/cctv11_logo_by_amazingtoludada3000_dew5uz3fullview.png?token=eyj0exaioijkv1qilcjhbgcioijiuzi1nij9.eyjzdwiioij1cm46yxbwojdlmgqxodg5odiynjqznznhnwywzdqxnwvhmgqynmuwiiwiaxnzijoidxjuomfwcdo3ztbkmtg4otgymjy0mzczytvmmgq0mtvlytbkmjzlmcisim9iaii6w1t7imhlawdodci6ijw9ntuwiiwicgf0aci6ilwvzlwvzwnknteynjmtymiwzi00ndy1lwfmodytzjdlzdi1ztu4ztcwxc9kzxc1dxozltbkm2yzy2fhltdhyzitngm5zc1hywy1lthhytzhymmzm2y0yi5wbmcilcj3awr0aci6ijw9mti4mcj9xv0simf1zci6wyj1cm46c2vydmljztppbwfnzs5vcgvyyxrpb25zil19.8ug6sn5aufjijretheuwek0cimretxyjcpnyih0u2bm",cctv11" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/cctv_logo/h_550/cctv11_logo_by_amazingtoludada3000_dew5uz3fullview.png?token=eyj0exaioijkv1qilcjhbgcioijiuzi1nij9.eyjzdwiioij1cm46yxbwojdlmgqxodg5odiynjqznznhnwywzdqxnwvhmgqynmuwiiwiaxnzijoidxjuomfwcdo3ztbkmtg4otgymjy0mzczytvmmgq0mtvlytbkmjzlmcisim9iaii6w1t7imhlawdodci6ijw9ntuwiiwicgf0aci6ilwvzlwvzwnknteynjmtymiwzi00ndy1lwfmodytzjdlzdi1ztu4ztcwxc9kzxc1dxozltbkm2yzy2fhltdhyzitngm5zc1hywy1lthhytzhymmzm2y0yi5wbmcilcj3awr0aci6ijw9mti4mcj9xv0simf1zci6wyj1cm46c2vydmljztppbwfnzs5vcgvyyxrpb25zil19.8ug6sn5aufjijretheuwek0cimretxyjcpnyih0u2bm",cctv11.png" group-title="🇨🇳| Trung Quốc",h_550/cctv11_logo_by_amazingtoludada3000_dew5uz3-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTUwIiwicGF0aCI6IlwvZlwvZWNkNTEyNjMtYmIwZi00NDY1LWFmODYtZjdlZDI1ZTU4ZTcwXC9kZXc1dXozLTBkM2YzY2FhLTdhYzItNGM5ZC1hYWY1LThhYTZhYmMzM2Y0Yi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.8ug6Sn5aUfjIJREthEuWeK0cIMretxYjCpnyiH0U2BM", CCTV11
 http://74.91.26.218:82/live/cctv11hd.m3u8
