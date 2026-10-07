@@ -190,6 +190,7 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "sctv7hd": ("SCTV7", "SCTV"),
     "sctv8hd": ("SCTV8", "SCTV"),
     "sctv9hd": ("SCTV9", "SCTV"),
+	"sctv10hd": ("SCTV10", "SCTV"),
     "sctv11hd": ("SCTV11", "SCTV"),
     "sctv12hd": ("SCTV12", "SCTV"),
     "sctv13hd": ("SCTV13", "SCTV"),
@@ -318,7 +319,7 @@ _VTVcab_ORDER: Final[list[str]] = [
 ]
 _SCTV_ORDER: Final[list[str]] = [
     "SCTV1", "SCTV2", "SCTV3", "SCTV4", "SCTV5", "SCTV6", "SCTV7", "SCTV8", "SCTV9",
-    "SCTV11", "SCTV12", "SCTV13", "SCTV14", "SCTV15", "SCTV16", "SCTV17", "SCTV18",
+	"SCTV10", "SCTV11", "SCTV12", "SCTV13", "SCTV14", "SCTV15", "SCTV16", "SCTV17", "SCTV18",
     "SCTV19", "SCTV20", "SCTV21", "SCTV22", "SCTV Phim tổng hợp",
 ]
 _PROVINCE_ORDER: Final[list[str]] = [
