@@ -192,6 +192,7 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "onviegiaitri": ("ON Vie Giải Trí", "VTVcab"),
     "ono2tv": ("ON O2TV", "VTVcab"),
     "onbibi": ("ON Bibi", "VTVcab"),
+    "onvfamily": ("ON V Family", "VTVcab"),
     "oncine": ("ON Cine", "VTVcab"),
     "onmusic": ("ON Music", "VTVcab"),
     "ontrending": ("ON Trending", "VTVcab"),
