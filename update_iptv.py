@@ -384,7 +384,7 @@ _SCTV_ORDER: Final[list[str]] = [
 _PROVINCE_ORDER: Final[list[str]] = [
     "An Giang", "Bà Rịa - Vũng Tàu", "Bạc Liêu", "Bắc Giang", "Bắc Kạn", "Bắc Ninh",
     "Bến Tre", "Bình Định", "Bình Dương", "Bình Phước", "Bình Thuận", "Cà Mau",
-    "Cao Bằng", "Cần Thơ", "Đà Nẵng", "Đắc Lắk", "Đắk Nông", "Điện Biên", "Đồng Nai",
+    "Cao Bằng", "Cần Thơ", "Đà Nẵng", "Đắk Lắk", "Đắk Nông", "Điện Biên", "Đồng Nai",
     "Đồng Tháp", "Gia Lai", "Hà Giang", "Hà Nam", "Hà Nội", "Hà Tĩnh", "Hải Dương",
     "Hải Phòng", "Hậu Giang", "Hòa Bình", "Huế", "Hưng Yên", "Khánh Hòa", "Kiên Giang",
     "Kon Tum", "Lai Châu", "Lạng Sơn", "Lào Cai", "Lâm Đồng", "Long An", "Nam Định",
