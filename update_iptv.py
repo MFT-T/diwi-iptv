@@ -269,6 +269,7 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "dongnai1": ("Đồng Nai 1", "Đồng Nai"),
     "dongnai2": ("Đồng Nai 2", "Đồng Nai"),
     "dongnaitv3.vn@sd": ("Đồng Nai 3", "Đồng Nai"),
+	"dongnai3": ("Đồng Nai 3", "Đồng Nai"),
     "baria": ("Bà Rịa - Vũng Tàu", "Bà Rịa - Vũng Tàu"),
     "longan": ("Long An", "Long An"),
     "tiengiang": ("Tiền Giang", "Tiền Giang"),
