@@ -183,12 +183,12 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "ongolf": ("ON Golf", "VTVcab"),
     "onhomeshopping": ("ON HomeShopping", "VTVcab"),
     "onkids": ("ON Kids", "VTVcab"),
-    "onlife": ("ON Life", "VTVcab"),
+    "onlife": ("ON Life TV", "VTVcab"),
     "onmovies": ("ON Movies", "VTVcab"),
     "onviedramas": ("ON Vie DRAMAS", "VTVcab"),
     "onechannel": ("ON E-Channel", "VTVcab"),
-    "onstyle": ("ON Style", "VTVcab"),
-    "tvbvn": ("TVB ViệtNam", "VTVcab"),
+    "onstyle": ("ON Style TV", "VTVcab"),
+    "tvbvn": ("TVB Việt Nam", "VTVcab"),
     "onviegiaitri": ("ON Vie Giải Trí", "VTVcab"),
     "ono2tv": ("ON O2TV", "VTVcab"),
     "onbibi": ("ON Bibi", "VTVcab"),
@@ -375,8 +375,8 @@ _HTV_ORDER: Final[list[str]] = [
     "HTVC Phim", "HTVC Phụ Nữ", "HTV Thể Thao", "HTVC Thuần Việt",
 ]
 _VTVcab_ORDER: Final[list[str]] = [
-    "ON Bibi", "ON Cine", "ON Golf", "ON HomeShopping", "ON Kids", "ON Life TV", "ON Music",
-    "ON Movies", "ON O2TV", "ON Phim Việt", "ON Trending", "ON Vie DRAMAS", "ON V Family", "TVB ViệtNam", "HiTV",
+    "ON Bibi", "ON Cine", "ON E-Channel", "ON Golf", "ON HomeShopping", "ON Kids", "ON Life TV", "ON Music",
+    "ON Movies", "ON O2TV", "ON Phim Việt", "ON Style TV", "ON Trending", "ON Vie DRAMAS", "ON V Family", "ON Vie Giải Trí", "TVB Việt Nam", "HiTV",
 ]
 _SCTV_ORDER: Final[list[str]] = [
     "SCTV1", "SCTV2", "SCTV3", "SCTV4", "SCTV5", "SCTV6", "SCTV7", "SCTV8", "SCTV9",
