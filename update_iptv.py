@@ -293,6 +293,28 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "soctrang": ("Sóc Trăng", "Sóc Trăng"),
     "baclieu": ("Bạc Liêu", "Bạc Liêu"),
     "camau": ("Cà Mau", "Cà Mau"),
+    
+    
+        # ── TRUNG QUỐC (CCTV) ────────────────────────────────────────────
+    "cctv1hd": ("CCTV1", "Trung Quốc"),
+    "cctv2hd": ("CCTV2", "Trung Quốc"),
+    "cctv3hd": ("CCTV3", "Trung Quốc"),
+    "cctv4hd": ("CCTV4", "Trung Quốc"),
+    "cctv5": ("CCTV5", "Trung Quốc"),
+    "cctv5p": ("CCTV5+", "Trung Quốc"),
+    "cctv6hd": ("CCTV6", "Trung Quốc"),
+    "cctv7hd": ("CCTV7", "Trung Quốc"),
+    "cctv8hd": ("CCTV8", "Trung Quốc"),
+    "cctv9hd": ("CCTV9", "Trung Quốc"),
+    "cctv10hd": ("CCTV10", "Trung Quốc"),
+    "cctv11hd": ("CCTV11", "Trung Quốc"),
+    "cctv12hd": ("CCTV12", "Trung Quốc"),
+    "cctv13hd": ("CCTV13", "Trung Quốc"),
+    "cctv14hd": ("CCTV14", "Trung Quốc"),
+    "cctv15hd": ("CCTV15", "Trung Quốc"),
+    "cctv16": ("CCTV16", "Trung Quốc"),
+    "cctv17hd": ("CCTV17", "Trung Quốc"),
+    
 }
 
 # Tự động ánh định các tên kênh KHÔNG DẤU phổ biến về tên CÓ DẤU chuẩn
@@ -336,6 +358,11 @@ _PROVINCE_ORDER: Final[list[str]] = [
     "Tây Ninh", "Thái Bình", "Thái Nguyên", "Thanh Hóa", "Tiền Giang", "Trà Vinh",
     "Tuyên Quang", "Vĩnh Long", "Vĩnh Phúc", "Yên Bái",
 ]
+_CCTV_ORDER: Final[list[str]] = [
+    "CCTV1", "CCTV2", "CCTV3", "CCTV4", "CCTV5", "CCTV5+", "CCTV6", "CCTV7",
+    "CCTV8", "CCTV9", "CCTV10", "CCTV11", "CCTV12", "CCTV13", "CCTV14",
+    "CCTV15", "CCTV16", "CCTV17"
+]
 
 _GROUP_ORDER: Final[dict[str, int]] = {"VTV": 0, "ANQP": 1, "HTV": 2, "VTVcab": 3, "SCTV": 4, "LOCAL": 5}
 _VTV_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_VTV_ORDER)}
@@ -347,7 +374,7 @@ _PROVINCE_IDX: Final[dict[str, int]] = {p: i for i, p in enumerate(_PROVINCE_ORD
 
 _LABEL: Final[dict[str, str]] = {
     "VTV": "VTV", "ANQP": "ANQP", "HTV": "HTV",
-    "VTVcab": "VTVcab", "SCTV": "SCTV", "LOCAL": "Địa phương"
+    "VTVcab": "VTVcab", "SCTV": "SCTV", "LOCAL": "Địa Phương", "CHINA": "🇨🇳| Trung Quốc",
 }
 
 _LOCAL_KEYWORDS: Final[frozenset[str]] = frozenset(["địa phương", "dia phuong", "tỉnh", "tinh"])
@@ -382,6 +409,7 @@ def get_custom_logo(ch: Channel) -> str:
             "VTVcab": "vtvcab_logo",
             "SCTV": "sctv_logo",
             "LOCAL": "thdp_logo",
+            "CHINA": "cctv_logo",
         }
         folder = folder_map.get(ch.group_key, "vtv_logo")
         return f"{MY_LOGO_BASE_URL}/{folder}/{ch.tvg_id}.png"
@@ -435,7 +463,8 @@ def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
     grp = src_grp.lower()
     tid = tvg_id.lower().replace("-", "").replace("_", "")
 
-    # LỚP 1: Kiểm tra theo Group Name (src_grp)
+    # LỚP 1: Kiểm tra theo Group Name
+    if "trung quốc" in grp or "china" in grp or "cctv" in grp: return "CHINA"
     if "vtvcab" in grp: return "VTVcab"
     if "vtv" in grp: return "VTV"
     if "htv" in grp: return "HTV"
@@ -444,9 +473,10 @@ def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
     if any(kw in grp for kw in _LOCAL_KEYWORDS): return "LOCAL"
     if "quốc phòng" in grp or "quoc phong" in grp: return "ANQP"
 
-    # LỚP 2: Tra cứu Bảng ID cố định (_KNOWN_IDS)
+    # LỚP 2: Tra cứu Bảng ID cố định
     if tvg_id in _KNOWN_IDS:
         tag = _CHANNEL_DATA[tvg_id][1]
+        if tag == "Trung Quốc": return "CHINA"
         return tag if tag in ("VTV", "HTV", "VTVcab", "SCTV", "ANQP") else "LOCAL"
 
     # LỚP 3: Kiểm tra tvg_id đã chuẩn hóa (tid)
@@ -565,7 +595,7 @@ def merge_sources(lists: list[list[Channel]]) -> list[Channel]:
 
 def sort_channels(channels: list[Channel]) -> list[Channel]:
     def key(ch: Channel) -> tuple:
-        g = _GROUP_ORDER[ch.group_key]
+        g = _GROUP_ORDER.get(ch.group_key, 99)
         norm_n = _norm_key(ch.name)
         if ch.group_key == "VTV":
             return (g, _VTV_IDX.get(norm_n, 999), ch.name)
@@ -577,11 +607,14 @@ def sort_channels(channels: list[Channel]) -> list[Channel]:
             return (g, _VTVcab_IDX.get(norm_n, 999), ch.name)
         if ch.group_key == "SCTV":
             return (g, _SCTV_IDX.get(norm_n, 999), ch.name)
+        if ch.group_key == "CHINA":
+            return (g, _CCTV_IDX.get(norm_n, 999), ch.name)
         if ch.group_key == "LOCAL":
             return (g, ch.province_idx, ch.name)
         return (g, 0, ch.name)
 
     return sorted(channels, key=key)
+
 
 
 def write_m3u(channels: list[Channel], path: str) -> None:
