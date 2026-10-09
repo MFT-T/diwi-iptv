@@ -24,8 +24,8 @@ import requests
 SOURCES: Final[list[str]] = [
     #"https://vietmitv.id.vn/vietmitv.m3u",
 	#"https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/main/vmttv",
-	"https://dl.dropboxusercontent.com/s/o5vygit34v9ryly71gam4/coban66.m3u?rlkey=auyoon54hfubajt16nc7u7dbn&st=70gyvtcu&dl=0",
 	"https://iptv-org.github.io/iptv/countries/vn.m3u",
+	"https://dl.dropboxusercontent.com/s/o5vygit34v9ryly71gam4/coban66.m3u?rlkey=auyoon54hfubajt16nc7u7dbn&st=70gyvtcu&dl=0",
 ]
 
 RAW_EPG_SOURCE: Final[str] = "https://epg.io.vn/epgu.xml"
