@@ -1065,260 +1065,370 @@
   <display-number>213</display-number>
   <icon src="https://r2.epg.io.vn/2026-10-08/217.png" />
  </channel>
- <channel id="vov1">
-  <display-name lang="vi">VOV1</display-name>
-  <display-number>214</display-number>
-  <icon src="https://adminmedia.kythuatvov.vn/uploads/images/channels/da383bc6d336cece5f1b9bf39284397d.png" />
- </channel>
- <channel id="vov2">
-  <display-name lang="vi">VOV2</display-name>
-  <display-number>215</display-number>
-  <icon src="https://adminmedia.kythuatvov.vn/uploads/images/channels/e14ab686b39f5dc3261d7bc64dd57591.png" />
- </channel>
- <channel id="vov3">
-  <display-name lang="vi">VOV3</display-name>
-  <display-number>216</display-number>
-  <icon src="https://adminmedia.kythuatvov.vn/uploads/images/channels/ce24123e13ac0712ac74cd9de566f8a5.png" />
- </channel>
- <channel id="vov4tn">
-  <display-name lang="vi">VOV4 Tây Nguyên</display-name>
-  <display-number>217</display-number>
-  <icon src="https://adminmedia.kythuatvov.vn/uploads/images/channels/659b09371df0b442c6efa4b78e6c27b1.png" />
- </channel>
- <channel id="vov4mt">
-  <display-name lang="vi">VOV4 Miền Trung</display-name>
-  <display-number>218</display-number>
-  <icon src="https://adminmedia.kythuatvov.vn/uploads/images/channels/37c93fe885ec7dc4a6eb9f3b7f96a3a5.png" />
- </channel>
- <channel id="vov4tb">
-  <display-name lang="vi">VOV4 Tây Bắc - Đông Bắc</display-name>
-  <display-number>219</display-number>
-  <icon src="https://adminmedia.kythuatvov.vn/uploads/images/channels/e32847b4aa347981fb8da9ab3743329d.png" />
- </channel>
- <channel id="vov4hcm">
-  <display-name lang="vi">VOV4 Hồ Chí Minh</display-name>
-  <display-number>220</display-number>
-  <icon src="https://adminmedia.kythuatvov.vn/uploads/images/channels/0a74a5e76b08c900443187aa7fbe95ab.png" />
- </channel>
- <channel id="vov4scl">
-  <display-name lang="vi">VOV4 Đồng bằng Sông Cửu Long</display-name>
-  <display-number>221</display-number>
-  <icon src="https://adminmedia.kythuatvov.vn/uploads/images/channels/3d33e0264a4550a70f11507b86083914.png" />
- </channel>
- <channel id="vov5">
-  <display-name lang="vi">VOV5</display-name>
-  <display-number>222</display-number>
-  <icon src="https://adminmedia.kythuatvov.vn/uploads/images/channels/6eee74c6cd7a6f676e693494a267b930.png" />
- </channel>
- <channel id="vov247">
-  <display-name lang="vi">VOV5 English 24/7</display-name>
-  <display-number>223</display-number>
-  <icon src="https://adminmedia.kythuatvov.vn/uploads/images/channels/4992295a639bf50421ddcd071e282f33.png" />
- </channel>
- <channel id="vovgthn">
-  <display-name lang="vi">VOV Giao thông Hà Nội</display-name>
-  <display-number>224</display-number>
-  <icon src="https://adminmedia.kythuatvov.vn/uploads/images/channels/941fd0c7483baf5d6c60e81cf7968eed.png" />
- </channel>
- <channel id="vovgthcm">
-  <display-name lang="vi">VOV Giao thông Hồ Chí Minh</display-name>
-  <display-number>225</display-number>
-  <icon src="https://adminmedia.kythuatvov.vn/uploads/images/channels/99c779254838d395aa0ade3cdc5226c0.png" />
- </channel>
- <channel id="vovgtmekong">
-  <display-name lang="vi">VOV Giao thông Mekong</display-name>
-  <display-number>226</display-number>
-  <icon src="https://adminmedia.kythuatvov.vn/uploads/images/channels/86b7db22a21e64aede561da32e2923c1.png" />
- </channel>
- <channel id="vovgtduyenhai">
-  <display-name lang="vi">VOV Giao thông Duyên Hải</display-name>
-  <display-number>227</display-number>
-  <icon src="https://adminmedia.kythuatvov.vn/uploads/images/channels/3805861b726c9dd60214ebace1577ee8.jpg" />
- </channel>
- <channel id="voh999">
-  <display-name lang="vi">VOH FM 99.9 MHz</display-name>
-  <display-number>228</display-number>
-  <icon src="https://r2.epg.io.vn/2026-09-17/166.png" />
- </channel>
- <channel id="voh956">
-  <display-name lang="vi">VOH FM 95.6 MHz</display-name>
-  <display-number>229</display-number>
-  <icon src="https://r2.epg.io.vn/2026-09-17/168.png" />
- </channel>
- <channel id="voh925">
-  <display-name lang="vi">VOH-M FM 92-92.5 MHz</display-name>
-  <display-number>230</display-number>
-  <icon src="https://r2.epg.io.vn/2026-09-17/167.png" />
- </channel>
- <channel id="voh877">
-  <display-name lang="vi">VOH FM 87.7 MHz</display-name>
-  <display-number>231</display-number>
-  <icon src="https://r2.epg.io.vn/2026-09-17/169.png" />
- </channel>
- <channel id="voh610">
-  <display-name lang="vi">VOH AM 610 kHz</display-name>
-  <display-number>232</display-number>
-  <icon src="https://r2.epg.io.vn/2026-09-17/170.png" />
- </channel>
- <channel id="angiangradio">
-  <display-name lang="vi">An Giang Radio 99.4 MHz</display-name>
-  <display-number>233</display-number>
-  <icon src="https://angiangtv.vn/wp-content/uploads/2025/07/ICON-RADIO99.4.png" />
- </channel>
- <channel id="bacninhradio">
-  <display-name lang="vi">Bắc Ninh Radio 98.4 MHz</display-name>
-  <display-number>234</display-number>
-  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
- </channel>
- <channel id="canthoradio1">
-  <display-name lang="vi">Cần Thơ Radio 97.3 MHz</display-name>
-  <display-number>235</display-number>
-  <icon src="https://canthoplus.vn/storage/channels/9b7858d5-ff44-43b3-94ab-e4d66a54f1bd.png" />
- </channel>
- <channel id="canthoradio2">
-  <display-name lang="vi">Cần Thơ Radio 89.6 MHz</display-name>
-  <display-number>236</display-number>
-  <icon src="https://canthoplus.vn/storage/channels/d18742e3-5735-43ea-9001-77678b4ef751.png" />
- </channel>
- <channel id="camauradio">
-  <display-name lang="vi">Cà Mau Radio 94.6MHz</display-name>
-  <display-number>237</display-number>
-  <icon src="https://baocamau.vn/live/radio_online.jpg" />
- </channel>
- <channel id="daklakradio">
-  <display-name lang="vi">Đắk Lắk Radio 92.4MHz</display-name>
-  <display-number>238</display-number>
-  <icon src="https://r2.epg.io.vn/2026-09-17/88.png" />
- </channel>
- <channel id="dienbienradio">
-  <display-name lang="vi">Điện Biên Radio 98MHz</display-name>
-  <display-number>239</display-number>
-  <icon src="https://dienbientv.vn/upload/files/img_radio_cover.jpg" />
- </channel>
- <channel id="dongthapradio">
-  <display-name lang="vi">Đồng Tháp Radio 98.4MHz</display-name>
-  <display-number>240</display-number>
-  <icon src="https://quantri.thdt.vn/wp-content/uploads/2023/08/radio.jpg" />
- </channel>
- <channel id="hanoi90">
-  <display-name lang="vi">Hà Nội FM90MHz</display-name>
-  <display-number>241</display-number>
-  <icon src="https://cloudcdnvod.tek4tv.vn/files/2025/6/12/ZDJCR2V8J9QT.jpg" />
- </channel>
- <channel id="hanoi96">
-  <display-name lang="vi">Hà Nội FM96MHz</display-name>
-  <display-number>242</display-number>
-  <icon src="https://cloudcdnvod.tek4tv.vn/files/2025/6/12/PVBHDT4A5DFI.jpg" />
- </channel>
- <channel id="hatinhradio">
-  <display-name lang="vi">Hà Tĩnh Radio 97.8MHz</display-name>
-  <display-number>243</display-number>
-  <icon src="https://r2.epg.io.vn/2026-09-17/100.png" />
- </channel>
- <channel id="haiphong937">
-  <display-name lang="vi">Hải Phòng FM 93.7 MHz</display-name>
-  <display-number>244</display-number>
-  <icon src="https://media.thhp.vn/upload/channel/96d1dabfb11c66bffbad690f1ac083ae.jpg" />
- </channel>
- <channel id="haiphong1022">
-  <display-name lang="vi">Hải Phòng FM 102.2MHz</display-name>
-  <display-number>245</display-number>
-  <icon src="https://media.thhp.vn/upload/channel/f600e570fb8a372fd4000ce3a786975a.png" />
- </channel>
- <channel id="hungyenradio">
-  <display-name lang="vi">Hưng Yên Radio 92.7MHz</display-name>
-  <display-number>246</display-number>
-  <icon src="https://hungyentv.vn/templates/frontend/hytv/Assets/img/poster.gif" />
- </channel>
- <channel id="khanhhoaradio">
-  <display-name lang="vi">Khánh Hoà FM 106.5MHz</display-name>
-  <display-number>247</display-number>
-  <icon src="https://baokhanhhoa.vn/common/v1/images/radio106.jpg" />
- </channel>
- <channel id="khanhhoaradio2">
-  <display-name lang="vi">Khánh Hoà FM 95MHz</display-name>
-  <display-number>248</display-number>
-  <icon src="https://baokhanhhoa.vn/common/v1/images/radio95.jpg" />
- </channel>
- <channel id="lamdongradio1">
-  <display-name lang="vi">Lâm Đồng Radio 97MHz</display-name>
-  <display-number>249</display-number>
-  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
- </channel>
- <channel id="langsonradio">
-  <display-name lang="vi">Lạng Sơn Radio 88.6MHz</display-name>
-  <display-number>250</display-number>
-  <icon src="https://r2.epg.io.vn/2026-09-17/110.png" />
- </channel>
- <channel id="ngheanradio">
-  <display-name lang="vi">Nghệ An Radio 99.6MHz</display-name>
-  <display-number>251</display-number>
-  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
- </channel>
- <channel id="ninhbinhradio">
-  <display-name lang="vi">Ninh Bình Radio 98.1MHz</display-name>
-  <display-number>252</display-number>
-  <icon src="https://nbtv.vn/upload/files/image/HINH_NEN_PT_SUA_3.gif" />
- </channel>
- <channel id="quangninhradio1">
-  <display-name lang="vi">Quảng Ninh Radio 1 (97.8MHz)</display-name>
-  <display-number>253</display-number>
-  <icon src="https://media.baoquangninh.vn/upload/files/logo/QNR1.jpg" />
- </channel>
- <channel id="quangninhradio2">
-  <display-name lang="vi">Quảng Ninh Radio 2 (94.7MHz)</display-name>
-  <display-number>254</display-number>
-  <icon src="https://media.baoquangninh.vn/upload/files/logo/QNR2.jpg" />
- </channel>
- <channel id="quangtriradio">
-  <display-name lang="vi">Quảng Trị Radio 92.5MHz</display-name>
-  <display-number>255</display-number>
-  <icon src="https://r2.epg.io.vn/2026-09-17/119.png" />
- </channel>
- <channel id="sonlaradio">
-  <display-name lang="vi">Sơn La Radio 96MHz</display-name>
-  <display-number>256</display-number>
-  <icon src="https://r2.epg.io.vn/2026-09-17/120.png" />
- </channel>
- <channel id="tayninhradio">
-  <display-name lang="vi">Tây Ninh Radio 96.9MHz</display-name>
-  <display-number>257</display-number>
-  <icon src="https://media.baotayninh.vn/upload/channel/32d8f712aae9d149b37e167dc9ab9fc3.jpeg" />
- </channel>
- <channel id="thainguyenradio">
-  <display-name lang="vi">Thái Nguyên Radio 106.5MHz</display-name>
-  <display-number>258</display-number>
-  <icon src="https://r2.epg.io.vn/2026-09-17/122.png" />
- </channel>
- <channel id="thanhhoaradio">
-  <display-name lang="vi">Thanh Hoá Radio 92.3MHz</display-name>
-  <display-number>259</display-number>
-  <icon src="https://c.dhcn.vn/static/media/baothanhhoa-liveradio.webp" />
- </channel>
- <channel id="vinhlongradio">
-  <display-name lang="vi">Vĩnh Long Radio 90.2MHz</display-name>
-  <display-number>260</display-number>
-  <icon src="https://r2.epg.io.vn/2026-09-17/171.png" />
- </channel>
  <channel id="vtvprime4">
   <display-name lang="vi">VTVprime 4</display-name>
-  <display-number>261</display-number>
+  <display-number>214</display-number>
   <icon src="https://r2.epg.io.vn/2026-10-09/232.png" />
  </channel>
  <channel id="vtvprime6">
   <display-name lang="vi">VTVprime 6</display-name>
-  <display-number>262</display-number>
+  <display-number>215</display-number>
   <icon src="https://r2.epg.io.vn/2026-10-09/234.png" />
  </channel>
  <channel id="vtvprime7">
   <display-name lang="vi">VTVprime 7</display-name>
-  <display-number>263</display-number>
+  <display-number>216</display-number>
   <icon src="https://r2.epg.io.vn/2026-10-09/235.png" />
  </channel>
  <channel id="vtvprime10">
   <display-name lang="vi">VTVprime 10</display-name>
-  <display-number>264</display-number>
+  <display-number>217</display-number>
   <icon src="https://r2.epg.io.vn/2026-10-09/238.png" />
+ </channel>
+ <channel id="vov1">
+  <display-name lang="vi">VOV1</display-name>
+  <display-number>218</display-number>
+  <icon src="https://adminmedia.kythuatvov.vn/uploads/images/channels/da383bc6d336cece5f1b9bf39284397d.png" />
+ </channel>
+ <channel id="vov2">
+  <display-name lang="vi">VOV2</display-name>
+  <display-number>219</display-number>
+  <icon src="https://adminmedia.kythuatvov.vn/uploads/images/channels/e14ab686b39f5dc3261d7bc64dd57591.png" />
+ </channel>
+ <channel id="vov3">
+  <display-name lang="vi">VOV3</display-name>
+  <display-number>220</display-number>
+  <icon src="https://adminmedia.kythuatvov.vn/uploads/images/channels/ce24123e13ac0712ac74cd9de566f8a5.png" />
+ </channel>
+ <channel id="vov4tn">
+  <display-name lang="vi">VOV4 Tây Nguyên</display-name>
+  <display-number>221</display-number>
+  <icon src="https://adminmedia.kythuatvov.vn/uploads/images/channels/659b09371df0b442c6efa4b78e6c27b1.png" />
+ </channel>
+ <channel id="vov4mt">
+  <display-name lang="vi">VOV4 Miền Trung</display-name>
+  <display-number>222</display-number>
+  <icon src="https://adminmedia.kythuatvov.vn/uploads/images/channels/37c93fe885ec7dc4a6eb9f3b7f96a3a5.png" />
+ </channel>
+ <channel id="vov4tb">
+  <display-name lang="vi">VOV4 Tây Bắc - Đông Bắc</display-name>
+  <display-number>223</display-number>
+  <icon src="https://adminmedia.kythuatvov.vn/uploads/images/channels/e32847b4aa347981fb8da9ab3743329d.png" />
+ </channel>
+ <channel id="vov4hcm">
+  <display-name lang="vi">VOV4 Hồ Chí Minh</display-name>
+  <display-number>224</display-number>
+  <icon src="https://adminmedia.kythuatvov.vn/uploads/images/channels/0a74a5e76b08c900443187aa7fbe95ab.png" />
+ </channel>
+ <channel id="vov4scl">
+  <display-name lang="vi">VOV4 Đồng bằng Sông Cửu Long</display-name>
+  <display-number>225</display-number>
+  <icon src="https://adminmedia.kythuatvov.vn/uploads/images/channels/3d33e0264a4550a70f11507b86083914.png" />
+ </channel>
+ <channel id="vov5">
+  <display-name lang="vi">VOV5</display-name>
+  <display-number>226</display-number>
+  <icon src="https://adminmedia.kythuatvov.vn/uploads/images/channels/6eee74c6cd7a6f676e693494a267b930.png" />
+ </channel>
+ <channel id="vov247">
+  <display-name lang="vi">VOV5 English 24/7</display-name>
+  <display-number>227</display-number>
+  <icon src="https://adminmedia.kythuatvov.vn/uploads/images/channels/4992295a639bf50421ddcd071e282f33.png" />
+ </channel>
+ <channel id="vovgthn">
+  <display-name lang="vi">VOV Giao thông Hà Nội</display-name>
+  <display-number>228</display-number>
+  <icon src="https://adminmedia.kythuatvov.vn/uploads/images/channels/941fd0c7483baf5d6c60e81cf7968eed.png" />
+ </channel>
+ <channel id="vovgthcm">
+  <display-name lang="vi">VOV Giao thông Hồ Chí Minh</display-name>
+  <display-number>229</display-number>
+  <icon src="https://adminmedia.kythuatvov.vn/uploads/images/channels/99c779254838d395aa0ade3cdc5226c0.png" />
+ </channel>
+ <channel id="vovgtmekong">
+  <display-name lang="vi">VOV Giao thông Mekong</display-name>
+  <display-number>230</display-number>
+  <icon src="https://adminmedia.kythuatvov.vn/uploads/images/channels/86b7db22a21e64aede561da32e2923c1.png" />
+ </channel>
+ <channel id="vovgtduyenhai">
+  <display-name lang="vi">VOV Giao thông Duyên Hải</display-name>
+  <display-number>231</display-number>
+  <icon src="https://adminmedia.kythuatvov.vn/uploads/images/channels/3805861b726c9dd60214ebace1577ee8.jpg" />
+ </channel>
+ <channel id="voh999">
+  <display-name lang="vi">VOH FM 99.9 MHz</display-name>
+  <display-number>232</display-number>
+  <icon src="https://r2.epg.io.vn/2026-09-17/166.png" />
+ </channel>
+ <channel id="voh956">
+  <display-name lang="vi">VOH FM 95.6 MHz</display-name>
+  <display-number>233</display-number>
+  <icon src="https://r2.epg.io.vn/2026-09-17/168.png" />
+ </channel>
+ <channel id="voh925">
+  <display-name lang="vi">VOH-M FM 92-92.5 MHz</display-name>
+  <display-number>234</display-number>
+  <icon src="https://r2.epg.io.vn/2026-09-17/167.png" />
+ </channel>
+ <channel id="voh877">
+  <display-name lang="vi">VOH FM 87.7 MHz</display-name>
+  <display-number>235</display-number>
+  <icon src="https://r2.epg.io.vn/2026-09-17/169.png" />
+ </channel>
+ <channel id="voh610">
+  <display-name lang="vi">VOH AM 610 kHz</display-name>
+  <display-number>236</display-number>
+  <icon src="https://r2.epg.io.vn/2026-09-17/170.png" />
+ </channel>
+ <channel id="angiangradio">
+  <display-name lang="vi">An Giang Radio 99.4 MHz</display-name>
+  <display-number>237</display-number>
+  <icon src="https://angiangtv.vn/wp-content/uploads/2025/07/ICON-RADIO99.4.png" />
+ </channel>
+ <channel id="bacninhradio">
+  <display-name lang="vi">Bắc Ninh Radio 98.4 MHz</display-name>
+  <display-number>238</display-number>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </channel>
+ <channel id="canthoradio1">
+  <display-name lang="vi">Cần Thơ Radio 97.3 MHz</display-name>
+  <display-number>239</display-number>
+  <icon src="https://canthoplus.vn/storage/channels/9b7858d5-ff44-43b3-94ab-e4d66a54f1bd.png" />
+ </channel>
+ <channel id="canthoradio2">
+  <display-name lang="vi">Cần Thơ Radio 89.6 MHz</display-name>
+  <display-number>240</display-number>
+  <icon src="https://canthoplus.vn/storage/channels/d18742e3-5735-43ea-9001-77678b4ef751.png" />
+ </channel>
+ <channel id="camauradio">
+  <display-name lang="vi">Cà Mau Radio 94.6MHz</display-name>
+  <display-number>241</display-number>
+  <icon src="https://baocamau.vn/live/radio_online.jpg" />
+ </channel>
+ <channel id="daklakradio">
+  <display-name lang="vi">Đắk Lắk Radio 92.4MHz</display-name>
+  <display-number>242</display-number>
+  <icon src="https://r2.epg.io.vn/2026-09-17/88.png" />
+ </channel>
+ <channel id="dienbienradio">
+  <display-name lang="vi">Điện Biên Radio 98MHz</display-name>
+  <display-number>243</display-number>
+  <icon src="https://dienbientv.vn/upload/files/img_radio_cover.jpg" />
+ </channel>
+ <channel id="dongthapradio">
+  <display-name lang="vi">Đồng Tháp Radio 98.4MHz</display-name>
+  <display-number>244</display-number>
+  <icon src="https://quantri.thdt.vn/wp-content/uploads/2023/08/radio.jpg" />
+ </channel>
+ <channel id="hanoi90">
+  <display-name lang="vi">Hà Nội FM90MHz</display-name>
+  <display-number>245</display-number>
+  <icon src="https://cloudcdnvod.tek4tv.vn/files/2025/6/12/ZDJCR2V8J9QT.jpg" />
+ </channel>
+ <channel id="hanoi96">
+  <display-name lang="vi">Hà Nội FM96MHz</display-name>
+  <display-number>246</display-number>
+  <icon src="https://cloudcdnvod.tek4tv.vn/files/2025/6/12/PVBHDT4A5DFI.jpg" />
+ </channel>
+ <channel id="hatinhradio">
+  <display-name lang="vi">Hà Tĩnh Radio 97.8MHz</display-name>
+  <display-number>247</display-number>
+  <icon src="https://r2.epg.io.vn/2026-09-17/100.png" />
+ </channel>
+ <channel id="haiphong937">
+  <display-name lang="vi">Hải Phòng FM 93.7 MHz</display-name>
+  <display-number>248</display-number>
+  <icon src="https://media.thhp.vn/upload/channel/96d1dabfb11c66bffbad690f1ac083ae.jpg" />
+ </channel>
+ <channel id="haiphong1022">
+  <display-name lang="vi">Hải Phòng FM 102.2MHz</display-name>
+  <display-number>249</display-number>
+  <icon src="https://media.thhp.vn/upload/channel/f600e570fb8a372fd4000ce3a786975a.png" />
+ </channel>
+ <channel id="hungyenradio">
+  <display-name lang="vi">Hưng Yên Radio 92.7MHz</display-name>
+  <display-number>250</display-number>
+  <icon src="https://hungyentv.vn/templates/frontend/hytv/Assets/img/poster.gif" />
+ </channel>
+ <channel id="khanhhoaradio">
+  <display-name lang="vi">Khánh Hoà FM 106.5MHz</display-name>
+  <display-number>251</display-number>
+  <icon src="https://baokhanhhoa.vn/common/v1/images/radio106.jpg" />
+ </channel>
+ <channel id="khanhhoaradio2">
+  <display-name lang="vi">Khánh Hoà FM 95MHz</display-name>
+  <display-number>252</display-number>
+  <icon src="https://baokhanhhoa.vn/common/v1/images/radio95.jpg" />
+ </channel>
+ <channel id="lamdongradio1">
+  <display-name lang="vi">Lâm Đồng Radio 97MHz</display-name>
+  <display-number>253</display-number>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </channel>
+ <channel id="langsonradio">
+  <display-name lang="vi">Lạng Sơn Radio 88.6MHz</display-name>
+  <display-number>254</display-number>
+  <icon src="https://r2.epg.io.vn/2026-09-17/110.png" />
+ </channel>
+ <channel id="ngheanradio">
+  <display-name lang="vi">Nghệ An Radio 99.6MHz</display-name>
+  <display-number>255</display-number>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </channel>
+ <channel id="ninhbinhradio">
+  <display-name lang="vi">Ninh Bình Radio 98.1MHz</display-name>
+  <display-number>256</display-number>
+  <icon src="https://nbtv.vn/upload/files/image/HINH_NEN_PT_SUA_3.gif" />
+ </channel>
+ <channel id="quangninhradio1">
+  <display-name lang="vi">Quảng Ninh Radio 1 (97.8MHz)</display-name>
+  <display-number>257</display-number>
+  <icon src="https://media.baoquangninh.vn/upload/files/logo/QNR1.jpg" />
+ </channel>
+ <channel id="quangninhradio2">
+  <display-name lang="vi">Quảng Ninh Radio 2 (94.7MHz)</display-name>
+  <display-number>258</display-number>
+  <icon src="https://media.baoquangninh.vn/upload/files/logo/QNR2.jpg" />
+ </channel>
+ <channel id="quangtriradio">
+  <display-name lang="vi">Quảng Trị Radio 92.5MHz</display-name>
+  <display-number>259</display-number>
+  <icon src="https://r2.epg.io.vn/2026-09-17/119.png" />
+ </channel>
+ <channel id="sonlaradio">
+  <display-name lang="vi">Sơn La Radio 96MHz</display-name>
+  <display-number>260</display-number>
+  <icon src="https://r2.epg.io.vn/2026-09-17/120.png" />
+ </channel>
+ <channel id="tayninhradio">
+  <display-name lang="vi">Tây Ninh Radio 96.9MHz</display-name>
+  <display-number>261</display-number>
+  <icon src="https://media.baotayninh.vn/upload/channel/32d8f712aae9d149b37e167dc9ab9fc3.jpeg" />
+ </channel>
+ <channel id="thainguyenradio">
+  <display-name lang="vi">Thái Nguyên Radio 106.5MHz</display-name>
+  <display-number>262</display-number>
+  <icon src="https://r2.epg.io.vn/2026-09-17/122.png" />
+ </channel>
+ <channel id="thanhhoaradio">
+  <display-name lang="vi">Thanh Hoá Radio 92.3MHz</display-name>
+  <display-number>263</display-number>
+  <icon src="https://c.dhcn.vn/static/media/baothanhhoa-liveradio.webp" />
+ </channel>
+ <channel id="vinhlongradio">
+  <display-name lang="vi">Vĩnh Long Radio 90.2MHz</display-name>
+  <display-number>264</display-number>
+  <icon src="https://r2.epg.io.vn/2026-09-17/171.png" />
+ </channel>
+ <channel id="fpt-event-event-06">
+  <display-name lang="vi">FPT EVENT-06</display-name>
+  <display-number>265</display-number>
+  <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
+ </channel>
+ <channel id="fpt-event-su-kien-02">
+  <display-name lang="vi">FPT SU-KIEN-02</display-name>
+  <display-number>266</display-number>
+  <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
+ </channel>
+ <channel id="fpt-event-su-kien-03">
+  <display-name lang="vi">FPT SU-KIEN-03</display-name>
+  <display-number>267</display-number>
+  <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
+ </channel>
+ <channel id="fpt-event-nba-hcm-01">
+  <display-name lang="vi">FPT NBA-HCM-01</display-name>
+  <display-number>268</display-number>
+  <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
+ </channel>
+ <channel id="fpt-event-su-kien-31">
+  <display-name lang="vi">FPT SU-KIEN-31</display-name>
+  <display-number>269</display-number>
+  <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
+ </channel>
+ <channel id="fpt-event-su-kien-05">
+  <display-name lang="vi">FPT SU-KIEN-05</display-name>
+  <display-number>270</display-number>
+  <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
+ </channel>
+ <channel id="fpt-event-event-02-4k">
+  <display-name lang="vi">FPT EVENT-02-4K</display-name>
+  <display-number>271</display-number>
+  <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
+ </channel>
+ <channel id="fpt-event-su-kien-06">
+  <display-name lang="vi">FPT SU-KIEN-06</display-name>
+  <display-number>272</display-number>
+  <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
+ </channel>
+ <channel id="fpt-event-event-18">
+  <display-name lang="vi">FPT EVENT-18</display-name>
+  <display-number>273</display-number>
+  <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
+ </channel>
+ <channel id="fpt-event-su-kien-32">
+  <display-name lang="vi">FPT SU-KIEN-32</display-name>
+  <display-number>274</display-number>
+  <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
+ </channel>
+ <channel id="fpt-event-event-18-4k">
+  <display-name lang="vi">FPT EVENT-18-4K</display-name>
+  <display-number>275</display-number>
+  <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
+ </channel>
+ <channel id="fpt-event-su-kien-29">
+  <display-name lang="vi">FPT SU-KIEN-29</display-name>
+  <display-number>276</display-number>
+  <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
+ </channel>
+ <channel id="fpt-event-event-19">
+  <display-name lang="vi">FPT EVENT-19</display-name>
+  <display-number>277</display-number>
+  <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
+ </channel>
+ <channel id="fpt-event-event-20">
+  <display-name lang="vi">FPT EVENT-20</display-name>
+  <display-number>278</display-number>
+  <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
+ </channel>
+ <channel id="fpt-event-epl-hn-01-4k">
+  <display-name lang="vi">FPT EPL-HN-01-4K</display-name>
+  <display-number>279</display-number>
+  <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
+ </channel>
+ <channel id="fpt-event-epl-hn-04-4k-bk">
+  <display-name lang="vi">FPT EPL-HN-04-4K-BK</display-name>
+  <display-number>280</display-number>
+  <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
+ </channel>
+ <channel id="fpt-event-su-kien-28">
+  <display-name lang="vi">FPT SU-KIEN-28</display-name>
+  <display-number>281</display-number>
+  <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
+ </channel>
+ <channel id="fpt-event-event-04">
+  <display-name lang="vi">FPT EVENT-04</display-name>
+  <display-number>282</display-number>
+  <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
+ </channel>
+ <channel id="fpt-event-epl-hcm-03-bk">
+  <display-name lang="vi">FPT EPL-HCM-03-BK</display-name>
+  <display-number>283</display-number>
+  <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
+ </channel>
+ <channel id="fpt-event-epl-hn-03-bk">
+  <display-name lang="vi">FPT EPL-HN-03-BK</display-name>
+  <display-number>284</display-number>
+  <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
+ </channel>
+ <channel id="fpt-event-epl-hn-02-bk">
+  <display-name lang="vi">FPT EPL-HN-02-BK</display-name>
+  <display-number>285</display-number>
+  <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
+ </channel>
+ <channel id="fpt-event-epl-hcm-05-4k-bk">
+  <display-name lang="vi">FPT EPL-HCM-05-4K-BK</display-name>
+  <display-number>286</display-number>
+  <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <programme start="20261007234509 +0700" stop="20261008000009 +0700" channel="vtv1hd">
   <title lang="vi">KHÁM PHÁ VIỆT NAM</title>
@@ -105597,6 +105707,22 @@
   <title lang="vi">FULL TRẬN | A. ZVEREV VS L. TIEN | TỨ KẾT ÚC MỞ RỘNG 2026</title>
   <icon src="https://r2.epg.io.vn/2026-10-08/217.png" />
  </programme>
+ <programme start="20261010190000 +0700" stop="20261010210000 +0700" channel="vtvprime4">
+  <title lang="vi">[LUỒNG TRẢI NGHIỆM] MMA LION CHAMPIONSHIP LC36</title>
+  <icon src="https://img.vtvprime.vn/o5reX-Crx9k7NiidijwvA1C88dOsANNs4E9xa0BPpDg/rs:fit:640:360/czM6Ly9wcmQtc24taW1hZ2VzL2V2ZW50LzdmNGU4ZDdkLTY2ZDctNDQ2Yi1iNjgxLTM4ZTYwMWY3OTM4ZC5qcGc=.jpg" />
+ </programme>
+ <programme start="20261009210000 +0700" stop="20261009230000 +0700" channel="vtvprime6">
+  <title lang="vi">FOOTBALL VIBE 26/27</title>
+  <icon src="https://img.vtvprime.vn/RM9st0kmUupz17WnBaInN7pWKe3U_2jonDfmdZPNJFA/rs:fit:640:360/czM6Ly9wcmQtc24taW1hZ2VzL2V2ZW50L2M1NmRmZmJiLWYyNDgtNGZmZC04MTZkLTk0NjFlY2MyMjc5Zi5qcGc=.jpg" />
+ </programme>
+ <programme start="20261010200000 +0700" stop="20261011013000 +0700" channel="vtvprime6">
+  <title lang="vi">[MULTICAM] MMA LION CHAMPIONSHIP LC36</title>
+  <icon src="https://img.vtvprime.vn/ZfWPByYMh7TBxnLvnFNFOlDdie23tJvjhtS0HEHQp5o/rs:fit:640:360/czM6Ly9wcmQtc24taW1hZ2VzL2V2ZW50L2E1NWJmODc3LTE3YjAtNDkwNy04ODlkLWQwY2RmNTc3YzJiZC5qcGc=.jpg" />
+ </programme>
+ <programme start="20261009190000 +0700" stop="20261010175959 +0700" channel="vtvprime10">
+  <title lang="vi">BWF WORLD JUNIOR TEAM CHAMPIONSHIPS 2026</title>
+  <icon src="https://img.vtvprime.vn/xvKbQLlV0zj3ypMOeUQHOYTMVjTQ6-4UZVT4fojzL-g/rs:fit:640:360/czM6Ly9wcmQtc24taW1hZ2VzL2V2ZW50L2FjODJlMjZiLTQzNzEtNDEwZC04ZjZhLTAzNmJhNTY4MmRlZi5qcGc=.jpg" />
+ </programme>
  <programme start="20261008000000 +0700" stop="20261008040000 +0700" channel="vov1">
   <title lang="vi">NHẬP SÓNG VOV3</title>
   <icon src="https://adminmedia.kythuatvov.vn/uploads/images/channels/da383bc6d336cece5f1b9bf39284397d.png" />
@@ -125677,20 +125803,124 @@
   <title lang="vi">TÁC GIẢ, TÁC PHẨM</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/171.png" />
  </programme>
- <programme start="20261010190000 +0700" stop="20261010210000 +0700" channel="vtvprime4">
-  <title lang="vi">[LUỒNG TRẢI NGHIỆM] MMA LION CHAMPIONSHIP LC36</title>
-  <icon src="https://img.vtvprime.vn/o5reX-Crx9k7NiidijwvA1C88dOsANNs4E9xa0BPpDg/rs:fit:640:360/czM6Ly9wcmQtc24taW1hZ2VzL2V2ZW50LzdmNGU4ZDdkLTY2ZDctNDQ2Yi1iNjgxLTM4ZTYwMWY3OTM4ZC5qcGc=.jpg" />
+ <programme start="20261009130000 +0700" stop="20261010130000 +0700" channel="fpt-event-event-06">
+  <title lang="vi">ĐẤU TRƯỜNG DANH VỌNG MÙA ĐÔNG 2026 - NGÀY 09/10</title>
+  <desc lang="vi">Đấu Trường Danh Vọng Mùa Đông 2026 chính thức khởi tranh với cục diện đầy bất ngờ. Cùng chờ xem những tân binh và ẩn số nào sẽ tạo nên khác biệt trong hành trình chinh phục ngôi vương.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/08/9_1791392594991.jpg" />
  </programme>
- <programme start="20261009210000 +0700" stop="20261009230000 +0700" channel="vtvprime6">
-  <title lang="vi">FOOTBALL VIBE 26/27</title>
-  <icon src="https://img.vtvprime.vn/RM9st0kmUupz17WnBaInN7pWKe3U_2jonDfmdZPNJFA/rs:fit:640:360/czM6Ly9wcmQtc24taW1hZ2VzL2V2ZW50L2M1NmRmZmJiLWYyNDgtNGZmZC04MTZkLTk0NjFlY2MyMjc5Zi5qcGc=.jpg" />
+ <programme start="20261009155500 +0700" stop="20261010010000 +0700" channel="fpt-event-su-kien-02">
+  <title lang="vi">HÀ NỘI - LÀO CAI</title>
+  <desc lang="vi">Trận đấu bóng rổ nội dung nữ giữa Hà Nội và Lào Cai, thuộc khuôn khổ Giải Vô địch Bóng rổ 5x5 U20 Quốc gia.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/09/slide-thumb_1791485412679.jpg" />
  </programme>
- <programme start="20261010200000 +0700" stop="20261011013000 +0700" channel="vtvprime6">
-  <title lang="vi">[MULTICAM] MMA LION CHAMPIONSHIP LC36</title>
-  <icon src="https://img.vtvprime.vn/ZfWPByYMh7TBxnLvnFNFOlDdie23tJvjhtS0HEHQp5o/rs:fit:640:360/czM6Ly9wcmQtc24taW1hZ2VzL2V2ZW50L2E1NWJmODc3LTE3YjAtNDkwNy04ODlkLWQwY2RmNTc3YzJiZC5qcGc=.jpg" />
+ <programme start="20261009175500 +0700" stop="20261010030000 +0700" channel="fpt-event-su-kien-03">
+  <title lang="vi">PHÒNG KHÔNG KHÔNG QUÂN PEAK - TÂY NINH THÁI SƠN NAM</title>
+  <desc lang="vi">Trận đấu bóng rổ nội dung nam giữa Phòng Không Không Quân Peak và Tây Ninh Thái Sơn Nam, thuộc khuôn khổ Giải Vô địch Bóng rổ 5x5 U20 Quốc gia.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/09/slide-thumb_1791485488930.jpg" />
  </programme>
- <programme start="20261009190000 +0700" stop="20261010175959 +0700" channel="vtvprime10">
-  <title lang="vi">BWF WORLD JUNIOR TEAM CHAMPIONSHIPS 2026</title>
-  <icon src="https://img.vtvprime.vn/xvKbQLlV0zj3ypMOeUQHOYTMVjTQ6-4UZVT4fojzL-g/rs:fit:640:360/czM6Ly9wcmQtc24taW1hZ2VzL2V2ZW50L2FjODJlMjZiLTQzNzEtNDEwZC04ZjZhLTAzNmJhNTY4MmRlZi5qcGc=.jpg" />
+ <programme start="20261009190000 +0700" stop="20261010130000 +0700" channel="fpt-event-nba-hcm-01">
+  <title lang="vi">HOUSTON ROCKETS - DALLAS MAVERICKS</title>
+  <desc lang="vi">Houston Rockets và Dallas Mavericks sẽ đối đầu tại NBA Pre-Season, với tâm điểm là màn tái xuất của Kyrie Irving và mùa giải thứ hai của tài năng trẻ Cooper Flagg.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/07/poster-169-live_1791361519521.jpg" />
+ </programme>
+ <programme start="20261009190000 +0700" stop="20261010100000 +0700" channel="fpt-event-su-kien-31">
+  <title lang="vi">OPEN DE ESPAÑA 2026 - VÒNG 2</title>
+  <desc lang="vi">Ngày thi đấu thứ hai giải Open de España 2026, thuộc hệ thống DP World Tour.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/08/slide-thumb_1791433358877.jpg" />
+ </programme>
+ <programme start="20261009192500 +0700" stop="20261010043000 +0700" channel="fpt-event-su-kien-05">
+  <title lang="vi">CÔNG AN NHÂN DÂN - THÀNH PHỐ HỒ CHÍ MINH</title>
+  <desc lang="vi">Trận đấu bóng rổ nội dung nam giữa Công An Nhân Dân và Thành Phố Hồ Chí Minh, thuộc khuôn khổ Giải Vô địch Bóng rổ 5x5 U20 Quốc gia.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/09/slide-thumb_1791485576777.jpg" />
+ </programme>
+ <programme start="20261010130000 +0700" stop="20261011130000 +0700" channel="fpt-event-event-02-4k">
+  <title lang="vi">ĐẤU TRƯỜNG DANH VỌNG MÙA ĐÔNG 2026 - NGÀY 10/10</title>
+  <desc lang="vi">Đấu Trường Danh Vọng Mùa Đông 2026 chính thức khởi tranh với cục diện đầy bất ngờ. Cùng chờ xem những tân binh và ẩn số nào sẽ tạo nên khác biệt trong hành trình chinh phục ngôi vương.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/08/10_1791392907805.jpg" />
+ </programme>
+ <programme start="20261010145000 +0700" stop="20261010210000 +0700" channel="fpt-event-su-kien-06">
+  <title lang="vi">LỄ KỶ NIỆM 70 NĂM NGÀY THÀNH LẬP CLB CÔNG AN HÀ NỘI</title>
+  <desc lang="vi">Lễ kỷ niệm 70 năm thành lập CLB Công An Hà Nội là dịp tri ân các thế hệ danh thủ, đồng thời khẳng định vị thế cùng bản lĩnh của đội bóng trong kỷ nguyên mới.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/09/slide-thumb_1791530115530.jpg" />
+ </programme>
+ <programme start="20261010154500 +0700" stop="20261010220000 +0700" channel="fpt-event-event-18">
+  <title lang="vi">LONG AN - THÉP CẦN THƠ</title>
+  <desc lang="vi">Trải qua trận mở màn không suông sẻ, Long An quyết tâm tận dụng lợi thế sân nhà để giành trọn 3 điểm trước Thép Cần Thơ.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/07/thumbnail-live_1791363451484.jpg" />
+ </programme>
+ <programme start="20261010164500 +0700" stop="20261010230000 +0700" channel="fpt-event-su-kien-32">
+  <title lang="vi">HOÀNG ANH GIA LAI - SHB ĐÀ NẴNG</title>
+  <desc lang="vi">Trận đấu giữa Hoàng Anh Gia Lai và SHB Đà Nẵng hứa hẹn vô cùng giằng co khi cả hai đều khát khao chiến thắng.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/07/thumbnail-live_1791345897558.jpg" />
+ </programme>
+ <programme start="20261010171500 +0700" stop="20261011000000 +0700" channel="fpt-event-event-18-4k">
+  <title lang="vi">THÉP XANH NAM ĐỊNH - NINH BÌNH</title>
+  <desc lang="vi">Được chơi trên sân nhà, Thép Xanh Nam Định tự tin hướng tới một thế trận áp đảo trước đối thủ Ninh Bình.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/07/thumbnail-live_1791352971808.jpg" />
+ </programme>
+ <programme start="20261010174500 +0700" stop="20261011000000 +0700" channel="fpt-event-su-kien-29">
+  <title lang="vi">HẢI PHÒNG - THANH HÓA</title>
+  <desc lang="vi">Màn so tài nảy lửa giữa Hải Phòng và Thanh Hóa dự báo sẽ mang đến thế trận đôi công hấp dẫn cho khán giả.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/07/thumbnail-live_1791346576247.jpg" />
+ </programme>
+ <programme start="20261010174500 +0700" stop="20261011000000 +0700" channel="fpt-event-event-19">
+  <title lang="vi">HƯNG YÊN - XUÂN THIỆN PHÚ THỌ</title>
+  <desc lang="vi">Màn so tài giữa Hưng Yên và Xuân Thiện Phú Thọ hứa hẹn sẽ vô cùng giằng co khi cả hai đều muốn khẳng định tham vọng.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/07/thumbnail-live_1791363300711.jpg" />
+ </programme>
+ <programme start="20261010174500 +0700" stop="20261011000000 +0700" channel="fpt-event-event-20">
+  <title lang="vi">BECAMEX TP. HỒ CHÍ MINH - LÂM ĐỒNG</title>
+  <desc lang="vi">Được đánh giá nhỉnh hơn, Becamex TP. Hồ Chí Minh tự tin hướng tới một thế trận áp đảo khi tiếp đón đối thủ Lâm Đồng.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/07/thumbnail-live_1791363589372.jpg" />
+ </programme>
+ <programme start="20261010175000 +0700" stop="20261010204000 +0700" channel="fpt-event-epl-hn-01-4k">
+  <title lang="vi">ARSENAL - LEEDS UNITED</title>
+  <desc lang="vi">Sau cú ngã ngựa ở vòng 5, Arsenal quyết tâm không để đội khách Leeds United tạo nên bất ngờ trên thánh địa Emirates.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/08/slider_1791442048225.jpg" />
+ </programme>
+ <programme start="20261010204000 +0700" stop="20261010231000 +0700" channel="fpt-event-epl-hn-01-4k">
+  <title lang="vi">CHELSEA - BOURNEMOUTH</title>
+  <desc lang="vi">Chelsea cần phải tận dụng triệt để lợi thế sân nhà Stamford Bridge để giành lấy 3 điểm trước một Bournemouth đầy tốc độ.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/08/slider_1791442792656.jpg" />
+ </programme>
+ <programme start="20261010231000 +0700" stop="20261011093000 +0700" channel="fpt-event-epl-hn-01-4k">
+  <title lang="vi">MANCHESTER UNITED - TOTTENHAM HOTSPUR</title>
+  <desc lang="vi">Tiếp đón Tottenham Hotspur trên sân nhà, Manchester United quyết tâm phát huy tối đa sức mạnh tấn công để giữ lại 3 điểm trọn vẹn.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/08/slider_1791443951628.jpg" />
+ </programme>
+ <programme start="20261010181000 +0700" stop="20261011043000 +0700" channel="fpt-event-epl-hn-04-4k-bk">
+  <title lang="vi">ARSENAL - LEEDS UNITED: FAN CỨNG</title>
+  <desc lang="vi">Sau cú ngã ngựa ở vòng 5, Arsenal quyết tâm không để đội khách Leeds United tạo nên bất ngờ trên thánh địa Emirates.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/09/slider_1791511704765.jpg" />
+ </programme>
+ <programme start="20261010183000 +0700" stop="20261011093000 +0700" channel="fpt-event-su-kien-28">
+  <title lang="vi">OPEN DE ESPAÑA 2026 - VÒNG 3</title>
+  <desc lang="vi">Ngày thi đấu thứ ba giải Open de España 2026, thuộc hệ thống DP World Tour.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/08/slide-thumb_1791433485198.jpg" />
+ </programme>
+ <programme start="20261010200000 +0700" stop="20261011010000 +0700" channel="fpt-event-event-04">
+  <title lang="vi">ĐÊM CHUNG KHẢO HOA HẬU VIỆT NAM 2026</title>
+  <desc lang="vi">25 thí sinh xuất sắc nhất sẽ được gọi tên vào vòng Chung kết Hoa hậu Việt Nam 2026.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/09/demchungkhaohoahauvietnam2026slider_1791512103926.jpg" />
+ </programme>
+ <programme start="20261010205000 +0700" stop="20261011070000 +0700" channel="fpt-event-epl-hcm-03-bk">
+  <title lang="vi">ASTON VILLA - BRENTFORD</title>
+  <desc lang="vi">Được chơi trên sân nhà Villa Park, Aston Villa tự tin hướng tới một chiến thắng trọn vẹn trước đối thủ khó chịu Brentford.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/08/slider_1791442577727.jpg" />
+ </programme>
+ <programme start="20261010205000 +0700" stop="20261011070000 +0700" channel="fpt-event-epl-hn-03-bk">
+  <title lang="vi">IPSWICH TOWN - FULHAM</title>
+  <desc lang="vi">Chuyến làm khách trên sân của Ipswich Town được dự báo sẽ mang đến không ít thử thách cho Fulham tại vòng 6 Premier League.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/08/slider_1791443026139.jpg" />
+ </programme>
+ <programme start="20261010205000 +0700" stop="20261011070000 +0700" channel="fpt-event-epl-hn-02-bk">
+  <title lang="vi">SUNDERLAND - BRIGHTON &amp; HOVE ALBION</title>
+  <desc lang="vi">Màn đọ sức giữa Sunderland và Brighton &amp; Hove Albion hứa hẹn diễn ra kịch tính khi cả hai đều quyết tâm giành trọn 3 điểm.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/08/slider_1791443198550.jpg" />
+ </programme>
+ <programme start="20261010231000 +0700" stop="20261011093000 +0700" channel="fpt-event-epl-hcm-05-4k-bk">
+  <title lang="vi">MANCHESTER UNITED - TOTTENHAM HOTSPUR: FAN CỨNG</title>
+  <desc lang="vi">Tiếp đón Tottenham Hotspur trên sân nhà, Manchester United quyết tâm phát huy tối đa sức mạnh tấn công để giữ lại 3 điểm trọn vẹn.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/09/slider_1791518286681.jpg" />
  </programme>
 </tv>
