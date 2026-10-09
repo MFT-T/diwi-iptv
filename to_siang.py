@@ -6,7 +6,7 @@ IPTV Auto-updater
 - EPG: Tự động tải, sửa múi giờ Việt Nam (+0700) và xuất file iptv.epg.xml
 - Sắp xếp địa phương: Tên tỉnh thành A-Z (63 tỉnh thành)
 - tvg-id chuẩn hóa theo vnepg (viết liền, không dấu gạch ngang)
-- Output: http-iptv.m3u, my_list.m3u & iptv.epg.xml
+- Output: diwi.m3u, my_list.m3u & diwi.epg.xml
 """
 
 import re
