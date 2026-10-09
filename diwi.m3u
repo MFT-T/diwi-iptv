@@ -235,9 +235,9 @@ https://freem3u.xyz/api/live/play.m3u8?vid=89
 #EXTINF:-1 tvg-id="tuyenquang" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/thdp_logo/tuyenquang.png" group-title="Địa Phương",Tuyên Quang
 https://vmttv.dpdns.org/tv360/?id=tuyen-quang
 #EXTINF:-1 tvg-id="vinhlong1hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/thdp_logo/vinhlong1hd.png" group-title="Địa Phương",Vĩnh Long 1
-https://live.fptplay53.net/live/media/vinhlong1/live247-hls-avc/vinhlong1-avc1_3800000=10000-mp4a_131600=20000.m3u8
+https://vips-livecdn.fptplay.net/live/media/vinhlong1/live247-hls-avc/vinhlong1-avc1_3800000=10000-mp4a_131600=20000.m3u8
 #EXTINF:-1 tvg-id="vinhlong2hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/thdp_logo/vinhlong2hd.png" group-title="Địa Phương",Vĩnh Long 2
-https://live.fptplay53.net/live/media/vinhlong2/live247-hls-avc/vinhlong2-avc1_3800000=10000-mp4a_131600=20000.m3u8
+https://vips-livecdn.fptplay.net/live/media/vinhlong2/live247-hls-avc/vinhlong2-avc1_3800000=10000-mp4a_131600=20000.m3u8
 #EXTINF:-1 tvg-id="vinhlong3hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/thdp_logo/vinhlong3hd.png" group-title="Địa Phương",Vĩnh Long 3
 https://vips-livecdn.fptplay.net/live/media/vinhlong3/live247-hls-avc/vinhlong3-avc1_5600000=10000-mp4a_131600=20000.m3u8
 #EXTINF:-1 tvg-id="vinhlong4hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/thdp_logo/vinhlong4hd.png" group-title="Địa Phương",Vĩnh Long 4
