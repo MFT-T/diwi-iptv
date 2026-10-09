@@ -241,9 +241,9 @@ https://vips-livecdn.fptplay.net/live/media/vinhlong2/live247-hls-avc/vinhlong2-
 #EXTINF:-1 tvg-id="vinhlong3hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/thdp_logo/vinhlong3hd.png" group-title="Địa Phương",Vĩnh Long 3
 https://vips-livecdn.fptplay.net/live/media/vinhlong3/live247-hls-avc/vinhlong3-avc1_5600000=10000-mp4a_131600=20000.m3u8
 #EXTINF:-1 tvg-id="vinhlong4hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/thdp_logo/vinhlong4hd.png" group-title="Địa Phương",Vĩnh Long 4
-https://live.fptplay53.net/epzhd2/vinhlong4-hd_vhls.smil/chunklist_b5000000.m3u8
+https://freem3u.xyz/api/live/play.m3u8?vid=220
 #EXTINF:-1 tvg-id="vinhlong5hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/thdp_logo/vinhlong5hd.png" group-title="Địa Phương",Vĩnh Long 5
-https://live.fptplay53.net/epzhd2/vinhlong5hd_vhls.smil/chunklist_b5000000.m3u8
+https://freem3u.xyz/api/live/play.m3u8?vid=91
 #EXTINF:-1 tvg-id="cctv1" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/cctv_logo/cctv1.png" group-title="🇨🇳| Trung Quốc",CCTV1
 http://74.91.26.218:82/live/cctv1hd.m3u8
 #EXTINF:-1 tvg-id="cctv2" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/cctv_logo/cctv2.png" group-title="🇨🇳| Trung Quốc",CCTV2
