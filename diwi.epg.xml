@@ -1321,138 +1321,143 @@
   <icon src="https://r2.epg.io.vn/2026-09-17/171.png" />
  </channel>
  <channel id="fpt-event-su-kien-03">
-  <display-name lang="vi">FPT SU-KIEN-03</display-name>
+  <display-name lang="vi">FPT Sự kiện 03</display-name>
   <display-number>265</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
- <channel id="fpt-event-su-kien-06">
-  <display-name lang="vi">FPT SU-KIEN-06</display-name>
+ <channel id="fpt-event-su-kien-04">
+  <display-name lang="vi">FPT Sự kiện 04</display-name>
   <display-number>266</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
- <channel id="fpt-event-event-18">
-  <display-name lang="vi">FPT EVENT-18</display-name>
+ <channel id="fpt-event-su-kien-06">
+  <display-name lang="vi">FPT Sự kiện 06</display-name>
   <display-number>267</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
- <channel id="fpt-event-su-kien-32">
-  <display-name lang="vi">FPT SU-KIEN-32</display-name>
+ <channel id="fpt-event-su-kien-07">
+  <display-name lang="vi">FPT Sự kiện 07</display-name>
   <display-number>268</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
- <channel id="fpt-event-event-18-4k">
-  <display-name lang="vi">FPT EVENT-18-4K</display-name>
+ <channel id="fpt-event-su-kien-28">
+  <display-name lang="vi">FPT Sự kiện 28</display-name>
   <display-number>269</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <channel id="fpt-event-su-kien-29">
-  <display-name lang="vi">FPT SU-KIEN-29</display-name>
+  <display-name lang="vi">FPT Sự kiện 29</display-name>
   <display-number>270</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
- <channel id="fpt-event-event-19">
-  <display-name lang="vi">FPT EVENT-19</display-name>
+ <channel id="fpt-event-su-kien-30">
+  <display-name lang="vi">FPT Sự kiện 30</display-name>
   <display-number>271</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
- <channel id="fpt-event-event-20">
-  <display-name lang="vi">FPT EVENT-20</display-name>
+ <channel id="fpt-event-su-kien-32">
+  <display-name lang="vi">FPT Sự kiện 32</display-name>
   <display-number>272</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
- <channel id="fpt-event-epl-hn-01-4k">
-  <display-name lang="vi">FPT EPL-HN-01-4K</display-name>
+ <channel id="fpt-event-su-kien-37">
+  <display-name lang="vi">FPT Sự kiện 37</display-name>
   <display-number>273</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
- <channel id="fpt-event-epl-hn-04-4k-bk">
-  <display-name lang="vi">FPT EPL-HN-04-4K-BK</display-name>
+ <channel id="fpt-event-su-kien-38">
+  <display-name lang="vi">FPT Sự kiện 38</display-name>
   <display-number>274</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
- <channel id="fpt-event-su-kien-28">
-  <display-name lang="vi">FPT SU-KIEN-28</display-name>
+ <channel id="fpt-event-event-02">
+  <display-name lang="vi">FPT Event 02</display-name>
   <display-number>275</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <channel id="fpt-event-event-04">
-  <display-name lang="vi">FPT EVENT-04</display-name>
+  <display-name lang="vi">FPT Event 04</display-name>
   <display-number>276</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
- <channel id="fpt-event-epl-hcm-03-bk">
-  <display-name lang="vi">FPT EPL-HCM-03-BK</display-name>
+ <channel id="fpt-event-event-18">
+  <display-name lang="vi">FPT Event 18</display-name>
   <display-number>277</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
- <channel id="fpt-event-epl-hn-03-bk">
-  <display-name lang="vi">FPT EPL-HN-03-BK</display-name>
+ <channel id="fpt-event-event-18-4k">
+  <display-name lang="vi">FPT Event 18 4K</display-name>
   <display-number>278</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
- <channel id="fpt-event-epl-hn-02-bk">
-  <display-name lang="vi">FPT EPL-HN-02-BK</display-name>
+ <channel id="fpt-event-event-19">
+  <display-name lang="vi">FPT Event 19</display-name>
   <display-number>279</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
- <channel id="fpt-event-epl-hcm-05-4k-bk">
-  <display-name lang="vi">FPT EPL-HCM-05-4K-BK</display-name>
+ <channel id="fpt-event-event-20">
+  <display-name lang="vi">FPT Event 20</display-name>
   <display-number>280</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
- <channel id="fpt-event-event-02">
-  <display-name lang="vi">FPT EVENT-02</display-name>
+ <channel id="fpt-event-epl-hcm-01-bk">
+  <display-name lang="vi">FPT EPL HCM 01 BK</display-name>
   <display-number>281</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
- <channel id="fpt-event-su-kien-37">
-  <display-name lang="vi">FPT SU-KIEN-37</display-name>
+ <channel id="fpt-event-epl-hcm-03-bk">
+  <display-name lang="vi">FPT EPL HCM 03 BK</display-name>
   <display-number>282</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
- <channel id="fpt-event-su-kien-38">
-  <display-name lang="vi">FPT SU-KIEN-38</display-name>
+ <channel id="fpt-event-epl-hcm-05-4k-bk">
+  <display-name lang="vi">FPT EPL HCM 05 4K BK</display-name>
   <display-number>283</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
- <channel id="fpt-event-epl-hn-07-4k-bk">
-  <display-name lang="vi">FPT EPL-HN-07-4K-BK</display-name>
+ <channel id="fpt-event-epl-hn-01-4k">
+  <display-name lang="vi">FPT EPL HN 01 4K</display-name>
   <display-number>284</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
- <channel id="fpt-event-epl-hn-06-4k-bk">
-  <display-name lang="vi">FPT EPL-HN-06-4K-BK</display-name>
+ <channel id="fpt-event-epl-hn-02-bk">
+  <display-name lang="vi">FPT EPL HN 02 BK</display-name>
   <display-number>285</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
- <channel id="fpt-event-epl-hcm-01-bk">
-  <display-name lang="vi">FPT EPL-HCM-01-BK</display-name>
+ <channel id="fpt-event-epl-hn-03-bk">
+  <display-name lang="vi">FPT EPL HN 03 BK</display-name>
   <display-number>286</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
- <channel id="fpt-event-epl-hn-08-4k-bk">
-  <display-name lang="vi">FPT EPL-HN-08-4K-BK</display-name>
+ <channel id="fpt-event-epl-hn-04-4k-bk">
+  <display-name lang="vi">FPT EPL HN 04 4K BK</display-name>
   <display-number>287</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
- <channel id="fpt-event-epl-hn-09-4k-bk">
-  <display-name lang="vi">FPT EPL-HN-09-4K-BK</display-name>
+ <channel id="fpt-event-epl-hn-06-4k-bk">
+  <display-name lang="vi">FPT EPL HN 06 4K BK</display-name>
   <display-number>288</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
- <channel id="fpt-event-su-kien-01">
-  <display-name lang="vi">FPT SU-KIEN-01</display-name>
+ <channel id="fpt-event-epl-hn-07-4k-bk">
+  <display-name lang="vi">FPT EPL HN 07 4K BK</display-name>
   <display-number>289</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
- <channel id="fpt-event-su-kien-04">
-  <display-name lang="vi">FPT SU-KIEN-04</display-name>
+ <channel id="fpt-event-epl-hn-08-4k-bk">
+  <display-name lang="vi">FPT EPL HN 08 4K BK</display-name>
   <display-number>290</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
- <channel id="fpt-event-nba-hn-02">
-  <display-name lang="vi">FPT NBA-HN-02</display-name>
+ <channel id="fpt-event-epl-hn-09-4k-bk">
+  <display-name lang="vi">FPT EPL HN 09 4K BK</display-name>
   <display-number>291</display-number>
+  <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
+ </channel>
+ <channel id="fpt-event-nba-hn-02">
+  <display-name lang="vi">FPT NBA HN 02</display-name>
+  <display-number>292</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <programme start="20261009000101 +0700" stop="20261009003032 +0700" channel="vtv1hd">
@@ -99691,10 +99696,6 @@
   <title lang="vi">KHOẢNH KHẮC TV360</title>
   <icon src="https://r2.epg.io.vn/2026-10-08/187.png" />
  </programme>
- <programme start="20261011000500 +0700" stop="20261011223000 +0700" channel="tv360plus4">
-  <title lang="vi">KHÔNG CÓ CHƯƠNG TRÌNH</title>
-  <icon src="https://r2.epg.io.vn/2026-10-08/187.png" />
- </programme>
  <programme start="20261011223000 +0700" stop="20261011235959 +0700" channel="tv360plus4">
   <title lang="vi">TRUYỀN HÌNH TRỰC TIẾP GIẢI BUNDESLIGA 2026/27 VÒNG 5</title>
   <desc lang="vi">Freiburg vs Schalke 04</desc>
@@ -99736,16 +99737,8 @@
   <desc lang="vi">Paderborn vs Stuttgart</desc>
   <icon src="https://img-zlr1.tv360.vn/image1/2026/10/07/11/1791348509571/c051830d2a7b.png" />
  </programme>
- <programme start="20261010223000 +0700" stop="20261010235959 +0700" channel="tv360plus6">
-  <title lang="vi">KHÔNG CÓ CHƯƠNG TRÌNH</title>
-  <icon src="https://r2.epg.io.vn/2026-10-08/189.png" />
- </programme>
  <programme start="20261011000000 +0700" stop="20261011000500 +0700" channel="tv360plus6">
   <title lang="vi">KHOẢNH KHẮC TV360</title>
-  <icon src="https://r2.epg.io.vn/2026-10-08/189.png" />
- </programme>
- <programme start="20261011000500 +0700" stop="20261011235959 +0700" channel="tv360plus6">
-  <title lang="vi">KHÔNG CÓ CHƯƠNG TRÌNH</title>
   <icon src="https://r2.epg.io.vn/2026-10-08/189.png" />
  </programme>
  <programme start="20261009000000 +0700" stop="20261009000500 +0700" channel="tv360plus7">
@@ -99761,16 +99754,8 @@
   <desc lang="vi">Hoffenheim vs Hamburg</desc>
   <icon src="https://img-zlr1.tv360.vn/image1/2026/10/07/11/1791347581942/1e3aff8b3274.png" />
  </programme>
- <programme start="20261010223000 +0700" stop="20261010235959 +0700" channel="tv360plus7">
-  <title lang="vi">KHÔNG CÓ CHƯƠNG TRÌNH</title>
-  <icon src="https://r2.epg.io.vn/2026-10-08/190.png" />
- </programme>
  <programme start="20261011000000 +0700" stop="20261011000500 +0700" channel="tv360plus7">
   <title lang="vi">KHOẢNH KHẮC TV360</title>
-  <icon src="https://r2.epg.io.vn/2026-10-08/190.png" />
- </programme>
- <programme start="20261011000500 +0700" stop="20261011235959 +0700" channel="tv360plus7">
-  <title lang="vi">KHÔNG CÓ CHƯƠNG TRÌNH</title>
   <icon src="https://r2.epg.io.vn/2026-10-08/190.png" />
  </programme>
  <programme start="20261009000000 +0700" stop="20261009000500 +0700" channel="tv360plus8">
@@ -99855,10 +99840,10 @@
   <title lang="vi">KHOẢNH KHẮC TV360</title>
   <icon src="https://r2.epg.io.vn/2026-10-08/194.png" />
  </programme>
- <programme start="20261010160000 +0700" stop="20261010180000 +0700" channel="tv360plus11">
+ <programme start="20261010153000 +0700" stop="20261010173000 +0700" channel="tv360plus11">
   <title lang="vi">TRUYỀN HÌNH TRỰC TIẾP GIẢI HẠNG NHẤT QUỐC GIA SACOMBANK 2026/27 VÒNG 2</title>
   <desc lang="vi">Long An vs Thép Cần Thơ</desc>
-  <icon src="https://img-zlr1.tv360.vn/image1/2026/10/07/08/1791335810823/273c1fa6c693.jpg" />
+  <icon src="https://img-zlr1.tv360.vn/image1/2026/10/10/10/1791603545676/3ab5e770be2e.jpeg" />
  </programme>
  <programme start="20261010180000 +0700" stop="20261010235959 +0700" channel="tv360plus11">
   <title lang="vi">KHÔNG CÓ CHƯƠNG TRÌNH</title>
@@ -99868,18 +99853,10 @@
   <title lang="vi">KHOẢNH KHẮC TV360</title>
   <icon src="https://r2.epg.io.vn/2026-10-08/194.png" />
  </programme>
- <programme start="20261011000500 +0700" stop="20261011180000 +0700" channel="tv360plus11">
-  <title lang="vi">KHÔNG CÓ CHƯƠNG TRÌNH</title>
-  <icon src="https://r2.epg.io.vn/2026-10-08/194.png" />
- </programme>
  <programme start="20261011180000 +0700" stop="20261011200000 +0700" channel="tv360plus11">
   <title lang="vi">TRUYỀN HÌNH TRỰC TIẾP GIẢI HẠNG NHẤT QUỐC GIA SACOMBANK 2026/27 VÒNG 2</title>
   <desc lang="vi">Quy Nhơn United vs Huế</desc>
   <icon src="https://img-zlr1.tv360.vn/image1/2026/10/07/09/1791338732995/acab0f8ab3ba.jpg" />
- </programme>
- <programme start="20261011200000 +0700" stop="20261011235959 +0700" channel="tv360plus11">
-  <title lang="vi">KHÔNG CÓ CHƯƠNG TRÌNH</title>
-  <icon src="https://r2.epg.io.vn/2026-10-08/194.png" />
  </programme>
  <programme start="20261009000000 +0700" stop="20261009000500 +0700" channel="tv360plus12">
   <title lang="vi">KHOẢNH KHẮC TV360</title>
@@ -99937,7 +99914,7 @@
  <programme start="20261010183000 +0700" stop="20261010230000 +0700" channel="tv360plus13">
   <title lang="vi">DP WORLD TOUR 2026 - OPEN DE ESPANA PRESENTED BY MADRID</title>
   <desc lang="vi">Ngày 3</desc>
-  <icon src="https://img-zlr1.tv360.vn/image1/2026/10/05/13/1791183583885/e2fc4ed17150.jpg" />
+  <icon src="https://r2.epg.io.vn/2026-10-08/196.png" />
  </programme>
  <programme start="20261010230000 +0700" stop="20261010235959 +0700" channel="tv360plus13">
   <title lang="vi">KHÔNG CÓ CHƯƠNG TRÌNH</title>
@@ -99970,10 +99947,6 @@
  </programme>
  <programme start="20261011000000 +0700" stop="20261011000500 +0700" channel="tv360plus14">
   <title lang="vi">KHOẢNH KHẮC TV360</title>
-  <icon src="https://r2.epg.io.vn/2026-10-08/197.png" />
- </programme>
- <programme start="20261011000500 +0700" stop="20261011235959 +0700" channel="tv360plus14">
-  <title lang="vi">KHÔNG CÓ CHƯƠNG TRÌNH</title>
   <icon src="https://r2.epg.io.vn/2026-10-08/197.png" />
  </programme>
  <programme start="20261009000000 +0700" stop="20261009000500 +0700" channel="tv360plus15">
@@ -107754,7 +107727,9 @@
  </programme>
  <programme start="20261010190000 +0700" stop="20261010210000 +0700" channel="vtvprime4">
   <title lang="vi">[LUỒNG TRẢI NGHIỆM] MMA LION CHAMPIONSHIP LC36</title>
-  <icon src="https://img.vtvprime.vn/o5reX-Crx9k7NiidijwvA1C88dOsANNs4E9xa0BPpDg/rs:fit:640:360/czM6Ly9wcmQtc24taW1hZ2VzL2V2ZW50LzdmNGU4ZDdkLTY2ZDctNDQ2Yi1iNjgxLTM4ZTYwMWY3OTM4ZC5qcGc=.jpg" />
+  <desc lang="vi">LC36 tiếp tục nâng tầm trải nghiệm MMA với công nghệ multicam trên website VTVPrime, cho phép khán giả tự do lựa chọn góc nhìn yêu thích để theo dõi trọn vẹn từng pha striking bùng nổ và những màn grappling nghẹt thở, mang đến cảm giác chân thực như đang trực tiếp có mặt tại sự kiện, hứa hẹn tạo nên cột mốc mới trong cách thưởng thức MMA tại Việt Nam. 🥊🔥</desc>
+  <category lang="vi">Thể thao</category>
+  <icon src="https://img.vtvprime.vn/WFJseyGCl9q8Vn2m8mcSUYKn55sbjBAL-pO2VUnyIIM/rs:fit:716:402/czM6Ly9wcmQtc24taW1hZ2VzL2V2ZW50LzE5Zjg4ZGQ0LTUxODUtNDdlZC1iMGRjLTk3MjMyNDU1YWMzNC5qcGc=.jpg" />
  </programme>
  <programme start="20261009210000 +0700" stop="20261009230000 +0700" channel="vtvprime6">
   <title lang="vi">FOOTBALL VIBE 26/27</title>
@@ -107762,11 +107737,15 @@
  </programme>
  <programme start="20261010200000 +0700" stop="20261011013000 +0700" channel="vtvprime6">
   <title lang="vi">[MULTICAM] MMA LION CHAMPIONSHIP LC36</title>
-  <icon src="https://img.vtvprime.vn/ZfWPByYMh7TBxnLvnFNFOlDdie23tJvjhtS0HEHQp5o/rs:fit:640:360/czM6Ly9wcmQtc24taW1hZ2VzL2V2ZW50L2E1NWJmODc3LTE3YjAtNDkwNy04ODlkLWQwY2RmNTc3YzJiZC5qcGc=.jpg" />
+  <desc lang="vi">Sự kiện LION Championship 36 (LC36) sẽ diễn ra vào lúc 20:00 ngày 10/10/2026 tại The Grand Hồ Tràm - Ballroom, đánh dấu lần đầu tiên giải đấu MMA lớn nhất Việt Nam đặt chân đến đây</desc>
+  <category lang="vi">Thể thao</category>
+  <icon src="https://img.vtvprime.vn/EnDOf_meWZQ8raudqcbezVF1gclZCv1ewMu3MCYvtKA/rs:fit:716:402/czM6Ly9wcmQtc24taW1hZ2VzL2V2ZW50LzNhODk1MmQyLWEwYWUtNGNmMi1hZjZkLTRiMGJlMmQ0YWIyNi5qcGc=.jpg" />
  </programme>
  <programme start="20261011013500 +0700" stop="20261011041500 +0700" channel="vtvprime7">
   <title lang="vi">BREST VS ANGERS</title>
-  <icon src="https://img.vtvprime.vn/Wt3uDIyOu_TQiDLbw20iy99xMbI8q156t2B4GTRJr_A/rs:fit:640:360/czM6Ly9wcmQtc24taW1hZ2VzL2V2ZW50L2MyN2M4MmM0LWQ0NWItNGJjMy05MTYwLWNhOGI4NmU3OTY5Zi5qcGc=.jpg" />
+  <desc lang="vi">Vòng 6 | Ligue 1 26/27</desc>
+  <category lang="vi">Thể thao</category>
+  <icon src="https://img.vtvprime.vn/-2hm7gSWgpSE3eS32YXfmAn_9y2VyKt8tizQw9ZpxPY/rs:fit:716:402/czM6Ly9wcmQtc24taW1hZ2VzL2V2ZW50LzJkZjVhMGQ2LTkxN2MtNGVkOS05NTU1LWJiZTZlNjM1NjgxOS5qcGc=.jpg" />
  </programme>
  <programme start="20261009190000 +0700" stop="20261010175959 +0700" channel="vtvprime10">
   <title lang="vi">BWF WORLD JUNIOR TEAM CHAMPIONSHIPS 2026</title>
@@ -107774,7 +107753,9 @@
  </programme>
  <programme start="20261010190000 +0700" stop="20261011175959 +0700" channel="vtvprime10">
   <title lang="vi">BWF WORLD JUNIOR TEAM CHAMPIONSHIPS 2026</title>
-  <icon src="https://img.vtvprime.vn/xvKbQLlV0zj3ypMOeUQHOYTMVjTQ6-4UZVT4fojzL-g/rs:fit:640:360/czM6Ly9wcmQtc24taW1hZ2VzL2V2ZW50L2FjODJlMjZiLTQzNzEtNDEwZC04ZjZhLTAzNmJhNTY4MmRlZi5qcGc=.jpg" />
+  <desc lang="vi">Trực Tiếp | Chung Kết</desc>
+  <category lang="vi">Thể thao</category>
+  <icon src="https://img.vtvprime.vn/mSiVEjgMX--Bu3iIEO4nrd0goL40oWfyVTh-_j4-9dE/rs:fit:716:402/czM6Ly9wcmQtc24taW1hZ2VzL2V2ZW50LzlmZTIyZWVjLTQwZmEtNDNkOS1iZjk5LTc2ZGJmZjcxZjIwOS5qcGc=.jpg" />
  </programme>
  <programme start="20261009000000 +0700" stop="20261009040000 +0700" channel="vov1">
   <title lang="vi">NHẬP SÓNG VOV3</title>
@@ -127456,10 +127437,60 @@
   <desc lang="vi">Trận đấu bóng rổ nội dung nữ giữa Thành Phố Hồ Chí Minh 1 và Lào Cai, thuộc khuôn khổ Giải Vô địch Bóng rổ 5x5 U20 Quốc gia.</desc>
   <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/09/slide-thumb_1791562322620.jpg" />
  </programme>
+ <programme start="20261010130000 +0700" stop="20261011130000 +0700" channel="fpt-event-su-kien-04">
+  <title lang="vi">ĐẤU TRƯỜNG DANH VỌNG MÙA ĐÔNG 2026 - NGÀY 10/10</title>
+  <desc lang="vi">Đấu Trường Danh Vọng Mùa Đông 2026 chính thức khởi tranh với cục diện đầy bất ngờ. Cùng chờ xem những tân binh và ẩn số nào sẽ tạo nên khác biệt trong hành trình chinh phục ngôi vương.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/08/10_1791392907805.jpg" />
+ </programme>
  <programme start="20261010145500 +0700" stop="20261010210000 +0700" channel="fpt-event-su-kien-06">
   <title lang="vi">LỄ KỶ NIỆM 70 NĂM NGÀY THÀNH LẬP CLB CÔNG AN HÀ NỘI</title>
   <desc lang="vi">Lễ kỷ niệm 70 năm thành lập CLB Công An Hà Nội là dịp tri ân các thế hệ danh thủ, đồng thời khẳng định vị thế cùng bản lĩnh của đội bóng trong kỷ nguyên mới.</desc>
   <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/09/slide-thumb_1791530115530.jpg" />
+ </programme>
+ <programme start="20261010172500 +0700" stop="20261011023000 +0700" channel="fpt-event-su-kien-07">
+  <title lang="vi">PHÒNG KHÔNG KHÔNG QUÂN PEAK - CÔNG AN NHÂN DÂN</title>
+  <desc lang="vi">Trận đấu bóng rổ nội dung nam giữa Phòng Không Không Quân Peak và Công An Nhân Dân, thuộc khuôn khổ Giải Vô địch Bóng rổ 5x5 U20 Quốc gia.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/09/slide-thumb_1791562408300.jpg" />
+ </programme>
+ <programme start="20261010183000 +0700" stop="20261011093000 +0700" channel="fpt-event-su-kien-28">
+  <title lang="vi">OPEN DE ESPAÑA 2026 - VÒNG 3</title>
+  <desc lang="vi">Ngày thi đấu thứ ba giải Open de España 2026, thuộc hệ thống DP World Tour.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/08/slide-thumb_1791433485198.jpg" />
+ </programme>
+ <programme start="20261010174500 +0700" stop="20261011000000 +0700" channel="fpt-event-su-kien-29">
+  <title lang="vi">HẢI PHÒNG - THANH HÓA</title>
+  <desc lang="vi">Cuộc chạm trán giữa Hải Phòng và Thanh Hóa hứa hẹn mang đến bữa tiệc bóng đá tấn công rực lửa cho người hâm mộ.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/07/thumbnail-live_1791346576247.jpg" />
+ </programme>
+ <programme start="20261011035000 +0700" stop="20261011170000 +0700" channel="fpt-event-su-kien-30">
+  <title lang="vi">UFC FIGHT NIGHT: ALLEN VS DUNCAN</title>
+  <desc lang="vi">UFC Vegas 122 với tâm điểm là màn so tài giữa Brendan Allen và Christian Leroy Duncan tại Meta APEX.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/10/slide-thumb_1791606151273.jpg" />
+ </programme>
+ <programme start="20261010164500 +0700" stop="20261010230000 +0700" channel="fpt-event-su-kien-32">
+  <title lang="vi">HOÀNG ANH GIA LAI - SHB ĐÀ NẴNG</title>
+  <desc lang="vi">Trận đấu giữa Hoàng Anh Gia Lai và SHB Đà Nẵng hứa hẹn vô cùng giằng co khi cả hai đều khát khao chiến thắng.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/07/thumbnail-live_1791345897558.jpg" />
+ </programme>
+ <programme start="20261011174500 +0700" stop="20261012000000 +0700" channel="fpt-event-su-kien-37">
+  <title lang="vi">SÔNG LAM NGHỆ AN - CÔNG AN TP. HỒ CHÍ MINH</title>
+  <desc lang="vi">Làm khách trên sân của Sông Lam Nghệ An, Công An TP. Hồ Chí Minh được dự đoán sẽ gặp nhiều thử thách.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/07/thumbnail-live_1791346735523.jpg" />
+ </programme>
+ <programme start="20261011190000 +0700" stop="20261012011500 +0700" channel="fpt-event-su-kien-38">
+  <title lang="vi">HÀ NỘI - BẮC NINH</title>
+  <desc lang="vi">Nhỉnh hơn về mọi mặt, Hà Nội được dự đoán sẽ không mấy khó khăn để vượt qua tân binh Bắc Ninh.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/07/thumbnail-live_1791346919085.jpg" />
+ </programme>
+ <programme start="20261011130000 +0700" stop="20261012130000 +0700" channel="fpt-event-event-02">
+  <title lang="vi">ĐẤU TRƯỜNG DANH VỌNG MÙA ĐÔNG 2026 - NGÀY 11/10</title>
+  <desc lang="vi">Đấu Trường Danh Vọng Mùa Đông 2026 chính thức khởi tranh với cục diện đầy bất ngờ. Cùng chờ xem những tân binh và ẩn số nào sẽ tạo nên khác biệt trong hành trình chinh phục ngôi vương.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/08/11_1791393164880.jpg" />
+ </programme>
+ <programme start="20261010200000 +0700" stop="20261011010000 +0700" channel="fpt-event-event-04">
+  <title lang="vi">ĐÊM CHUNG KHẢO HOA HẬU VIỆT NAM 2026</title>
+  <desc lang="vi">25 thí sinh xuất sắc nhất sẽ được gọi tên vào vòng Chung kết Hoa hậu Việt Nam 2026.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/09/demchungkhaohoahauvietnam2026slider_1791512103926.jpg" />
  </programme>
  <programme start="20261010151500 +0700" stop="20261010220000 +0700" channel="fpt-event-event-18">
   <title lang="vi">LONG AN - THÉP CẦN THƠ</title>
@@ -127471,20 +127502,10 @@
   <desc lang="vi">Được chơi trên sân nhà, Khatoco Khánh Hòa quyết tâm ngăn đà hưng phấn của một Công An Nhân Dân đầy tham vọng.</desc>
   <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/07/thumbnail-live_1791363737490.jpg" />
  </programme>
- <programme start="20261010164500 +0700" stop="20261010230000 +0700" channel="fpt-event-su-kien-32">
-  <title lang="vi">HOÀNG ANH GIA LAI - SHB ĐÀ NẴNG</title>
-  <desc lang="vi">Trận đấu giữa Hoàng Anh Gia Lai và SHB Đà Nẵng hứa hẹn vô cùng giằng co khi cả hai đều khát khao chiến thắng.</desc>
-  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/07/thumbnail-live_1791345897558.jpg" />
- </programme>
  <programme start="20261010171500 +0700" stop="20261011000000 +0700" channel="fpt-event-event-18-4k">
   <title lang="vi">THÉP XANH NAM ĐỊNH - NINH BÌNH</title>
   <desc lang="vi">Được chơi trên sân nhà, Thép Xanh Nam Định tự tin hướng tới một thế trận áp đảo trước đối thủ Ninh Bình.</desc>
   <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/07/thumbnail-live_1791352971808.jpg" />
- </programme>
- <programme start="20261010174500 +0700" stop="20261011000000 +0700" channel="fpt-event-su-kien-29">
-  <title lang="vi">HẢI PHÒNG - THANH HÓA</title>
-  <desc lang="vi">Cuộc chạm trán giữa Hải Phòng và Thanh Hóa hứa hẹn mang đến bữa tiệc bóng đá tấn công rực lửa cho người hâm mộ.</desc>
-  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/07/thumbnail-live_1791346576247.jpg" />
  </programme>
  <programme start="20261010174500 +0700" stop="20261011000000 +0700" channel="fpt-event-event-19">
   <title lang="vi">HƯNG YÊN - XUÂN THIỆN PHÚ THỌ</title>
@@ -127501,6 +127522,26 @@
   <desc lang="vi">Sân nhà sẽ là điểm tựa vững chắc để Quy Nhơn United hướng tới kết quả thuận lợi trong cuộc tiếp đón CLB Huế.</desc>
   <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/09/thumbnail-live_1791551627198.jpg" />
  </programme>
+ <programme start="20261011195000 +0700" stop="20261012060000 +0700" channel="fpt-event-epl-hcm-01-bk">
+  <title lang="vi">CRYSTAL PALACE - NOTTINGHAM FOREST</title>
+  <desc lang="vi">Cả Crystal Palace và Nottingham Forest đều đặt mục tiêu chiến thắng nhằm nhanh chóng cải thiện vị trí trên bảng xếp hạng.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/08/slider_1791444316329.jpg" />
+ </programme>
+ <programme start="20261010205000 +0700" stop="20261011070000 +0700" channel="fpt-event-epl-hcm-03-bk">
+  <title lang="vi">ASTON VILLA - BRENTFORD</title>
+  <desc lang="vi">Được chơi trên sân nhà Villa Park, Aston Villa tự tin hướng tới một chiến thắng trọn vẹn trước đối thủ khó chịu Brentford.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/08/slider_1791442577727.jpg" />
+ </programme>
+ <programme start="20261011222000 +0700" stop="20261012083000 +0700" channel="fpt-event-epl-hcm-03-bk">
+  <title lang="vi">LIVERPOOL - MANCHESTER CITY: PREMIER LEAGUE EXTRA</title>
+  <desc lang="vi">Luồng Premier League Extra sẽ liên tục hiển thị các thống kê chuyên sâu, giúp khán giả theo dõi diễn biến trận đấu một cách trực quan hơn.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/09/slider_1791512480825.jpg" />
+ </programme>
+ <programme start="20261010231000 +0700" stop="20261011093000 +0700" channel="fpt-event-epl-hcm-05-4k-bk">
+  <title lang="vi">MANCHESTER UNITED - TOTTENHAM HOTSPUR: FAN CỨNG</title>
+  <desc lang="vi">Tiếp đón Tottenham Hotspur trên sân nhà, Manchester United quyết tâm phát huy tối đa sức mạnh tấn công để giữ lại 3 điểm trọn vẹn.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/09/slider_1791518286681.jpg" />
+ </programme>
  <programme start="20261010175000 +0700" stop="20261010204000 +0700" channel="fpt-event-epl-hn-01-4k">
   <title lang="vi">ARSENAL - LEEDS UNITED</title>
   <desc lang="vi">Sau cú ngã ngựa ở vòng 5, Arsenal quyết tâm không để đội khách Leeds United tạo nên bất ngờ trên thánh địa Emirates.</desc>
@@ -127516,75 +127557,30 @@
   <desc lang="vi">Tiếp đón Tottenham Hotspur trên sân nhà, Manchester United quyết tâm phát huy tối đa sức mạnh tấn công để giữ lại 3 điểm trọn vẹn.</desc>
   <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/08/slider_1791443951628.jpg" />
  </programme>
- <programme start="20261010181000 +0700" stop="20261011043000 +0700" channel="fpt-event-epl-hn-04-4k-bk">
-  <title lang="vi">ARSENAL - LEEDS UNITED: FAN CỨNG</title>
-  <desc lang="vi">Sau cú ngã ngựa ở vòng 5, Arsenal quyết tâm không để đội khách Leeds United tạo nên bất ngờ trên thánh địa Emirates.</desc>
-  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/09/slider_1791511704765.jpg" />
- </programme>
- <programme start="20261010183000 +0700" stop="20261011093000 +0700" channel="fpt-event-su-kien-28">
-  <title lang="vi">OPEN DE ESPAÑA 2026 - VÒNG 3</title>
-  <desc lang="vi">Ngày thi đấu thứ ba giải Open de España 2026, thuộc hệ thống DP World Tour.</desc>
-  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/08/slide-thumb_1791433485198.jpg" />
- </programme>
- <programme start="20261010200000 +0700" stop="20261011010000 +0700" channel="fpt-event-event-04">
-  <title lang="vi">ĐÊM CHUNG KHẢO HOA HẬU VIỆT NAM 2026</title>
-  <desc lang="vi">25 thí sinh xuất sắc nhất sẽ được gọi tên vào vòng Chung kết Hoa hậu Việt Nam 2026.</desc>
-  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/09/demchungkhaohoahauvietnam2026slider_1791512103926.jpg" />
- </programme>
- <programme start="20261010205000 +0700" stop="20261011070000 +0700" channel="fpt-event-epl-hcm-03-bk">
-  <title lang="vi">ASTON VILLA - BRENTFORD</title>
-  <desc lang="vi">Được chơi trên sân nhà Villa Park, Aston Villa tự tin hướng tới một chiến thắng trọn vẹn trước đối thủ khó chịu Brentford.</desc>
-  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/08/slider_1791442577727.jpg" />
- </programme>
- <programme start="20261011222000 +0700" stop="20261012083000 +0700" channel="fpt-event-epl-hcm-03-bk">
-  <title lang="vi">LIVERPOOL - MANCHESTER CITY: PREMIER LEAGUE EXTRA</title>
-  <desc lang="vi">Luồng Premier League Extra sẽ liên tục hiển thị các thống kê chuyên sâu, giúp khán giả theo dõi diễn biến trận đấu một cách trực quan hơn.</desc>
-  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/09/slider_1791512480825.jpg" />
+ <programme start="20261010205000 +0700" stop="20261011070000 +0700" channel="fpt-event-epl-hn-02-bk">
+  <title lang="vi">SUNDERLAND - BRIGHTON &amp; HOVE ALBION</title>
+  <desc lang="vi">Màn đọ sức giữa Sunderland và Brighton &amp; Hove Albion hứa hẹn diễn ra kịch tính khi cả hai đều quyết tâm giành trọn 3 điểm.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/08/slider_1791443198550.jpg" />
  </programme>
  <programme start="20261010205000 +0700" stop="20261011070000 +0700" channel="fpt-event-epl-hn-03-bk">
   <title lang="vi">IPSWICH TOWN - FULHAM</title>
   <desc lang="vi">Chuyến làm khách trên sân của Ipswich Town được dự báo sẽ mang đến không ít thử thách cho Fulham tại vòng 6 Premier League.</desc>
   <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/08/slider_1791443026139.jpg" />
  </programme>
- <programme start="20261010205000 +0700" stop="20261011070000 +0700" channel="fpt-event-epl-hn-02-bk">
-  <title lang="vi">SUNDERLAND - BRIGHTON &amp; HOVE ALBION</title>
-  <desc lang="vi">Màn đọ sức giữa Sunderland và Brighton &amp; Hove Albion hứa hẹn diễn ra kịch tính khi cả hai đều quyết tâm giành trọn 3 điểm.</desc>
-  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/08/slider_1791443198550.jpg" />
- </programme>
- <programme start="20261010231000 +0700" stop="20261011093000 +0700" channel="fpt-event-epl-hcm-05-4k-bk">
-  <title lang="vi">MANCHESTER UNITED - TOTTENHAM HOTSPUR: FAN CỨNG</title>
-  <desc lang="vi">Tiếp đón Tottenham Hotspur trên sân nhà, Manchester United quyết tâm phát huy tối đa sức mạnh tấn công để giữ lại 3 điểm trọn vẹn.</desc>
-  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/09/slider_1791518286681.jpg" />
- </programme>
- <programme start="20261011130000 +0700" stop="20261012130000 +0700" channel="fpt-event-event-02">
-  <title lang="vi">ĐẤU TRƯỜNG DANH VỌNG MÙA ĐÔNG 2026 - NGÀY 11/10</title>
-  <desc lang="vi">Đấu Trường Danh Vọng Mùa Đông 2026 chính thức khởi tranh với cục diện đầy bất ngờ. Cùng chờ xem những tân binh và ẩn số nào sẽ tạo nên khác biệt trong hành trình chinh phục ngôi vương.</desc>
-  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/08/11_1791393164880.jpg" />
- </programme>
- <programme start="20261011174500 +0700" stop="20261012000000 +0700" channel="fpt-event-su-kien-37">
-  <title lang="vi">SÔNG LAM NGHỆ AN - CÔNG AN TP. HỒ CHÍ MINH</title>
-  <desc lang="vi">Làm khách trên sân của Sông Lam Nghệ An, Công An TP. Hồ Chí Minh được dự đoán sẽ gặp nhiều thử thách.</desc>
-  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/07/thumbnail-live_1791346735523.jpg" />
- </programme>
- <programme start="20261011190000 +0700" stop="20261012011500 +0700" channel="fpt-event-su-kien-38">
-  <title lang="vi">HÀ NỘI - BẮC NINH</title>
-  <desc lang="vi">Nhỉnh hơn về mọi mặt, Hà Nội được dự đoán sẽ không mấy khó khăn để vượt qua tân binh Bắc Ninh.</desc>
-  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/07/thumbnail-live_1791346919085.jpg" />
- </programme>
- <programme start="20261011192000 +0700" stop="20261012060000 +0700" channel="fpt-event-epl-hn-07-4k-bk">
-  <title lang="vi">HULL CITY - EVERTON</title>
-  <desc lang="vi">Được tiếp lửa bởi khán giả nhà, Hull City quyết tâm tạo ra một thế trận chặt chẽ để giữ lại điểm trước đối thủ đang xếp ngay trên là Everton.</desc>
-  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/08/slider_1791444462771.jpg" />
+ <programme start="20261010181000 +0700" stop="20261011043000 +0700" channel="fpt-event-epl-hn-04-4k-bk">
+  <title lang="vi">ARSENAL - LEEDS UNITED: FAN CỨNG</title>
+  <desc lang="vi">Sau cú ngã ngựa ở vòng 5, Arsenal quyết tâm không để đội khách Leeds United tạo nên bất ngờ trên thánh địa Emirates.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/09/slider_1791511704765.jpg" />
  </programme>
  <programme start="20261011192000 +0700" stop="20261012062000 +0700" channel="fpt-event-epl-hn-06-4k-bk">
   <title lang="vi">SUPER SUNDAY VÒNG 6</title>
   <desc lang="vi">Super Sunday mang đến những nhận định và dự báo trước giờ bóng lăn cho các trận cầu đáng chú ý, khép lại loạt đấu cuối tuần.</desc>
   <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/09/slider_1791518385133.jpg" />
  </programme>
- <programme start="20261011195000 +0700" stop="20261012060000 +0700" channel="fpt-event-epl-hcm-01-bk">
-  <title lang="vi">CRYSTAL PALACE - NOTTINGHAM FOREST</title>
-  <desc lang="vi">Cả Crystal Palace và Nottingham Forest đều đặt mục tiêu chiến thắng nhằm nhanh chóng cải thiện vị trí trên bảng xếp hạng.</desc>
-  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/08/slider_1791444316329.jpg" />
+ <programme start="20261011192000 +0700" stop="20261012060000 +0700" channel="fpt-event-epl-hn-07-4k-bk">
+  <title lang="vi">HULL CITY - EVERTON</title>
+  <desc lang="vi">Được tiếp lửa bởi khán giả nhà, Hull City quyết tâm tạo ra một thế trận chặt chẽ để giữ lại điểm trước đối thủ đang xếp ngay trên là Everton.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/08/slider_1791444462771.jpg" />
  </programme>
  <programme start="20261011221000 +0700" stop="20261012083000 +0700" channel="fpt-event-epl-hn-08-4k-bk">
   <title lang="vi">LIVERPOOL - MANCHESTER CITY</title>
@@ -127595,16 +127591,6 @@
   <title lang="vi">LIVERPOOL - MANCHESTER CITY: FAN CỨNG</title>
   <desc lang="vi">Tiếp đón cỗ máy chiến thắng Manchester City, Liverpool quyết tâm biến chảo lửa Anfield thành điểm tựa vững chắc để giành kết quả có lợi.</desc>
   <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/09/slider-live_1791512400384.jpg" />
- </programme>
- <programme start="20261010113000 +0700" stop="20261010133000 +0700" channel="fpt-event-su-kien-01">
-  <title lang="vi">BẢN TIN THỂ THAO 24+ NGÀY 10/10</title>
-  <desc lang="vi">Vòng 3 LPBank V.League 1-2026/27 Chủ nhà gặp khó khi tiếp đón Ninh Bình. Vòng 6 Saudi Pro League: C. Ronaldo góp công, Al Nassr dễ dàng chiến thắng. NBA Pre-Season: Alperen Sengun tỏa sáng, Rockets đ</desc>
-  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/10/ban-tin-the-thao-24-slide-thumb_1791598952934.jpg" />
- </programme>
- <programme start="20261010130000 +0700" stop="20261011130000 +0700" channel="fpt-event-su-kien-04">
-  <title lang="vi">ĐẤU TRƯỜNG DANH VỌNG MÙA ĐÔNG 2026 - NGÀY 10/10</title>
-  <desc lang="vi">Đấu Trường Danh Vọng Mùa Đông 2026 chính thức khởi tranh với cục diện đầy bất ngờ. Cùng chờ xem những tân binh và ẩn số nào sẽ tạo nên khác biệt trong hành trình chinh phục ngôi vương.</desc>
-  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/08/10_1791392907805.jpg" />
  </programme>
  <programme start="20261011170000 +0700" stop="20261012110000 +0700" channel="fpt-event-nba-hn-02">
   <title lang="vi">DALLAS MAVERICKS - HOUSTON ROCKETS</title>
