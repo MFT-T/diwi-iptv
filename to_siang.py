@@ -31,7 +31,6 @@ SOURCES: Final[list[str]] = [
 
 # 🛑 CÁC KÊNH BỊ LOẠI BỎ RIÊNG KHI CÀO TỪ NGUỒN 1 (Nhưng vẫn lấy nếu có ở nguồn khác như Nguồn 2)
 SOURCE_1_EXCLUDED_CHANNELS: Final[frozenset[str]] = frozenset([
-        # Thêm tvg_id hoặc tên kênh khác tại đây nếu muốn
     "sctv1hd", "sctv2hd", "sctv3hd", "sctv4hd", "sctv5hd", "sctv6hd", "sctv7hd",
     "sctv8hd", "sctv9hd", "sctv10hd", "sctv11hd", "sctv12hd", "sctv13hd", "sctv14hd",
     "sctv15hd", "sctv16hd", "sctv17hd", "sctv18hd", "sctv19hd", "sctv20hd", "sctv21hd",
@@ -54,7 +53,7 @@ HTTP_HEADERS: Final[dict[str, str]] = {
 # Link gốc chứa Logo từ Repository tvn-logo
 MY_LOGO_BASE_URL: Final[str] = "https://raw.githubusercontent.com/MFT-T/tvn-logo/main"
 
-# DANH SÁCH CHẶN (Bất kỳ kênh nào có tvg_id hoặc tên thuộc danh sách này sẽ bị loại bỏ)
+# DANH SÁCH CHẶN (Bất kỳ kênh nào có tvg_id hoặc tên thuộc danh sách này sẽ bị loại bỏ tuyệt đối)
 BLOCKED_CHANNELS: Final[frozenset[str]] = frozenset([
         ""
 ])
@@ -94,6 +93,7 @@ def strip_accents(s: str) -> str:
 
 
 def _norm_key(s: str) -> str:
+    """Chuẩn hóa chuỗi tên để đối chiếu thứ tự hiển thị."""
     return _NORM_RE.sub("", strip_accents(s)).upper()
 
 
@@ -142,18 +142,18 @@ TVG_ID_MAP: Final[dict[str, str]] = {
 	"sctv17": "sctv17hd",
     "tvbvietnam.vn@sd": "tvbvn",
 	"haiphongplus": "haiphong3",
-	
 }
 
 
 def normalize_tvg_id(raw_id: str) -> str:
+    """Chuẩn hóa tvg-id về định dạng viết liền, không dấu, không khoảng trắng."""
     clean = raw_id.strip().lower()
     clean = clean.replace("+", "p").replace(" ", "").replace("-", "")
     return TVG_ID_MAP.get(clean, clean)
 
 
 # ──────────────────────────────────────────────────────────────────────
-# DỮ LIỆU KÊNH
+# DỮ LIỆU KÊNH VÀ DANH MỤC
 # ──────────────────────────────────────────────────────────────────────
 _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     # ── VTV ──────────────────────────────────────────────────────────
@@ -451,7 +451,7 @@ class Channel:
     quality: tuple[int, float]
     tvg_id: str = ""
     tvg_logo: str = ""
-    extra_lines: list[str] = None  # Chỉ dùng để chứa phụ trợ cào được cho 3 kênh đặc biệt
+    extra_lines: list[str] = None  # Chỉ dùng để chứa phụ trợ cào được cho các kênh đặc biệt
 
     @property
     def group_label(self) -> str:
@@ -459,7 +459,7 @@ class Channel:
 
 
 def get_custom_logo(ch: Channel) -> str:
-    """Tự động trả về URL logo từ repository tvn-logo dựa trên group_key và tvg_id"""
+    """Tự động trả về URL logo từ repository tvn-logo dựa trên group_key và tvg_id."""
     if ch.tvg_id:
         folder_map = {
             "VTV": "vtv_logo",
@@ -477,6 +477,7 @@ def get_custom_logo(ch: Channel) -> str:
 
 
 def quality_score(raw: str) -> tuple[int, float]:
+    """Đánh giá điểm chất lượng của luồng dựa trên từ khóa độ phân giải và bitrate."""
     tier = 40
     for pat, score in _QUALITY_TIERS:
         if pat.search(raw):
@@ -487,6 +488,7 @@ def quality_score(raw: str) -> tuple[int, float]:
 
 
 def fetch(url: str) -> Optional[str]:
+    """Tải nội dung văn bản từ một URL chỉ định với timeout và headers cấu hình sẵn."""
     try:
         r = requests.get(url, timeout=GLOBAL_TIMEOUT, headers=HTTP_HEADERS)
         r.raise_for_status()
@@ -497,6 +499,7 @@ def fetch(url: str) -> Optional[str]:
 
 
 def resolve_display_name(raw: str, tvg_id: str) -> str:
+    """Chuẩn hóa và tra cứu tên hiển thị chuẩn cho kênh TV."""
     # 1. Tra cứu theo tvg_id
     if tvg_id:
         entry = _CHANNEL_DATA.get(tvg_id)
@@ -519,7 +522,7 @@ def resolve_display_name(raw: str, tvg_id: str) -> str:
 
 
 def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
-    # Kiểm tra bắt buộc: Bỏ qua nếu kênh không thuộc danh sách _CHANNEL_DATA
+    """Phân loại kênh vào nhóm tương ứng (VTV, HTV, VTVcab, SCTV, ANQP, CHINA, LOCAL)."""
     if tvg_id not in _KNOWN_IDS:
         return None
 
@@ -535,7 +538,7 @@ def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
 
 
 def _is_noise(tvg_id: str, upper_name: str) -> bool:
-    # Lọc nếu nằm trong từ khóa nhiễu, danh sách chặn BLOCKED_CHANNELS, hoặc tvg_id bị chặn
+    """Kiểm tra xem kênh có phải là rác hoặc nằm trong danh sách chặn tuyệt đối hay không."""
     if tvg_id in BLOCKED_CHANNELS or _dedup_key(upper_name) in BLOCKED_CHANNELS:
         return True
     return any(kw in upper_name for kw in _NOISE_NAMES)
@@ -544,7 +547,8 @@ def _is_noise(tvg_id: str, upper_name: str) -> bool:
 # ──────────────────────────────────────────────────────────────────────
 # PARSER, MERGE, SORT & WRITE
 # ──────────────────────────────────────────────────────────────────────
-def parse_m3u(text: str) -> list[Channel]:
+def parse_m3u(text: str, excluded_set: frozenset[str] = frozenset()) -> list[Channel]:
+    """Phân tích nội dung văn bản file M3U, áp dụng bộ lọc loại trừ theo từng nguồn và trả về danh sách đối tượng Channel."""
     channels: list[Channel] = []
     current_extinf: Optional[str] = None
     current_extras: list[str] = []
@@ -587,7 +591,8 @@ def parse_m3u(text: str) -> list[Channel]:
         # Kiểm tra điều kiện nhiễu chung
         if not raw_name or _is_noise(tvg_id, raw_name.upper()):
             continue
-        # 🛑 CHẶN RIÊNG CHO NGUỒN NÀY: Nếu tvg_id hoặc tên nằm trong danh sách loại trừ riêng của nguồn thì bỏ qua   
+            
+        # 🛑 CHẶN RIÊNG CHO NGUỒN NÀY: Nếu tvg_id hoặc tên nằm trong danh sách loại trừ riêng thì bỏ qua
         if tvg_id in excluded_set or _dedup_key(raw_name) in excluded_set:
             continue
 
@@ -629,6 +634,7 @@ def parse_m3u(text: str) -> list[Channel]:
 
 
 def merge_sources(lists: list[list[Channel]]) -> list[Channel]:
+    """Gộp nhiều danh sách kênh từ các nguồn khác nhau, ưu tiên chất lượng cao hơn và ưu tiên nguồn đầu tiên."""
     best: dict[str, Channel] = {}
     source_1_keys: set[str] = set()
 
@@ -656,6 +662,7 @@ def merge_sources(lists: list[list[Channel]]) -> list[Channel]:
 
 
 def sort_channels(channels: list[Channel]) -> list[Channel]:
+    """Sắp xếp danh sách kênh theo thứ tự nhóm ưu tiên và thứ tự tên chuẩn hóa."""
     def key(ch: Channel) -> tuple:
         g = _GROUP_ORDER.get(ch.group_key, 99)
         norm_n = _norm_key(ch.name)
@@ -679,6 +686,7 @@ def sort_channels(channels: list[Channel]) -> list[Channel]:
 
 
 def write_m3u(channels: list[Channel], path: str) -> None:
+    """Ghi danh sách kênh đã xử lý ra file định dạng M3U hoàn chỉnh."""
     try:
         with open(path, "w", encoding="utf-8") as f:
             f.write(f'#EXTM3U url-tvg="{MY_EPG_URL}" x-tvg-url="{MY_EPG_URL}"\n')
@@ -692,7 +700,7 @@ def write_m3u(channels: list[Channel], path: str) -> None:
                     f'tvg-logo="{final_logo}" '
                     f'group-title="{ch.group_label}",{ch.name}\n'
                 )
-                # Nếu có dòng phụ trợ cào được (chỉ tồn tại ở 3 kênh onsport, onsportsplus, onfootball) thì ghi ra trước URL
+                # Nếu có dòng phụ trợ cào được thì ghi ra trước URL
                 if ch.extra_lines:
                     for extra in ch.extra_lines:
                         f.write(f"{extra}\n")
@@ -730,6 +738,7 @@ def update_manual_m3u(input_path: str, output_path: str) -> None:
 # CẬP NHẬT MÚI GIỜ EPG
 # ──────────────────────────────────────────────────────────────────────
 def fix_epg_timezone(input_xml_url: str, output_xml_path: str = EPG_OUTPUT_FILE) -> None:
+    """Tải file EPG XML từ nguồn và chuyển đổi chuẩn múi giờ Việt Nam (+0700)."""
     print(f"\n⏳ Đang tải và sửa múi giờ EPG từ {input_xml_url}...")
     xml_text = fetch(input_xml_url)
     if not xml_text:
@@ -757,6 +766,7 @@ def fix_epg_timezone(input_xml_url: str, output_xml_path: str = EPG_OUTPUT_FILE)
 # MAIN
 # ──────────────────────────────────────────────────────────────────────
 def main() -> None:
+    """Hàm điều phối chính thực thi toàn bộ quy trình cập nhật EPG, cào và lọc M3U."""
     print(f"📡  EPG Target: {MY_EPG_URL}")
     
     # 1. Tải và xử lý EPG XML
@@ -771,10 +781,10 @@ def main() -> None:
             print("  ⚠  Bỏ qua (không phải M3U hợp lệ)")
             continue
             
-        # PHÂN BIỆT NGUỒN: Nếu là nguồn số 1 thì áp dụng danh sách loại trừ riêng, các nguồn khác để trống
+        # PHÂN BIỆT NGUỒN: Nguồn số 1 áp dụng danh sách chặn riêng, các nguồn khác để trống
         current_excluded = SOURCE_1_EXCLUDED_CHANNELS if idx == 1 else frozenset()   
             
-        parsed = parse_m3u(text)
+        parsed = parse_m3u(text, excluded_set=current_excluded)
         print(f"     Nhận diện {len(parsed)} kênh TV")
         if parsed:
             processed.append(parsed)
