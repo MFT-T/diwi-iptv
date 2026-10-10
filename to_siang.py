@@ -24,7 +24,7 @@ import requests
 SOURCES: Final[list[str]] = [
     "https://vietmitv.id.vn/vietmitv.m3u",
 	#"https://raw.githubusercontent.com/phuongnm7/Iptv-phuongnm7/refs/heads/main/tv365.m3u",
-	#"https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/main/vmttv",
+	"https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/main/vmttv",
 	#"https://iptv-org.github.io/iptv/countries/vn.m3u",
 	#"https://dl.dropboxusercontent.com/s/o5vygit34v9ryly71gam4/coban66.m3u?rlkey=auyoon54hfubajt16nc7u7dbn&st=70gyvtcu&dl=0",
 ]
@@ -592,7 +592,7 @@ def parse_m3u(text: str) -> list[Channel]:
             province_idx = _PROVINCE_IDX.get(province, 999)
 
         # LOẠI TRỪ: Chỉ giữ lại extra_lines với những kênh yêu cầu
-        target_extras = extras if tvg_id in ("oninfotv", "onsports", "onsportsplus", "onfootball", "sctv15hd", "sctv17hd", "sctv22hd", "sctvhdpth") else None
+        target_extras = extras if tvg_id in ("oninfotv", "onsports", "onsportsplus", "onfootball", "htv2hd", "sctv15hd", "sctv17hd", "sctv22hd", "sctvhdpth") else None
 
         channels.append(
             Channel(
