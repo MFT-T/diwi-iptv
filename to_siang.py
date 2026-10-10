@@ -29,6 +29,15 @@ SOURCES: Final[list[str]] = [
 	#"https://dl.dropboxusercontent.com/s/o5vygit34v9ryly71gam4/coban66.m3u?rlkey=auyoon54hfubajt16nc7u7dbn&st=70gyvtcu&dl=0",
 ]
 
+# 🛑 CÁC KÊNH BỊ LOẠI BỎ RIÊNG KHI CÀO TỪ NGUỒN 1 (Nhưng vẫn lấy nếu có ở nguồn khác như Nguồn 2)
+SOURCE_1_EXCLUDED_CHANNELS: Final[frozenset[str]] = frozenset([
+        # Thêm tvg_id hoặc tên kênh khác tại đây nếu muốn
+    "sctv1hd", "sctv2hd", "sctv3hd", "sctv4hd", "sctv5hd", "sctv6hd", "sctv7hd",
+    "sctv8hd", "sctv9hd", "sctv10hd", "sctv11hd", "sctv12hd", "sctv13hd", "sctv14hd",
+    "sctv15hd", "sctv16hd", "sctv17hd", "sctv18hd", "sctv19hd", "sctv20hd", "sctv21hd",
+    "sctv22hd", "sctvhdpth", "sctv4k", 
+])
+
 RAW_EPG_SOURCE: Final[str] = "https://epg.io.vn/epgu.xml"
 EPG_OUTPUT_FILE: Final[str] = "diwi.epg.xml"
 MY_EPG_URL: Final[str] = f"https://raw.githubusercontent.com/MFT-T/diwi-iptv/main/{EPG_OUTPUT_FILE}"
@@ -574,8 +583,12 @@ def parse_m3u(text: str) -> list[Channel]:
 
         tvg_logo = m_logo.group(1).strip() if m_logo else ""
         src_grp = m_grp.group(1).strip() if m_grp else ""
-
+        
+        # Kiểm tra điều kiện nhiễu chung
         if not raw_name or _is_noise(tvg_id, raw_name.upper()):
+            continue
+        # 🛑 CHẶN RIÊNG CHO NGUỒN NÀY: Nếu tvg_id hoặc tên nằm trong danh sách loại trừ riêng của nguồn thì bỏ qua   
+        if tvg_id in excluded_set or _dedup_key(raw_name) in excluded_set:
             continue
 
         group_key = _classify(tvg_id, src_grp)
@@ -757,6 +770,10 @@ def main() -> None:
         if not text or "#EXTM3U" not in text:
             print("  ⚠  Bỏ qua (không phải M3U hợp lệ)")
             continue
+            
+        # PHÂN BIỆT NGUỒN: Nếu là nguồn số 1 thì áp dụng danh sách loại trừ riêng, các nguồn khác để trống
+        current_excluded = SOURCE_1_EXCLUDED_CHANNELS if idx == 1 else frozenset()   
+            
         parsed = parse_m3u(text)
         print(f"     Nhận diện {len(parsed)} kênh TV")
         if parsed:
