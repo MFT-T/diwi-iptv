@@ -437,6 +437,7 @@ class Channel:
     quality: tuple[int, float]
     tvg_id: str = ""
     tvg_logo: str = ""
+    extra_lines: list[str] = None  # Chỉ dùng để chứa phụ trợ cào được cho 3 kênh đặc biệt
 
     @property
     def group_label(self) -> str:
@@ -532,6 +533,7 @@ def _is_noise(tvg_id: str, upper_name: str) -> bool:
 def parse_m3u(text: str) -> list[Channel]:
     channels: list[Channel] = []
     current_extinf: Optional[str] = None
+    current_extras: list[str] = []
 
     for raw_line in text.splitlines():
         line = raw_line.strip()
@@ -539,12 +541,21 @@ def parse_m3u(text: str) -> list[Channel]:
             continue
         if line.startswith("#EXTINF"):
             current_extinf = line
+            current_extras = []
             continue
+            
+        # Tạm gom các dòng phụ trợ (EXTVLCOPT, KODIPROP) khi gặp trong nguồn cào
+        if line.startswith("#EXTVLCOPT:") or line.startswith("#KODIPROP:"):
+            current_extras.append(line)
+            continue
+
         if line.startswith("#") or not current_extinf:
             continue
 
         extinf_line, current_extinf = current_extinf, None
         url = line
+        extras = current_extras
+        current_extras = []
 
         m_id = _TVG_ID_RE.search(extinf_line)
         m_logo = _TVG_LOGO_RE.search(extinf_line)
@@ -575,6 +586,9 @@ def parse_m3u(text: str) -> list[Channel]:
             province = entry[1]
             province_idx = _PROVINCE_IDX.get(province, 999)
 
+        # LOẠI TRỪ: Chỉ giữ lại extra_lines nếu đúng là 1 trong 3 kênh yêu cầu
+        target_extras = extras if tvg_id in ("onsports", "onsportsplus", "onfootball") else None
+
         channels.append(
             Channel(
                 name=resolve_display_name(raw_name, tvg_id),
@@ -585,6 +599,7 @@ def parse_m3u(text: str) -> list[Channel]:
                 quality=quality_score(raw_name),
                 tvg_id=tvg_id,
                 tvg_logo=tvg_logo,
+                extra_lines=target_extras,
             )
         )
 
@@ -649,12 +664,18 @@ def write_m3u(channels: list[Channel], path: str) -> None:
                 f.write(f"#EXTM3U-SOURCE:{src}\n")
             for ch in channels:
                 final_logo = get_custom_logo(ch)
+                # Ghi dòng thông tin chính EXTINF
                 f.write(
                     f'#EXTINF:-1 tvg-id="{ch.tvg_id}" '
                     f'tvg-logo="{final_logo}" '
                     f'group-title="{ch.group_label}",{ch.name}\n'
-                    f"{ch.url}\n"
                 )
+                # Nếu có dòng phụ trợ cào được (chỉ tồn tại ở 3 kênh onsport, onsportsplus, onfootball) thì ghi ra trước URL
+                if ch.extra_lines:
+                    for extra in ch.extra_lines:
+                        f.write(f"{extra}\n")
+                # Ghi đường dẫn URL luồng
+                f.write(f"{ch.url}\n")
         print(f"✅  Đã ghi {len(channels)} kênh → {path}")
     except IOError as e:
         print(f"❌  Lỗi ghi file {path}: {e}", file=sys.stderr)
