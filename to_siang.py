@@ -128,6 +128,8 @@ TVG_ID_MAP: Final[dict[str, str]] = {
     "htvkey": "htv4hd",
     "sctv5": "sctv5hd",
     "sctv10": "sctv10hd",
+	"sctv15": "sctv15hd",
+	"sctv17": "sctv17hd",
     "tvbvietnam.vn@sd": "tvbvn",
 	 "haiphongplus": "haiphong3",
 }
@@ -587,7 +589,7 @@ def parse_m3u(text: str) -> list[Channel]:
             province_idx = _PROVINCE_IDX.get(province, 999)
 
         # LOẠI TRỪ: Chỉ giữ lại extra_lines nếu đúng là 1 trong 3 kênh yêu cầu
-        target_extras = extras if tvg_id in ("onsports", "onsportsplus", "onfootball") else None
+        target_extras = extras if tvg_id in ("onsports", "onsportsplus", "onfootball", "sctv15hd", "sctv17hd", "sctv22hd") else None
 
         channels.append(
             Channel(
