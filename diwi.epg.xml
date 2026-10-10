@@ -99684,6 +99684,11 @@
   <title lang="vi">KHÔNG CÓ CHƯƠNG TRÌNH</title>
   <icon src="https://r2.epg.io.vn/2026-10-08/191.png" />
  </programme>
+ <programme start="20261010203000 +0700" stop="20261010223000 +0700" channel="tv360plus8">
+  <title lang="vi">TRUYỀN HÌNH TRỰC TIẾP GIẢI BUNDESLIGA 2026/27 VÒNG 5</title>
+  <desc lang="vi">Union Berlin vs Elversberg</desc>
+  <icon src="https://img-zlr1.tv360.vn/image1/2026/10/07/11/179134827343/af1bfcd8f4d3.png" />
+ </programme>
  <programme start="20261011000000 +0700" stop="20261011000500 +0700" channel="tv360plus8">
   <title lang="vi">KHOẢNH KHẮC TV360</title>
   <icon src="https://r2.epg.io.vn/2026-10-08/191.png" />
@@ -99728,7 +99733,7 @@
  <programme start="20261010170000 +0700" stop="20261010190000 +0700" channel="tv360plus10">
   <title lang="vi">VĐQG LPBANK 2026/27 - VÒNG 3</title>
   <desc lang="vi">Hoàng Anh Gia Lai vs SHB Đà Nẵng</desc>
-  <icon src="https://img-zlr1.tv360.vn/image1/2026/10/06/16/1791280040484/28cd4625de38.jpg" />
+  <icon src="https://r2.epg.io.vn/2026-10-08/193.png" />
  </programme>
  <programme start="20261010190000 +0700" stop="20261010235959 +0700" channel="tv360plus10">
   <title lang="vi">KHÔNG CÓ CHƯƠNG TRÌNH</title>
