@@ -46,10 +46,7 @@ MY_LOGO_BASE_URL: Final[str] = "https://raw.githubusercontent.com/MFT-T/tvn-logo
 
 # DANH SÁCH CHẶN (Bất kỳ kênh nào có tvg_id hoặc tên thuộc danh sách này sẽ bị loại bỏ)
 BLOCKED_CHANNELS: Final[frozenset[str]] = frozenset([
-    "onfootball",
-    "onsportsplus",
-    "onsports",
-    "oninfotv"
+        "oninfotv"
 ])
 
 # ──────────────────────────────────────────────────────────────────────
@@ -201,6 +198,9 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "onmusic": ("ON Music", "VTVcab"),
     "ontrending": ("ON Trending", "VTVcab"),
     "hitv": ("HiTV", "VTVcab"),
+    "onsports": ("ON Sport", ("VTVcab"),
+	"onsportsplus": ("ON Sport+", ("VTVcab"),
+	"onfootball": ("ON Football", ("VTVcab"),
     
     # ── SCTV ─────────────────────────────────────────────────────────
     "sctv1hd": ("SCTV1", "SCTV"),
@@ -380,6 +380,7 @@ _HTV_ORDER: Final[list[str]] = [
 _VTVcab_ORDER: Final[list[str]] = [
     "ON Bibi", "ON Cine", "ON E-Channel", "ON Golf", "ON HomeShopping", "ON Kids", "ON Life", "ON Music",
     "ON Movies", "ON O2TV", "ON Phim Việt", "ON Style", "ON Trending", "ON Vie DRAMAS", "ON V Family", "ON Vie Giải Trí", "TVB Việt Nam", "HiTV",
+	"ON Sport", "ON Sport+", "ON Football",
 ]
 _SCTV_ORDER: Final[list[str]] = [
     "SCTV1", "SCTV2", "SCTV3", "SCTV4", "SCTV5", "SCTV6", "SCTV7", "SCTV8", "SCTV9",
