@@ -46,7 +46,7 @@ MY_LOGO_BASE_URL: Final[str] = "https://raw.githubusercontent.com/MFT-T/tvn-logo
 
 # DANH SÁCH CHẶN (Bất kỳ kênh nào có tvg_id hoặc tên thuộc danh sách này sẽ bị loại bỏ)
 BLOCKED_CHANNELS: Final[frozenset[str]] = frozenset([
-        ""
+        "oninfotv"
 ])
 
 # ──────────────────────────────────────────────────────────────────────
