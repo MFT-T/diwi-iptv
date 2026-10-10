@@ -99572,8 +99572,16 @@
   <desc lang="vi">Augsburg vs Bayern Munich</desc>
   <icon src="https://r2.epg.io.vn/2026-10-08/187.png" />
  </programme>
+ <programme start="20261010223000 +0700" stop="20261010235959 +0700" channel="tv360plus4">
+  <title lang="vi">KHÔNG CÓ CHƯƠNG TRÌNH</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/187.png" />
+ </programme>
  <programme start="20261011000000 +0700" stop="20261011000500 +0700" channel="tv360plus4">
   <title lang="vi">KHOẢNH KHẮC TV360</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/187.png" />
+ </programme>
+ <programme start="20261011000500 +0700" stop="20261011223000 +0700" channel="tv360plus4">
+  <title lang="vi">KHÔNG CÓ CHƯƠNG TRÌNH</title>
   <icon src="https://r2.epg.io.vn/2026-10-08/187.png" />
  </programme>
  <programme start="20261011223000 +0700" stop="20261011235959 +0700" channel="tv360plus4">
@@ -99617,8 +99625,16 @@
   <desc lang="vi">Paderborn vs Stuttgart</desc>
   <icon src="https://img-zlr1.tv360.vn/image1/2026/10/07/11/1791348509571/c051830d2a7b.png" />
  </programme>
+ <programme start="20261010223000 +0700" stop="20261010235959 +0700" channel="tv360plus6">
+  <title lang="vi">KHÔNG CÓ CHƯƠNG TRÌNH</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/189.png" />
+ </programme>
  <programme start="20261011000000 +0700" stop="20261011000500 +0700" channel="tv360plus6">
   <title lang="vi">KHOẢNH KHẮC TV360</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/189.png" />
+ </programme>
+ <programme start="20261011000500 +0700" stop="20261011235959 +0700" channel="tv360plus6">
+  <title lang="vi">KHÔNG CÓ CHƯƠNG TRÌNH</title>
   <icon src="https://r2.epg.io.vn/2026-10-08/189.png" />
  </programme>
  <programme start="20261009000000 +0700" stop="20261009000500 +0700" channel="tv360plus7">
@@ -99634,8 +99650,16 @@
   <desc lang="vi">Hoffenheim vs Hamburg</desc>
   <icon src="https://img-zlr1.tv360.vn/image1/2026/10/07/11/1791347581942/1e3aff8b3274.png" />
  </programme>
+ <programme start="20261010223000 +0700" stop="20261010235959 +0700" channel="tv360plus7">
+  <title lang="vi">KHÔNG CÓ CHƯƠNG TRÌNH</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/190.png" />
+ </programme>
  <programme start="20261011000000 +0700" stop="20261011000500 +0700" channel="tv360plus7">
   <title lang="vi">KHOẢNH KHẮC TV360</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/190.png" />
+ </programme>
+ <programme start="20261011000500 +0700" stop="20261011235959 +0700" channel="tv360plus7">
+  <title lang="vi">KHÔNG CÓ CHƯƠNG TRÌNH</title>
   <icon src="https://r2.epg.io.vn/2026-10-08/190.png" />
  </programme>
  <programme start="20261009000000 +0700" stop="20261009000500 +0700" channel="tv360plus8">
@@ -99734,10 +99758,18 @@
   <title lang="vi">KHOẢNH KHẮC TV360</title>
   <icon src="https://r2.epg.io.vn/2026-10-08/194.png" />
  </programme>
+ <programme start="20261011000500 +0700" stop="20261011180000 +0700" channel="tv360plus11">
+  <title lang="vi">KHÔNG CÓ CHƯƠNG TRÌNH</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/194.png" />
+ </programme>
  <programme start="20261011180000 +0700" stop="20261011200000 +0700" channel="tv360plus11">
   <title lang="vi">TRUYỀN HÌNH TRỰC TIẾP GIẢI HẠNG NHẤT QUỐC GIA SACOMBANK 2026/27 VÒNG 2</title>
   <desc lang="vi">Quy Nhơn United vs Huế</desc>
   <icon src="https://img-zlr1.tv360.vn/image1/2026/10/07/09/1791338732995/acab0f8ab3ba.jpg" />
+ </programme>
+ <programme start="20261011200000 +0700" stop="20261011235959 +0700" channel="tv360plus11">
+  <title lang="vi">KHÔNG CÓ CHƯƠNG TRÌNH</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/194.png" />
  </programme>
  <programme start="20261009000000 +0700" stop="20261009000500 +0700" channel="tv360plus12">
   <title lang="vi">KHOẢNH KHẮC TV360</title>
@@ -99828,6 +99860,10 @@
  </programme>
  <programme start="20261011000000 +0700" stop="20261011000500 +0700" channel="tv360plus14">
   <title lang="vi">KHOẢNH KHẮC TV360</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/197.png" />
+ </programme>
+ <programme start="20261011000500 +0700" stop="20261011235959 +0700" channel="tv360plus14">
+  <title lang="vi">KHÔNG CÓ CHƯƠNG TRÌNH</title>
   <icon src="https://r2.epg.io.vn/2026-10-08/197.png" />
  </programme>
  <programme start="20261009000000 +0700" stop="20261009000500 +0700" channel="tv360plus15">
@@ -106594,6 +106630,82 @@
   <title lang="vi">FULL TRẬN | REAL BETIS - CHELSEA | 29/5 | CHUNG KẾT UEFA CONFERENCE LEAGUE 24/25</title>
   <icon src="https://r2.epg.io.vn/2026-10-08/212.png" />
  </programme>
+ <programme start="20261011011911 +0700" stop="20261011012822 +0700" channel="360c3">
+  <title lang="vi">HIGHLIGHTS FIORENTINA VS THE NEW SAINTS | UEFA CONFERENCE LEAGUE 2024/25</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/212.png" />
+ </programme>
+ <programme start="20261011012822 +0700" stop="20261011021532 +0700" channel="360c3">
+  <title lang="vi">TỔNG HỢP SAU LƯỢT TRẬN EUROPA - CONFERENCE LEAGUE 2024/25 (SỐ 1)</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/212.png" />
+ </programme>
+ <programme start="20261011021532 +0700" stop="20261011022529 +0700" channel="360c3">
+  <title lang="vi">HIGHLIGHTS VITORIA VS CELJE | UEFA CONFERENCE LEAGUE 2024/25</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/212.png" />
+ </programme>
+ <programme start="20261011022529 +0700" stop="20261011023533 +0700" channel="360c3">
+  <title lang="vi">HIGHLIGHTS ISTANBUL BASAKSEHIR VS SK RAPID WIEN | UEFA CONFERENCE LEAGUE 2024/25</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/212.png" />
+ </programme>
+ <programme start="20261011023533 +0700" stop="20261011024811 +0700" channel="360c3">
+  <title lang="vi">HIGHLIGHTS | PANATHINAIKOS - CHELSEA | CƠN CUỒNG NỘ CỦA THE BLUES | UEFA CONFERENCE LEAGUE 24/25</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/212.png" />
+ </programme>
+ <programme start="20261011024811 +0700" stop="20261011043124 +0700" channel="360c3">
+  <title lang="vi">FULL TRẬN | PANATHINAIKOS - CHELSEA | UEFA CONFERENCE LEAGUE 24/25</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/212.png" />
+ </programme>
+ <programme start="20261011043124 +0700" stop="20261011044129 +0700" channel="360c3">
+  <title lang="vi">MÀN TRÌNH DIỄN | CHELSEA | JOAO FELIX LẬP CÚ ĐÚP, HÀNG CÔNG THĂNG HOA | UEFA CONFERENCE LEAGUE 24/25</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/212.png" />
+ </programme>
+ <programme start="20261011044129 +0700" stop="20261011052905 +0700" channel="360c3">
+  <title lang="vi">TỔNG HỢP TUẦN 3 UEFA EUROPA LEAGUE &amp; CONFERENCE LEAGUE 2024/25</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/212.png" />
+ </programme>
+ <programme start="20261011052905 +0700" stop="20261011061722 +0700" channel="360c3">
+  <title lang="vi">TẠP CHÍ EUROPA - CONFERENCE MÙA GIẢI 2024/25 (SỐ 4)</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/212.png" />
+ </programme>
+ <programme start="20261011061722 +0700" stop="20261011080035 +0700" channel="360c3">
+  <title lang="vi">FULL TRẬN | PANATHINAIKOS - CHELSEA | UEFA CONFERENCE LEAGUE 24/25</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/212.png" />
+ </programme>
+ <programme start="20261011080035 +0700" stop="20261011094708 +0700" channel="360c3">
+  <title lang="vi">FULL TRẬN | CHELSEA - NOAH | UEFA CONFERENCE LEAGUE 24/25</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/212.png" />
+ </programme>
+ <programme start="20261011094708 +0700" stop="20261011113356 +0700" channel="360c3">
+  <title lang="vi">FULL TRẬN | HEIDENHEIM - CHELSEA | 29/11 | UEFA CONFERENCE LEAGUE 24/25</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/212.png" />
+ </programme>
+ <programme start="20261011113356 +0700" stop="20261011131435 +0700" channel="360c3">
+  <title lang="vi">FULL TRẬN | ASTANA - CHELSEA | 13/12 | UEFA CONFERENCE LEAGUE 24/25</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/212.png" />
+ </programme>
+ <programme start="20261011131435 +0700" stop="20261011145829 +0700" channel="360c3">
+  <title lang="vi">FULL TRẬN | FIORENTINA - LASK LINZ | 13/12 | UEFA CONFERENCE LEAGUE 24/25</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/212.png" />
+ </programme>
+ <programme start="20261011145829 +0700" stop="20261011164248 +0700" channel="360c3">
+  <title lang="vi">FULL TRẬN | COPENHAGEN - CHELSEA | 7/3 | UEFA CONFERENCE LEAGUE 24/25</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/212.png" />
+ </programme>
+ <programme start="20261011164248 +0700" stop="20261011185019 +0700" channel="360c3">
+  <title lang="vi">FULL TRẬN | REAL BETIS - CHELSEA | 29/5 | CHUNG KẾT UEFA CONFERENCE LEAGUE 24/25</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/212.png" />
+ </programme>
+ <programme start="20261011185019 +0700" stop="20261011203652 +0700" channel="360c3">
+  <title lang="vi">FULL TRẬN | CHELSEA - NOAH | UEFA CONFERENCE LEAGUE 24/25</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/212.png" />
+ </programme>
+ <programme start="20261011203652 +0700" stop="20261011221917 +0700" channel="360c3">
+  <title lang="vi">FULL TRẬN| CHELSEA - GENT | UEFA CONFERENCE LEAGUE 24/25</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/212.png" />
+ </programme>
+ <programme start="20261011221917 +0700" stop="20261012000230 +0700" channel="360c3">
+  <title lang="vi">FULL TRẬN | PANATHINAIKOS - CHELSEA | UEFA CONFERENCE LEAGUE 24/25</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/212.png" />
+ </programme>
  <programme start="20261008233010 +0700" stop="20261009011846 +0700" channel="360thethaochaua">
   <title lang="vi">FULL TRẬN U20 VIỆT NAM VS U20 BANGLADESH | GIẢI VÔ ĐỊCH U20 NỮ CHÂU Á 2026</title>
   <icon src="https://r2.epg.io.vn/2026-10-08/213.png" />
@@ -107196,6 +107308,82 @@
  </programme>
  <programme start="20261010024012 +0700" stop="20261010042607 +0700" channel="360bundesliga">
   <title lang="vi">FULL TRẬN | BAYERN MUNICH VS STUTTGART | VÒNG 1 BUNDESLIGA 2026/27 | LUỒNG CHIẾN THUẬT</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/215.png" />
+ </programme>
+ <programme start="20261011012648 +0700" stop="20261011013640 +0700" channel="360bundesliga">
+  <title lang="vi">HIGHLIGHTS TRẬN | FC TOKYO VS BORUSSIA DORTMUND | GIAO HỮU CLB</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/215.png" />
+ </programme>
+ <programme start="20261011013640 +0700" stop="20261011032609 +0700" channel="360bundesliga">
+  <title lang="vi">FULL TRẬN | FC TOKYO VS BORUSSIA DORTMUND | GIAO HỮU CLB</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/215.png" />
+ </programme>
+ <programme start="20261011032609 +0700" stop="20261011053226 +0700" channel="360bundesliga">
+  <title lang="vi">FULL | BORUSSIA DORTMUND VS BAYERN MUNICH | SIÊU CÚP ĐỨC 2026 - CÚP FRANZ BECKENBAUER</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/215.png" />
+ </programme>
+ <programme start="20261011053226 +0700" stop="20261011074210 +0700" channel="360bundesliga">
+  <title lang="vi">FULL | BORUSSIA DORTMUND VS BAYERN MUNICH SIÊU CÚP ĐỨC 2026 - CÚP FRANZ BECKENBAUER | LUỒNG CHIẾN THUẬT</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/215.png" />
+ </programme>
+ <programme start="20261011074210 +0700" stop="20261011075457 +0700" channel="360bundesliga">
+  <title lang="vi">HIGHLIGHTS | BORUSSIA DORTMUND VS BAYERN MUNICH SIÊU CÚP ĐỨC 2026 CÚP FRANZ BECKENBAUER | LUỒNG CHIẾN THUẬT</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/215.png" />
+ </programme>
+ <programme start="20261011075457 +0700" stop="20261011094052 +0700" channel="360bundesliga">
+  <title lang="vi">FULL TRẬN | BAYERN MUNICH VS STUTTGART | VÒNG 1 BUNDESLIGA 2026/27 | LUỒNG CHIẾN THUẬT</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/215.png" />
+ </programme>
+ <programme start="20261011094052 +0700" stop="20261011112635 +0700" channel="360bundesliga">
+  <title lang="vi">FULL TRẬN | BAYERN MUNICH VS STUTTGART | VÒNG 1 BUNDESLIGA 2026/27</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/215.png" />
+ </programme>
+ <programme start="20261011112635 +0700" stop="20261011113433 +0700" channel="360bundesliga">
+  <title lang="vi">HIGHLIGHTS | MAINZ 05 VS PADERBORN | VÒNG 1 BUNDESLIGA 2026/27</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/215.png" />
+ </programme>
+ <programme start="20261011113433 +0700" stop="20261011114701 +0700" channel="360bundesliga">
+  <title lang="vi">HIGHLIGHTS | RB LEIPZIG VS MONCHENGLADBACH | VÒNG 1 BUNDESLIGA 2026/27</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/215.png" />
+ </programme>
+ <programme start="20261011114701 +0700" stop="20261011115756 +0700" channel="360bundesliga">
+  <title lang="vi">HIGHLIGHTS | COLOGNE VS HOFFENHEIM | VÒNG 1 BUNDESLIGA 2026/27</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/215.png" />
+ </programme>
+ <programme start="20261011115756 +0700" stop="20261011135308 +0700" channel="360bundesliga">
+  <title lang="vi">FULL | UNION BERLIN VS EINTRACHT FRANKFURT | VÒNG 1 BUNDESLIGA 2026/27</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/215.png" />
+ </programme>
+ <programme start="20261011135308 +0700" stop="20261011154251 +0700" channel="360bundesliga">
+  <title lang="vi">FULL TRẬN | COLOGNE VS HOFFENHEIM | VÒNG 1 BUNDESLIGA 2026/27</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/215.png" />
+ </programme>
+ <programme start="20261011154251 +0700" stop="20261011173447 +0700" channel="360bundesliga">
+  <title lang="vi">FULL | RB LEIPZIG VS MONCHENGLADBACH | VÒNG 1 BUNDESLIGA 2026/27</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/215.png" />
+ </programme>
+ <programme start="20261011173447 +0700" stop="20261011192041 +0700" channel="360bundesliga">
+  <title lang="vi">FULL TRẬN | MAINZ 05 VS PADERBORN | VÒNG 1 BUNDESLIGA 2026/27</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/215.png" />
+ </programme>
+ <programme start="20261011192041 +0700" stop="20261011193012 +0700" channel="360bundesliga">
+  <title lang="vi">HIGHLIGHTS | BORUSSIA DORTMUND VS HAMBURG | VÒNG 1 BUNDESLIGA 2026/27</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/215.png" />
+ </programme>
+ <programme start="20261011193012 +0700" stop="20261011193901 +0700" channel="360bundesliga">
+  <title lang="vi">HIGHLIGHTS | FREIBURG VS WERDER BREMEN | VÒNG 1 BUNDESLIGA 2026/27</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/215.png" />
+ </programme>
+ <programme start="20261011193901 +0700" stop="20261011212645 +0700" channel="360bundesliga">
+  <title lang="vi">FULL TRẬN | BORUSSIA DORTMUND VS HAMBURG | VÒNG 1 BUNDESLIGA 2026/27</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/215.png" />
+ </programme>
+ <programme start="20261011212645 +0700" stop="20261011231323 +0700" channel="360bundesliga">
+  <title lang="vi">FULL | FREIBURG VS WERDER BREMEN | VÒNG 1 BUNDESLIGA 2026/27</title>
+  <icon src="https://r2.epg.io.vn/2026-10-08/215.png" />
+ </programme>
+ <programme start="20261011231323 +0700" stop="20261012010432 +0700" channel="360bundesliga">
+  <title lang="vi">FULL | ELVERSBERG VS BAYER LEVERKUSEN | VÒNG 1 BUNDESLIGA 2026/27.</title>
   <icon src="https://r2.epg.io.vn/2026-10-08/215.png" />
  </programme>
  <programme start="20261008223034 +0700" stop="20261009005046 +0700" channel="360golf">
