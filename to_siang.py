@@ -592,7 +592,11 @@ def parse_m3u(text: str) -> list[Channel]:
             province_idx = _PROVINCE_IDX.get(province, 999)
 
         # LOẠI TRỪ: Chỉ giữ lại extra_lines với những kênh yêu cầu
-        target_extras = extras if tvg_id in ("oninfotv", "onsports", "onsportsplus", "onfootball", "htv2hd", "sctv15hd", "sctv17hd", "sctv22hd", "sctvhdpth") else None
+        target_extras = extras if tvg_id in ("oninfotv", "onsports", "onsportsplus", "onfootball", "htv2hd",
+											 "sctv1hd", "sctv2hd", "sctv3hd", "sctv4hd", "sctv5hd", "sctv6hd",
+											 "sctv7hd", "sctv8hd", "sctv9hd", "sctv10hd", "sctv11hd", "sctv12hd",
+											 "sctv13hd", "sctv14hd", "sctv15hd", "sctv16hd", "sctv17hd", "sctv18hd",
+											 "sctv19hd", "sctv20hd", "sctv21hd", "sctv22hd", "sctvhdpth", "sctv4k") else None
 
         channels.append(
             Channel(
