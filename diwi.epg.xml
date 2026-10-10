@@ -1390,89 +1390,99 @@
   <display-number>278</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
+ <channel id="fpt-event-su-kien-38">
+  <display-name lang="vi">FPT Sự kiện 38</display-name>
+  <display-number>279</display-number>
+  <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
+ </channel>
  <channel id="fpt-event-event-02">
   <display-name lang="vi">FPT Event 02</display-name>
-  <display-number>279</display-number>
+  <display-number>280</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <channel id="fpt-event-event-04">
   <display-name lang="vi">FPT Event 04</display-name>
-  <display-number>280</display-number>
+  <display-number>281</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <channel id="fpt-event-event-18">
   <display-name lang="vi">FPT Event 18</display-name>
-  <display-number>281</display-number>
+  <display-number>282</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <channel id="fpt-event-event-18-4k">
   <display-name lang="vi">FPT Event 18 4K</display-name>
-  <display-number>282</display-number>
+  <display-number>283</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <channel id="fpt-event-event-19">
   <display-name lang="vi">FPT Event 19</display-name>
-  <display-number>283</display-number>
+  <display-number>284</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <channel id="fpt-event-event-20">
   <display-name lang="vi">FPT Event 20</display-name>
-  <display-number>284</display-number>
+  <display-number>285</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <channel id="fpt-event-epl-hcm-01-bk">
   <display-name lang="vi">FPT EPL HCM 01 BK</display-name>
-  <display-number>285</display-number>
+  <display-number>286</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <channel id="fpt-event-epl-hcm-03-bk">
   <display-name lang="vi">FPT EPL HCM 03 BK</display-name>
-  <display-number>286</display-number>
+  <display-number>287</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <channel id="fpt-event-epl-hcm-05-4k-bk">
   <display-name lang="vi">FPT EPL HCM 05 4K BK</display-name>
-  <display-number>287</display-number>
+  <display-number>288</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <channel id="fpt-event-epl-hn-01-4k">
   <display-name lang="vi">FPT EPL HN 01 4K</display-name>
-  <display-number>288</display-number>
+  <display-number>289</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <channel id="fpt-event-epl-hn-02-bk">
   <display-name lang="vi">FPT EPL HN 02 BK</display-name>
-  <display-number>289</display-number>
+  <display-number>290</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <channel id="fpt-event-epl-hn-03-bk">
   <display-name lang="vi">FPT EPL HN 03 BK</display-name>
-  <display-number>290</display-number>
+  <display-number>291</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <channel id="fpt-event-epl-hn-04-4k-bk">
   <display-name lang="vi">FPT EPL HN 04 4K BK</display-name>
-  <display-number>291</display-number>
+  <display-number>292</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <channel id="fpt-event-epl-hn-06-4k-bk">
   <display-name lang="vi">FPT EPL HN 06 4K BK</display-name>
-  <display-number>292</display-number>
+  <display-number>293</display-number>
+  <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
+ </channel>
+ <channel id="fpt-event-epl-hn-07-4k-bk">
+  <display-name lang="vi">FPT EPL HN 07 4K BK</display-name>
+  <display-number>294</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <channel id="fpt-event-epl-hn-08-4k-bk">
   <display-name lang="vi">FPT EPL HN 08 4K BK</display-name>
-  <display-number>293</display-number>
+  <display-number>295</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <channel id="fpt-event-epl-hn-09-4k-bk">
   <display-name lang="vi">FPT EPL HN 09 4K BK</display-name>
-  <display-number>294</display-number>
+  <display-number>296</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <channel id="fpt-event-nba-hn-02">
   <display-name lang="vi">FPT NBA HN 02</display-name>
-  <display-number>295</display-number>
+  <display-number>297</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <programme start="20261009000101 +0700" stop="20261009003032 +0700" channel="vtv1hd">
@@ -99693,7 +99703,7 @@
  <programme start="20261010180000 +0700" stop="20261010200000 +0700" channel="tv360plus9">
   <title lang="vi">THTT VÒNG 2 HNQG SACOMBANK 2026/27</title>
   <desc lang="vi">Hưng Yên vs Xuân Thiện Phú Thọ</desc>
-  <icon src="https://img-zlr1.tv360.vn/image1/2026/10/10/15/1791620418130/400d132f031e.jpeg" />
+  <icon src="https://r2.epg.io.vn/2026-10-08/192.png" />
  </programme>
  <programme start="20261011000000 +0700" stop="20261011000500 +0700" channel="tv360plus9">
   <title lang="vi">KHOẢNH KHẮC TV360</title>
@@ -130178,6 +130188,11 @@
   <desc lang="vi">Làm khách trên sân của Sông Lam Nghệ An, Công An TP. Hồ Chí Minh được dự đoán sẽ gặp nhiều thử thách.</desc>
   <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/07/thumbnail-live_1791346735523.jpg" />
  </programme>
+ <programme start="20261011190000 +0700" stop="20261012011500 +0700" channel="fpt-event-su-kien-38">
+  <title lang="vi">HÀ NỘI - BẮC NINH</title>
+  <desc lang="vi">Nhỉnh hơn về mọi mặt, Hà Nội được dự đoán sẽ không mấy khó khăn để vượt qua tân binh Bắc Ninh.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/07/thumbnail-live_1791346919085.jpg" />
+ </programme>
  <programme start="20261011130000 +0700" stop="20261012130000 +0700" channel="fpt-event-event-02">
   <title lang="vi">ĐẤU TRƯỜNG DANH VỌNG MÙA ĐÔNG 2026 - NGÀY 11/10</title>
   <desc lang="vi">Đấu Trường Danh Vọng Mùa Đông 2026 chính thức khởi tranh với cục diện đầy bất ngờ. Cùng chờ xem những tân binh và ẩn số nào sẽ tạo nên khác biệt trong hành trình chinh phục ngôi vương.</desc>
@@ -130267,6 +130282,11 @@
   <title lang="vi">SUPER SUNDAY VÒNG 6</title>
   <desc lang="vi">Super Sunday mang đến những nhận định và dự báo trước giờ bóng lăn cho các trận cầu đáng chú ý, khép lại loạt đấu cuối tuần.</desc>
   <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/10/slider_1791632890526.jpg" />
+ </programme>
+ <programme start="20261011192000 +0700" stop="20261012060000 +0700" channel="fpt-event-epl-hn-07-4k-bk">
+  <title lang="vi">HULL CITY - EVERTON</title>
+  <desc lang="vi">Được tiếp lửa bởi khán giả nhà, Hull City quyết tâm tạo ra một thế trận chặt chẽ để giữ lại điểm trước đối thủ đang xếp ngay trên là Everton.</desc>
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/08/slider_1791444462771.jpg" />
  </programme>
  <programme start="20261011221000 +0700" stop="20261012083000 +0700" channel="fpt-event-epl-hn-08-4k-bk">
   <title lang="vi">LIVERPOOL - MANCHESTER CITY</title>
