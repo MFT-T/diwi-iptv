@@ -3,7 +3,7 @@
 IPTV Auto-updater
 - Nguồn: Danh sách M3U tổng hợp / sưu tập
 - Kênh TV: VTV, ANQP, HTV, VTVcab, SCTV, Địa Phương, Quốc Tế
-- EPG: Tự động tải, sửa múi giờ Việt Nam (+0700) và xuất file iptv.epg.xml
+- EPG: Tự động tải, lọc kênh theo M3U, sửa múi giờ Việt Nam (+0700) và xuất file iptv.epg.xml
 - Sắp xếp địa phương: Tên tỉnh thành A-Z (63 tỉnh thành)
 - tvg-id chuẩn hóa theo vnepg (viết liền, không dấu gạch ngang)
 - Output: diwi.m3u, my_list.m3u & diwi.epg.xml
@@ -715,11 +715,11 @@ def write_m3u(channels: list[Channel], path: str) -> None:
 
 
 # ──────────────────────────────────────────────────────────────────────
-# CẬP NHẬT MÚI GIỜ EPG
+# CẬP NHẬT MÚI GIỜ VÀ LỌC KÊNH EPG
 # ──────────────────────────────────────────────────────────────────────
-def fix_epg_timezone(input_xml_url: str, output_xml_path: str = EPG_OUTPUT_FILE) -> None:
-    """Tải file EPG XML từ nguồn và chuyển đổi chuẩn múi giờ Việt Nam (+0700)."""
-    print(f"\n⏳ Đang tải và sửa múi giờ EPG từ {input_xml_url}...")
+def fix_epg_timezone(input_xml_url: str, output_xml_path: str = EPG_OUTPUT_FILE, valid_channel_ids: frozenset[str] = frozenset()) -> None:
+    """Tải file EPG XML, lọc bỏ các kênh không nằm trong danh sách M3U và chuyển đổi múi giờ (+0700)."""
+    print(f"\n⏳ Đang tải, lọc kênh và sửa múi giờ EPG từ {input_xml_url}...")
     xml_text = fetch(input_xml_url)
     if not xml_text:
         print("  ⚠ Không thể tải file EPG XML")
@@ -727,17 +727,29 @@ def fix_epg_timezone(input_xml_url: str, output_xml_path: str = EPG_OUTPUT_FILE)
 
     try:
         root = ET.fromstring(xml_text)
-        for prog in root.findall('programme'):
-            for attr in ['start', 'stop']:
-                val = prog.get(attr)
-                if val:
-                    clean_val = val.split()[0]
-                    if len(clean_val) == 14:
-                        prog.set(attr, f"{clean_val} +0700")
+        
+        # 1. Lọc các thẻ <channel>: Chỉ giữ lại những kênh có id nằm trong danh sách M3U hợp lệ
+        for channel_elem in list(root.findall('channel')):
+            ch_id = channel_elem.get('id')
+            if valid_channel_ids and ch_id not in valid_channel_ids:
+                root.remove(channel_elem)
+
+        # 2. Lọc các thẻ <programme>: Chỉ giữ lại chương trình thuộc các channel còn lại và sửa múi giờ
+        for prog_elem in list(root.findall('programme')):
+            prog_ch = prog_elem.get('channel')
+            if valid_channel_ids and prog_ch not in valid_channel_ids:
+                root.remove(prog_elem)
+            else:
+                for attr in ['start', 'stop']:
+                    val = prog_elem.get(attr)
+                    if val:
+                        clean_val = val.split()[0]
+                        if len(clean_val) == 14:
+                            prog_elem.set(attr, f"{clean_val} +0700")
 
         tree = ET.ElementTree(root)
         tree.write(output_xml_path, encoding='utf-8', xml_declaration=True)
-        print(f"✅ Đã xử lý và lưu EPG chuẩn giờ Việt Nam → {output_xml_path}")
+        print(f"✅ Đã lọc và lưu EPG chuẩn giờ Việt Nam → {output_xml_path}")
     except Exception as e:
         print(f"  ⚠ Lỗi xử lý XML EPG: {e}", file=sys.stderr)
 
@@ -749,10 +761,7 @@ def main() -> None:
     """Hàm điều phối chính thực thi toàn bộ quy trình cập nhật EPG, cào và lọc M3U."""
     print(f"📡  EPG Target: {MY_EPG_URL}")
     
-    # 1. Tải và xử lý EPG XML
-    fix_epg_timezone(RAW_EPG_SOURCE, EPG_OUTPUT_FILE)
-    
-    # 2. Tải và xử lý danh sách kênh IPTV tự động
+    # 1. Tải và xử lý danh sách kênh IPTV tự động trước để trích xuất các tvg_id hợp lệ
     processed: list[list[Channel]] = []
     for idx, src in enumerate(SOURCES, 1):
         print(f"\n[{idx}/{len(SOURCES)}] Tải: {src}")
@@ -769,12 +778,21 @@ def main() -> None:
         if parsed:
             processed.append(parsed)
 
-    if processed:
-        print("\n🔀  Gộp & dedup danh sách tự động…")
-        final = sort_channels(merge_sources(processed))
-        write_m3u(final, OUTPUT_FILE)
-    else:
+    if not processed:
         print("⚠  Không có nguồn tự động nào hợp lệ.", file=sys.stderr)
+        return
+
+    print("\n🔀  Gộp & dedup danh sách tự động…")
+    final_channels = sort_channels(merge_sources(processed))
+    
+    # Gom tập hợp các tvg_id có trong danh sách M3U đã lọc để dùng cho việc lọc EPG tương ứng
+    valid_channel_ids = frozenset(ch.tvg_id for ch in final_channels if ch.tvg_id)
+
+    # 2. Tải, lọc nội dung XML EPG dựa trên danh sách M3U và cập nhật múi giờ (+0700)
+    fix_epg_timezone(RAW_EPG_SOURCE, EPG_OUTPUT_FILE, valid_channel_ids=valid_channel_ids)
+    
+    # 3. Ghi tệp danh sách M3U hoàn chỉnh ra đĩa
+    write_m3u(final_channels, OUTPUT_FILE)
 
 
 
