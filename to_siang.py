@@ -19,7 +19,7 @@ from typing import Final, Optional
 import requests
 
 # ──────────────────────────────────────────────────────────────────────
-# CẤU HÌNH
+# CẤU HÌNH NGUỒN-LUỒNG PHÁT
 # ──────────────────────────────────────────────────────────────────────
 SOURCES: Final[list[str]] = [
     "https://vietmitv.id.vn/vietmitv.m3u",
@@ -32,7 +32,7 @@ SOURCES: Final[list[str]] = [
 # 🛑 CÁC KÊNH BỊ LOẠI BỎ RIÊNG KHI CÀO TỪ NGUỒN 1 (Nhưng vẫn lấy nếu có ở nguồn khác như Nguồn 2)
 SOURCE_1_EXCLUDED_CHANNELS: Final[frozenset[str]] = frozenset([
     "sctv1hd", "sctv2hd", "sctv3hd", "sctv4hd", "sctv5hd", "sctv6hd", "sctv7hd",
-    "sctv8hd", "sctv9hd", "sctv10hd", "sctv11hd", "sctv12hd", "sctv13hd", "sctv14hd",
+    "sctv9hd", "sctv10hd", "sctv11hd", "sctv12hd", "sctv13hd", "sctv14hd",
     "sctv15hd", "sctv16hd", "sctv17hd", "sctv18hd", "sctv19hd", "sctv20hd", "sctv21hd",
     "sctv22hd", "sctvhdpth", "sctv4k", 
 ])
@@ -379,7 +379,7 @@ _UNACCENTED_NAME_MAP: Final[dict[str, str]] = {
 _KNOWN_IDS: Final[frozenset[str]] = frozenset(_CHANNEL_DATA)
 
 # ──────────────────────────────────────────────────────────────────────
-# THỨ TỰ HIỂN THỊ & INDEX SORT
+# THỨ TỰ HIỂN THỊ KÊNH TRONG ORDER & INDEX SORT
 # ──────────────────────────────────────────────────────────────────────
 _VTV_ORDER: Final[list[str]] = [
     "VTV1", "VTV2", "VTV3", "VTV4", "VTV5", "VTV5 Tây Nam Bộ", "VTV5 Tây Nguyên",
@@ -418,7 +418,7 @@ _CCTV_ORDER: Final[list[str]] = [
     "CCTV8", "CCTV9", "CCTV10", "CCTV11", "CCTV12", "CCTV13", "CCTV14",
     "CCTV15", "CCTV16", "CCTV17"
 ]
-
+# Thứ tự hiển thị theo nhóm
 _GROUP_ORDER: Final[dict[str, int]] = {
     "VTV": 0, "ANQP": 1, "HTV": 2, "VTVcab": 3, "SCTV": 4, "LOCAL": 5, "CHINA": 6
 }
@@ -436,6 +436,7 @@ _LABEL: Final[dict[str, str]] = {
 }
 
 _LOCAL_KEYWORDS: Final[frozenset[str]] = frozenset(["địa phương", "dia phuong", "tỉnh", "tinh"])
+# Lọc nhiễu theo tên được ghi và loại bỏ từ các nguồn
 _NOISE_NAMES: Final[frozenset[str]] = frozenset(["SỰ KIỆN", "VTVPRIME", "FPT", "VOV"])
 
 # ──────────────────────────────────────────────────────────────────────
@@ -592,7 +593,7 @@ def parse_m3u(text: str, excluded_set: frozenset[str] = frozenset()) -> list[Cha
         if not raw_name or _is_noise(tvg_id, raw_name.upper()):
             continue
             
-        # 🛑 CHẶN RIÊNG CHO NGUỒN NÀY: Nếu tvg_id hoặc tên nằm trong danh sách loại trừ riêng thì bỏ qua
+        # 🛑 CHẶN RIÊNG CHO NGUỒN ĐƯỢC CHỈ ĐỊNH: Nếu tvg_id hoặc tên nằm trong danh sách loại trừ riêng thì bỏ qua
         if tvg_id in excluded_set or _dedup_key(raw_name) in excluded_set:
             continue
 
