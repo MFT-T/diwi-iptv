@@ -1360,69 +1360,64 @@
   <display-number>272</display-number>
   <icon src="https://r2.epg.io.vn/2026-09-17/171.png" />
  </channel>
- <channel id="fpt-event-su-kien-30">
-  <display-name lang="vi">FPT Sự kiện 30</display-name>
-  <display-number>273</display-number>
-  <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
- </channel>
  <channel id="fpt-event-su-kien-37">
   <display-name lang="vi">FPT Sự kiện 37</display-name>
-  <display-number>274</display-number>
+  <display-number>273</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <channel id="fpt-event-su-kien-38">
   <display-name lang="vi">FPT Sự kiện 38</display-name>
-  <display-number>275</display-number>
+  <display-number>274</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <channel id="fpt-event-event-02">
   <display-name lang="vi">FPT Event 02</display-name>
-  <display-number>276</display-number>
+  <display-number>275</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <channel id="fpt-event-event-18">
   <display-name lang="vi">FPT Event 18</display-name>
-  <display-number>277</display-number>
+  <display-number>276</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <channel id="fpt-event-event-20">
   <display-name lang="vi">FPT Event 20</display-name>
-  <display-number>278</display-number>
+  <display-number>277</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <channel id="fpt-event-epl-hcm-01-bk">
   <display-name lang="vi">FPT EPL HCM 01 BK</display-name>
-  <display-number>279</display-number>
+  <display-number>278</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <channel id="fpt-event-epl-hcm-03-bk">
   <display-name lang="vi">FPT EPL HCM 03 BK</display-name>
-  <display-number>280</display-number>
+  <display-number>279</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <channel id="fpt-event-epl-hn-06-4k-bk">
   <display-name lang="vi">FPT EPL HN 06 4K BK</display-name>
-  <display-number>281</display-number>
+  <display-number>280</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <channel id="fpt-event-epl-hn-07-4k-bk">
   <display-name lang="vi">FPT EPL HN 07 4K BK</display-name>
-  <display-number>282</display-number>
+  <display-number>281</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <channel id="fpt-event-epl-hn-08-4k-bk">
   <display-name lang="vi">FPT EPL HN 08 4K BK</display-name>
-  <display-number>283</display-number>
+  <display-number>282</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <channel id="fpt-event-epl-hn-09-4k-bk">
   <display-name lang="vi">FPT EPL HN 09 4K BK</display-name>
-  <display-number>284</display-number>
+  <display-number>283</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <channel id="fpt-event-nba-hn-02">
   <display-name lang="vi">FPT NBA HN 02</display-name>
-  <display-number>285</display-number>
+  <display-number>284</display-number>
   <icon src="https://s3-api.fpt.vn/fptvn-storage/2025-08-25/1756109644_huong-dan-cach-kich-hoat-ma-fpt-play.jpg" />
  </channel>
  <programme start="20261010000117 +0700" stop="20261010003058 +0700" channel="vtv1hd">
@@ -94573,11 +94568,6 @@
  <programme start="20261011233000 +0700" stop="20261012000000 +0700" channel="vinhlongradio">
   <title lang="vi">TÁC GIẢ, TÁC PHẨM</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/171.png" />
- </programme>
- <programme start="20261011035000 +0700" stop="20261011170000 +0700" channel="fpt-event-su-kien-30">
-  <title lang="vi">UFC FIGHT NIGHT: ALLEN VS DUNCAN</title>
-  <desc lang="vi">UFC Vegas 122 với tâm điểm là màn so tài giữa Brendan Allen và Christian Leroy Duncan tại Meta APEX.</desc>
-  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/10/slide-thumb_1791606151273.jpg" />
  </programme>
  <programme start="20261011174500 +0700" stop="20261012000000 +0700" channel="fpt-event-su-kien-37">
   <title lang="vi">SÔNG LAM NGHỆ AN - CÔNG AN TP. HỒ CHÍ MINH</title>
