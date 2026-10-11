@@ -43,5 +43,5 @@ jobs:
       - name: Commit & push playlist and EPG
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "🔄 Auto-update IPTV & EPG (${{ env.VIETNAM_TIME }} ICT)"
+          commit_message: "🔄 Đã cập nhật IPTV & EPG (${{ env.VIETNAM_TIME }} ICT)"
           file_pattern: "diwi.m3u diwi.epg.xml my_list.m3u"
