@@ -713,27 +713,6 @@ def write_m3u(channels: list[Channel], path: str) -> None:
         sys.exit(1)
 
 
-# ──────────────────────────────────────────────────────────────────────
-# XỬ LÝ FILE M3U THỦ CÔNG
-# ──────────────────────────────────────────────────────────────────────
-def update_manual_m3u(input_path: str, output_path: str) -> None:
-    print(f"\n📝 Đang cập nhật EPG cho file thủ công: {input_path}...")
-    try:
-        with open(input_path, "r", encoding="utf-8") as f:
-            lines = f.readlines()
-
-        content_lines = [line for line in lines if not line.startswith("#EXTM3U")]
-
-        with open(output_path, "w", encoding="utf-8") as f:
-            f.write(f'#EXTM3U url-tvg="{MY_EPG_URL}" x-tvg-url="{MY_EPG_URL}"\n')
-            f.writelines(content_lines)
-
-        print(f"✅ Đã tạo file M3U thủ công kèm EPG mới → {output_path}")
-    except FileNotFoundError:
-        print(f"  ⚠ Không tìm thấy file {input_path}, bỏ qua bước này.")
-    except Exception as e:
-        print(f"  ⚠ Lỗi xử lý file M3U thủ công: {e}", file=sys.stderr)
-
 
 # ──────────────────────────────────────────────────────────────────────
 # CẬP NHẬT MÚI GIỜ EPG
@@ -797,8 +776,6 @@ def main() -> None:
     else:
         print("⚠  Không có nguồn tự động nào hợp lệ.", file=sys.stderr)
 
-    # 3. Xử lý file M3U thủ công
-    update_manual_m3u("my_list.m3u", "my_list.m3u")
 
 
 if __name__ == "__main__":
