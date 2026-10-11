@@ -44,4 +44,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "🔄 Đã cập nhật IPTV & EPG (${{ env.VIETNAM_TIME }} ICT)"
-          file_pattern: "diwi.m3u diwi.epg.xml
+          file_pattern: "diwi.m3u diwi.epg.xml"
