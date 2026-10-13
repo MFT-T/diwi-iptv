@@ -106,28 +106,28 @@ https://vietmitv.id.vn/c.php?k=5c975ba
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360173&token=a65645b1aa521305f07c577dc6a4c622
+#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360173&token=b0f4c56930348f4cd85e69aabcc8ca86
 https://vietmitv.id.vn/c.php?k=48a21fd
 #EXTINF:-1 tvg-id="onsportsplus" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/onsportsplus.png" group-title="VTVcab",ON Sports+
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360183&token=a65645b1aa521305f07c577dc6a4c622
+#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360183&token=b0f4c56930348f4cd85e69aabcc8ca86
 https://vietmitv.id.vn/c.php?k=be48ef9
 #EXTINF:-1 tvg-id="onsportsnews" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/onsportsnews.png" group-title="VTVcab",ON Sports News
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360170&token=a65645b1aa521305f07c577dc6a4c622
+#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360170&token=b0f4c56930348f4cd85e69aabcc8ca86
 https://vietmitv.id.vn/c.php?k=aac3295
 #EXTINF:-1 tvg-id="onfootball" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/onfootball.png" group-title="VTVcab",ON Football
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360174&token=a65645b1aa521305f07c577dc6a4c622
+#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360174&token=b0f4c56930348f4cd85e69aabcc8ca86
 https://vietmitv.id.vn/c.php?k=d53ed82
 #EXTINF:-1 tvg-id="sctv1hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv1hd.png" group-title="SCTV",SCTV1
 https://vmttv.dpdns.org/VTVGo/?sctv1
