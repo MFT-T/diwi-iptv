@@ -398,7 +398,7 @@ _QTE_ORDER: Final[list[str]] = [
 ]
 # Thứ tự hiển thị theo nhóm
 _GROUP_ORDER: Final[dict[str, int]] = {
-    "VTV": 0, "ANQP": 1, "HTV": 2, "VTVcab": 3, "SCTV": 4, "LOCAL": 5, "CHINA": 6, "Quốc Tế"
+    "VTV": 0, "ANQP": 1, "HTV": 2, "VTVcab": 3, "SCTV": 4, "LOCAL": 5, "CHINA": 6, "Quốc Tế": 7,
 }
 _VTV_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_VTV_ORDER)}
 _HTV_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_HTV_ORDER)}
@@ -407,9 +407,9 @@ _SCTV_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_SCTV_
 _ANQP_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_ANQP_ORDER)}
 _PROVINCE_IDX: Final[dict[str, int]] = {p: i for i, p in enumerate(_PROVINCE_ORDER)}
 _CCTV_IDX: Final[dict[str, int]] = {_norm_key(p): i for i, p in enumerate(_CCTV_ORDER)}
-_QTE_IDZX: Final[dict[str, int]] ={_norm_key(n): i for i, n in enumerate(_QTE_ORDER)}
+_QTE_IDX: Final[dict[str, int]] ={_norm_key(n): i for i, n in enumerate(_QTE_ORDER)}
 _LABEL: Final[dict[str, str]] = {
-    "VTV": "VTV", "Thiết Yếu": "ANQP", "HTV": "HTV",
+    "VTV": "VTV", "ANQP": "ANQP", "HTV": "HTV",
     "VTVcab": "VTVcab", "SCTV": "SCTV", "LOCAL": "Địa Phương", "CHINA": "🇨🇳| Trung Quốc", "QTE": "Quốc Tế",
 }
 
