@@ -167,8 +167,8 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "vietnamtoday": ("Vietnam Today", "VTV"),
     
     # ── ANQP ─────────────────────────────────────────────────────────
-    "antvhd": ("ANTV", "ANQP"),
-    "qpvnhd": ("QPVN", "ANQP"),
+    "antvhd": ("An Ninh TV", "ANQP"),
+    "qpvnhd": ("Quốc Phòng Việt Nam", "ANQP"),
     
     # ── HTV / HTVC ───────────────────────────────────────────────────
     "htv1": ("HTV1", "HTV"),
@@ -375,7 +375,7 @@ _VTV_ORDER: Final[list[str]] = [
     "VTV1", "VTV2", "VTV3", "VTV4", "VTV5", "VTV5 Tây Nam Bộ", "VTV5 Tây Nguyên",
     "VTV6", "VTV7", "VTV8", "VTV9", "VTV10", "VietNamToDay",
 ]
-_ANQP_ORDER: Final[list[str]] = ["ANTV", "QPVN"]
+_ANQP_ORDER: Final[list[str]] = ["An Ninh TV", "Quốc Phòng Việt Nam"]
 _HTV_ORDER: Final[list[str]] = [
     "HTV1", "HTV2", "HTV3", "HTV4", "HTV5", "HTV7", "HTV9", "HTV Thể Thao",
     "HTVC Ca Nhạc", "HTVC Du Lịch", "HTVC Gia Đình",
