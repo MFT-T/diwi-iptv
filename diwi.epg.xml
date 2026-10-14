@@ -615,6 +615,11 @@
   <display-number>123</display-number>
   <icon src="https://r2.epg.io.vn/2026-09-17/78.png" />
  </channel>
+ <channel id="cinemaworldhd">
+  <display-name lang="vi">CinemaWorld</display-name>
+  <display-number>131</display-number>
+  <icon src="https://r2.epg.io.vn/2026-09-17/132.png" />
+ </channel>
  <channel id="tvbvn">
   <display-name lang="vi">TVB VietNam</display-name>
   <display-number>171</display-number>
@@ -66187,6 +66192,297 @@
   <title lang="vi">PHIM VIỆT NAM</title>
   <desc lang="vi">Con gái bố già – Tập 39</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/78.png" />
+ </programme>
+ <programme start="20261012225522 +0700" stop="20261013002522 +0700" channel="cinemaworldhd">
+  <title lang="vi">KHÁCH SẠN BARCELONA</title>
+  <desc lang="vi">HOTEL BARCELONA (1)</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/132.png" />
+ </programme>
+ <programme start="20261013002522 +0700" stop="20261013015522 +0700" channel="cinemaworldhd">
+  <title lang="vi">KHÁCH SẠN BARCELONA</title>
+  <desc lang="vi">HOTEL BARCELONA (2)</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/132.png" />
+ </programme>
+ <programme start="20261013015522 +0700" stop="20261013032522 +0700" channel="cinemaworldhd">
+  <title lang="vi">HÃY BÌNH TĨNH VÀ NẤU CÀ RI</title>
+  <desc lang="vi">KEEP CALM AND CURRY ON</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/132.png" />
+ </programme>
+ <programme start="20261013032522 +0700" stop="20261013044522 +0700" channel="cinemaworldhd">
+  <title lang="vi">TÁC NHÂN - THE HUMAN FACTOR</title>
+  <desc lang="vi">Khi một vụ rò rỉ thông tin ở khu vực Châu Phi của Tình báo Anh được phát hiện, một nhân viên an ninh được cử đến để điều tra.</desc>
+  <category lang="vi">Phim Gây Cấn</category>
+  <icon src="https://image.tmdb.org/t/p/w780/jX1lMK3YIJZyNTV7mK6f2LRaQk6.jpg" />
+ </programme>
+ <programme start="20261013044523 +0700" stop="20261013061523 +0700" channel="cinemaworldhd">
+  <title lang="vi">DƯỚI TÁN CÂY SUNG - UNDER THE FIG TREES</title>
+  <desc lang="vi">Giữa những tán cây, những người phụ nữ và đàn ông trẻ đang làm công việc thu hoạch mùa hè nảy sinh những tình cảm mới, tán tỉnh nhau, cố gắng hiểu nhau, tìm kiếm – và chạy trốn – những mối liên hệ sâu sắc hơn.</desc>
+  <category lang="vi">Phim Chính Kịch</category>
+  <icon src="https://image.tmdb.org/t/p/w780/4tLda4qNlaLycnospA3axg7HhMM.jpg" />
+ </programme>
+ <programme start="20261013061523 +0700" stop="20261013081523 +0700" channel="cinemaworldhd">
+  <title lang="vi">ADIDAS ĐỐI ĐẦU PUMA - ĐÓ LÀ TÊN CUỘC CHIẾN!</title>
+  <desc lang="vi">ADIDAS VS. PUMA - THAT'S THE NAME OF THE GAME!</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/132.png" />
+ </programme>
+ <programme start="20261013081523 +0700" stop="20261013095023 +0700" channel="cinemaworldhd">
+  <title lang="vi">CÁ CHUỒN - FLYING FISH</title>
+  <desc lang="vi">Sức nặng của thế giới không phân biệt con người, cá hay trái cây. sự suy tàn là điều khó tránh khỏi. bạn sẽ có bước nhảy vọt tới thời điểm tốt hơn chứ?</desc>
+  <category lang="vi">Phim Hài</category>
+  <category lang="vi">Phim Chính Kịch</category>
+  <icon src="https://r2.epg.io.vn/2026-09-17/132.png" />
+ </programme>
+ <programme start="20261013095023 +0700" stop="20261013113023 +0700" channel="cinemaworldhd">
+  <title lang="vi">PHẬN NGƯỜI MONG MANH - BEING MORTAL</title>
+  <desc lang="vi">Dựa trên cuốn sách phi hư cấu Being Mortal: Medicine and What Matters in the End xuất bản năm 2014 của bác sĩ phẫu thuật Atul Gawande.</desc>
+  <category lang="vi">Phim Chính Kịch</category>
+  <category lang="vi">Phim Hài</category>
+  <icon src="https://r2.epg.io.vn/2026-09-17/132.png" />
+ </programme>
+ <programme start="20261013113023 +0700" stop="20261013131523 +0700" channel="cinemaworldhd">
+  <title lang="vi">CUỘC ĐI SĂN - THE HUNT</title>
+  <desc lang="vi">Cuộc Đi Săn Kì Lạ được xem là một bộ phim hài “kỳ quái” đến từ đạo diễn Taika Waikiti – tác giả của một trong những phim hài thành công nhất 2015 là What We Do in the Shadow. Kinh phí đầu tư khiêm tốn, diễn viên không đình đám, Hunt for the Widerpeople vẫn gây chú ý tại các Liên hoan phim nhờ nội dung giàu tính nhân văn và cách kể chuyện cực kỳ độc đáo. Cậu bé thành phố ương ngạnh Ricky bắt đầu một cuộc sống mới ở vùng nông thôn New Zealand với gia đình nhận nuôi mình bao gồm: dì Bella dịu dàng, bác Hec khó tính và chú chó Tupac. Một sự kiện bất ngờ xảy ra khiến Ricky có nguy cơ phải chuyển đến gia đình nuôi khác. Bác Hec đành dẫn cậu bé chạy trốn vào khu rừng hoang rậm rạp. Một cuộc săn tìm với quy mô quốc gia được tổ chức ...</desc>
+  <category lang="vi">Phim Phiêu Lưu</category>
+  <category lang="vi">Phim Hài</category>
+  <category lang="vi">Phim Chính Kịch</category>
+  <category lang="vi">Phim Gia Đình</category>
+  <icon src="https://image.tmdb.org/t/p/w780/ixpUtvrZNwk6LBObXaNH8fh4FYf.jpg" />
+ </programme>
+ <programme start="20261013131523 +0700" stop="20261013150023 +0700" channel="cinemaworldhd">
+  <title lang="vi">CHẠY ĐI CÔ GÁI - RUN WOMAN RUN</title>
+  <desc lang="vi">Beck, một bà mẹ đơn thân, sống ở Six Nations, Canada. Sau cái chết của mẹ, cô từ bỏ ước mơ trở thành giáo viên dạy ngôn ngữ Mohawk và lối sống không lành mạnh dẫn đến chẩn đoán mắc bệnh Tiểu đường Loại 2. Hồn ma của Tom Longboat, một huyền thoại thể thao đầu những năm 1900, xuất hiện với cô. Anh ấy dạy Beck trở thành một vận động viên chạy danh dự, cống hiến mỗi cuộc chạy cho một khía cạnh của sự sáng tạo hoặc một người đặc biệt trong cuộc đời cô ấy. Với sự giúp đỡ của Tom, Beck có thể xoay chuyển cuộc sống của mình.</desc>
+  <category lang="vi">Phim Hài</category>
+  <category lang="vi">Phim Chính Kịch</category>
+  <icon src="https://image.tmdb.org/t/p/w780/2TSG6tSApCINW67T7xWKV74knAN.jpg" />
+ </programme>
+ <programme start="20261013150023 +0700" stop="20261013163023 +0700" channel="cinemaworldhd">
+  <title lang="vi">KHÁCH SẠN BARCELONA</title>
+  <desc lang="vi">HOTEL BARCELONA (1)</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/132.png" />
+ </programme>
+ <programme start="20261013163023 +0700" stop="20261013180023 +0700" channel="cinemaworldhd">
+  <title lang="vi">KHÁCH SẠN BARCELONA</title>
+  <desc lang="vi">HOTEL BARCELONA (2)</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/132.png" />
+ </programme>
+ <programme start="20261013180024 +0700" stop="20261013193024 +0700" channel="cinemaworldhd">
+  <title lang="vi">MỘT PHÚT LẶNG YÊN - A MINUTE'S SILENCE</title>
+  <desc lang="vi">Đạo diễn, kỹ sư âm thanh và tài xế cùng nhau đi vào lúc nửa đêm để ghi lại một phút im lặng của màn đêm trong thành phố.</desc>
+  <category lang="vi">Phim Chính Kịch</category>
+  <icon src="https://r2.epg.io.vn/2026-09-17/132.png" />
+ </programme>
+ <programme start="20261013193024 +0700" stop="20261013210024 +0700" channel="cinemaworldhd">
+  <title lang="vi">CHÀO MỪNG BẠN ĐẾN VỚI NA UY! - WELCOME TO NORWAY!</title>
+  <desc lang="vi">Một cặp vợ chồng quyết định mở một ngôi nhà cho người tị nạn ở vùng núi lạnh lẽo xa xôi của Na Uy.</desc>
+  <category lang="vi">Phim Chính Kịch</category>
+  <category lang="vi">Phim Hài</category>
+  <icon src="https://image.tmdb.org/t/p/w780/xGEwro28YWCJ9qPYDrT4YfnaReh.jpg" />
+ </programme>
+ <programme start="20261013210024 +0700" stop="20261013224524 +0700" channel="cinemaworldhd">
+  <title lang="vi">BÓNG LỬA - SHADOW OF FIRE</title>
+  <desc lang="vi">Bộ phim lấy bối cảnh Nhật Bản sau Thế chiến II, xoay quanh một người phụ nữ sống trong quán rượu bị thiêu rụi, một đứa trẻ mồ côi chiến tranh lẻn vào để ăn trộm, và một cựu binh trở thành khách trọ. Sự chung sống mong manh của họ bị gián đoạn bởi quá khứ đầy ám ảnh của người lính.</desc>
+  <category lang="vi">Phim Chính Kịch</category>
+  <category lang="vi">Phim Chiến Tranh</category>
+  <icon src="https://image.tmdb.org/t/p/w780/rZ34t7qKo5v9gkIfrUpkZEDdemd.jpg" />
+ </programme>
+ <programme start="20261013224524 +0700" stop="20261014002524 +0700" channel="cinemaworldhd">
+  <title lang="vi">TỪ CỘI NGUỒN - FROM THE VINE</title>
+  <desc lang="vi">Marco Gentile, một giám đốc điều hành kiệt sức với cuộc sống và công việc, quyết định rời bỏ tất cả để trở về quê hương ở Ý. Tại đây, anh bắt đầu khôi phục vườn nho bỏ hoang của ông nội. Giữa khung cảnh làng quê yên bình, Marco dần tìm lại sự cân bằng và ý nghĩa cuộc sống. Những con người và ký ức nơi đây giúp anh thay đổi cách nhìn về thành công. Hành trình ấy mở ra cơ hội làm lại từ đầu.</desc>
+  <category lang="vi">Phim Chính Kịch</category>
+  <icon src="https://image.tmdb.org/t/p/w780/rJsQpV6lecWNsnb7dZexjshBF5y.jpg" />
+ </programme>
+ <programme start="20261014002524 +0700" stop="20261014021524 +0700" channel="cinemaworldhd">
+  <title lang="vi">CHẠY ĐI CÔ GÁI - RUN WOMAN RUN</title>
+  <desc lang="vi">Beck, một bà mẹ đơn thân, sống ở Six Nations, Canada. Sau cái chết của mẹ, cô từ bỏ ước mơ trở thành giáo viên dạy ngôn ngữ Mohawk và lối sống không lành mạnh dẫn đến chẩn đoán mắc bệnh Tiểu đường Loại 2. Hồn ma của Tom Longboat, một huyền thoại thể thao đầu những năm 1900, xuất hiện với cô. Anh ấy dạy Beck trở thành một vận động viên chạy danh dự, cống hiến mỗi cuộc chạy cho một khía cạnh của sự sáng tạo hoặc một người đặc biệt trong cuộc đời cô ấy. Với sự giúp đỡ của Tom, Beck có thể xoay chuyển cuộc sống của mình.</desc>
+  <category lang="vi">Phim Hài</category>
+  <category lang="vi">Phim Chính Kịch</category>
+  <icon src="https://image.tmdb.org/t/p/w780/2TSG6tSApCINW67T7xWKV74knAN.jpg" />
+ </programme>
+ <programme start="20261014021524 +0700" stop="20261014041024 +0700" channel="cinemaworldhd">
+  <title lang="vi">CUỘC ĐI SĂN - THE HUNT</title>
+  <desc lang="vi">Cuộc Đi Săn Kì Lạ được xem là một bộ phim hài “kỳ quái” đến từ đạo diễn Taika Waikiti – tác giả của một trong những phim hài thành công nhất 2015 là What We Do in the Shadow. Kinh phí đầu tư khiêm tốn, diễn viên không đình đám, Hunt for the Widerpeople vẫn gây chú ý tại các Liên hoan phim nhờ nội dung giàu tính nhân văn và cách kể chuyện cực kỳ độc đáo. Cậu bé thành phố ương ngạnh Ricky bắt đầu một cuộc sống mới ở vùng nông thôn New Zealand với gia đình nhận nuôi mình bao gồm: dì Bella dịu dàng, bác Hec khó tính và chú chó Tupac. Một sự kiện bất ngờ xảy ra khiến Ricky có nguy cơ phải chuyển đến gia đình nuôi khác. Bác Hec đành dẫn cậu bé chạy trốn vào khu rừng hoang rậm rạp. Một cuộc săn tìm với quy mô quốc gia được tổ chức ...</desc>
+  <category lang="vi">Phim Phiêu Lưu</category>
+  <category lang="vi">Phim Hài</category>
+  <category lang="vi">Phim Chính Kịch</category>
+  <category lang="vi">Phim Gia Đình</category>
+  <icon src="https://image.tmdb.org/t/p/w780/ixpUtvrZNwk6LBObXaNH8fh4FYf.jpg" />
+ </programme>
+ <programme start="20261014041024 +0700" stop="20261014060024 +0700" channel="cinemaworldhd">
+  <title lang="vi">CÁ CHUỒN - FLYING FISH</title>
+  <desc lang="vi">Sức nặng của thế giới không phân biệt con người, cá hay trái cây. sự suy tàn là điều khó tránh khỏi. bạn sẽ có bước nhảy vọt tới thời điểm tốt hơn chứ?</desc>
+  <category lang="vi">Phim Hài</category>
+  <category lang="vi">Phim Chính Kịch</category>
+  <icon src="https://r2.epg.io.vn/2026-09-17/132.png" />
+ </programme>
+ <programme start="20261014060024 +0700" stop="20261014073024 +0700" channel="cinemaworldhd">
+  <title lang="vi">MỘT PHÚT LẶNG YÊN - A MINUTE'S SILENCE</title>
+  <desc lang="vi">Đạo diễn, kỹ sư âm thanh và tài xế cùng nhau đi vào lúc nửa đêm để ghi lại một phút im lặng của màn đêm trong thành phố.</desc>
+  <category lang="vi">Phim Chính Kịch</category>
+  <icon src="https://r2.epg.io.vn/2026-09-17/132.png" />
+ </programme>
+ <programme start="20261014073024 +0700" stop="20261014092024 +0700" channel="cinemaworldhd">
+  <title lang="vi">KHÔNG PHẢI GU CỦA TÔI - NOT MY TYPE</title>
+  <desc lang="vi">NOT MY TYPE</desc>
+  <category lang="vi">Phim Lãng Mạn</category>
+  <icon src="https://image.tmdb.org/t/p/w780/jMuOLRjP8tiP3x3lq2ti60gvVEf.jpg" />
+ </programme>
+ <programme start="20261014092025 +0700" stop="20261014105025 +0700" channel="cinemaworldhd">
+  <title lang="vi">CHÀO MỪNG BẠN ĐẾN VỚI NA UY! - WELCOME TO NORWAY!</title>
+  <desc lang="vi">Một cặp vợ chồng quyết định mở một ngôi nhà cho người tị nạn ở vùng núi lạnh lẽo xa xôi của Na Uy.</desc>
+  <category lang="vi">Phim Chính Kịch</category>
+  <category lang="vi">Phim Hài</category>
+  <icon src="https://image.tmdb.org/t/p/w780/xGEwro28YWCJ9qPYDrT4YfnaReh.jpg" />
+ </programme>
+ <programme start="20261014105025 +0700" stop="20261014122525 +0700" channel="cinemaworldhd">
+  <title lang="vi">TAY ĐUA XE ĐẠP - COUREUR</title>
+  <desc lang="vi">Cậu bé Felix lớn lên với tư cách là một khán giả bên trong các cuộc đua xe đạp, một môi trường kỳ lạ nơi bạo lực và ma túy dường như ngự trị. Theo bước chân của cha mình, Felix phát hiện ra rằng cơ thể của mình không được tạo ra cho trò chơi.</desc>
+  <category lang="vi">Phim Chính Kịch</category>
+  <icon src="https://image.tmdb.org/t/p/w780/yQ1zg45eidjf8TZ79wN9jP1kmwC.jpg" />
+ </programme>
+ <programme start="20261014122525 +0700" stop="20261014140525 +0700" channel="cinemaworldhd">
+  <title lang="vi">BÓNG LỬA - SHADOW OF FIRE</title>
+  <desc lang="vi">Bộ phim lấy bối cảnh Nhật Bản sau Thế chiến II, xoay quanh một người phụ nữ sống trong quán rượu bị thiêu rụi, một đứa trẻ mồ côi chiến tranh lẻn vào để ăn trộm, và một cựu binh trở thành khách trọ. Sự chung sống mong manh của họ bị gián đoạn bởi quá khứ đầy ám ảnh của người lính.</desc>
+  <category lang="vi">Phim Chính Kịch</category>
+  <category lang="vi">Phim Chiến Tranh</category>
+  <icon src="https://image.tmdb.org/t/p/w780/rZ34t7qKo5v9gkIfrUpkZEDdemd.jpg" />
+ </programme>
+ <programme start="20261014140525 +0700" stop="20261014153525 +0700" channel="cinemaworldhd">
+  <title lang="vi">THẦN CHẾT ĐẾN VENICE - DEATH COMES TO VENICE</title>
+  <desc lang="vi">Trong hoàn cảnh bí ẩn, người phục chế Lukas Albrecht chết đuối ở Canale dei Marani ở Venice. Trong khi Ủy viên Santo dễ tính không thấy có hành vi phạm tội hình sự nào thì góa phụ của nạn nhân lại phẫn nộ với các chi tiết đó. Anna, người đang đi du lịch từ Vienna cùng cậu con trai 11 tuổi, không tin đó là một tai nạn: chồng cô không có chút rượu nào trong máu, anh ấy biết đầm và có thể bơi</desc>
+  <category lang="vi">Phim Chính Kịch</category>
+  <category lang="vi">Phim Hình Sự</category>
+  <category lang="vi">Phim Bí Ẩn</category>
+  <category lang="vi">Chương Trình Truyền Hình</category>
+  <icon src="https://image.tmdb.org/t/p/w780/pSXZIRIw0sR0E1bV0FIiQwnCxJG.jpg" />
+ </programme>
+ <programme start="20261014153525 +0700" stop="20261014171025 +0700" channel="cinemaworldhd">
+  <title lang="vi">TỪ CỘI NGUỒN - FROM THE VINE</title>
+  <desc lang="vi">Marco Gentile, một giám đốc điều hành kiệt sức với cuộc sống và công việc, quyết định rời bỏ tất cả để trở về quê hương ở Ý. Tại đây, anh bắt đầu khôi phục vườn nho bỏ hoang của ông nội. Giữa khung cảnh làng quê yên bình, Marco dần tìm lại sự cân bằng và ý nghĩa cuộc sống. Những con người và ký ức nơi đây giúp anh thay đổi cách nhìn về thành công. Hành trình ấy mở ra cơ hội làm lại từ đầu.</desc>
+  <category lang="vi">Phim Chính Kịch</category>
+  <icon src="https://image.tmdb.org/t/p/w780/rJsQpV6lecWNsnb7dZexjshBF5y.jpg" />
+ </programme>
+ <programme start="20261014171025 +0700" stop="20261014184525 +0700" channel="cinemaworldhd">
+  <title lang="vi">ÁN MẠNG Ở PONT-AVEN - MURDERS IN PONT-AVEN</title>
+  <desc lang="vi">Một họa sĩ được tìm thấy bị đốt cháy trong xưởng vẽ của cô ấy hai mươi năm trước. Câu chuyện của cô lại nổi lên khi cảnh sát bắt đầu điều tra hai vụ giết người khác ở Pont-Aven.</desc>
+  <icon src="https://img-zlr1.tv360.vn/image1/2026/05/01/14/1777619136440/ddb6a159b7f4.jpg" />
+ </programme>
+ <programme start="20261014184525 +0700" stop="20261014210025 +0700" channel="cinemaworldhd">
+  <title lang="vi">CỨU RỖI THẾ GIỚI MÀ CHÚNG TA BIẾT - THE SALVATION OF THE WORLD AS WE KNOW IT</title>
+  <desc lang="vi">Thoạt nhìn, Paul chỉ là một cậu bé mười tám tuổi bình thường. Điều không ai biết là Paul mắc chứng lưỡng cực. Anh ta bất lực trước sự thay đổi tâm trạng thất thường trong não mình. Khi giai đoạn trầm cảm kết thúc bằng một nỗ lực tự tử, người cha đơn thân Hardy của anh phải đưa anh đến một trung tâm trị liệu dành cho thanh thiếu niên bị bệnh tâm thần. Tại phòng khám, Paul gặp những thanh thiếu niên cũng đang phải vật lộn với các vấn đề về tâm thần. Anh ta phải đưa ra quyết định: Liệu anh ta có tiếp tục chạy trốn khỏi bệnh tật của mình không?</desc>
+  <category lang="vi">Phim Chính Kịch</category>
+  <category lang="vi">Phim Hài</category>
+  <category lang="vi">Phim Gia Đình</category>
+  <icon src="https://image.tmdb.org/t/p/w780/m0AP6RqQpZ3lH4GceJ9yk60WSwO.jpg" />
+ </programme>
+ <programme start="20261014210025 +0700" stop="20261014224525 +0700" channel="cinemaworldhd">
+  <title lang="vi">XÃ HỘI HIỂM NGUY - RISK SOCIETY</title>
+  <desc lang="vi">Young-gil, một tài xế chuyển phát nhanh, thắng được rất nhiều tiền tại sòng bạc và cầu hôn Harim. Sau một thời gian, anh giao chiếc xe tải cho người cầm đồ Jeong-seop và trở về Seoul, thậm chí còn mất cả 10 triệu won đã vay. Young-gil cuối cùng mất 10 triệu won vay từ mẹ Harim. Quá giang với lời hứa sẽ nhanh chóng đến gặp Harim, Young-gil lên xe của Jin-su. Yeong-gil lăn lộn với Jin-su trên cánh đồng để cướp túi xách và xe hơi của anh. Young-gil, người quyết định lái xe đến Samcheok như một lời xin lỗi và gợi ý cho Jin-su, đã tìm thấy thi thể của Jeong-seop trong cốp xe của anh ta.</desc>
+  <category lang="vi">Phim Chính Kịch</category>
+  <category lang="vi">Phim Hình Sự</category>
+  <category lang="vi">Phim Gây Cấn</category>
+  <icon src="https://image.tmdb.org/t/p/w780/e8aITdzDWLlWibPerL7BuUSFWyS.jpg" />
+ </programme>
+ <programme start="20261014224526 +0700" stop="20261014231026 +0700" channel="cinemaworldhd">
+  <title lang="vi">NHẬN TIỀN LÚC GIAO HÀNG - CASH ON DELIVERY</title>
+  <desc lang="vi">COD là câu chuyện về một nghệ sĩ thất nghiệp cướp một chiếc taxi bị bỏ hoang. Nhiệm vụ của anh ấy là giao taxi và nhận một số tiền mặt khi giao hàng.</desc>
+  <icon src="https://image.tmdb.org/t/p/w780/4VBFULKQisMz3ciUzR0rtwaRY43.jpg" />
+ </programme>
+ <programme start="20261014231026 +0700" stop="20261015010026 +0700" channel="cinemaworldhd">
+  <title lang="vi">BỮA TIỆC ÁN MẠNG - MURDER PARTY</title>
+  <desc lang="vi">Jeanne, một kiến ​​trúc sư tài giỏi có nhiệm vụ mới: cải tạo dinh thự Daguerre xa hoa thuộc sở hữu của một gia đình lập dị, người đứng đầu đế chế Board Game. Khi chủ nhà và tộc trưởng Cesar được phát hiện đã chết, tất cả những người có mặt đều trở thành nghi phạm. Đột nhiên nhiệm vụ của Jeanne trở thành một cuộc điều tra quy mô lớn để vạch mặt kẻ sát nhân...</desc>
+  <category lang="vi">Phim Hài</category>
+  <category lang="vi">Phim Hình Sự</category>
+  <category lang="vi">Phim Chính Kịch</category>
+  <category lang="vi">Phim Bí Ẩn</category>
+  <icon src="https://image.tmdb.org/t/p/w780/7yBfRP8CpLfAIiqI9LZ7mJHKxou.jpg" />
+ </programme>
+ <programme start="20261015010026 +0700" stop="20261015025026 +0700" channel="cinemaworldhd">
+  <title lang="vi">KHÔNG PHẢI GU CỦA TÔI - NOT MY TYPE</title>
+  <desc lang="vi">NOT MY TYPE</desc>
+  <category lang="vi">Phim Lãng Mạn</category>
+  <icon src="https://image.tmdb.org/t/p/w780/jMuOLRjP8tiP3x3lq2ti60gvVEf.jpg" />
+ </programme>
+ <programme start="20261015025026 +0700" stop="20261015042526 +0700" channel="cinemaworldhd">
+  <title lang="vi">TAY ĐUA XE ĐẠP - COUREUR</title>
+  <desc lang="vi">Cậu bé Felix lớn lên với tư cách là một khán giả bên trong các cuộc đua xe đạp, một môi trường kỳ lạ nơi bạo lực và ma túy dường như ngự trị. Theo bước chân của cha mình, Felix phát hiện ra rằng cơ thể của mình không được tạo ra cho trò chơi.</desc>
+  <category lang="vi">Phim Chính Kịch</category>
+  <icon src="https://image.tmdb.org/t/p/w780/yQ1zg45eidjf8TZ79wN9jP1kmwC.jpg" />
+ </programme>
+ <programme start="20261015042526 +0700" stop="20261015060026 +0700" channel="cinemaworldhd">
+  <title lang="vi">THẦN CHẾT ĐẾN VENICE - DEATH COMES TO VENICE</title>
+  <desc lang="vi">Trong hoàn cảnh bí ẩn, người phục chế Lukas Albrecht chết đuối ở Canale dei Marani ở Venice. Trong khi Ủy viên Santo dễ tính không thấy có hành vi phạm tội hình sự nào thì góa phụ của nạn nhân lại phẫn nộ với các chi tiết đó. Anna, người đang đi du lịch từ Vienna cùng cậu con trai 11 tuổi, không tin đó là một tai nạn: chồng cô không có chút rượu nào trong máu, anh ấy biết đầm và có thể bơi</desc>
+  <category lang="vi">Phim Chính Kịch</category>
+  <category lang="vi">Phim Hình Sự</category>
+  <category lang="vi">Phim Bí Ẩn</category>
+  <category lang="vi">Chương Trình Truyền Hình</category>
+  <icon src="https://image.tmdb.org/t/p/w780/pSXZIRIw0sR0E1bV0FIiQwnCxJG.jpg" />
+ </programme>
+ <programme start="20261015060026 +0700" stop="20261015074526 +0700" channel="cinemaworldhd">
+  <title lang="vi">ÁN MẠNG Ở PONT-AVEN - MURDERS IN PONT-AVEN</title>
+  <desc lang="vi">Một họa sĩ được tìm thấy bị đốt cháy trong xưởng vẽ của cô ấy hai mươi năm trước. Câu chuyện của cô lại nổi lên khi cảnh sát bắt đầu điều tra hai vụ giết người khác ở Pont-Aven.</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/132.png" />
+ </programme>
+ <programme start="20261015074526 +0700" stop="20261015093026 +0700" channel="cinemaworldhd">
+  <title lang="vi">NGƯỜI CHÂU ÂU - TOUBAB</title>
+  <desc lang="vi">Trưởng thành sau hai năm trong tù, Babtou đang mong chờ một khởi đầu mới với người bạn Dennis của mình. Một người tự do trong một thế giới tự do! Nhưng trên hết, bữa tiệc chào mừng của anh ấy, nơi tập trung tất cả các chàng trai trong khu nhà, kết thúc trong một chiến dịch của cảnh sát. Babtou lại bị còng tay và phải đối mặt với tin tức kịch tính. Anh ta sẽ sớm bị trục xuất về “quê hương” Senegal. Để ngăn chặn việc bị trục xuất, Babtou và Dennis sẵn sàng làm bất cứ điều gì, kể cả hôn nhân.</desc>
+  <category lang="vi">Phim Hài</category>
+  <icon src="https://image.tmdb.org/t/p/w780/hI8yKTHQ5MBO2KchUkMzmHnAMMY.jpg" />
+ </programme>
+ <programme start="20261015093027 +0700" stop="20261015115027 +0700" channel="cinemaworldhd">
+  <title lang="vi">CỨU RỖI THẾ GIỚI MÀ CHÚNG TA BIẾT - THE SALVATION OF THE WORLD AS WE KNOW IT</title>
+  <desc lang="vi">Thoạt nhìn, Paul chỉ là một cậu bé mười tám tuổi bình thường. Điều không ai biết là Paul mắc chứng lưỡng cực. Anh ta bất lực trước sự thay đổi tâm trạng thất thường trong não mình. Khi giai đoạn trầm cảm kết thúc bằng một nỗ lực tự tử, người cha đơn thân Hardy của anh phải đưa anh đến một trung tâm trị liệu dành cho thanh thiếu niên bị bệnh tâm thần. Tại phòng khám, Paul gặp những thanh thiếu niên cũng đang phải vật lộn với các vấn đề về tâm thần. Anh ta phải đưa ra quyết định: Liệu anh ta có tiếp tục chạy trốn khỏi bệnh tật của mình không?</desc>
+  <category lang="vi">Phim Chính Kịch</category>
+  <category lang="vi">Phim Hài</category>
+  <category lang="vi">Phim Gia Đình</category>
+  <icon src="https://image.tmdb.org/t/p/w780/m0AP6RqQpZ3lH4GceJ9yk60WSwO.jpg" />
+ </programme>
+ <programme start="20261015115027 +0700" stop="20261015133527 +0700" channel="cinemaworldhd">
+  <title lang="vi">CON NGỰA MÔNG CỔ BỊ SĂN ĐUỔI - TO KILL A MONGOLIAN HORSE</title>
+  <desc lang="vi">Giữa thảo nguyên lạnh giá, Saina, một kỵ sĩ người Mông Cổ đã trở thành nghệ sĩ biểu diễn văn hóa, trông coi trang trại của mình vào ban ngày và biểu diễn các trò cưỡi ngựa cho khán giả vào ban đêm. Không giống như người kỵ binh oai vệ mà anh thể hiện trong phim, Saina phát hiện ra rằng cuộc đời người chăn cừu của mình đang trên bờ vực tan rã.</desc>
+  <category lang="vi">Phim Chính Kịch</category>
+  <icon src="https://image.tmdb.org/t/p/w780/jiXoAS32YGdGdJOdiiAscHRmevf.jpg" />
+ </programme>
+ <programme start="20261015133527 +0700" stop="20261015152027 +0700" channel="cinemaworldhd">
+  <title lang="vi">XÃ HỘI HIỂM NGUY - RISK SOCIETY</title>
+  <desc lang="vi">Young-gil, một tài xế chuyển phát nhanh, thắng được rất nhiều tiền tại sòng bạc và cầu hôn Harim. Sau một thời gian, anh giao chiếc xe tải cho người cầm đồ Jeong-seop và trở về Seoul, thậm chí còn mất cả 10 triệu won đã vay. Young-gil cuối cùng mất 10 triệu won vay từ mẹ Harim. Quá giang với lời hứa sẽ nhanh chóng đến gặp Harim, Young-gil lên xe của Jin-su. Yeong-gil lăn lộn với Jin-su trên cánh đồng để cướp túi xách và xe hơi của anh. Young-gil, người quyết định lái xe đến Samcheok như một lời xin lỗi và gợi ý cho Jin-su, đã tìm thấy thi thể của Jeong-seop trong cốp xe của anh ta.</desc>
+  <category lang="vi">Phim Chính Kịch</category>
+  <category lang="vi">Phim Hình Sự</category>
+  <category lang="vi">Phim Gây Cấn</category>
+  <icon src="https://image.tmdb.org/t/p/w780/e8aITdzDWLlWibPerL7BuUSFWyS.jpg" />
+ </programme>
+ <programme start="20261015152027 +0700" stop="20261015173027 +0700" channel="cinemaworldhd">
+  <title lang="vi">MỘT NƠI XA - A FAR SHORE</title>
+  <desc lang="vi">Aoi đã bỏ học cấp ba và sinh một đứa con trai với chồng Masaya. Họ sống ở Okinawa, hòn đảo phía Nam Nhật Bản, nơi cả hai đều sinh ra. Để kiếm sống, cô bắt đầu làm tiếp viên câu lạc bộ đêm. Masaya mất việc và không thể gánh vác trách nhiệm gia đình. Sự non nớt và sự phụ thuộc của họ khiến mối quan hệ trở nên trầm trọng hơn và những cuộc cãi vã liên tục dẫn đến sự suy thoái xã hội. Mối quan hệ của Aoi với con trai đã đưa cô vào con đường tìm kiếm giải pháp.</desc>
+  <category lang="vi">Phim Chính Kịch</category>
+  <icon src="https://image.tmdb.org/t/p/w780/6S82jvPc5ZgFKSLc458S2n9j9VD.jpg" />
+ </programme>
+ <programme start="20261015173027 +0700" stop="20261015192027 +0700" channel="cinemaworldhd">
+  <title lang="vi">BỮA TIỆC ÁN MẠNG - MURDER PARTY</title>
+  <desc lang="vi">Jeanne, một kiến ​​trúc sư tài giỏi có nhiệm vụ mới: cải tạo dinh thự Daguerre xa hoa thuộc sở hữu của một gia đình lập dị, người đứng đầu đế chế Board Game. Khi chủ nhà và tộc trưởng Cesar được phát hiện đã chết, tất cả những người có mặt đều trở thành nghi phạm. Đột nhiên nhiệm vụ của Jeanne trở thành một cuộc điều tra quy mô lớn để vạch mặt kẻ sát nhân...</desc>
+  <category lang="vi">Phim Hài</category>
+  <category lang="vi">Phim Hình Sự</category>
+  <category lang="vi">Phim Chính Kịch</category>
+  <category lang="vi">Phim Bí Ẩn</category>
+  <icon src="https://image.tmdb.org/t/p/w780/7yBfRP8CpLfAIiqI9LZ7mJHKxou.jpg" />
+ </programme>
+ <programme start="20261015192027 +0700" stop="20261015210027 +0700" channel="cinemaworldhd">
+  <title lang="vi">ÁN MẠNG Ở DINARD</title>
+  <desc lang="vi">MURDERS IN DINARD</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/132.png" />
+ </programme>
+ <programme start="20261015210027 +0700" stop="20261015223527 +0700" channel="cinemaworldhd">
+  <title lang="vi">BƯỚC CHÂN MẶT TRĂNG - MOON'S WALKING</title>
+  <desc lang="vi">Daniel Mitchell là một cậu bé 13 tuổi điển hình - cuồng nhiệt vì không gian, 'The X Files' và Pamela Anderson. Sáng sủa, có khả năng tự chăm sóc bản thân, đi đường, anh ấy là người cuối cùng mà bạn mong đợi sẽ trở thành nạn nhân của sự bắt nạt. Nhưng sau khi đến giúp đỡ một người bạn học bị nạn, Daniel trở thành mục tiêu của sự lạm dụng có hệ thống, tàn nhẫn và mang tính hủy diệt. Nó bắt đầu như một trận chiến cá nhân giữa Daniel và những kẻ tấn công tuổi teen của anh ấy - nhưng mọi chuyện nhanh chóng trở nên rõ ràng rằng nó được hỗ trợ và tiếp tay bởi chính những người mà Daniel có thể nhờ cậy để giúp đỡ - các giáo viên.</desc>
+  <category lang="vi">Phim Chính Kịch</category>
+  <category lang="vi">Chương Trình Truyền Hình</category>
+  <icon src="https://r2.epg.io.vn/2026-09-17/132.png" />
+ </programme>
+ <programme start="20261015223527 +0700" stop="20261016002027 +0700" channel="cinemaworldhd">
+  <title lang="vi">RỒI ĐÊM SẼ BUÔNG XUỐNG - FOR NIGHT WILL COME</title>
+  <desc lang="vi">Ngày họ chuyển đến một khu phố mới, gia đình Feral dự định trông bình thường và thân thiện nhất có thể. Nhưng con trai của họ, Philemon, không phải là một thiếu niên bình thường. Khi anh đến gần hơn với người hàng xóm mới, Camila, cơn khát máu của anh ngày càng tăng và sự khác biệt của anh trở nên không thể che giấu…</desc>
+  <category lang="vi">Phim Chính Kịch</category>
+  <category lang="vi">Phim Kinh Dị</category>
+  <icon src="https://image.tmdb.org/t/p/w780/aRaZsCMMYvN7KCQKdyntiEiyqF7.jpg" />
  </programme>
  <programme start="20261012231000 +0700" stop="20261013005000 +0700" channel="tvbvn">
   <title lang="vi">PHONG CÁCH ĐÀN ÔNG</title>

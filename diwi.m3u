@@ -333,3 +333,9 @@ http://74.91.26.218:82/live/cctv15hd.m3u8
 https://cdn.qd.je/163189/cctv16
 #EXTINF:-1 tvg-id="cctv17" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/cctv_logo/cctv17.png" group-title="🇨🇳| Trung Quốc",CCTV17
 http://74.91.26.218:82/live/cctv17hd.m3u8
+#EXTINF:-1 tvg-id="cinemaworldhd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/qte_logo/cinemaworldhd.png" group-title="Quốc Tế",Cinema World
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"s14Sp1pCpvkYRyOpD/QtnA","kid":"7nkVVk10OdCb01Vv/MyHpA"}],"type":"temporary"}
+https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/cinemaworld.smil/manifest.mpd
