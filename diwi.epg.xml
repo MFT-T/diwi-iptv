@@ -545,11 +545,6 @@
   <display-number>109</display-number>
   <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </channel>
- <channel id="quangngai2">
-  <display-name lang="vi">Quảng Ngãi 2</display-name>
-  <display-number>110</display-number>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </channel>
  <channel id="quangninh1">
   <display-name lang="vi">Quảng Ninh 1</display-name>
   <display-number>111</display-number>
@@ -1011,62 +1006,62 @@
   <desc lang="vi">Bình dân học vụ số trong kỷ nguyên mới</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/1.png" />
  </programme>
- <programme start="20261014094535 +0700" stop="20261014100000 +0700" channel="vtv1hd">
+ <programme start="20261014094535 +0700" stop="20261014100104 +0700" channel="vtv1hd">
   <title lang="vi">TIÊU ĐIỂM</title>
   <desc lang="vi">Phía sau bảng xếp hạng</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/1.png" />
  </programme>
- <programme start="20261014100000 +0700" stop="20261014103000 +0700" channel="vtv1hd">
+ <programme start="20261014100104 +0700" stop="20261014103042 +0700" channel="vtv1hd">
   <title lang="vi">KHỞI NGHIỆP TRẺ</title>
   <desc lang="vi">Kể chuyện nông sản Việt bằng công nghệ</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/1.png" />
  </programme>
- <programme start="20261014103000 +0700" stop="20261014105500 +0700" channel="vtv1hd">
+ <programme start="20261014103042 +0700" stop="20261014105213 +0700" channel="vtv1hd">
   <title lang="vi">CHÍNH PHỦ KIẾN TẠO PHÁT TRIỂN</title>
   <desc lang="vi">Tháo gỡ dự án tồn đọng, kéo dài</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/1.png" />
  </programme>
- <programme start="20261014105500 +0700" stop="20261014110000 +0700" channel="vtv1hd">
+ <programme start="20261014105213 +0700" stop="20261014110001 +0700" channel="vtv1hd">
   <title lang="vi">NÉT ĐẸP DÂN GIAN</title>
   <desc lang="vi">Rong chơi ở làng cổ Hiên Vân</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/1.png" />
  </programme>
- <programme start="20261014110000 +0700" stop="20261014114500 +0700" channel="vtv1hd">
+ <programme start="20261014110001 +0700" stop="20261014114538 +0700" channel="vtv1hd">
   <title lang="vi">TÀI CHÍNH - KINH DOANH</title>
   <desc lang="vi">Tài chính - Kinh doanh 14/10/2026</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/1.png" />
  </programme>
- <programme start="20261014114500 +0700" stop="20261014120000 +0700" channel="vtv1hd">
+ <programme start="20261014114538 +0700" stop="20261014120000 +0700" channel="vtv1hd">
   <title lang="vi">GÓC NHÌN VĂN HÓA</title>
   <desc lang="vi">Góc nhìn văn hóa (15) 14/10/2026</desc>
-  <icon src="https://img-zlr1.tv360.vn/image1/2026/09/09/13/1788936318827/0cadcea5e259.jpg" />
+  <icon src="https://r2.epg.io.vn/2026-09-17/1.png" />
  </programme>
- <programme start="20261014120000 +0700" stop="20261014124500 +0700" channel="vtv1hd">
+ <programme start="20261014120000 +0700" stop="20261014124505 +0700" channel="vtv1hd">
   <title lang="vi">THỜI SỰ</title>
   <desc lang="vi">Thời sự 12h00 14/10/2026</desc>
-  <icon src="https://img-zlr1.tv360.vn/image1/2026/09/09/13/1788936191378/0d1bae7290ed.jpg" />
+  <icon src="https://r2.epg.io.vn/2026-09-17/1.png" />
  </programme>
- <programme start="20261014124500 +0700" stop="20261014130000 +0700" channel="vtv1hd">
+ <programme start="20261014124505 +0700" stop="20261014125954 +0700" channel="vtv1hd">
   <title lang="vi">NHỊP SỐNG TUỔI BẠC</title>
   <desc lang="vi">Nhịp sống tuổi bạc 14/10/2026</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/1.png" />
  </programme>
- <programme start="20261014130000 +0700" stop="20261014134500 +0700" channel="vtv1hd">
+ <programme start="20261014125954 +0700" stop="20261014134444 +0700" channel="vtv1hd">
   <title lang="vi">VTV SỐNG KHỎE</title>
   <desc lang="vi">NGUY CƠ UNG THƯ DA</desc>
-  <icon src="https://img-zlr1.tv360.vn/image1/2026/09/09/13/1788936286543/5a18f7da32bd.jpg" />
+  <icon src="https://r2.epg.io.vn/2026-09-17/1.png" />
  </programme>
- <programme start="20261014134500 +0700" stop="20261014140000 +0700" channel="vtv1hd">
+ <programme start="20261014134444 +0700" stop="20261014140111 +0700" channel="vtv1hd">
   <title lang="vi">KHÁM PHÁ VIỆT NAM</title>
   <desc lang="vi">Dưới bóng dừa Tam Quan</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/1.png" />
  </programme>
- <programme start="20261014140000 +0700" stop="20261014141500 +0700" channel="vtv1hd">
+ <programme start="20261014140111 +0700" stop="20261014141527 +0700" channel="vtv1hd">
   <title lang="vi">GÓC NHÌN VĂN HÓA</title>
   <desc lang="vi">Góc nhìn văn hóa (15)</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/1.png" />
  </programme>
- <programme start="20261014141500 +0700" stop="20261014150000 +0700" channel="vtv1hd">
+ <programme start="20261014141527 +0700" stop="20261014150000 +0700" channel="vtv1hd">
   <title lang="vi">GIAI ĐIỆU KẾT NỐI</title>
   <desc lang="vi">Giai điệu kết nối Số 30/2026</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/1.png" />
@@ -1576,62 +1571,62 @@
   <desc lang="vi">Phim AI - Trào lưu hay thị trường?</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/2.png" />
  </programme>
- <programme start="20261014092958 +0700" stop="20261014100000 +0700" channel="vtv2hd">
+ <programme start="20261014092958 +0700" stop="20261014100010 +0700" channel="vtv2hd">
   <title lang="vi">S - TECH</title>
   <desc lang="vi">S-Tech số 87</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/2.png" />
  </programme>
- <programme start="20261014100000 +0700" stop="20261014101500 +0700" channel="vtv2hd">
+ <programme start="20261014100010 +0700" stop="20261014101615 +0700" channel="vtv2hd">
   <title lang="vi">KÝ SỰ</title>
   <desc lang="vi">Đất lành - Tập 7/8</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/2.png" />
  </programme>
- <programme start="20261014101500 +0700" stop="20261014104500 +0700" channel="vtv2hd">
+ <programme start="20261014101615 +0700" stop="20261014104534 +0700" channel="vtv2hd">
   <title lang="vi">VTV SỐNG KHỎE</title>
   <desc lang="vi">Laser mạch máu điều trị bệnh lý da liễu</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/2.png" />
  </programme>
- <programme start="20261014104500 +0700" stop="20261014110000 +0700" channel="vtv2hd">
+ <programme start="20261014104534 +0700" stop="20261014110032 +0700" channel="vtv2hd">
   <title lang="vi">KHÁT VỌNG XANH</title>
   <desc lang="vi">Vùng phát thải thấp hướng tới đô thị xanh</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/2.png" />
  </programme>
- <programme start="20261014110000 +0700" stop="20261014113000 +0700" channel="vtv2hd">
+ <programme start="20261014110032 +0700" stop="20261014113027 +0700" channel="vtv2hd">
   <title lang="vi">KHÁM PHÁ THẾ GIỚI</title>
   <desc lang="vi">Thế giới nhìn từ trên cao. Tập 2</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/2.png" />
  </programme>
- <programme start="20261014113000 +0700" stop="20261014121500 +0700" channel="vtv2hd">
+ <programme start="20261014113027 +0700" stop="20261014121536 +0700" channel="vtv2hd">
   <title lang="vi">PHIM TRUYỆN</title>
   <desc lang="vi">Cuộc đời vẫn đẹp sao - Tập 34/45</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/2.png" />
  </programme>
- <programme start="20261014121500 +0700" stop="20261014123000 +0700" channel="vtv2hd">
+ <programme start="20261014121536 +0700" stop="20261014123127 +0700" channel="vtv2hd">
   <title lang="vi">TỪ NHỮNG MIỀN QUÊ</title>
   <desc lang="vi">Nghề ngói âm dương Bắc Sơn</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/2.png" />
  </programme>
- <programme start="20261014123000 +0700" stop="20261014125500 +0700" channel="vtv2hd">
+ <programme start="20261014123127 +0700" stop="20261014125721 +0700" channel="vtv2hd">
   <title lang="vi">HIỂU SÂU - SỐNG CHẤT</title>
   <desc lang="vi">Lật tẩy "thần dược" an cung</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/2.png" />
  </programme>
- <programme start="20261014125500 +0700" stop="20261014130000 +0700" channel="vtv2hd">
+ <programme start="20261014125721 +0700" stop="20261014130213 +0700" channel="vtv2hd">
   <title lang="vi">VỀ QUÊ</title>
   <desc lang="vi">Từ bản nghèo đến bản du lịch</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/2.png" />
  </programme>
- <programme start="20261014130000 +0700" stop="20261014133000 +0700" channel="vtv2hd">
+ <programme start="20261014130213 +0700" stop="20261014132848 +0700" channel="vtv2hd">
   <title lang="vi">KHÁM PHÁ THẾ GIỚI</title>
   <desc lang="vi">Thế giới nhìn từ trên cao - Tập 3</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/2.png" />
  </programme>
- <programme start="20261014133000 +0700" stop="20261014140000 +0700" channel="vtv2hd">
+ <programme start="20261014132848 +0700" stop="20261014135837 +0700" channel="vtv2hd">
   <title lang="vi">PHIM TÀI LIỆU</title>
   <desc lang="vi">2026_Thiên nhiên hoang dã Phong Nha Kẻ Bàng- Phần 8</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/2.png" />
  </programme>
- <programme start="20261014140000 +0700" stop="20261014150000 +0700" channel="vtv2hd">
+ <programme start="20261014135837 +0700" stop="20261014150000 +0700" channel="vtv2hd">
   <title lang="vi">TỌA ĐỘ VIỆC LÀM</title>
   <desc lang="vi">Tọa độ việc làm số 9 (Phát lại)</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/2.png" />
@@ -2139,67 +2134,67 @@
   <desc lang="vi">Đường tới thành Thăng Long - Tập 7/19</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/3.png" />
  </programme>
- <programme start="20261014090620 +0700" stop="20261014100000 +0700" channel="vtv3hd">
+ <programme start="20261014090620 +0700" stop="20261014100202 +0700" channel="vtv3hd">
   <title lang="vi">AI LÀ TRIỆU PHÚ</title>
   <desc lang="vi">Ai là triệu phú Số 40 ngày 13.10</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/3.png" />
  </programme>
- <programme start="20261014100000 +0700" stop="20261014103500 +0700" channel="vtv3hd">
+ <programme start="20261014100202 +0700" stop="20261014103552 +0700" channel="vtv3hd">
   <title lang="vi">CHUYỆN NHÀ THỜI NAY</title>
   <desc lang="vi">Không còn cô đơn ở nước Nga</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/3.png" />
  </programme>
- <programme start="20261014103500 +0700" stop="20261014104000 +0700" channel="vtv3hd">
+ <programme start="20261014103552 +0700" stop="20261014104112 +0700" channel="vtv3hd">
   <title lang="vi">VIỆC TỬ TẾ</title>
   <desc lang="vi">Việc tử tế (5)</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/3.png" />
  </programme>
- <programme start="20261014104000 +0700" stop="20261014111000 +0700" channel="vtv3hd">
+ <programme start="20261014104112 +0700" stop="20261014111000 +0700" channel="vtv3hd">
   <title lang="vi">BẠN KỂ TÔI NGHE</title>
   <desc lang="vi">Bạn kể tôi nghe 13/10/2026</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/3.png" />
  </programme>
- <programme start="20261014111000 +0700" stop="20261014111500 +0700" channel="vtv3hd">
+ <programme start="20261014111000 +0700" stop="20261014111438 +0700" channel="vtv3hd">
   <title lang="vi">THÔNG TIN 260</title>
   <desc lang="vi">Thông tin 260 14/10/2026</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/3.png" />
  </programme>
- <programme start="20261014111500 +0700" stop="20261014113000 +0700" channel="vtv3hd">
+ <programme start="20261014111438 +0700" stop="20261014113000 +0700" channel="vtv3hd">
   <title lang="vi">ĐIỀU NHỎ BÉ KỲ DIỆU</title>
   <desc lang="vi">Điều nhỏ bé kỳ diệu số 757 ngày 13.10</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/3.png" />
  </programme>
- <programme start="20261014113000 +0700" stop="20261014114500 +0700" channel="vtv3hd">
+ <programme start="20261014113000 +0700" stop="20261014115043 +0700" channel="vtv3hd">
   <title lang="vi">GÌ THẾ NHỈ</title>
   <desc lang="vi">Gì thế nhỉ 14/10/2026</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/3.png" />
  </programme>
- <programme start="20261014114500 +0700" stop="20261014120000 +0700" channel="vtv3hd">
+ <programme start="20261014115043 +0700" stop="20261014120005 +0700" channel="vtv3hd">
   <title lang="vi">PHỤ NỮ LÀ SỐ 1</title>
   <desc lang="vi">Hoang tưởng - tập 32</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/3.png" />
  </programme>
- <programme start="20261014120000 +0700" stop="20261014125000 +0700" channel="vtv3hd">
+ <programme start="20261014120005 +0700" stop="20261014124905 +0700" channel="vtv3hd">
   <title lang="vi">PHIM TRUYỆN</title>
   <desc lang="vi">Chuyện nơi thành phố nhỏ - Tập 29/30</desc>
-  <icon src="https://static2.vieon.vn/vieplay-image/thumbnail_big_v4/2026/09/22/ts268cso_chuyen-noi-thanh-pho-nho_1267_712.jpg" />
+  <icon src="https://r2.epg.io.vn/2026-09-17/3.png" />
  </programme>
- <programme start="20261014125000 +0700" stop="20261014130000 +0700" channel="vtv3hd">
+ <programme start="20261014124905 +0700" stop="20261014130207 +0700" channel="vtv3hd">
   <title lang="vi">VIỆT NAM ĐA SẮC</title>
   <desc lang="vi">Việt Nam Đa sắc 973 ngày 14.10</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/3.png" />
  </programme>
- <programme start="20261014130000 +0700" stop="20261014135000 +0700" channel="vtv3hd">
+ <programme start="20261014130207 +0700" stop="20261014134911 +0700" channel="vtv3hd">
   <title lang="vi">PHIM TRUYỆN</title>
   <desc lang="vi">Đường tới thành Thăng Long - Tập 8/19</desc>
   <icon src="https://s12936.cdn.mytvnet.vn/vimages/6e/ee/ef/fe/e7/72/6eefe-lnewduongtoithanhthanglong7634jpg-content-mytv.jpg" />
  </programme>
- <programme start="20261014135000 +0700" stop="20261014143000 +0700" channel="vtv3hd">
+ <programme start="20261014134911 +0700" stop="20261014143647 +0700" channel="vtv3hd">
   <title lang="vi">CHIẾN SĨ - ĐƯỜNG TỚI VINH QUANG</title>
   <desc lang="vi">Chiến sĩ - Đường tới vinh quang số 11</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/3.png" />
  </programme>
- <programme start="20261014143000 +0700" stop="20261014152000 +0700" channel="vtv3hd">
+ <programme start="20261014143647 +0700" stop="20261014152000 +0700" channel="vtv3hd">
   <title lang="vi">TALK VIETNAM</title>
   <desc lang="vi">Tinh hoa nghề Việt</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/3.png" />
@@ -2998,73 +2993,73 @@
   <title lang="vi">ĐI CÙNG CHÚNG TÔI</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/4.png" />
  </programme>
- <programme start="20261014092949 +0700" stop="20261014100000 +0700" channel="vtv4hd">
+ <programme start="20261014092949 +0700" stop="20261014095247 +0700" channel="vtv4hd">
   <title lang="vi">THẾ GIỚI TUỔI THƠ</title>
   <desc lang="vi">Dịu dàng bên suối</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/4.png" />
  </programme>
- <programme start="20261014100000 +0700" stop="20261014101500 +0700" channel="vtv4hd">
+ <programme start="20261014095247 +0700" stop="20261014100343 +0700" channel="vtv4hd">
   <title lang="vi">KHÁM PHÁ VIỆT NAM</title>
   <desc lang="vi">Dưới bóng dừa Tam Quan</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/4.png" />
  </programme>
- <programme start="20261014101500 +0700" stop="20261014102500 +0700" channel="vtv4hd">
+ <programme start="20261014100343 +0700" stop="20261014102533 +0700" channel="vtv4hd">
   <title lang="vi">NHÌN TỪ HÀ NỘI</title>
   <desc lang="vi">Lấy người dân làm trung tâm</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/4.png" />
  </programme>
- <programme start="20261014102500 +0700" stop="20261014103000 +0700" channel="vtv4hd">
+ <programme start="20261014102533 +0700" stop="20261014103204 +0700" channel="vtv4hd">
   <title lang="vi">LÁ CHẮN HÒA BÌNH</title>
   <desc lang="vi">Ứng phó với dịch bệnh</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/4.png" />
  </programme>
- <programme start="20261014103000 +0700" stop="20261014110000 +0700" channel="vtv4hd">
+ <programme start="20261014103204 +0700" stop="20261014110002 +0700" channel="vtv4hd">
   <title lang="vi">NHẬT KÝ TRÊN KHÓA SOL</title>
   <desc lang="vi">Nhạc sĩ A King Lứu</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/4.png" />
  </programme>
- <programme start="20261014110000 +0700" stop="20261014111500 +0700" channel="vtv4hd">
+ <programme start="20261014110002 +0700" stop="20261014111227 +0700" channel="vtv4hd">
   <title lang="vi">ĐIỂM HẸN NGƯỜI VIỆT</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/4.png" />
  </programme>
- <programme start="20261014111500 +0700" stop="20261014115000 +0700" channel="vtv4hd">
+ <programme start="20261014111227 +0700" stop="20261014114857 +0700" channel="vtv4hd">
   <title lang="vi">PHIM TRUYỆN</title>
   <desc lang="vi">Mẹ Rơm - Tập 1</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/4.png" />
  </programme>
- <programme start="20261014115000 +0700" stop="20261014120000 +0700" channel="vtv4hd">
+ <programme start="20261014114857 +0700" stop="20261014120004 +0700" channel="vtv4hd">
   <title lang="vi">KHÁM PHÁ VIỆT NAM</title>
   <desc lang="vi">Người Bahnar bên dòng Đắk Bla</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/4.png" />
  </programme>
- <programme start="20261014120000 +0700" stop="20261014122500 +0700" channel="vtv4hd">
+ <programme start="20261014120004 +0700" stop="20261014122446 +0700" channel="vtv4hd">
   <title lang="vi">BẢN TIN THỜI SỰ</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/4.png" />
  </programme>
- <programme start="20261014122500 +0700" stop="20261014123000 +0700" channel="vtv4hd">
+ <programme start="20261014122446 +0700" stop="20261014123017 +0700" channel="vtv4hd">
   <title lang="vi">SỨC SỐNG THỂ THAO</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/4.png" />
  </programme>
- <programme start="20261014123000 +0700" stop="20261014130000 +0700" channel="vtv4hd">
+ <programme start="20261014123017 +0700" stop="20261014125947 +0700" channel="vtv4hd">
   <title lang="vi">CUỘC SỐNG VẪN TƯƠI ĐẸP</title>
   <desc lang="vi">Sống xanh mỗi ngày</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/4.png" />
  </programme>
- <programme start="20261014130000 +0700" stop="20261014131500 +0700" channel="vtv4hd">
+ <programme start="20261014125947 +0700" stop="20261014131512 +0700" channel="vtv4hd">
   <title lang="vi">KÝ SỰ SẮC MÀU VIỆT NAM</title>
   <desc lang="vi">Chạm vào Nam Dương</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/4.png" />
  </programme>
- <programme start="20261014131500 +0700" stop="20261014140000 +0700" channel="vtv4hd">
+ <programme start="20261014131512 +0700" stop="20261014135924 +0700" channel="vtv4hd">
   <title lang="vi">PHIM TRUYỆN</title>
   <desc lang="vi">Chúng ta của 8 năm sau - Tập 48</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/4.png" />
  </programme>
- <programme start="20261014140000 +0700" stop="20261014141500 +0700" channel="vtv4hd">
+ <programme start="20261014135924 +0700" stop="20261014141126 +0700" channel="vtv4hd">
   <title lang="vi">ĐIỂM HẸN NGƯỜI VIỆT</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/4.png" />
  </programme>
- <programme start="20261014141500 +0700" stop="20261014150000 +0700" channel="vtv4hd">
+ <programme start="20261014141126 +0700" stop="20261014150000 +0700" channel="vtv4hd">
   <title lang="vi">ÚM BA LA RA CHỮ GÌ?</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/4.png" />
  </programme>
@@ -3866,22 +3861,22 @@
  </programme>
  <programme start="20261014100000 +0700" stop="20261014103000 +0700" channel="vtv5hd">
   <title lang="vi">ĐIỂM TỰA CUỘC SỐNG</title>
-  <desc lang="vi">Bình yên dưới mái trường</desc>
+  <desc lang="vi">Bình yên dưới mái trưởng)ĐS.Nhung) 6.10TNB</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/5.png" />
  </programme>
  <programme start="20261014103000 +0700" stop="20261014110000 +0700" channel="vtv5hd">
   <title lang="vi">PHIM TRUYỆN</title>
-  <desc lang="vi">Không thời gian - Tập 16</desc>
+  <desc lang="vi">Không thời gian PL 16/60</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/5.png" />
  </programme>
  <programme start="20261014110000 +0700" stop="20261014111500 +0700" channel="vtv5hd">
   <title lang="vi">KHỞI SẮC BẢN LÀNG</title>
-  <desc lang="vi">Những bàn tay giữ nghề xưa</desc>
+  <desc lang="vi">Những bàn tay giữ nghề xưa P.BD</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/5.png" />
  </programme>
  <programme start="20261014111500 +0700" stop="20261014113000 +0700" channel="vtv5hd">
   <title lang="vi">SITCOM</title>
-  <desc lang="vi">54 sắc màu - Một trái tim - Tập 94</desc>
+  <desc lang="vi">54 sắc màu - Một trái tim 94/95</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/5.png" />
  </programme>
  <programme start="20261014113000 +0700" stop="20261014115000 +0700" channel="vtv5hd">
@@ -3898,12 +3893,12 @@
  </programme>
  <programme start="20261014120000 +0700" stop="20261014124500 +0700" channel="vtv5hd">
   <title lang="vi">PHIM TRUYỆN</title>
-  <desc lang="vi">Hướng tới mặt trời - Tập 31</desc>
+  <desc lang="vi">Hướng tới mặt trời PM 31/40</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/5.png" />
  </programme>
  <programme start="20261014124500 +0700" stop="20261014133000 +0700" channel="vtv5hd">
   <title lang="vi">PHIM TRUYỆN</title>
-  <desc lang="vi">Hướng tới mặt trời - Tập 32</desc>
+  <desc lang="vi">Hướng tới mặt trời PM 32/40</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/5.png" />
  </programme>
  <programme start="20261014133000 +0700" stop="20261014140000 +0700" channel="vtv5hd">
@@ -3932,7 +3927,7 @@
  </programme>
  <programme start="20261014163000 +0700" stop="20261014171500 +0700" channel="vtv5hd">
   <title lang="vi">PHIM TRUYỆN</title>
-  <desc lang="vi">Sứ mệnh tái sinh - Tập 4</desc>
+  <desc lang="vi">Sứ mệnh tái sinh PL 4/20</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/5.png" />
  </programme>
  <programme start="20261014171500 +0700" stop="20261014173000 +0700" channel="vtv5hd">
@@ -3941,12 +3936,12 @@
  </programme>
  <programme start="20261014173000 +0700" stop="20261014174000 +0700" channel="vtv5hd">
   <title lang="vi">MỖI NGÀY MỘT NIỀM VUI</title>
-  <desc lang="vi">Trà sen Tây Hồ</desc>
+  <desc lang="vi">Trà sen Tây Hồ TKC 03</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/5.png" />
  </programme>
  <programme start="20261014174000 +0700" stop="20261014175500 +0700" channel="vtv5hd">
   <title lang="vi">PHÓNG SỰ</title>
-  <desc lang="vi">An dân vùng thiên tai</desc>
+  <desc lang="vi">An dân vùng thiên tai Tấn Chiến</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/5.png" />
  </programme>
  <programme start="20261014175500 +0700" stop="20261014180000 +0700" channel="vtv5hd">
@@ -3964,7 +3959,7 @@
  </programme>
  <programme start="20261014183500 +0700" stop="20261014184000 +0700" channel="vtv5hd">
   <title lang="vi">HÀNH TRÌNH VẺ ĐẸP</title>
-  <desc lang="vi">Niềm vui của người Mường xứ Thanh</desc>
+  <desc lang="vi">Niềm vui của người Mường xứ Thanh TKC 03</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/5.png" />
  </programme>
  <programme start="20261014184000 +0700" stop="20261014184500 +0700" channel="vtv5hd">
@@ -3978,17 +3973,17 @@
  </programme>
  <programme start="20261014190000 +0700" stop="20261014194500 +0700" channel="vtv5hd">
   <title lang="vi">PHIM TRUYỆN</title>
-  <desc lang="vi">Thiên thần hộ mệnh - Tập 24</desc>
+  <desc lang="vi">Thiên thần hộ mệnh PM 24/30</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/5.png" />
  </programme>
  <programme start="20261014194500 +0700" stop="20261014203000 +0700" channel="vtv5hd">
   <title lang="vi">PHIM TRUYỆN</title>
-  <desc lang="vi">Thiên thần hộ mệnh - Tập 25</desc>
+  <desc lang="vi">Thiên thần hộ mệnh PM 25/30</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/5.png" />
  </programme>
  <programme start="20261014203000 +0700" stop="20261014210000 +0700" channel="vtv5hd">
   <title lang="vi">DÂN TỘC PHÁT TRIỂN</title>
-  <desc lang="vi">Đầu tư nguồn lực cho giảm nghèo</desc>
+  <desc lang="vi">Đầu tư nguồn lực cho giảm nghèo P&gt;CĐCL(ĐS.Mai Linh)</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/5.png" />
  </programme>
  <programme start="20261014210000 +0700" stop="20261014213000 +0700" channel="vtv5hd">
@@ -3998,7 +3993,7 @@
  </programme>
  <programme start="20261014213000 +0700" stop="20261014221500 +0700" channel="vtv5hd">
   <title lang="vi">PHIM TRUYỆN</title>
-  <desc lang="vi">Quý ông hoàn hảo - Tập 12</desc>
+  <desc lang="vi">Quý ông hoàn hảo PM 12/22</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/5.png" />
  </programme>
  <programme start="20261014221500 +0700" stop="20261014223000 +0700" channel="vtv5hd">
@@ -4007,12 +4002,12 @@
  </programme>
  <programme start="20261014223000 +0700" stop="20261014230000 +0700" channel="vtv5hd">
   <title lang="vi">CẢNH GIÁC 24/7</title>
-  <desc lang="vi">Lừa đảo rút tiền thẻ</desc>
+  <desc lang="vi">Lừa đảo rút tiền thẻ( ĐS.Phượng)TKC 02</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/5.png" />
  </programme>
  <programme start="20261014230000 +0700" stop="20261014234500 +0700" channel="vtv5hd">
   <title lang="vi">PHIM TRUYỆN</title>
-  <desc lang="vi">Yêu không khoảng cách - Tập 15</desc>
+  <desc lang="vi">Yêu không khoảng cách PL 15/20</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/5.png" />
  </programme>
  <programme start="20261015000000 +0700" stop="20261015000500 +0700" channel="vtv5hd">
@@ -5648,7 +5643,6 @@
  </programme>
  <programme start="20261014090000 +0700" stop="20261014093000 +0700" channel="vtv6hd">
   <title lang="vi">CẬN CẢNH THỂ THAO</title>
-  <desc lang="vi">Ngày 11/10/2026</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/8.png" />
  </programme>
  <programme start="20261014093000 +0700" stop="20261014113500 +0700" channel="vtv6hd">
@@ -5673,7 +5667,7 @@
  </programme>
  <programme start="20261014123000 +0700" stop="20261014143000 +0700" channel="vtv6hd">
   <title lang="vi">TƯỜNG THUẬT</title>
-  <desc lang="vi">BÓNG ĐÁ NAM ASIAN GAMES 2026: Chung kết  U23 Hàn Quốc - U23 Nhật Bản</desc>
+  <desc lang="vi">BÓNG ĐÁ NAM ASIAN GAMES 2026: Chung kết U23 Hàn Quốc - U23 Nhật Bản</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/8.png" />
  </programme>
  <programme start="20261014143000 +0700" stop="20261014143500 +0700" channel="vtv6hd">
@@ -6071,17 +6065,17 @@
  <programme start="20261014100500 +0700" stop="20261014103000 +0700" channel="vtv7hd">
   <title lang="vi">NHỮNG NGƯỜI BẠN CẦU VỒNG</title>
   <desc lang="vi">Cây - Tập 1</desc>
-  <icon src="https://static2.vieon.vn/vieplay-image/thumbnail_big_v4/2024/10/22/vygnkccu_nhungnguoibancv_1267_712.png" />
+  <icon src="https://r2.epg.io.vn/2026-09-17/9.png" />
  </programme>
  <programme start="20261014103000 +0700" stop="20261014110000 +0700" channel="vtv7hd">
   <title lang="vi">CHUYẾN XE HẠT VỪNG</title>
   <desc lang="vi">Số 4 - Sắc màu</desc>
-  <icon src="https://static2.vieon.vn/vieplay-image/thumbnail_big_v4/2025/04/15/eqjem1fn_chuyenxehatvung_1267_712.png" />
+  <icon src="https://r2.epg.io.vn/2026-09-17/9.png" />
  </programme>
  <programme start="20261014110000 +0700" stop="20261014111500 +0700" channel="vtv7hd">
   <title lang="vi">CÙNG LĂN VÀO BẾP</title>
   <desc lang="vi">Số 3</desc>
-  <icon src="https://static2.vieon.vn/vieplay-image/thumbnail_big_v4/2025/04/15/epifh6hf_cunglanvaobep_1267_712.jpg" />
+  <icon src="https://r2.epg.io.vn/2026-09-17/9.png" />
  </programme>
  <programme start="20261014111500 +0700" stop="20261014112000 +0700" channel="vtv7hd">
   <title lang="vi">ĐẸP HƠN MỖI NGÀY</title>
@@ -6106,7 +6100,7 @@
  <programme start="20261014120000 +0700" stop="20261014123000 +0700" channel="vtv7hd">
   <title lang="vi">XỨ SỞ CẦU VỒNG</title>
   <desc lang="vi">Số 6</desc>
-  <icon src="https://static2.vieon.vn/vieplay-image/thumbnail_big_v4/2026/03/18/eotx21mj_xusocauvong_1267_712.jpg" />
+  <icon src="https://r2.epg.io.vn/2026-09-17/9.png" />
  </programme>
  <programme start="20261014123000 +0700" stop="20261014130000 +0700" channel="vtv7hd">
   <title lang="vi">VĂN VUI VẺ</title>
@@ -8363,7 +8357,7 @@
  <programme start="20261014110000 +0700" stop="20261014113000 +0700" channel="vtv10hd">
   <title lang="vi">TRAI ĐẸP VÀO BẾP</title>
   <desc lang="vi">Số 37</desc>
-  <icon src="https://static2.vieon.vn/vieplay-image/thumbnail_big_v4/2025/07/21/piacfmgk_mientayhomnay_trua_1267_712.jpg" />
+  <icon src="https://r2.epg.io.vn/2026-09-17/12.png" />
  </programme>
  <programme start="20261014113000 +0700" stop="20261014114500 +0700" channel="vtv10hd">
   <title lang="vi">PHIM HOẠT HÌNH</title>
@@ -8974,7 +8968,7 @@
  </programme>
  <programme start="20261014120000 +0700" stop="20261014122500 +0700" channel="vietnamtoday">
   <title lang="vi">NEWSLINE</title>
-  <icon src="https://static2.vieon.vn/vieplay-image/thumbnail_big_v4/2025/09/24/nwj1mb3f_newsline_1267_712.jpg" />
+  <icon src="https://r2.epg.io.vn/2026-09-17/13.png" />
  </programme>
  <programme start="20261014122500 +0700" stop="20261014123000 +0700" channel="vietnamtoday">
   <title lang="vi">WEATHER FORECAST</title>
@@ -9903,7 +9897,7 @@
  </programme>
  <programme start="20261014110000 +0700" stop="20261014113000 +0700" channel="antvhd">
   <title lang="vi">AN NINH TOÀN CẢNH</title>
-  <icon src="https://static2.vieon.vn/vieplay-image/thumbnail_big_v4/2025/07/21/16unmm1n_anninhtoancanh_1267_712.jpg" />
+  <icon src="https://r2.epg.io.vn/2026-09-17/70.png" />
  </programme>
  <programme start="20261014113000 +0700" stop="20261014120000 +0700" channel="antvhd">
   <title lang="vi">113 ONLINE</title>
@@ -10528,11 +10522,12 @@
  </programme>
  <programme start="20261014000000 +0700" stop="20261014004500 +0700" channel="qpvnhd">
   <title lang="vi">PHIM TRUYỆN BỘ NƯỚC NGOÀI</title>
-  <desc lang="vi">Kính song thành - Tập 35</desc>
+  <desc lang="vi">Kính song thành - Tập 35/45</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
  <programme start="20261014004500 +0700" stop="20261014010000 +0700" channel="qpvnhd">
   <title lang="vi">HỘP THƯ QUỐC PHÒNG</title>
+  <desc lang="vi">Số 374: Xây dựng nhà trường Quân đội thông minh</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
  <programme start="20261014010000 +0700" stop="20261014011500 +0700" channel="qpvnhd">
@@ -10541,15 +10536,17 @@
  </programme>
  <programme start="20261014011500 +0700" stop="20261014014500 +0700" channel="qpvnhd">
   <title lang="vi">PHIM TRUYỆN BỘ VIỆT NAM</title>
-  <desc lang="vi">Vỏ bọc hôn nhân - Tập 6</desc>
+  <desc lang="vi">Vỏ bọc hôn nhân - Tập 6/6</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
  <programme start="20261014014500 +0700" stop="20261014020000 +0700" channel="qpvnhd">
   <title lang="vi">THỂ THAO QUỐC PHÒNG</title>
+  <desc lang="vi">Số 20: Sẵn sàng bứt phá</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
  <programme start="20261014020000 +0700" stop="20261014023000 +0700" channel="qpvnhd">
   <title lang="vi">VƯƠN XA VIỆT NAM</title>
+  <desc lang="vi">Số 228 - TT - Hà Nội trong mắt bạn bè quốc tế</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
  <programme start="20261014023000 +0700" stop="20261014030000 +0700" channel="qpvnhd">
@@ -10563,11 +10560,12 @@
  </programme>
  <programme start="20261014031000 +0700" stop="20261014031500 +0700" channel="qpvnhd">
   <title lang="vi">LỜI BÁC DẠY</title>
+  <desc lang="vi">Số 321 - Đức Giêsu hy sinh vì muốn loài người được tự do hạnh phúc, đồng bào ta cả lương cả giáo cũng vì tự do hạnh phúc cho toàn dân mà hy sinh phấn đấu.</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
  <programme start="20261014031500 +0700" stop="20261014033000 +0700" channel="qpvnhd">
   <title lang="vi">LĂNG KÍNH GIAO THÔNG QUÂN SỰ</title>
-  <desc lang="vi">Bảo đảm an toàn trong vận chuyển đạn</desc>
+  <desc lang="vi">Số 99 - Bảo đảm an toàn trong vận chuyển đạn</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
  <programme start="20261014033000 +0700" stop="20261014041500 +0700" channel="qpvnhd">
@@ -10586,7 +10584,7 @@
  </programme>
  <programme start="20261014050000 +0700" stop="20261014053000 +0700" channel="qpvnhd">
   <title lang="vi">GIẢI MÃ VŨ KHÍ</title>
-  <desc lang="vi">Giải mã bí mật của kho vũ khí - Phần 2</desc>
+  <desc lang="vi">Giải mã bí mật của kho vũ khí - Phần 2/6</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
  <programme start="20261014053000 +0700" stop="20261014053500 +0700" channel="qpvnhd">
@@ -10595,6 +10593,7 @@
  </programme>
  <programme start="20261014053500 +0700" stop="20261014054000 +0700" channel="qpvnhd">
   <title lang="vi">LỜI BÁC DẠY</title>
+  <desc lang="vi">Số 321 - Đức Giêsu hy sinh vì muốn loài người được tự do hạnh phúc, đồng bào ta cả lương cả giáo cũng vì tự do hạnh phúc cho toàn dân mà hy sinh phấn đấu.</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
  <programme start="20261014054000 +0700" stop="20261014060000 +0700" channel="qpvnhd">
@@ -10617,13 +10616,26 @@
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
  <programme start="20261014073000 +0700" stop="20261014081500 +0700" channel="qpvnhd">
-  <title lang="vi">TIẾP SÓNG TRỰC TIẾP</title>
-  <desc lang="vi">Lễ truy điệu, an táng hài cốt liệt sĩ được tìm kiếm, quy tập tại Công viên Văn hóa Lê Thị Riêng, phường Hòa Hưng, Thành phố Hồ Chí Minh</desc>
+  <title lang="vi">PHIM TRUYỆN BỘ VIỆT NAM</title>
+  <desc lang="vi">Hoa hồng giấy - Tập 31/50</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
+ </programme>
+ <programme start="20261014081500 +0700" stop="20261014084500 +0700" channel="qpvnhd">
+  <title lang="vi">NGÀY MỚI VỚI QPVN</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
+ </programme>
+ <programme start="20261014084500 +0700" stop="20261014094500 +0700" channel="qpvnhd">
+  <title lang="vi">SỨC KHỎE 24/7</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
+ </programme>
+ <programme start="20261014094500 +0700" stop="20261014103000 +0700" channel="qpvnhd">
+  <title lang="vi">PHIM TRUYỆN BỘ NƯỚC NGOÀI</title>
+  <desc lang="vi">Hoa gian lệnh - Tập 27/34</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
  <programme start="20261014103000 +0700" stop="20261014111500 +0700" channel="qpvnhd">
   <title lang="vi">GAMESHOW</title>
-  <desc lang="vi">Dấu chân tình thân - Tập 1</desc>
+  <desc lang="vi">Gameshow395 - Dấu chân tình thân - Tập 1/16</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
  <programme start="20261014111500 +0700" stop="20261014113000 +0700" channel="qpvnhd">
@@ -10632,12 +10644,12 @@
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
  <programme start="20261014113000 +0700" stop="20261014120000 +0700" channel="qpvnhd">
-  <title lang="vi">TIN TỨC TỔNG HỢP TRƯA</title>
+  <title lang="vi">BẢN TIN TRƯA</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
  <programme start="20261014120000 +0700" stop="20261014124500 +0700" channel="qpvnhd">
   <title lang="vi">PHIM TRUYỆN BỘ NƯỚC NGOÀI</title>
-  <desc lang="vi">Ước mơ ngang trời - Tập 4</desc>
+  <desc lang="vi">Ước mơ ngang trời - Tập 4/20</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
  <programme start="20261014124500 +0700" stop="20261014130000 +0700" channel="qpvnhd">
@@ -10647,7 +10659,7 @@
  </programme>
  <programme start="20261014130000 +0700" stop="20261014134500 +0700" channel="qpvnhd">
   <title lang="vi">PHIM TRUYỆN BỘ NƯỚC NGOÀI</title>
-  <desc lang="vi">Người yêu dấu - Tập 21</desc>
+  <desc lang="vi">Người yêu dấu - Tập 21/37</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
  <programme start="20261014134500 +0700" stop="20261014140000 +0700" channel="qpvnhd">
@@ -10656,12 +10668,10 @@
  </programme>
  <programme start="20261014140000 +0700" stop="20261014150000 +0700" channel="qpvnhd">
   <title lang="vi">SỨC KHỎE 24/7</title>
-  <desc lang="vi">Cốt Wells Heat</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
  <programme start="20261014150000 +0700" stop="20261014161000 +0700" channel="qpvnhd">
   <title lang="vi">TRỰC TIẾP</title>
-  <desc lang="vi">Lễ trao giải thưởng Chuyển đổi số Việt Nam</desc>
   <icon src="https://img-zlr1.tv360.vn/image1/2026/10/12/14/1791790161771/06bacf85cb6c.jpg" />
  </programme>
  <programme start="20261014161000 +0700" stop="20261014163000 +0700" channel="qpvnhd">
@@ -10675,16 +10685,17 @@
  </programme>
  <programme start="20261014164000 +0700" stop="20261014164500 +0700" channel="qpvnhd">
   <title lang="vi">SẮC MÀU BIÊN GIỚI</title>
-  <desc lang="vi">Ruộng bậc thang Tây Bắc mùa lúa chín</desc>
+  <desc lang="vi">Số 39: Ruộng bậc thang Tây Bắc mùa lúa chín</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
  <programme start="20261014164500 +0700" stop="20261014170000 +0700" channel="qpvnhd">
   <title lang="vi">THỂ THAO QUỐC PHÒNG</title>
+  <desc lang="vi">Số 20: Sẵn sàng bứt phá</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
  <programme start="20261014170000 +0700" stop="20261014174500 +0700" channel="qpvnhd">
   <title lang="vi">PHIM TRUYỆN BỘ VIỆT NAM</title>
-  <desc lang="vi">Lại là tôi, bác Ba Phi - Tập 48</desc>
+  <desc lang="vi">Lại là tôi, bác Ba Phi - Tập 48/51</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
  <programme start="20261014174500 +0700" stop="20261014180000 +0700" channel="qpvnhd">
@@ -10696,17 +10707,22 @@
   <title lang="vi">BẢN TIN QUỐC TẾ</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
- <programme start="20261014181500 +0700" stop="20261014183000 +0700" channel="qpvnhd">
+ <programme start="20261014181500 +0700" stop="20261014182500 +0700" channel="qpvnhd">
   <title lang="vi">TỰ HÀO MỘT DẢI BIÊN CƯƠNG</title>
   <desc lang="vi">Nhịp mới nơi biên cương</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
+ <programme start="20261014182500 +0700" stop="20261014183000 +0700" channel="qpvnhd">
+  <title lang="vi">SẮC MÀU BIÊN GIỚI</title>
+  <desc lang="vi">Số 16: Dòng nhựa trắng vùng biên</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
+ </programme>
  <programme start="20261014183000 +0700" stop="20261014190000 +0700" channel="qpvnhd">
-  <title lang="vi">ẤN TƯỢNG K-LEAGUE</title>
+  <title lang="vi">ẤN TƯỢNG K - LEAGUE</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
  <programme start="20261014190000 +0700" stop="20261014194500 +0700" channel="qpvnhd">
-  <title lang="vi">TIẾP SÓNG CHƯƠNG TRÌNH THỜI SỰ VTV</title>
+  <title lang="vi">THỜI SỰ</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
  <programme start="20261014194500 +0700" stop="20261014195000 +0700" channel="qpvnhd">
@@ -10718,17 +10734,17 @@
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
  <programme start="20261014200000 +0700" stop="20261014204500 +0700" channel="qpvnhd">
-  <title lang="vi">BẢN TIN THỜI SỰ QUỐC PHÒNG</title>
+  <title lang="vi">THỜI SỰ QUỐC PHÒNG</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
  <programme start="20261014204500 +0700" stop="20261014211500 +0700" channel="qpvnhd">
   <title lang="vi">BIÊN CƯƠNG XANH</title>
-  <desc lang="vi">Lũy tre biên giới</desc>
+  <desc lang="vi">Luỹ tre biên giới</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
  <programme start="20261014211500 +0700" stop="20261014220000 +0700" channel="qpvnhd">
   <title lang="vi">PHIM TRUYỆN BỘ VIỆT NAM</title>
-  <desc lang="vi">Tình yêu bất tử - Tập 27</desc>
+  <desc lang="vi">Tình yêu bất tử - Tập 27/87</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
  <programme start="20261014220000 +0700" stop="20261014221500 +0700" channel="qpvnhd">
@@ -10742,11 +10758,11 @@
  </programme>
  <programme start="20261014224500 +0700" stop="20261014231500 +0700" channel="qpvnhd">
   <title lang="vi">GIẢI MÃ VŨ KHÍ</title>
-  <desc lang="vi">Giải mã bí mật của kho vũ khí - Phần 3</desc>
+  <desc lang="vi">Giải mã bí mật của kho vũ khí - Phần 3/6</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
- <programme start="20261014231500 +0700" stop="20261014235959 +0700" channel="qpvnhd">
-  <title lang="vi">BẢN TIN THỜI SỰ QUỐC PHÒNG</title>
+ <programme start="20261014231500 +0700" stop="20261015000000 +0700" channel="qpvnhd">
+  <title lang="vi">THỜI SỰ QUỐC PHÒNG</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/71.png" />
  </programme>
  <programme start="20261015000000 +0700" stop="20261015004500 +0700" channel="qpvnhd">
@@ -11762,9 +11778,7 @@
  </programme>
  <programme start="20261014110000 +0700" stop="20261014111500 +0700" channel="onsports">
   <title lang="vi">BẢN TIN ON KẾT NỐI</title>
-  <desc lang="vi">ATP Tour 1000</desc>
-  <category lang="vi">Thể thao</category>
-  <icon src="https://img.vtvprime.vn/0EZOIncBuy7HNaOZIWt6UYv6Fh2TPNZ5duMS1xk7rRk/rs:fit:716:402/czM6Ly9wcmQtc24taW1hZ2VzL2V2ZW50L2ZkYjk3YWU0LWQxOGUtNDAwZC05MTczLWQzNzFkYjQwNzVkNy5qcGc=.jpg" />
+  <icon src="https://r2.epg.io.vn/2026-09-17/16.png" />
  </programme>
  <programme start="20261014111500 +0700" stop="20261014114500 +0700" channel="onsports">
   <title lang="vi">UEFA CHAMPIONS LEAGUE MAGAZINE 2026/2027 - SỐ 06-26</title>
@@ -11772,9 +11786,7 @@
  </programme>
  <programme start="20261014114500 +0700" stop="20261014143000 +0700" channel="onsports">
   <title lang="vi">TRỰC TIẾP - GIẢI BÓNG CHUYỀN VÔ ĐỊCH QUỐC GIA CÁC CÂU LẠC BỘ 2026 - GIAI ĐOẠN II: TRẬN 1 - NỮ - HÀ NỘI TASCO AUTO - BC THÔNG TIN BINH ĐOÀN 19</title>
-  <desc lang="vi">Giải Bóng Chuyền VĐQG Các CLB 2026 Giai Đoạn 2 | Trận 1</desc>
-  <category lang="vi">Thể thao</category>
-  <icon src="https://img-zlr1.tv360.vn/image1/2026/10/12/16/1791796908410/0f89dbcfee7c.jpg" />
+  <icon src="https://r2.epg.io.vn/2026-09-17/16.png" />
  </programme>
  <programme start="20261014143000 +0700" stop="20261014170000 +0700" channel="onsports">
   <title lang="vi">TRỰC TIẾP - GIẢI BÓNG CHUYỀN VÔ ĐỊCH QUỐC GIA CÁC CÂU LẠC BỘ 2026 - GIAI ĐOẠN II: TRẬN 2 - NỮ - GELEXIMCO HƯNG YÊN - HÓA CHẤT ĐỨC GIANG LÀO CAI</title>
@@ -17604,9 +17616,7 @@
  </programme>
  <programme start="20261014120000 +0700" stop="20261014123000 +0700" channel="onfootball">
   <title lang="vi">BẢN TIN TALK SPORTS</title>
-  <desc lang="vi">Bản Tin 12h | Ngày 14/10</desc>
-  <category lang="vi">Thể thao</category>
-  <icon src="https://img.vtvprime.vn/igArFDHgZ7VJuqhBa8zbyqUR8eY87ChUUfssoXkU6MY/rs:fit:716:402/czM6Ly9wcmQtc24taW1hZ2VzL2V2ZW50L2RlZmQzMGMxLTYzNmYtNGU2Yy1iMTJmLWU3MDIxOTMwNDhjNS5wbmc=.jpg" />
+  <icon src="https://r2.epg.io.vn/2026-09-17/26.png" />
  </programme>
  <programme start="20261014123000 +0700" stop="20261014143000 +0700" channel="onfootball">
   <title lang="vi">UEFA CHAMPIONS LEAGUE 2026/2027: LEAGUE PHASE - LƯỢT 2 - GALATASARAY - BARCELONA</title>
@@ -18760,7 +18770,7 @@
  </programme>
  <programme start="20261014110000 +0700" stop="20261014150000 +0700" channel="onsportsnews">
   <title lang="vi">TRỰC TIẾP ATP TOUR 1000: SHANGHAI MASTERS 2026 - NGÀY 8, PHẦN 1</title>
-  <icon src="https://img-zlr1.tv360.vn/image1/2026/10/09/09/1791513036993/ab262e82da20.jpg" />
+  <icon src="https://r2.epg.io.vn/2026-09-17/28.png" />
  </programme>
  <programme start="20261014150000 +0700" stop="20261014153000 +0700" channel="onsportsnews">
   <title lang="vi">UEFA CHAMPIONS LEAGUE MAGAZINE 26/27 - SỐ 06</title>
@@ -22294,7 +22304,7 @@
  </programme>
  <programme start="20261014114500 +0700" stop="20261014124500 +0700" channel="htv2hd">
   <title lang="vi">HOA VƯƠNG - TẬP 75</title>
-  <icon src="https://img-zlr1.tv360.vn/image1/2026/07/31/08/1785461413464/2653a26290ba.jpg" />
+  <icon src="https://r2.epg.io.vn/2026-09-17/35.png" />
  </programme>
  <programme start="20261014124500 +0700" stop="20261014134500 +0700" channel="htv2hd">
   <title lang="vi">XƯA CÓ NGÓI LƯU LY - TẬP 6</title>
@@ -24326,7 +24336,7 @@
  </programme>
  <programme start="20261014140000 +0700" stop="20261014150000 +0700" channel="htv7hd">
   <title lang="vi">MẸ VẮNG NHÀ, BA LÀ SIÊU NHÂN</title>
-  <icon src="https://static2.vieon.vn/vieplay-image/thumbnail_big_v4/2026/05/26/mqoy21u6_me-vang-nha-ba-la-sieu-nhan-2026a79f7d893e9070ec34e3e478d65532c0_1267_712.jpg" />
+  <icon src="https://r2.epg.io.vn/2026-09-17/39.png" />
  </programme>
  <programme start="20261014150000 +0700" stop="20261014151500 +0700" channel="htv7hd">
   <title lang="vi">VƯỜN SAO MAI</title>
@@ -24344,7 +24354,7 @@
  <programme start="20261014164500 +0700" stop="20261014173000 +0700" channel="htv7hd">
   <title lang="vi">PHIM TRUYỆN TRUNG QUỐC</title>
   <desc lang="vi">Lôi đình đặc cảnh - Tập 39</desc>
-  <icon src="https://r2.epg.io.vn/2026-09-17/39.png" />
+  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/14/loidinhdaccanhslider_1791951170035.jpg" />
  </programme>
  <programme start="20261014173000 +0700" stop="20261014174500 +0700" channel="htv7hd">
   <title lang="vi">SỨC KHỎE 24 GIỜ</title>
@@ -24832,7 +24842,7 @@
  </programme>
  <programme start="20261014073500 +0700" stop="20261014075000 +0700" channel="htv9hd">
   <title lang="vi">NHÌN RA THẾ GIỚI</title>
-  <icon src="https://img-zlr1.tv360.vn/image1/2026/10/12/15/179179389267/480ae37cfee0.jpg" />
+  <icon src="https://r2.epg.io.vn/2026-09-17/40.png" />
  </programme>
  <programme start="20261014075000 +0700" stop="20261014101500 +0700" channel="htv9hd">
   <title lang="vi">TRỰC TIẾP</title>
@@ -24860,7 +24870,7 @@
  </programme>
  <programme start="20261014120000 +0700" stop="20261014123000 +0700" channel="htv9hd">
   <title lang="vi">CHƯƠNG TRÌNH 60 GIÂY</title>
-  <icon src="https://img-zlr1.tv360.vn/image1/2025/11/14/16/1763111900777/b75470012a97.jpg" />
+  <icon src="https://r2.epg.io.vn/2026-09-17/40.png" />
  </programme>
  <programme start="20261014123000 +0700" stop="20261014123500 +0700" channel="htv9hd">
   <title lang="vi">PHÓNG SỰ</title>
@@ -41700,71 +41710,71 @@
   <desc lang="vi">Ngôi nhà bí mật - tập 1</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
  </programme>
- <programme start="20261014094400 +0700" stop="20261014103000 +0700" channel="bacninh">
+ <programme start="20261014094400 +0700" stop="20261014102800 +0700" channel="bacninh">
   <title lang="vi">PHIM TRUYỆN</title>
   <desc lang="vi">Ngôi nhà bí mật - tập 2</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
  </programme>
- <programme start="20261014103000 +0700" stop="20261014110000 +0700" channel="bacninh">
+ <programme start="20261014102800 +0700" stop="20261014105900 +0700" channel="bacninh">
   <title lang="vi">CA NHẠC</title>
   <desc lang="vi">Bản tình ca xanh</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
  </programme>
- <programme start="20261014110000 +0700" stop="20261014111500 +0700" channel="bacninh">
+ <programme start="20261014105900 +0700" stop="20261014111400 +0700" channel="bacninh">
   <title lang="vi">BẤT ĐẲNG THỨC NGỌT NGÀO</title>
   <desc lang="vi">Tập 27</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
  </programme>
- <programme start="20261014111500 +0700" stop="20261014113000 +0700" channel="bacninh">
+ <programme start="20261014111400 +0700" stop="20261014113000 +0700" channel="bacninh">
   <title lang="vi">CA NHẠC THIẾU NHI</title>
   <desc lang="vi">Hội thi măng non Quan họ</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
  </programme>
- <programme start="20261014113000 +0700" stop="20261014114500 +0700" channel="bacninh">
+ <programme start="20261014113000 +0700" stop="20261014114600 +0700" channel="bacninh">
   <title lang="vi">THỜI SỰ BẮC NINH</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
  </programme>
- <programme start="20261014114500 +0700" stop="20261014123000 +0700" channel="bacninh">
+ <programme start="20261014114600 +0700" stop="20261014122800 +0700" channel="bacninh">
   <title lang="vi">PHIM TRUYỆN</title>
   <desc lang="vi">Đoá hoa ẩn mình - tập 18</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
  </programme>
- <programme start="20261014123000 +0700" stop="20261014130000 +0700" channel="bacninh">
+ <programme start="20261014122800 +0700" stop="20261014125800 +0700" channel="bacninh">
   <title lang="vi">PHIM TÀI LIỆU</title>
   <desc lang="vi">Cùng nhau gìn giữ nước non - tập 19</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
  </programme>
- <programme start="20261014130000 +0700" stop="20261014131500 +0700" channel="bacninh">
+ <programme start="20261014125800 +0700" stop="20261014131300 +0700" channel="bacninh">
   <title lang="vi">PHÓNG SỰ</title>
   <desc lang="vi">Doanh nhân những người mở đường cho kinh tế địa phương</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
  </programme>
- <programme start="20261014131500 +0700" stop="20261014133000 +0700" channel="bacninh">
+ <programme start="20261014131300 +0700" stop="20261014132800 +0700" channel="bacninh">
   <title lang="vi">KHÁM PHÁ THẾ GIỚI</title>
   <desc lang="vi">Khám phá những miền đất lạ - tập 43</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
  </programme>
- <programme start="20261014133000 +0700" stop="20261014134500 +0700" channel="bacninh">
+ <programme start="20261014132800 +0700" stop="20261014134500 +0700" channel="bacninh">
   <title lang="vi">TUYỆT CHIÊU NHÀ NÔNG</title>
   <desc lang="vi">Tập 75</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
  </programme>
- <programme start="20261014134500 +0700" stop="20261014143000 +0700" channel="bacninh">
+ <programme start="20261014134500 +0700" stop="20261014143100 +0700" channel="bacninh">
   <title lang="vi">PHIM TRUYỆN</title>
   <desc lang="vi">Chung cư cảnh sát - tập 27</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
  </programme>
- <programme start="20261014143000 +0700" stop="20261014144500 +0700" channel="bacninh">
+ <programme start="20261014143100 +0700" stop="20261014144400 +0700" channel="bacninh">
   <title lang="vi">THẾ GIỚI KỲ THÚ</title>
   <desc lang="vi">Linh hồn châu Á - Tập 1: Trung Quốc, rượu Bai Jiu</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
  </programme>
- <programme start="20261014144500 +0700" stop="20261014150000 +0700" channel="bacninh">
+ <programme start="20261014144400 +0700" stop="20261014145900 +0700" channel="bacninh">
   <title lang="vi">PHỔ BIẾN KIẾN THỨC</title>
   <desc lang="vi">Đưa giống cây màu giá trị cao vào sản xuất vụ đông</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
  </programme>
- <programme start="20261014150000 +0700" stop="20261014151500 +0700" channel="bacninh">
+ <programme start="20261014145900 +0700" stop="20261014151500 +0700" channel="bacninh">
   <title lang="vi">CÁC VẤN ĐỀ XÃ HỘI</title>
   <desc lang="vi">Hỗ trợ người dân thực hiện dịch vụ công ngay tại cơ sở</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
@@ -41893,6 +41903,306 @@
  <programme start="20261014233000 +0700" stop="20261014235900 +0700" channel="bacninh">
   <title lang="vi">CA NHẠC</title>
   <desc lang="vi">Bản tình ca xanh</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015000500 +0700" stop="20261015005000 +0700" channel="bacninh">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Nhà có hai cửa chính - tập 20</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015005000 +0700" stop="20261015010000 +0700" channel="bacninh">
+  <title lang="vi">BẤT ĐẲNG THỨC NGỌT NGÀO</title>
+  <desc lang="vi">Tập 27</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015010000 +0700" stop="20261015011500 +0700" channel="bacninh">
+  <title lang="vi">TẠP CHÍ KINH TẾ</title>
+  <desc lang="vi">Nữ doanh nhân Bắc Ninh kết nối cùng phát triển</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015011500 +0700" stop="20261015013000 +0700" channel="bacninh">
+  <title lang="vi">CHUYỆN TRONG TUẦN</title>
+  <desc lang="vi">Phát huy vai trò doanh nhân trong vận hội mới</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015013000 +0700" stop="20261015014500 +0700" channel="bacninh">
+  <title lang="vi">TUYỆT CHIÊU NHÀ NÔNG</title>
+  <desc lang="vi">Tập 75</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015014500 +0700" stop="20261015020000 +0700" channel="bacninh">
+  <title lang="vi">CÁC VẤN ĐỀ XÃ HỘI</title>
+  <desc lang="vi">Hỗ trợ người dân thực hiện dịch vụ công ngay tại cơ sở</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015020000 +0700" stop="20261015021500 +0700" channel="bacninh">
+  <title lang="vi">PHỔ BIẾN KIẾN THỨC</title>
+  <desc lang="vi">Đưa giống cây màu giá trị cao vào sản xuất vụ đông</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015021500 +0700" stop="20261015023000 +0700" channel="bacninh">
+  <title lang="vi">GƯƠNG MẶT THỂ THAO</title>
+  <desc lang="vi">Vũ Đức Lộc - Chủ nhiệm CLB võ cổ truyền xã Quang Trung tâm huyết gìn giữ tinh hoa võ cổ truyền</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015023000 +0700" stop="20261015030000 +0700" channel="bacninh">
+  <title lang="vi">PHIM TÀI LIỆU</title>
+  <desc lang="vi">Cùng nhau gìn giữ nước non - tập 19</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015030000 +0700" stop="20261015031500 +0700" channel="bacninh">
+  <title lang="vi">KHÁM PHÁ THẾ GIỚI</title>
+  <desc lang="vi">Khám phá những miền đất lạ - tập 44</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015031500 +0700" stop="20261015033000 +0700" channel="bacninh">
+  <title lang="vi">THIẾU NHI</title>
+  <desc lang="vi">Hoạt hình: Cuộc Phiêu Lưu Của Moley - tập 44</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015033000 +0700" stop="20261015041500 +0700" channel="bacninh">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Phi Hồ ngoại truyện - tập 22</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015041500 +0700" stop="20261015044500 +0700" channel="bacninh">
+  <title lang="vi">CA NHẠC</title>
+  <desc lang="vi">Bản tình ca xanh</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015044500 +0700" stop="20261015053000 +0700" channel="bacninh">
+  <title lang="vi">GÓC TƯ VẤN HỌC ĐƯỜNG</title>
+  <desc lang="vi">Tình yêu tuổi học trò - Hiểu đúng sống đẹp</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015053000 +0700" stop="20261015055000 +0700" channel="bacninh">
+  <title lang="vi">DẠY THỂ THAO TRÊN TRUYỀN HÌNH</title>
+  <desc lang="vi">Dạy Yoga</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015055000 +0700" stop="20261015060000 +0700" channel="bacninh">
+  <title lang="vi">TUYỆT CHIÊU NHÀ NÔNG</title>
+  <desc lang="vi">Tập 76</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015060000 +0700" stop="20261015063000 +0700" channel="bacninh">
+  <title lang="vi">BẮC NINH NGÀY MỚI</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015063000 +0700" stop="20261015064500 +0700" channel="bacninh">
+  <title lang="vi">ĐẤT VÀ NGƯỜI BẮC NINH</title>
+  <desc lang="vi">Hào khí Như Nguyệt - Phần 2</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015064500 +0700" stop="20261015073000 +0700" channel="bacninh">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Nhà có hai cửa chính - tập 21</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015073000 +0700" stop="20261015080000 +0700" channel="bacninh">
+  <title lang="vi">PHIM TÀI LIỆU</title>
+  <desc lang="vi">Cùng nhau gìn giữ nước non - tập 20</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015080000 +0700" stop="20261015081500 +0700" channel="bacninh">
+  <title lang="vi">ĐẢNG VÀ CUỘC SỐNG</title>
+  <desc lang="vi">Công tác kiểm tra Đảng ở cơ sở</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015081500 +0700" stop="20261015083000 +0700" channel="bacninh">
+  <title lang="vi">GÓC NHÌN THẲNG</title>
+  <desc lang="vi">Cảnh giác với thủ đoạn mạo danh để trục lợi từ lòng tốt</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015083000 +0700" stop="20261015084500 +0700" channel="bacninh">
+  <title lang="vi">PHÓNG SỰ</title>
+  <desc lang="vi">Tinh thần “3 dám, 6 rõ” ở Đảng bộ thành phố Bắc Ninh</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015084500 +0700" stop="20261015090000 +0700" channel="bacninh">
+  <title lang="vi">GIẢM NGHÈO BỀN VỮNG</title>
+  <desc lang="vi">Phát triển sản xuất nông nghiệp bền vững ở đồng bào dân tộc thiểu số</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015090000 +0700" stop="20261015094500 +0700" channel="bacninh">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Ngôi nhà bí mật - tập 3</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015094500 +0700" stop="20261015103000 +0700" channel="bacninh">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Ngôi nhà bí mật - tập 4</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015103000 +0700" stop="20261015110000 +0700" channel="bacninh">
+  <title lang="vi">CA NHẠC</title>
+  <desc lang="vi">Tự nguyện</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015110000 +0700" stop="20261015111500 +0700" channel="bacninh">
+  <title lang="vi">BẤT ĐẲNG THỨC NGỌT NGÀO</title>
+  <desc lang="vi">Tập 28</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015111500 +0700" stop="20261015113000 +0700" channel="bacninh">
+  <title lang="vi">THIẾU NHI</title>
+  <desc lang="vi">Hoạt hình: Cuộc Phiêu Lưu Của Moley - tập 44</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015113000 +0700" stop="20261015114500 +0700" channel="bacninh">
+  <title lang="vi">THỜI SỰ BẮC NINH</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015114500 +0700" stop="20261015123000 +0700" channel="bacninh">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Đoá hoa ẩn mình - tập 19</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015123000 +0700" stop="20261015130000 +0700" channel="bacninh">
+  <title lang="vi">PHIM TÀI LIỆU</title>
+  <desc lang="vi">Cùng nhau gìn giữ nước non - tập 20</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015130000 +0700" stop="20261015131500 +0700" channel="bacninh">
+  <title lang="vi">SÁCH HAY THAY ĐỔI CUỘC ĐỜI</title>
+  <desc lang="vi">Nghệ thuật tư duy chiến lược</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015131500 +0700" stop="20261015133000 +0700" channel="bacninh">
+  <title lang="vi">KHÁM PHÁ THẾ GIỚI</title>
+  <desc lang="vi">Khám phá những miền đất lạ - tập 44</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015133000 +0700" stop="20261015134500 +0700" channel="bacninh">
+  <title lang="vi">TUYỆT CHIÊU NHÀ NÔNG</title>
+  <desc lang="vi">Tập 76</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015134500 +0700" stop="20261015143000 +0700" channel="bacninh">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Chung cư cảnh sát - tập 28</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015143000 +0700" stop="20261015144500 +0700" channel="bacninh">
+  <title lang="vi">THẾ GIỚI KỲ THÚ</title>
+  <desc lang="vi">Linh hồn châu Á - Tập 2: Trung Quốc, rượu Bai Jiu</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015144500 +0700" stop="20261015150000 +0700" channel="bacninh">
+  <title lang="vi">ĐBND VỚI CỬ TRI</title>
+  <desc lang="vi">Tiếng kêu từ những con đường</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015150000 +0700" stop="20261015160000 +0700" channel="bacninh">
+  <title lang="vi">BẠN HỎI THÀY THUỐC TRẢ LỜI</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015160000 +0700" stop="20261015161500 +0700" channel="bacninh">
+  <title lang="vi">KHÁM PHÁ THẾ GIỚI</title>
+  <desc lang="vi">Khám phá những miền đất lạ - tập 45</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015161500 +0700" stop="20261015163000 +0700" channel="bacninh">
+  <title lang="vi">PHIM TÀI LIỆU</title>
+  <desc lang="vi">Dấu ấn thể thao học đường Bắc Ninh</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015163000 +0700" stop="20261015164500 +0700" channel="bacninh">
+  <title lang="vi">THIẾU NHI</title>
+  <desc lang="vi">Hoạt hình: Cuộc Phiêu Lưu Của Moley - tập 45</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015164500 +0700" stop="20261015170000 +0700" channel="bacninh">
+  <title lang="vi">NÔNG THÔN MỚI</title>
+  <desc lang="vi">Bắc Ninh phấn đấu 7 xã đạt chuẩn nông thôn mới trong năm 2026</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015170000 +0700" stop="20261015171500 +0700" channel="bacninh">
+  <title lang="vi">THẾ GIỚI KỲ THÚ</title>
+  <desc lang="vi">Những sinh vật kỳ lạ - Tập 1</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015171500 +0700" stop="20261015173000 +0700" channel="bacninh">
+  <title lang="vi">BẤT ĐẲNG THỨC NGỌT NGÀO</title>
+  <desc lang="vi">Tập 28</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015173000 +0700" stop="20261015181500 +0700" channel="bacninh">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Phi Hồ ngoại truyện - tập 23</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015181500 +0700" stop="20261015183000 +0700" channel="bacninh">
+  <title lang="vi">BẢN TIN DỰ BÁO THỜI TIẾT</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015183000 +0700" stop="20261015184500 +0700" channel="bacninh">
+  <title lang="vi">PHÁP LUẬT VÀ CUỘC SỐNG</title>
+  <desc lang="vi">Tăng cường kiểm tra công vụ, đáp ứng yêu cầu chính quyền đô thị</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015184500 +0700" stop="20261015190000 +0700" channel="bacninh">
+  <title lang="vi">BẢN TIN TRONG NƯỚC - QUỐC TẾ</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015190000 +0700" stop="20261015194500 +0700" channel="bacninh">
+  <title lang="vi">THỜI SỰ ĐÀI TRUYỀN HÌNH VIỆT NAM</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015194500 +0700" stop="20261015201500 +0700" channel="bacninh">
+  <title lang="vi">THỜI SỰ BẮC NINH</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015201500 +0700" stop="20261015202000 +0700" channel="bacninh">
+  <title lang="vi">BẢN TIN DỰ BÁO THỜI TIẾT</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015202000 +0700" stop="20261015203000 +0700" channel="bacninh">
+  <title lang="vi">ĐƯA NGHỊ QUYẾT 57 VÀO CUỘC SỐNG</title>
+  <desc lang="vi">Tam Đa chuyển đổi số toàn diện trên các lĩnh vực</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015203000 +0700" stop="20261015205000 +0700" channel="bacninh">
+  <title lang="vi">CẢI CÁCH HÀNH CHÍNH</title>
+  <desc lang="vi">Ứng dụng AI trong giải quyết công việc</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015205000 +0700" stop="20261015213000 +0700" channel="bacninh">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Chung cư cảnh sát - tập 29</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015213000 +0700" stop="20261015214500 +0700" channel="bacninh">
+  <title lang="vi">TẠP CHÍ NÔNG NGHIỆP VÀ MÔI TRƯỜNG</title>
+  <desc lang="vi">Cam bưởi vào vụ</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015214500 +0700" stop="20261015220000 +0700" channel="bacninh">
+  <title lang="vi">PHỤ NỮ HÔM NAY</title>
+  <desc lang="vi">Phát huy vai trò phụ nữ trong thời đại mới</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015220000 +0700" stop="20261015221500 +0700" channel="bacninh">
+  <title lang="vi">PHÓNG SỰ</title>
+  <desc lang="vi">Chiến dịch “Đào tạo kỹ năng lái xe an toàn”</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015221500 +0700" stop="20261015223000 +0700" channel="bacninh">
+  <title lang="vi">THẾ GIỚI KỲ THÚ</title>
+  <desc lang="vi">Những sinh vật kỳ lạ - Tập 1</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015223000 +0700" stop="20261015224500 +0700" channel="bacninh">
+  <title lang="vi">THỜI SỰ BẮC NINH CUỐI NGÀY</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015224500 +0700" stop="20261015225000 +0700" channel="bacninh">
+  <title lang="vi">BẢN TIN DỰ BÁO THỜI TIẾT</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
+ </programme>
+ <programme start="20261015225000 +0700" stop="20261015233000 +0700" channel="bacninh">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Đoá hoa ẩn mình - tập 19</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/82.png" />
  </programme>
  <programme start="20261012233000 +0700" stop="20261013001500 +0700" channel="cantho1">
@@ -44411,17 +44721,11 @@
   <icon src="https://r2.epg.io.vn/2026-09-17/88.png" />
  </programme>
  <programme start="20261014101500 +0700" stop="20261014103000 +0700" channel="daklak">
-  <title lang="vi">THẾ GIỚI TUỔI THƠ</title>
-  <desc lang="vi">Âm nhạc trong thế giới tuổi thơ</desc>
+  <title lang="vi">AN NINH TRẬT TỰ ĐẮK LẮK</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/88.png" />
  </programme>
- <programme start="20261014103000 +0700" stop="20261014110000 +0700" channel="daklak">
+ <programme start="20261014104100 +0700" stop="20261014111100 +0700" channel="daklak">
   <title lang="vi">PTL: NHỮNG NGƯỜI CON CỦA NHÂN DÂN: ĐỒNG CHÍ LÊ GIẢN (TẬP 1) NHỮNG NGÀY SÓNG GIÓ</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/88.png" />
- </programme>
- <programme start="20261014110000 +0700" stop="20261014111500 +0700" channel="daklak">
-  <title lang="vi">PHIM SITCOM</title>
-  <desc lang="vi">Xóm trọ thanh xuân (tập 69)</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/88.png" />
  </programme>
  <programme start="20261014111500 +0700" stop="20261014113000 +0700" channel="daklak">
@@ -49523,6 +49827,162 @@
   <desc lang="vi">Ngày truyền thống Hội Liên hiệp thanh niên Việt Nam</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
  </programme>
+ <programme start="20261015060000 +0700" stop="20261015063000 +0700" channel="gialai">
+  <title lang="vi">CHÀO NGÀY MỚI</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015063000 +0700" stop="20261015063500 +0700" channel="gialai">
+  <title lang="vi">THEO DÒNG THỜI SỰ</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015063500 +0700" stop="20261015065000 +0700" channel="gialai">
+  <title lang="vi">THỜI SỰ JRAI</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015065000 +0700" stop="20261015070500 +0700" channel="gialai">
+  <title lang="vi">THỜI SỰ BAHNAR</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015070500 +0700" stop="20261015073000 +0700" channel="gialai">
+  <title lang="vi">PHỔ BIẾN KIẾN THỨC PHÁP LUẬT</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015073000 +0700" stop="20261015100000 +0700" channel="gialai">
+  <title lang="vi">TIẾP SÓNG TRUYỀN HÌNH TRỰC TIẾP</title>
+  <desc lang="vi">Lễ truy điệu, an táng hài cốt liệt sĩ</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015100000 +0700" stop="20261015101500 +0700" channel="gialai">
+  <title lang="vi">TÍN DỤNG CHÍNH SÁCH XÃ HỘI</title>
+  <desc lang="vi">Tín dụng chính sách trao cơ hội học tập học sinh sinh viên</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015101500 +0700" stop="20261015103500 +0700" channel="gialai">
+  <title lang="vi">KÝ SỰ GIA LAI ĐẤT VÀ NGƯỜI</title>
+  <desc lang="vi">Tập 36: Vang tiếng cồng chiêng</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015103500 +0700" stop="20261015110000 +0700" channel="gialai">
+  <title lang="vi">PHIM TÀI LIỆU</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015110000 +0700" stop="20261015114500 +0700" channel="gialai">
+  <title lang="vi">PHIM TRUYỆN VIỆT NAM</title>
+  <desc lang="vi">Anh yêu mẹ đơn thân – Tập 9</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015114500 +0700" stop="20261015120000 +0700" channel="gialai">
+  <title lang="vi">THỜI SỰ GTV</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015120000 +0700" stop="20261015120500 +0700" channel="gialai">
+  <title lang="vi">BẢN TIN THỊ TRƯỜNG</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015120500 +0700" stop="20261015125000 +0700" channel="gialai">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Tháp Công Chúa – Tập 10</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015125000 +0700" stop="20261015133000 +0700" channel="gialai">
+  <title lang="vi">PHIM HOẠT HÌNH</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015133000 +0700" stop="20261015150000 +0700" channel="gialai">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Thanh xuân không sợ hãi – Tập 19+20</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015150000 +0700" stop="20261015150500 +0700" channel="gialai">
+  <title lang="vi">THỜI SỰ GTV</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015150500 +0700" stop="20261015152000 +0700" channel="gialai">
+  <title lang="vi">PHÓNG SỰ</title>
+  <desc lang="vi">Võ cổ truyền Việt Nam – tinh hoa ngời sáng</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015152000 +0700" stop="20261015160000 +0700" channel="gialai">
+  <title lang="vi">DẤU CHÂN VĂN HOÁ</title>
+  <desc lang="vi">Về thăm di tích Chi bộ Hồng Lĩnh</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015160000 +0700" stop="20261015164500 +0700" channel="gialai">
+  <title lang="vi">PHIM TRUYỆN VIỆT NAM</title>
+  <desc lang="vi">Mở khóa con tim - Tập 29</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015164500 +0700" stop="20261015170000 +0700" channel="gialai">
+  <title lang="vi">PHÓNG SỰ</title>
+  <desc lang="vi">Chuyển đổi số góp phần đưa Nghị quyết Đại hội Phụ nữ vào đời sống hội viên, phụ nữ</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015170000 +0700" stop="20261015172500 +0700" channel="gialai">
+  <title lang="vi">CA NHẠC</title>
+  <desc lang="vi">Khúc thương dịu dàng</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015172500 +0700" stop="20261015174000 +0700" channel="gialai">
+  <title lang="vi">HỘP THƯ TRUYỀN HÌNH</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015174000 +0700" stop="20261015180000 +0700" channel="gialai">
+  <title lang="vi">TÌM VỀ DI SẢN</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015180000 +0700" stop="20261015184500 +0700" channel="gialai">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Ước mơ nơi phồn hoa - Tập 16</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015184500 +0700" stop="20261015185000 +0700" channel="gialai">
+  <title lang="vi">BẢN TIN THỊ TRƯỜNG</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015185000 +0700" stop="20261015190000 +0700" channel="gialai">
+  <title lang="vi">PHỔ BIẾN KIẾN THỨC PHÁP LUẬT</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015190000 +0700" stop="20261015194500 +0700" channel="gialai">
+  <title lang="vi">TIẾP SÓNG CHƯƠNG TRÌNH THỜI SỰ ĐÀI TRUYỀN HÌNH VIỆT NAM</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015194500 +0700" stop="20261015202500 +0700" channel="gialai">
+  <title lang="vi">THỜI SỰ GTV</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015202500 +0700" stop="20261015204000 +0700" channel="gialai">
+  <title lang="vi">PHÓNG SỰ CHUYÊN ĐỀ</title>
+  <desc lang="vi">Chư Sê- Hành trình vươn mình</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015204000 +0700" stop="20261015212500 +0700" channel="gialai">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Vua Sư Tử hùng mạnh – Tập 8</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015212500 +0700" stop="20261015213000 +0700" channel="gialai">
+  <title lang="vi">BẢN TIN THỊ TRƯỜNG</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015213000 +0700" stop="20261015221500 +0700" channel="gialai">
+  <title lang="vi">PHIM TRUYỆN VIỆT NAM</title>
+  <desc lang="vi">Đò Xuôi Vạn Lý - Tập 6</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015221500 +0700" stop="20261015222500 +0700" channel="gialai">
+  <title lang="vi">THỜI SỰ CUỐI NGÀY</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015222500 +0700" stop="20261015223500 +0700" channel="gialai">
+  <title lang="vi">BẢN TIN GTV NEWS</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
+ <programme start="20261015223500 +0700" stop="20261016000000 +0700" channel="gialai">
+  <title lang="vi">CA NHẠC</title>
+  <desc lang="vi">Khúc thương dịu dàng</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/97.png" />
+ </programme>
  <programme start="20261012234000 +0700" stop="20261013001500 +0700" channel="hanoi1">
   <title lang="vi">DI SẢN KỂ CHUYỆN</title>
   <desc lang="vi">Tơ lụa kể chuyện trăm năm</desc>
@@ -51542,14 +52002,24 @@
   <desc lang="vi">Để diễn tập khu vực phòng thủ thực chất và an toàn.</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/100.png" />
  </programme>
- <programme start="20261014100700 +0700" stop="20261014104500 +0700" channel="hatinh">
+ <programme start="20261014100700 +0700" stop="20261014102200 +0700" channel="hatinh">
   <title lang="vi">CÂU CHUYỆN TUẦN NÀY</title>
   <desc lang="vi">Minh bạch hóa nông sản: Giải pháp từ dữ liệu đến thực tiễn.</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/100.png" />
  </programme>
- <programme start="20261014104500 +0700" stop="20261014110000 +0700" channel="hatinh">
+ <programme start="20261014102200 +0700" stop="20261014103700 +0700" channel="hatinh">
   <title lang="vi">TẠP CHÍ GIÁO DỤC</title>
   <desc lang="vi">Số hóa tri thức- lan tỏa học tập suốt đời.</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/100.png" />
+ </programme>
+ <programme start="20261014103700 +0700" stop="20261014105200 +0700" channel="hatinh">
+  <title lang="vi">PHÁP LUẬT VÀ ĐỜI SỐNG</title>
+  <desc lang="vi">Hỗ trợ pháp lý - Điểm tựa để doanh nghiệp phát triển bền vững</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/100.png" />
+ </programme>
+ <programme start="20261014105200 +0700" stop="20261014110000 +0700" channel="hatinh">
+  <title lang="vi">NON NƯỚC HỒNG LAM</title>
+  <desc lang="vi">Về miền non nước Trà Sơn</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/100.png" />
  </programme>
  <programme start="20261014110000 +0700" stop="20261014114500 +0700" channel="hatinh">
@@ -52303,62 +52773,62 @@
   <title lang="vi">TRÊN KHÁN ĐÀI (SỐ 82)</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/101.png" />
  </programme>
- <programme start="20261014000500 +0700" stop="20261014002000 +0700" channel="haiphong">
+ <programme start="20261014000800 +0700" stop="20261014002300 +0700" channel="haiphong">
   <title lang="vi">PHIM HOẠT HÌNH</title>
   <desc lang="vi">Sư tử và thỏ</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/101.png" />
  </programme>
- <programme start="20261014002000 +0700" stop="20261014010500 +0700" channel="haiphong">
+ <programme start="20261014002300 +0700" stop="20261014010800 +0700" channel="haiphong">
   <title lang="vi">CHƯƠNG TRÌNH THIẾU NHI</title>
   <desc lang="vi">Hoàng đế cờ lau</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/101.png" />
  </programme>
- <programme start="20261014010500 +0700" stop="20261014015000 +0700" channel="haiphong">
+ <programme start="20261014010300 +0700" stop="20261014014800 +0700" channel="haiphong">
   <title lang="vi">PHIM TRUYỆN VIỆT NAM</title>
   <desc lang="vi">Mở khóa con tim (Tập 26)</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/101.png" />
  </programme>
- <programme start="20261014015000 +0700" stop="20261014020500 +0700" channel="haiphong">
+ <programme start="20261014014800 +0700" stop="20261014020300 +0700" channel="haiphong">
   <title lang="vi">ĐIỂM NHẤN 365</title>
   <desc lang="vi">Khuyến công - Khơi dậy nội lực, tạo đà bứt phá</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/101.png" />
  </programme>
- <programme start="20261014020500 +0700" stop="20261014025000 +0700" channel="haiphong">
+ <programme start="20261014020300 +0700" stop="20261014024800 +0700" channel="haiphong">
   <title lang="vi">PHIM TRUYỆN TRUNG QUỐC</title>
   <desc lang="vi">Ngược dòng thanh xuân (Tập 29)</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/101.png" />
  </programme>
- <programme start="20261014025000 +0700" stop="20261014030500 +0700" channel="haiphong">
+ <programme start="20261014024900 +0700" stop="20261014030400 +0700" channel="haiphong">
   <title lang="vi">PHIM HOẠT HÌNH</title>
   <desc lang="vi">Sư tử và thỏ</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/101.png" />
  </programme>
- <programme start="20261014030500 +0700" stop="20261014035000 +0700" channel="haiphong">
+ <programme start="20261014025700 +0700" stop="20261014034200 +0700" channel="haiphong">
   <title lang="vi">PHIM TRUYỆN ĐÀI LOAN (TRUNG QUỐC)</title>
   <desc lang="vi">Yêu không lối thoát (Tập 23)</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/101.png" />
  </programme>
- <programme start="20261014035000 +0700" stop="20261014040500 +0700" channel="haiphong">
+ <programme start="20261014034100 +0700" stop="20261014035600 +0700" channel="haiphong">
   <title lang="vi">AN NINH BIỂN ĐẢO</title>
   <desc lang="vi">Biên phòng chăm lo an sinh, củng cố thế trận lòng dân</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/101.png" />
  </programme>
- <programme start="20261014040500 +0700" stop="20261014045000 +0700" channel="haiphong">
+ <programme start="20261014040100 +0700" stop="20261014044600 +0700" channel="haiphong">
   <title lang="vi">PHIM TRUYỆN TRUNG QUỐC</title>
   <desc lang="vi">Lưu Công kỳ án (Tập 20)</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/101.png" />
  </programme>
- <programme start="20261014045000 +0700" stop="20261014051000 +0700" channel="haiphong">
+ <programme start="20261014044700 +0700" stop="20261014050700 +0700" channel="haiphong">
   <title lang="vi">ĐỐI THOẠI</title>
   <desc lang="vi">Nữ doanh nhân Hải Phòng kết nối để phát triển</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/101.png" />
  </programme>
- <programme start="20261014051000 +0700" stop="20261014053000 +0700" channel="haiphong">
+ <programme start="20261014050800 +0700" stop="20261014052800 +0700" channel="haiphong">
   <title lang="vi">VÌ CỘNG ĐỒNG</title>
   <desc lang="vi">Giáo dục hòa nhập - Cần sự chung tay của cả cộng đồng</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/101.png" />
  </programme>
- <programme start="20261014053000 +0700" stop="20261014054500 +0700" channel="haiphong">
+ <programme start="20261014053200 +0700" stop="20261014054700 +0700" channel="haiphong">
   <title lang="vi">THỂ DỤC BUỔI SÁNG</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/101.png" />
  </programme>
@@ -52367,12 +52837,12 @@
   <desc lang="vi">Tấm bìa cứu hộ</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/101.png" />
  </programme>
- <programme start="20261014060000 +0700" stop="20261014061500 +0700" channel="haiphong">
+ <programme start="20261014055800 +0700" stop="20261014061300 +0700" channel="haiphong">
   <title lang="vi">PHÒNG CHÁY CHỮA CHÁY VÀ CỨU NẠN CỨU HỘ</title>
   <desc lang="vi">Toàn dân tham gia phòng cháy chữa cháy - Chủ động từ mỗi gia đình</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/101.png" />
  </programme>
- <programme start="20261014061500 +0700" stop="20261014063000 +0700" channel="haiphong">
+ <programme start="20261014061400 +0700" stop="20261014062900 +0700" channel="haiphong">
   <title lang="vi">BẢN TIN THỜI SỰ SÁNG</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/101.png" />
  </programme>
@@ -52386,32 +52856,32 @@
   <desc lang="vi">Tấm bìa cứu hộ</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/101.png" />
  </programme>
- <programme start="20261014073000 +0700" stop="20261014074500 +0700" channel="haiphong">
+ <programme start="20261014072800 +0700" stop="20261014074300 +0700" channel="haiphong">
   <title lang="vi">AN NINH HẢI PHÒNG</title>
   <desc lang="vi">Vạch trần thủ đoạn vẽ bệnh, cưỡng đoạt tài sản tại phòng khám đa khoa Phượng Đỏ</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/101.png" />
  </programme>
- <programme start="20261014074500 +0700" stop="20261014081000 +0700" channel="haiphong">
+ <programme start="20261014074400 +0700" stop="20261014080900 +0700" channel="haiphong">
   <title lang="vi">Y TẾ SỨC KHỎE</title>
   <desc lang="vi">Từ điều trị đến phục hồi - Vì một Hải Phòng không ma túy</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/101.png" />
  </programme>
- <programme start="20261014081000 +0700" stop="20261014083000 +0700" channel="haiphong">
+ <programme start="20261014080700 +0700" stop="20261014082700 +0700" channel="haiphong">
   <title lang="vi">NÔNG THÔN MỚI HẢI PHÒNG</title>
   <desc lang="vi">Đưa sản vật địa phương đi xa</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/101.png" />
  </programme>
- <programme start="20261014083000 +0700" stop="20261014090000 +0700" channel="haiphong">
+ <programme start="20261014082800 +0700" stop="20261014085800 +0700" channel="haiphong">
   <title lang="vi">VITAMIN TUỔI HỒNG</title>
   <desc lang="vi">Người Việt</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/101.png" />
  </programme>
- <programme start="20261014090000 +0700" stop="20261014094500 +0700" channel="haiphong">
+ <programme start="20261014085900 +0700" stop="20261014094400 +0700" channel="haiphong">
   <title lang="vi">PHIM TRUYỆN ĐÀI LOAN (TRUNG QUỐC)</title>
   <desc lang="vi">Xin chào người yêu cũ (Tập 71)</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/101.png" />
  </programme>
- <programme start="20261014094500 +0700" stop="20261014100000 +0700" channel="haiphong">
+ <programme start="20261014094400 +0700" stop="20261014095900 +0700" channel="haiphong">
   <title lang="vi">KHÁM PHÁ THẾ GIỚI</title>
   <desc lang="vi">Văn hóa Maori của vùng đất New Zealand</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/101.png" />
@@ -52421,12 +52891,12 @@
   <desc lang="vi">Người tình bố già (Tập 10)</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/101.png" />
  </programme>
- <programme start="20261014104500 +0700" stop="20261014111000 +0700" channel="haiphong">
+ <programme start="20261014104400 +0700" stop="20261014110900 +0700" channel="haiphong">
   <title lang="vi">BÔNG HỒNG THÉP ĐẤT CẢNG</title>
   <desc lang="vi">Những bông hồng kiến tạo giá trị mới</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/101.png" />
  </programme>
- <programme start="20261014111000 +0700" stop="20261014113000 +0700" channel="haiphong">
+ <programme start="20261014110900 +0700" stop="20261014112900 +0700" channel="haiphong">
   <title lang="vi">ĐỒNG HÀNH CÙNG NHÀ NÔNG</title>
   <desc lang="vi">Tập trung sản xuất rau vụ đông</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/101.png" />
@@ -52439,7 +52909,7 @@
   <title lang="vi">CHÍNH SÁCH PHÁP LUẬT</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/101.png" />
  </programme>
- <programme start="20261014120000 +0700" stop="20261014124500 +0700" channel="haiphong">
+ <programme start="20261014115800 +0700" stop="20261014124300 +0700" channel="haiphong">
   <title lang="vi">PHIM TRUYỆN TRUNG QUỐC</title>
   <desc lang="vi">Đồng tiền đen (Tập 26)</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/101.png" />
@@ -52497,7 +52967,7 @@
  </programme>
  <programme start="20261014180000 +0700" stop="20261014183000 +0700" channel="haiphong">
   <title lang="vi">LĂNG KÍNH TUỔI HOA</title>
-  <desc lang="vi">Con chữ tuổi thơ</desc>
+  <desc lang="vi">Nhịp điệu tuổi hoa</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/101.png" />
  </programme>
  <programme start="20261014183000 +0700" stop="20261014184000 +0700" channel="haiphong">
@@ -53274,6 +53744,186 @@
  </programme>
  <programme start="20261014232500 +0700" stop="20261014235900 +0700" channel="hungyen">
   <title lang="vi">GIỚI THIỆU CHƯƠNG TRÌNH NGÀY MAI - CHÀO HẾT</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015053000 +0700" stop="20261015053200 +0700" channel="hungyen">
+  <title lang="vi">GIỚI THIỆU CHƯƠNG TRÌNH HÔM NAY</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015053200 +0700" stop="20261015054500 +0700" channel="hungyen">
+  <title lang="vi">SỐNG KHỎE CÙNG YOGA</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015054500 +0700" stop="20261015055500 +0700" channel="hungyen">
+  <title lang="vi">HÀNH TRÌNH ĐẤT VIỆT</title>
+  <desc lang="vi">Độc đáo những chiếc túi làm từ phế liệu</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015055500 +0700" stop="20261015060000 +0700" channel="hungyen">
+  <title lang="vi">MV CA NHẠC</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015060000 +0700" stop="20261015061500 +0700" channel="hungyen">
+  <title lang="vi">HƯNG YÊN NGÀY MỚI</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015061500 +0700" stop="20261015062500 +0700" channel="hungyen">
+  <title lang="vi">NHỊP CẦU NHÀ NÔNG</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015062500 +0700" stop="20261015064000 +0700" channel="hungyen">
+  <title lang="vi">BẢN TIN NHÌN TỪ PHỐ HIẾN</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015064000 +0700" stop="20261015070000 +0700" channel="hungyen">
+  <title lang="vi">CUỘC SỐNG KHỎE</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015070000 +0700" stop="20261015083000 +0700" channel="hungyen">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Công thức hạnh phúc - Tập 11, 12</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015083000 +0700" stop="20261015084500 +0700" channel="hungyen">
+  <title lang="vi">CHƯƠNG TRÌNH THIẾU NHI</title>
+  <desc lang="vi">Cuộc chiến hầu - nô</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015084500 +0700" stop="20261015090000 +0700" channel="hungyen">
+  <title lang="vi">CHUYỆN QUANH TA</title>
+  <desc lang="vi">Phát triển văn hóa đọc trong thời đại công nghệ số</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015090000 +0700" stop="20261015100000 +0700" channel="hungyen">
+  <title lang="vi">CHƯƠNG TRÌNH</title>
+  <desc lang="vi">Sức khỏe với mọi người</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015100000 +0700" stop="20261015101500 +0700" channel="hungyen">
+  <title lang="vi">BẢN TIN 10H</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015101500 +0700" stop="20261015103500 +0700" channel="hungyen">
+  <title lang="vi">VUI HỌC TIẾNG ANH</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015103500 +0700" stop="20261015104500 +0700" channel="hungyen">
+  <title lang="vi">HƯNG YÊN XÃ PHƯỜNG HÔM NAY</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015104500 +0700" stop="20261015110000 +0700" channel="hungyen">
+  <title lang="vi">HƯNG YÊN CHUYỂN ĐỔI SỐ</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015110000 +0700" stop="20261015111500 +0700" channel="hungyen">
+  <title lang="vi">KINH TẾ PHỐ HIẾN</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015111500 +0700" stop="20261015113000 +0700" channel="hungyen">
+  <title lang="vi">VĂN HÓA VÀ ĐỜI SỐNG</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015113000 +0700" stop="20261015114500 +0700" channel="hungyen">
+  <title lang="vi">BẢN TIN TRƯA</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015114500 +0700" stop="20261015120000 +0700" channel="hungyen">
+  <title lang="vi">DU LỊCH HƯNG YÊN</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015120000 +0700" stop="20261015133000 +0700" channel="hungyen">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Kế hoạch đào tẩu - Tập 1, 2</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015133000 +0700" stop="20261015143000 +0700" channel="hungyen">
+  <title lang="vi">CHƯƠNG TRÌNH</title>
+  <desc lang="vi">Sức khỏe với mọi người</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015143000 +0700" stop="20261015160000 +0700" channel="hungyen">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Tam Quốc cơ mật - Tập 43, 44</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015160000 +0700" stop="20261015161500 +0700" channel="hungyen">
+  <title lang="vi">BẢN TIN 16H</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015161500 +0700" stop="20261015163000 +0700" channel="hungyen">
+  <title lang="vi">HƯNG YÊN XÂY DỰNG NÔNG THÔN MỚI</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015163000 +0700" stop="20261015173000 +0700" channel="hungyen">
+  <title lang="vi">CHƯƠNG TRÌNH</title>
+  <desc lang="vi">Bạn hỏi, thầy thuốc trả lời</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015173000 +0700" stop="20261015181500 +0700" channel="hungyen">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Ngược dòng thanh xuân - Tập 13</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015181500 +0700" stop="20261015183000 +0700" channel="hungyen">
+  <title lang="vi">THỂ THAO VÀ CUỘC SỐNG</title>
+  <desc lang="vi">Nhịp Sân đấu quần chúng</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015183000 +0700" stop="20261015184500 +0700" channel="hungyen">
+  <title lang="vi">BẢN TIN 18H30</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015184500 +0700" stop="20261015190000 +0700" channel="hungyen">
+  <title lang="vi">CHƯƠNG TRÌNH THIẾU NHI</title>
+  <desc lang="vi">Tuyệt chiêu lấn đất</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015190000 +0700" stop="20261015194500 +0700" channel="hungyen">
+  <title lang="vi">TIẾP SÓNG THỜI SỰ VTV</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015194500 +0700" stop="20261015201000 +0700" channel="hungyen">
+  <title lang="vi">THỜI SỰ HƯNG YÊN</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015201000 +0700" stop="20261015201500 +0700" channel="hungyen">
+  <title lang="vi">PHÓNG SỰ</title>
+  <desc lang="vi">Rửa tay - Hành động nhỏ, ý nghĩa lớn</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015201500 +0700" stop="20261015202500 +0700" channel="hungyen">
+  <title lang="vi">HƯNG YÊN CẢI CÁCH HÀNH CHÍNH</title>
+  <desc lang="vi">Khắc phục bệnh thành tích trong giáo dục</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015202500 +0700" stop="20261015203500 +0700" channel="hungyen">
+  <title lang="vi">AN NINH HƯNG YÊN</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015203500 +0700" stop="20261015210500 +0700" channel="hungyen">
+  <title lang="vi">PHIM TÀI LIỆU</title>
+  <desc lang="vi">An toàn khu Bãi Sậy- Vùng đất giữ lửa</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015210500 +0700" stop="20261015223500 +0700" channel="hungyen">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Cần một bờ vai - Tập 38, 39</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015223500 +0700" stop="20261015225000 +0700" channel="hungyen">
+  <title lang="vi">BẢN TIN NHÌN TỪ PHỐ HIẾN</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015225000 +0700" stop="20261015230000 +0700" channel="hungyen">
+  <title lang="vi">GIẢI PHÓNG MẶT BẰNG NHANH</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015230000 +0700" stop="20261015232000 +0700" channel="hungyen">
+  <title lang="vi">THỜI SỰ HƯNG YÊN</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
+ </programme>
+ <programme start="20261015232000 +0700" stop="20261015232500 +0700" channel="hungyen">
+  <title lang="vi">DỰ BÁO THỜI TIẾT</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/104.png" />
  </programme>
  <programme start="20261012225500 +0700" stop="20261013053000 +0700" channel="laichau">
@@ -54314,6 +54964,234 @@
   <title lang="vi">CHƯƠNG TRÌNH TIẾNG K’HO</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
  </programme>
+ <programme start="20261015053000 +0700" stop="20261015053500 +0700" channel="lamdong1">
+  <title lang="vi">NHẠC HIỆU - GIỚI THIỆU CHƯƠNG TRÌNH</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015053500 +0700" stop="20261015054500 +0700" channel="lamdong1">
+  <title lang="vi">THỂ DỤC BUỔI SÁNG</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015054500 +0700" stop="20261015060000 +0700" channel="lamdong1">
+  <title lang="vi">THẾ GIỚI ĐỘNG VẬT</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015060000 +0700" stop="20261015063000 +0700" channel="lamdong1">
+  <title lang="vi">CHÀO NGÀY MỚI</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015063000 +0700" stop="20261015070000 +0700" channel="lamdong1">
+  <title lang="vi">CHƯƠNG TRÌNH TIẾNG CHURU</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015070000 +0700" stop="20261015074500 +0700" channel="lamdong1">
+  <title lang="vi">PHIM TRUYỆN VIỆT NAM</title>
+  <desc lang="vi">Lạc lối (tập 22)</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015074500 +0700" stop="20261015080000 +0700" channel="lamdong1">
+  <title lang="vi">CA NHẠC THIẾU NHI</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015080000 +0700" stop="20261015081500 +0700" channel="lamdong1">
+  <title lang="vi">DÂN TỘC VÀ PHÁT TRIỂN</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015081500 +0700" stop="20261015083000 +0700" channel="lamdong1">
+  <title lang="vi">BẢO VỆ RỪNG</title>
+  <desc lang="vi">Siết chặt “nạn phá rừng” ở Lâm Hà</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015083000 +0700" stop="20261015084500 +0700" channel="lamdong1">
+  <title lang="vi">TAM NÔNG BỐN NHÀ</title>
+  <desc lang="vi">Phát triển kinh tế nhờ đa dạng cây trồng</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015084500 +0700" stop="20261015090000 +0700" channel="lamdong1">
+  <title lang="vi">QUỐC PHÒNG TOÀN DÂN</title>
+  <desc lang="vi">Công bố Quyết định thành lập Phân hiệu 1, Trường Thiếu sinh quân miền Nam tại Lâm Đồng</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015090000 +0700" stop="20261015094500 +0700" channel="lamdong1">
+  <title lang="vi">PHIM TRUYỆN TRUNG QUỐC</title>
+  <desc lang="vi">Bất khả chiến bại (Tập 17)</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015094500 +0700" stop="20261015100000 +0700" channel="lamdong1">
+  <title lang="vi">TÀI NGUYÊN VÀ MÔI TRƯỜNG</title>
+  <desc lang="vi">Đơn vị xứ lý rác kêu khó-người dân lo lắng bất an</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015100000 +0700" stop="20261015104500 +0700" channel="lamdong1">
+  <title lang="vi">PHIM TRUYỆN HÀN QUỐC</title>
+  <desc lang="vi">Quyền thừa kế danh giá (Tập 11)</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015104500 +0700" stop="20261015110000 +0700" channel="lamdong1">
+  <title lang="vi">NHÌN THẲNG - NÓI THẬT</title>
+  <desc lang="vi">Trồng hoa theo thị hiếu</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015110000 +0700" stop="20261015111500 +0700" channel="lamdong1">
+  <title lang="vi">TÀI CHÍNH NGÂN HÀNG</title>
+  <desc lang="vi">Để mỗi công trình thêm giá trị</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015111500 +0700" stop="20261015113000 +0700" channel="lamdong1">
+  <title lang="vi">PHỤ NỮ VÀ CUỘC SỐNG</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015113000 +0700" stop="20261015120000 +0700" channel="lamdong1">
+  <title lang="vi">BẢN TIN LTV 11H30</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015120000 +0700" stop="20261015124500 +0700" channel="lamdong1">
+  <title lang="vi">PHIM TRUYỆN TRUNG QUỐC</title>
+  <desc lang="vi">Xin chào công tố viên (Tập 27)</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015124500 +0700" stop="20261015131500 +0700" channel="lamdong1">
+  <title lang="vi">CHƯƠNG TRÌNH TIẾNG CHURU</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015131500 +0700" stop="20261015134500 +0700" channel="lamdong1">
+  <title lang="vi">CA NHẠC QUỐC TẾ</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015134500 +0700" stop="20261015140000 +0700" channel="lamdong1">
+  <title lang="vi">PHIM HOẠT HÌNH</title>
+  <desc lang="vi">Gia đình Nova thám hiểm không gian</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015140000 +0700" stop="20261015141500 +0700" channel="lamdong1">
+  <title lang="vi">CUỘC SỐNG XANH</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015141500 +0700" stop="20261015143000 +0700" channel="lamdong1">
+  <title lang="vi">AN TOÀN GIAO THÔNG</title>
+  <desc lang="vi">Trang bị kỹ năng lái xe an toàn cho học sinh từ lý thuyết đến thực hành</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015143000 +0700" stop="20261015144500 +0700" channel="lamdong1">
+  <title lang="vi">389 -</title>
+  <desc lang="vi">Lâm Đồng tăng cường đấu tranh chống xâm phạm quyền sở hữu trí tuệ</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015144500 +0700" stop="20261015150000 +0700" channel="lamdong1">
+  <title lang="vi">HỘP THƯ TRUYỀN HÌNH</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015150000 +0700" stop="20261015154500 +0700" channel="lamdong1">
+  <title lang="vi">PHIM TRUYỆN VIỆT NAM</title>
+  <desc lang="vi">Lạc lối (tập 23)</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015154500 +0700" stop="20261015160000 +0700" channel="lamdong1">
+  <title lang="vi">ĐẢNG TRONG CUỘC SỐNG</title>
+  <desc lang="vi">Xây dựng nông thôn mới - lấy người dân làm trung tâm</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015160000 +0700" stop="20261015161500 +0700" channel="lamdong1">
+  <title lang="vi">THẾ GIỚI KỲ THÚ</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015161500 +0700" stop="20261015163000 +0700" channel="lamdong1">
+  <title lang="vi">KHOA HỌC VÀ CÔNG NGHỆ</title>
+  <desc lang="vi">Cấp đông nông sản – nâng giá trị, mở đầu ra</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015163000 +0700" stop="20261015171500 +0700" channel="lamdong1">
+  <title lang="vi">PHIM TRUYỆN HÀN QUỐC</title>
+  <desc lang="vi">Quyền thừa kế danh giá (Tập 12)</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015171500 +0700" stop="20261015173000 +0700" channel="lamdong1">
+  <title lang="vi">GIẢM NGHÈO BỀN VỮNG</title>
+  <desc lang="vi">Mô hình sinh kế phù hợp với điều kiện lao động</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015173000 +0700" stop="20261015174500 +0700" channel="lamdong1">
+  <title lang="vi">PHIM HOẠT HÌNH</title>
+  <desc lang="vi">Gia đình Nova thám hiểm không gian</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015174500 +0700" stop="20261015180000 +0700" channel="lamdong1">
+  <title lang="vi">NÔNG NGHIỆP THẾ GIỚI</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015180000 +0700" stop="20261015181500 +0700" channel="lamdong1">
+  <title lang="vi">NHỊP SỐNG QUANH TA</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015181500 +0700" stop="20261015183000 +0700" channel="lamdong1">
+  <title lang="vi">THẾ GIỚI ĐỘNG VẬT</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015183000 +0700" stop="20261015184500 +0700" channel="lamdong1">
+  <title lang="vi">THẾ GIỚI TUỔI TEEN</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015184500 +0700" stop="20261015190000 +0700" channel="lamdong1">
+  <title lang="vi">DÂN TỘC VÀ PHÁT TRIỂN</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015190000 +0700" stop="20261015194500 +0700" channel="lamdong1">
+  <title lang="vi">THỜI SỰ ĐÀI TRUYỀN HÌNH VIỆT NAM</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015194500 +0700" stop="20261015201000 +0700" channel="lamdong1">
+  <title lang="vi">THỜI SỰ TRUYỀN HÌNH LÂM ĐỒNG</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015201000 +0700" stop="20261015202500 +0700" channel="lamdong1">
+  <title lang="vi">PHÓNG SỰ</title>
+  <desc lang="vi">Câu chuyện chi trả dịch vụ môi trường rừng tại tỉnh Lâm Đồng sau sáp nhập</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015202500 +0700" stop="20261015203000 +0700" channel="lamdong1">
+  <title lang="vi">DỰ BÁO THỜI TIẾT</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015203000 +0700" stop="20261015204500 +0700" channel="lamdong1">
+  <title lang="vi">TỪ BIỂN XANH ĐẾN ĐẠI NGÀN</title>
+  <desc lang="vi">Có hẹn với mùa thu Đà Lạt</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015204500 +0700" stop="20261015210000 +0700" channel="lamdong1">
+  <title lang="vi">KIẾN THỨC PHÁP LUẬT</title>
+  <desc lang="vi">Đưa pháp luật đến gần với người dân</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015210000 +0700" stop="20261015212000 +0700" channel="lamdong1">
+  <title lang="vi">CHUYỂN ĐỘNG 360</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015212000 +0700" stop="20261015220500 +0700" channel="lamdong1">
+  <title lang="vi">PHIM TRUYỆN TRUNG QUỐC</title>
+  <desc lang="vi">Bất khả chiến bại (Tập 18)</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015220500 +0700" stop="20261015221500 +0700" channel="lamdong1">
+  <title lang="vi">BẢN TIN THẾ GIỚI</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015221500 +0700" stop="20261015230000 +0700" channel="lamdong1">
+  <title lang="vi">PHIM TRUYỆN TRUNG QUỐC</title>
+  <desc lang="vi">Xin chào công tố viên (Tập 28)</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015230000 +0700" stop="20261015231000 +0700" channel="lamdong1">
+  <title lang="vi">THẾ GIỚI CÓ GÌ LẠ?</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015231000 +0700" stop="20261015232500 +0700" channel="lamdong1">
+  <title lang="vi">GIAI ĐIỆU KẾT NỐI</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
+ <programme start="20261015232500 +0700" stop="20261016000000 +0700" channel="lamdong1">
+  <title lang="vi">CHƯƠNG TRÌNH TIẾNG CHURU</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/108.png" />
+ </programme>
  <programme start="20261012223000 +0700" stop="20261013053000 +0700" channel="lamdong2">
   <title lang="vi">THỜI SỰ LÂM ĐỒNG</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/109.png" />
@@ -55175,7 +56053,7 @@
   <icon src="https://r2.epg.io.vn/2026-09-17/110.png" />
  </programme>
  <programme start="20261014060000 +0700" stop="20261014060100 +0700" channel="langson">
-  <title lang="vi">CHÀO CỜ</title>
+  <title lang="vi">HÌNH HIỆU LSTV</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/110.png" />
  </programme>
  <programme start="20261014060100 +0700" stop="20261014060200 +0700" channel="langson">
@@ -55239,25 +56117,25 @@
   <desc lang="vi">Lễ viếng, Lễ truy điệu và an táng hài cốt liệt sĩ được tìm kiếm, quy tập tại Công viên văn hóa Lê Thị Riêng, phường Hòa Hưng, Thành phố Hồ Chí Minh</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/110.png" />
  </programme>
- <programme start="20261014093600 +0700" stop="20261014103900 +0700" channel="langson">
+ <programme start="20261014093600 +0700" stop="20261014101700 +0700" channel="langson">
   <title lang="vi">THỜI SỰ TỔNG HỢP</title>
   <desc lang="vi">Ngày 13/10/2026</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/110.png" />
  </programme>
- <programme start="20261014103900 +0700" stop="20261014105200 +0700" channel="langson">
+ <programme start="20261014101700 +0700" stop="20261014103000 +0700" channel="langson">
   <title lang="vi">THÔNG TIN THỊ TRƯỜNG VÙNG CAO</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/110.png" />
  </programme>
- <programme start="20261014105200 +0700" stop="20261014105800 +0700" channel="langson">
+ <programme start="20261014103000 +0700" stop="20261014110000 +0700" channel="langson">
   <title lang="vi">VẤN ĐỀ HÔM NAY</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/110.png" />
  </programme>
- <programme start="20261014105800 +0700" stop="20261014114400 +0700" channel="langson">
+ <programme start="20261014110000 +0700" stop="20261014114600 +0700" channel="langson">
   <title lang="vi">PHIM TRUYỆN</title>
   <desc lang="vi">Thanh xuân không sợ hãi - Tập 32</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/110.png" />
  </programme>
- <programme start="20261014114400 +0700" stop="20261014120000 +0700" channel="langson">
+ <programme start="20261014114600 +0700" stop="20261014120000 +0700" channel="langson">
   <title lang="vi">BẢN TIN TRƯA</title>
   <desc lang="vi">Ngày 14/10/2026</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/110.png" />
@@ -55268,8 +56146,8 @@
   <icon src="https://r2.epg.io.vn/2026-09-17/110.png" />
  </programme>
  <programme start="20261014150000 +0700" stop="20261014151500 +0700" channel="langson">
-  <title lang="vi">BẢN TIN CHIỀU</title>
-  <desc lang="vi">Ngày 14/10/2026</desc>
+  <title lang="vi">GIỚI THIỆU CHƯƠNG TRÌNH</title>
+  <desc lang="vi">Bảng chữ giới thiệu chương trình tiếp theo</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/110.png" />
  </programme>
  <programme start="20261014151500 +0700" stop="20261014160000 +0700" channel="langson">
@@ -55306,8 +56184,7 @@
   <icon src="https://r2.epg.io.vn/2026-09-17/110.png" />
  </programme>
  <programme start="20261014173100 +0700" stop="20261014174600 +0700" channel="langson">
-  <title lang="vi">KÝ SỰ</title>
-  <desc lang="vi">Đồng bào rục và cây lúa</desc>
+  <title lang="vi">TRAILER GIỚI THIỆU</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/110.png" />
  </programme>
  <programme start="20261014174600 +0700" stop="20261014180000 +0700" channel="langson">
@@ -55416,6 +56293,11 @@
  </programme>
  <programme start="20261014233300 +0700" stop="20261014235800 +0700" channel="langson">
   <title lang="vi">NHẠC VIỆT</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/110.png" />
+ </programme>
+ <programme start="20261014235800 +0700" stop="20261014235900 +0700" channel="langson">
+  <title lang="vi">KẾT THÚC CHƯƠNG TRÌNH</title>
+  <desc lang="vi">Giới thiệu chương trình ngày mai</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/110.png" />
  </programme>
  <programme start="20261012234500 +0700" stop="20261013053000 +0700" channel="laocai">
@@ -56450,12 +57332,8 @@
   <title lang="vi">CA NHẠC:</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
  </programme>
- <programme start="20261014073000 +0700" stop="20261014084500 +0700" channel="nghean">
+ <programme start="20261014073000 +0700" stop="20261014094500 +0700" channel="nghean">
   <title lang="vi">TRỰC TIẾP - LỄ TRUY ĐIỆU, AN TÁNG HÀI CỐT LIỆT SĨ ĐƯỢC QUY TẬP TẠI CÔNG VIÊN VĂN HÓA LÊ THỊ RIÊNG</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
- </programme>
- <programme start="20261014084500 +0700" stop="20261014094500 +0700" channel="nghean">
-  <title lang="vi">THẾ GIỚI 24/7 NÓNG</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
  </programme>
  <programme start="20261014094500 +0700" stop="20261014095700 +0700" channel="nghean">
@@ -56626,6 +57504,258 @@
  </programme>
  <programme start="20261014233500 +0700" stop="20261015000000 +0700" channel="nghean">
   <title lang="vi">CA NHẠC</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015000000 +0700" stop="20261015004500 +0700" channel="nghean">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Quý phu nhân - Tập 68</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015004500 +0700" stop="20261015011500 +0700" channel="nghean">
+  <title lang="vi">PHIM TÀI LIỆU NGƯỜI CÔNG AN CÁCH MẠNG - TẬP 4</title>
+  <desc lang="vi">Kháng chiến kiến quốc</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015011500 +0700" stop="20261015013000 +0700" channel="nghean">
+  <title lang="vi">KHÁM PHÁ VIỆT NAM:</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015013000 +0700" stop="20261015020000 +0700" channel="nghean">
+  <title lang="vi">CA NHẠC:</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015020000 +0700" stop="20261015024500 +0700" channel="nghean">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Má ơi, tỉnh mộng - Tập 14</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015024500 +0700" stop="20261015031000 +0700" channel="nghean">
+  <title lang="vi">KHÁM PHÁ THẾ GIỚI - THẾ GIỚI ĐỘNG VẬT</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015031000 +0700" stop="20261015032000 +0700" channel="nghean">
+  <title lang="vi">BẢN TIN TIẾNG ANH</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015032000 +0700" stop="20261015033000 +0700" channel="nghean">
+  <title lang="vi">THẾ GIỚI 24/7 NÓNG</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015033000 +0700" stop="20261015040000 +0700" channel="nghean">
+  <title lang="vi">CA NHẠC</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015040000 +0700" stop="20261015044500 +0700" channel="nghean">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Muôn vàn cách yêu - Tập 11</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015044500 +0700" stop="20261015050000 +0700" channel="nghean">
+  <title lang="vi">KHOA HỌC VÀ CÔNG NGHỆ</title>
+  <desc lang="vi">Mô hình nhân giống và nuôi ba ba gai ở Mường Quàng</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015050000 +0700" stop="20261015050500 +0700" channel="nghean">
+  <title lang="vi">GIỚI THIỆU CHƯƠNG TRÌNH</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015050500 +0700" stop="20261015053000 +0700" channel="nghean">
+  <title lang="vi">CA NHẠC</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015053000 +0700" stop="20261015062500 +0700" channel="nghean">
+  <title lang="vi">TIẾP SÓNG CHÀO BUỔI SÁNG VTV1</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015062500 +0700" stop="20261015064500 +0700" channel="nghean">
+  <title lang="vi">NGHỆ AN NGÀY MỚI</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015064500 +0700" stop="20261015070000 +0700" channel="nghean">
+  <title lang="vi">CHUYỂN ĐỔI SỐ</title>
+  <desc lang="vi">Biến dữ liệu thành nguồn lực - kiến tạo quản trị số</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015070000 +0700" stop="20261015071500 +0700" channel="nghean">
+  <title lang="vi">CHẠM VỊ NGHỆ</title>
+  <desc lang="vi">Trám - hương vị thu quê hương</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015071500 +0700" stop="20261015084500 +0700" channel="nghean">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Một nửa hoàn hảo - Tập 11+ 12</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015084500 +0700" stop="20261015090000 +0700" channel="nghean">
+  <title lang="vi">DÒNG CHẢY CHÍNH SÁCH</title>
+  <desc lang="vi">Cú hích mới cho bảo hiểm nông nghiệp</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015090000 +0700" stop="20261015094500 +0700" channel="nghean">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Cuộc chiến hôn nhân - Tập 32</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015094500 +0700" stop="20261015102500 +0700" channel="nghean">
+  <title lang="vi">TƯỜNG THUẬT</title>
+  <desc lang="vi">Chương trình Gặp mặt và tôn vinh các Doanh nghiệp, Doanh nhân tiêu biểu năm 2026</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015102500 +0700" stop="20261015104000 +0700" channel="nghean">
+  <title lang="vi">TẠP CHÍ KINH TẾ CUỐI TUẦN</title>
+  <desc lang="vi">Nghệ An đồng hành cùng doanh nghiệp mở rộng thị trường Xuất khẩu</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015104000 +0700" stop="20261015105000 +0700" channel="nghean">
+  <title lang="vi">KHUYẾN NÔNG</title>
+  <desc lang="vi">Các mô hình chăn nuôi hiệu quả cao ở Nghệ An</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015105000 +0700" stop="20261015110000 +0700" channel="nghean">
+  <title lang="vi">TRANG TRUYỀN HÌNH QUÂN KHU 4</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015110000 +0700" stop="20261015111000 +0700" channel="nghean">
+  <title lang="vi">NGHỆ AN ĐẤT HỌC</title>
+  <desc lang="vi">Để các môn tích hợp không chỉ là ghép môn</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015111000 +0700" stop="20261015113000 +0700" channel="nghean">
+  <title lang="vi">THIẾU NHI:</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015113000 +0700" stop="20261015115500 +0700" channel="nghean">
+  <title lang="vi">THỜI SỰ NGHỆ AN</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015115500 +0700" stop="20261015124000 +0700" channel="nghean">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Tận hiến - Tập 11</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015124000 +0700" stop="20261015130500 +0700" channel="nghean">
+  <title lang="vi">CA NHẠC</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015130500 +0700" stop="20261015135000 +0700" channel="nghean">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Dã tâm thiên thần - Tập 22</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015135000 +0700" stop="20261015140000 +0700" channel="nghean">
+  <title lang="vi">VĂN HOÁ ĐÔNG TÂY</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015140000 +0700" stop="20261015142500 +0700" channel="nghean">
+  <title lang="vi">THỜI SỰ NGHỆ AN</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015142500 +0700" stop="20261015151000 +0700" channel="nghean">
+  <title lang="vi">NHỊP CẦU NHÀ NÔNG</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015151000 +0700" stop="20261015155500 +0700" channel="nghean">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Người yêu tuyệt vời - Tập 87</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015155500 +0700" stop="20261015162000 +0700" channel="nghean">
+  <title lang="vi">KHÁM PHÁ THẾ GIỚI - THẾ GIỚI ĐỘNG VẬT</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015162000 +0700" stop="20261015163500 +0700" channel="nghean">
+  <title lang="vi">TÁC GIẢ TÁC PHẨM</title>
+  <desc lang="vi">Tình em xứ Nghệ</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015163500 +0700" stop="20261015165000 +0700" channel="nghean">
+  <title lang="vi">DÒNG CHẢY CHÍNH SÁCH</title>
+  <desc lang="vi">Cú hích mới cho bảo hiểm nông nghiệp</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015165000 +0700" stop="20261015170000 +0700" channel="nghean">
+  <title lang="vi">THƯỜNG THỨC CUỘC SỐNG</title>
+  <desc lang="vi">Cảnh báo trộm - chủ động phòng ngừa, bảo vệ tài sản</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015170000 +0700" stop="20261015171500 +0700" channel="nghean">
+  <title lang="vi">VỀ MIỀN VÍ GIẶM</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015171500 +0700" stop="20261015172000 +0700" channel="nghean">
+  <title lang="vi">NHỊP SỐNG ĐÔ THỊ</title>
+  <desc lang="vi">Cần đảm bảo quy định diện tích để xe căn hộ chung cư thương mại</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015172000 +0700" stop="20261015174500 +0700" channel="nghean">
+  <title lang="vi">THIẾU NHI</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015174500 +0700" stop="20261015183000 +0700" channel="nghean">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Bí danh - Tập 9</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015183000 +0700" stop="20261015185500 +0700" channel="nghean">
+  <title lang="vi">NHỊP SỐNG 24H</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015185500 +0700" stop="20261015190000 +0700" channel="nghean">
+  <title lang="vi">GIỚI THIỆU CHƯƠNG TRÌNH</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015190000 +0700" stop="20261015194000 +0700" channel="nghean">
+  <title lang="vi">TIẾP SÓNG ĐÀI THVN</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015194000 +0700" stop="20261015201000 +0700" channel="nghean">
+  <title lang="vi">THỜI SỰ NGHỆ AN</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015201000 +0700" stop="20261015201500 +0700" channel="nghean">
+  <title lang="vi">DỰ BÁO THỜI TIẾT - QUẢNG CÁO - QUẢNG BÁ</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015201500 +0700" stop="20261015210500 +0700" channel="nghean">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Một nửa hoàn hảo - Tập 13</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015210500 +0700" stop="20261015212000 +0700" channel="nghean">
+  <title lang="vi">CHECKVAR THỂ THAO</title>
+  <desc lang="vi">Bạo lực sân cỏ vấn đề đau đầu của bóng đá</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015212000 +0700" stop="20261015213500 +0700" channel="nghean">
+  <title lang="vi">DÂN TỘC VÀ PHÁT TRIỂN</title>
+  <desc lang="vi">Hoa của núi</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015213500 +0700" stop="20261015222000 +0700" channel="nghean">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Người yêu tuyệt vời - Tập 88</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015222000 +0700" stop="20261015223000 +0700" channel="nghean">
+  <title lang="vi">BẢN TIN TIẾNG ANH</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015223000 +0700" stop="20261015224500 +0700" channel="nghean">
+  <title lang="vi">TRÒ CHUYỆN CUỐI TUẦN</title>
+  <desc lang="vi">Trần Đại Thắng - Từ Đông A books đến chuyến xe "Sách đến mọi nhà”</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015224500 +0700" stop="20261015231500 +0700" channel="nghean">
+  <title lang="vi">PHIM TÀI LIỆU NGƯỜI CÔNG AN CÁCH MẠNG - TẬP 6</title>
+  <desc lang="vi">Từ nơi gió ngàn Việt Bắc</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015231500 +0700" stop="20261015232500 +0700" channel="nghean">
+  <title lang="vi">BẢN TIN TÀI CHÍNH</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
+ </programme>
+ <programme start="20261015232500 +0700" stop="20261016000000 +0700" channel="nghean">
+  <title lang="vi">THỜI SỰ NGHỆ AN – DỰ BÁO THỜI TIẾT</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/112.png" />
  </programme>
  <programme start="20261013053000 +0700" stop="20261013053200 +0700" channel="ninhbinh">
@@ -56881,56 +58011,51 @@
   <desc lang="vi">Lễ viếng, Lễ truy điệu và an táng hài cốt liệt sĩ được tìm kiếm, quy tập tại Công viên văn hóa Lê Thị Riêng, phường Hòa Hưng, Thành phố Hồ Chí Minh</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/113.png" />
  </programme>
- <programme start="20261014093700 +0700" stop="20261014100900 +0700" channel="ninhbinh">
+ <programme start="20261014093700 +0700" stop="20261014101000 +0700" channel="ninhbinh">
   <title lang="vi">BẢN TIN TRONG NƯỚC &amp; QUỐC TẾ</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/113.png" />
  </programme>
- <programme start="20261014100900 +0700" stop="20261014101500 +0700" channel="ninhbinh">
+ <programme start="20261014101000 +0700" stop="20261014101500 +0700" channel="ninhbinh">
   <title lang="vi">AN TOÀN GIAO THÔNG</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/113.png" />
  </programme>
- <programme start="20261014101500 +0700" stop="20261014103000 +0700" channel="ninhbinh">
+ <programme start="20261014101500 +0700" stop="20261014103400 +0700" channel="ninhbinh">
   <title lang="vi">KHÁM PHÁ THẾ GIỚI</title>
   <desc lang="vi">Nguyên tố xung quanh ta - Tập 06</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/113.png" />
  </programme>
- <programme start="20261014103000 +0700" stop="20261014112000 +0700" channel="ninhbinh">
+ <programme start="20261014103400 +0700" stop="20261014115600 +0700" channel="ninhbinh">
   <title lang="vi">PHIM TRUYỆN</title>
   <desc lang="vi">Tề sửu vô diệm - Tập 03</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/113.png" />
  </programme>
- <programme start="20261014112000 +0700" stop="20261014113500 +0700" channel="ninhbinh">
+ <programme start="20261014115600 +0700" stop="20261014123700 +0700" channel="ninhbinh">
   <title lang="vi">TÀI NGUYÊN VÀ MÔI TRƯỜNG</title>
   <desc lang="vi">Chủ động ứng phó với biến đổi khí hậu</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/113.png" />
  </programme>
- <programme start="20261014113500 +0700" stop="20261014115500 +0700" channel="ninhbinh">
+ <programme start="20261014123700 +0700" stop="20261014125100 +0700" channel="ninhbinh">
   <title lang="vi">THỜI SỰ NINH BÌNH</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/113.png" />
  </programme>
- <programme start="20261014115500 +0700" stop="20261014124000 +0700" channel="ninhbinh">
+ <programme start="20261014125100 +0700" stop="20261014141900 +0700" channel="ninhbinh">
   <title lang="vi">PHIM TRUYỆN</title>
   <desc lang="vi">Tề sửu vô diệm - Tập 04</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/113.png" />
  </programme>
- <programme start="20261014124000 +0700" stop="20261014125500 +0700" channel="ninhbinh">
+ <programme start="20261014141900 +0700" stop="20261014143300 +0700" channel="ninhbinh">
   <title lang="vi">CÔNG NGHIỆP VĂN HÓA</title>
   <desc lang="vi">Phát triển nguồn nhân lực cho các ngành công nghiệp văn hóa</desc>
-  <icon src="https://r2.epg.io.vn/2026-09-17/113.png" />
- </programme>
- <programme start="20261014125500 +0700" stop="20261014142000 +0700" channel="ninhbinh">
-  <title lang="vi">PHIM TRUYỆN</title>
-  <desc lang="vi">Vì em, anh yêu cả thế giới - Tập 19+20</desc>
-  <icon src="https://r2.epg.io.vn/2026-09-17/113.png" />
- </programme>
- <programme start="20261014142000 +0700" stop="20261014143000 +0700" channel="ninhbinh">
-  <title lang="vi">PHIM HOẠT HÌNH</title>
-  <desc lang="vi">Biệt đội siêu nhân nhí - Tập 39</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/113.png" />
  </programme>
  <programme start="20261014143000 +0700" stop="20261014150000 +0700" channel="ninhbinh">
   <title lang="vi">PHIM TÀI LIỆU</title>
   <desc lang="vi">Hà Nội ngày thống nhất - Tập 02</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/113.png" />
+ </programme>
+ <programme start="20261014143300 +0700" stop="20261014150300 +0700" channel="ninhbinh">
+  <title lang="vi">PHIM TRUYỆN</title>
+  <desc lang="vi">Vì em, anh yêu cả thế giới - Tập 19+20</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/113.png" />
  </programme>
  <programme start="20261014150000 +0700" stop="20261014151500 +0700" channel="ninhbinh">
@@ -58193,545 +59318,235 @@
   <title lang="vi">GIỚI THIỆU CHƯƠNG TRÌNH NGÀY MAI</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261013053000 +0700" stop="20261013053500 +0700" channel="quangngai2">
+ <programme start="20261015053000 +0700" stop="20261015053100 +0700" channel="quangngai">
+  <title lang="vi">HÌNH HIỆU BÁO VÀ PHÁT THANH, TRUYỀN HÌNH QUẢNG NGÃI</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
+ </programme>
+ <programme start="20261015053100 +0700" stop="20261015053300 +0700" channel="quangngai">
   <title lang="vi">GIỚI THIỆU CHƯƠNG TRÌNH</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261013053500 +0700" stop="20261013060000 +0700" channel="quangngai2">
-  <title lang="vi">CA NHẠC</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+ <programme start="20261015053300 +0700" stop="20261015054500 +0700" channel="quangngai">
+  <title lang="vi">THỂ DỤC BUỔI SÁNG</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261013060000 +0700" stop="20261013063000 +0700" channel="quangngai2">
-  <title lang="vi">CHÀO NGÀY MỚI</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+ <programme start="20261015054500 +0700" stop="20261015060000 +0700" channel="quangngai">
+  <title lang="vi">ĐIỆN VÀ ĐỜI SÔNG</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261013063000 +0700" stop="20261013071500 +0700" channel="quangngai2">
-  <title lang="vi">PHIM TRUYỆN VIỆT NAM: GẶP GỠ ĐỊNH MỆNH</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+ <programme start="20261015060000 +0700" stop="20261015062000 +0700" channel="quangngai">
+  <title lang="vi">QUẢNG NGÃI NGÀY MỚI</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261013071500 +0700" stop="20261013073000 +0700" channel="quangngai2">
-  <title lang="vi">ĐẢNG TRONG CUỘC SỐNG</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+ <programme start="20261015062000 +0700" stop="20261015063000 +0700" channel="quangngai">
+  <title lang="vi">HỌC VÀ LÀM THEO BÁC</title>
+  <desc lang="vi">Học Bác tiên phong trong kỷ nguyên số</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261013073000 +0700" stop="20261013074500 +0700" channel="quangngai2">
-  <title lang="vi">HỘP THƯ TRUYỀN HÌNH</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+ <programme start="20261015063000 +0700" stop="20261015071500 +0700" channel="quangngai">
+  <title lang="vi">PHIM VIỆT NAM</title>
+  <desc lang="vi">Mộng ước tương lai - Tập 20</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261013074500 +0700" stop="20261013080000 +0700" channel="quangngai2">
-  <title lang="vi">TÁC GIẢ - TÁC PHẨM</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261013080000 +0700" stop="20261013083000 +0700" channel="quangngai2">
+ <programme start="20261015071500 +0700" stop="20261015074500 +0700" channel="quangngai">
   <title lang="vi">PHIM TÀI LIỆU</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+  <desc lang="vi">Hạt lúa ở cuối nguồn</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261013083000 +0700" stop="20261013084500 +0700" channel="quangngai2">
-  <title lang="vi">DÂN TỘC VÀ PHÁT TRIỂN</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+ <programme start="20261015074500 +0700" stop="20261015080000 +0700" channel="quangngai">
+  <title lang="vi">KHÁT VỌNG XANH</title>
+  <desc lang="vi">Ô nhiễm ánh sáng</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261013084500 +0700" stop="20261013090000 +0700" channel="quangngai2">
-  <title lang="vi">VÌ AN NINH, CHỦ QUYỀN BIÊN GIỚI</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+ <programme start="20261015080000 +0700" stop="20261015082000 +0700" channel="quangngai">
+  <title lang="vi">QUẢNG NGÃI NGÀY MỚI</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261013090000 +0700" stop="20261013093000 +0700" channel="quangngai2">
-  <title lang="vi">LỜI TRÁI TIM</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+ <programme start="20261015082000 +0700" stop="20261015083000 +0700" channel="quangngai">
+  <title lang="vi">KICK OFF THỂ THAO</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261013093000 +0700" stop="20261013094500 +0700" channel="quangngai2">
-  <title lang="vi">GIÁO DỤC VÀ ĐÀO TẠO</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+ <programme start="20261015083000 +0700" stop="20261015084500 +0700" channel="quangngai">
+  <title lang="vi">PHIM SITCOM</title>
+  <desc lang="vi">Những cô nàng ngổ ngáo - Tập 16</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261013094500 +0700" stop="20261013100000 +0700" channel="quangngai2">
-  <title lang="vi">NHỊP MỐT</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+ <programme start="20261015084500 +0700" stop="20261015090000 +0700" channel="quangngai">
+  <title lang="vi">KIẾN THỨC CỘNG ĐỒNG</title>
+  <desc lang="vi">Hợp đồng lao động và rủi ro pháp lý cần tránh</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261013100000 +0700" stop="20261013103000 +0700" channel="quangngai2">
-  <title lang="vi">CHƯƠNG TRÌNH TIẾNG K’HO</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+ <programme start="20261015090000 +0700" stop="20261015090500 +0700" channel="quangngai">
+  <title lang="vi">BẢN TIN 45 GIÂY 1 CHẠM</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261013103000 +0700" stop="20261013110000 +0700" channel="quangngai2">
-  <title lang="vi">TRUYỀN HÌNH QUÂN KHU 7</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+ <programme start="20261015090500 +0700" stop="20261015095000 +0700" channel="quangngai">
+  <title lang="vi">PHIM TRUNG QUỐC</title>
+  <desc lang="vi">Tình yêu diệu kỳ - Tập 14</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261013110000 +0700" stop="20261013113000 +0700" channel="quangngai2">
-  <title lang="vi">CA NHẠC QUỐC TẾ</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261013113000 +0700" stop="20261013120000 +0700" channel="quangngai2">
-  <title lang="vi">THỜI SỰ TRƯA</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261013120000 +0700" stop="20261013124500 +0700" channel="quangngai2">
-  <title lang="vi">PHIM TRUYỆN: NGÔI NHÀ BÍ MẬT</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261013124500 +0700" stop="20261013130000 +0700" channel="quangngai2">
-  <title lang="vi">VĂN HÓA DÂN TỘC</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261013130000 +0700" stop="20261013131500 +0700" channel="quangngai2">
-  <title lang="vi">ĐẠI ĐOÀN KẾT</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261013131500 +0700" stop="20261013133000 +0700" channel="quangngai2">
-  <title lang="vi">CUỘC SỐNG XANH</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261013133000 +0700" stop="20261013140000 +0700" channel="quangngai2">
-  <title lang="vi">CHƯƠNG TRÌNH TIẾNG CHĂM</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261013140000 +0700" stop="20261013141500 +0700" channel="quangngai2">
-  <title lang="vi">TỪ CÔNG SỞ ĐẾN LÒNG DÂN</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261013141500 +0700" stop="20261013143000 +0700" channel="quangngai2">
-  <title lang="vi">KHOA HỌC VÀ CÔNG NGHỆ</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261013143000 +0700" stop="20261013144500 +0700" channel="quangngai2">
-  <title lang="vi">XEM PHIM CÙNG LTV2</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261013144500 +0700" stop="20261013151500 +0700" channel="quangngai2">
-  <title lang="vi">CA NHẠC</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261013151500 +0700" stop="20261013164000 +0700" channel="quangngai2">
-  <title lang="vi">PHIM TRUYỆN: TÌNH YÊU VÀ NHỮNG VÌ SAO CỦA TÔI</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261013164000 +0700" stop="20261013165500 +0700" channel="quangngai2">
-  <title lang="vi">DÂN VẬN KHÉO</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261013165500 +0700" stop="20261013171000 +0700" channel="quangngai2">
-  <title lang="vi">BIỂN ĐẢO QUÊ HƯƠNG</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261013171000 +0700" stop="20261013172000 +0700" channel="quangngai2">
-  <title lang="vi">HỌC VÀ LÀM THEO LỜI BÁC</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261013172000 +0700" stop="20261013173500 +0700" channel="quangngai2">
-  <title lang="vi">PHIM TRUYỆN THIẾU NHI: 100% SÓI</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261013173500 +0700" stop="20261013182000 +0700" channel="quangngai2">
-  <title lang="vi">PHIM TRUYỆN HÀN QUỐC: CHUYỆN TÌNH NHÀ VUA</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261013182000 +0700" stop="20261013183500 +0700" channel="quangngai2">
-  <title lang="vi">NHÌN THẲNG NÓI THẬT</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261013183500 +0700" stop="20261013184500 +0700" channel="quangngai2">
-  <title lang="vi">HÀNH TRÌNH KHÁM PHÁ</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261013184500 +0700" stop="20261013190000 +0700" channel="quangngai2">
-  <title lang="vi">AN NINH LÂM ĐỒNG</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261013190000 +0700" stop="20261013194500 +0700" channel="quangngai2">
-  <title lang="vi">TIẾP SÓNG CHƯƠNG TRÌNH THỜI SỰ VTV</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261013194500 +0700" stop="20261013201500 +0700" channel="quangngai2">
-  <title lang="vi">THỜI SỰ TỐI</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261013201500 +0700" stop="20261013210000 +0700" channel="quangngai2">
-  <title lang="vi">PHIM TRUYỆN VIỆT NAM</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261013210000 +0700" stop="20261013211500 +0700" channel="quangngai2">
-  <title lang="vi">TÀI NGUYÊN VÀ MÔI TRƯỜNG</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261013211500 +0700" stop="20261013213500 +0700" channel="quangngai2">
-  <title lang="vi">CHUYỂN ĐỘNG 360</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261013213500 +0700" stop="20261013215000 +0700" channel="quangngai2">
-  <title lang="vi">TÀI CHÍNH - NGÂN HÀNG</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261013215000 +0700" stop="20261013220500 +0700" channel="quangngai2">
-  <title lang="vi">CÂU CHUYỆN ÂM NHẠC</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261013220500 +0700" stop="20261013221500 +0700" channel="quangngai2">
-  <title lang="vi">BẢN TIN THẾ GIỚI</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261013221500 +0700" stop="20261013223000 +0700" channel="quangngai2">
+ <programme start="20261015095000 +0700" stop="20261015101500 +0700" channel="quangngai">
   <title lang="vi">KHÁM PHÁ THẾ GIỚI</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+  <desc lang="vi">Cảnh quan và văn hoá Na Uy - Phần 1</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261013223000 +0700" stop="20261014000000 +0700" channel="quangngai2">
-  <title lang="vi">THỜI SỰ LÂM ĐỒNG</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+ <programme start="20261015101500 +0700" stop="20261015110000 +0700" channel="quangngai">
+  <title lang="vi">PHIM ĐÀI LOAN</title>
+  <desc lang="vi">Lãng mạn trong tay em - Tập 28</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261014053000 +0700" stop="20261014053500 +0700" channel="quangngai2">
-  <title lang="vi">GIỚI THIỆU CHƯƠNG TRÌNH</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+ <programme start="20261015110000 +0700" stop="20261015111500 +0700" channel="quangngai">
+  <title lang="vi">CHUYỂN ĐỘNG DUYÊN HẢI</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261014053500 +0700" stop="20261014060000 +0700" channel="quangngai2">
-  <title lang="vi">CA NHẠC</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+ <programme start="20261015111500 +0700" stop="20261015113000 +0700" channel="quangngai">
+  <title lang="vi">TUỔI THƠ</title>
+  <desc lang="vi">Gia đình Nova thám hiểm không gian - Tập 23</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261014060000 +0700" stop="20261014063000 +0700" channel="quangngai2">
-  <title lang="vi">CHÀO NGÀY MỚI</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+ <programme start="20261015113000 +0700" stop="20261015115000 +0700" channel="quangngai">
+  <title lang="vi">BẢN TIN</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261014063000 +0700" stop="20261014071500 +0700" channel="quangngai2">
-  <title lang="vi">PHIM TRUYỆN VIỆT NAM: GẶP GỠ ĐỊNH MỆNH</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014071500 +0700" stop="20261014073000 +0700" channel="quangngai2">
-  <title lang="vi">ĐẢNG TRONG CUỘC SỐNG</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014073000 +0700" stop="20261014074500 +0700" channel="quangngai2">
-  <title lang="vi">HỘP THƯ TRUYỀN HÌNH</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014074500 +0700" stop="20261014080000 +0700" channel="quangngai2">
-  <title lang="vi">TÁC GIẢ - TÁC PHẨM</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014080000 +0700" stop="20261014083000 +0700" channel="quangngai2">
-  <title lang="vi">PHIM TÀI LIỆU</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014083000 +0700" stop="20261014084500 +0700" channel="quangngai2">
-  <title lang="vi">DÂN TỘC VÀ PHÁT TRIỂN</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014084500 +0700" stop="20261014090000 +0700" channel="quangngai2">
-  <title lang="vi">VÌ AN NINH, CHỦ QUYỀN BIÊN GIỚI</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014090000 +0700" stop="20261014093000 +0700" channel="quangngai2">
-  <title lang="vi">LỜI TRÁI TIM</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014093000 +0700" stop="20261014094500 +0700" channel="quangngai2">
-  <title lang="vi">GIÁO DỤC VÀ ĐÀO TẠO</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014094500 +0700" stop="20261014100000 +0700" channel="quangngai2">
-  <title lang="vi">NHỊP MỐT</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014100000 +0700" stop="20261014103000 +0700" channel="quangngai2">
-  <title lang="vi">CHƯƠNG TRÌNH TIẾNG K’HO</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014103000 +0700" stop="20261014110000 +0700" channel="quangngai2">
-  <title lang="vi">TRUYỀN HÌNH QUÂN KHU 7</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014110000 +0700" stop="20261014113000 +0700" channel="quangngai2">
-  <title lang="vi">CA NHẠC QUỐC TẾ</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014113000 +0700" stop="20261014120000 +0700" channel="quangngai2">
-  <title lang="vi">THỜI SỰ TRƯA</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014120000 +0700" stop="20261014124500 +0700" channel="quangngai2">
-  <title lang="vi">PHIM TRUYỆN: NGÔI NHÀ BÍ MẬT</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014124500 +0700" stop="20261014130000 +0700" channel="quangngai2">
-  <title lang="vi">VĂN HÓA DÂN TỘC</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014130000 +0700" stop="20261014131500 +0700" channel="quangngai2">
-  <title lang="vi">ĐẠI ĐOÀN KẾT</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014131500 +0700" stop="20261014133000 +0700" channel="quangngai2">
-  <title lang="vi">CUỘC SỐNG XANH</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014133000 +0700" stop="20261014140000 +0700" channel="quangngai2">
-  <title lang="vi">CHƯƠNG TRÌNH TIẾNG CHĂM</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014140000 +0700" stop="20261014141500 +0700" channel="quangngai2">
-  <title lang="vi">TỪ CÔNG SỞ ĐẾN LÒNG DÂN</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014141500 +0700" stop="20261014143000 +0700" channel="quangngai2">
-  <title lang="vi">KHOA HỌC VÀ CÔNG NGHỆ</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014143000 +0700" stop="20261014144500 +0700" channel="quangngai2">
-  <title lang="vi">XEM PHIM CÙNG LTV2</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014144500 +0700" stop="20261014151500 +0700" channel="quangngai2">
-  <title lang="vi">CA NHẠC</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014151500 +0700" stop="20261014164000 +0700" channel="quangngai2">
-  <title lang="vi">PHIM TRUYỆN: TÌNH YÊU VÀ NHỮNG VÌ SAO CỦA TÔI</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014164000 +0700" stop="20261014165500 +0700" channel="quangngai2">
-  <title lang="vi">DÂN VẬN KHÉO</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014165500 +0700" stop="20261014171000 +0700" channel="quangngai2">
-  <title lang="vi">BIỂN ĐẢO QUÊ HƯƠNG</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014171000 +0700" stop="20261014172000 +0700" channel="quangngai2">
-  <title lang="vi">HỌC VÀ LÀM THEO LỜI BÁC</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014172000 +0700" stop="20261014173500 +0700" channel="quangngai2">
-  <title lang="vi">PHIM TRUYỆN THIẾU NHI: 100% SÓI</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014173500 +0700" stop="20261014182000 +0700" channel="quangngai2">
-  <title lang="vi">PHIM TRUYỆN HÀN QUỐC: CHUYỆN TÌNH NHÀ VUA</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014182000 +0700" stop="20261014183500 +0700" channel="quangngai2">
-  <title lang="vi">NHÌN THẲNG NÓI THẬT</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014183500 +0700" stop="20261014184500 +0700" channel="quangngai2">
-  <title lang="vi">HÀNH TRÌNH KHÁM PHÁ</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014184500 +0700" stop="20261014190000 +0700" channel="quangngai2">
-  <title lang="vi">AN NINH LÂM ĐỒNG</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014190000 +0700" stop="20261014194500 +0700" channel="quangngai2">
-  <title lang="vi">TIẾP SÓNG CHƯƠNG TRÌNH THỜI SỰ VTV</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014194500 +0700" stop="20261014201500 +0700" channel="quangngai2">
-  <title lang="vi">THỜI SỰ TỐI</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014201500 +0700" stop="20261014210000 +0700" channel="quangngai2">
-  <title lang="vi">PHIM TRUYỆN VIỆT NAM</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014210000 +0700" stop="20261014211500 +0700" channel="quangngai2">
-  <title lang="vi">TÀI NGUYÊN VÀ MÔI TRƯỜNG</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014211500 +0700" stop="20261014213500 +0700" channel="quangngai2">
-  <title lang="vi">CHUYỂN ĐỘNG 360</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014213500 +0700" stop="20261014215000 +0700" channel="quangngai2">
-  <title lang="vi">TÀI CHÍNH - NGÂN HÀNG</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014215000 +0700" stop="20261014220500 +0700" channel="quangngai2">
-  <title lang="vi">CÂU CHUYỆN ÂM NHẠC</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261014220500 +0700" stop="20261014221500 +0700" channel="quangngai2">
+ <programme start="20261015115000 +0700" stop="20261015120000 +0700" channel="quangngai">
   <title lang="vi">BẢN TIN THẾ GIỚI</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261014221500 +0700" stop="20261014223000 +0700" channel="quangngai2">
+ <programme start="20261015120000 +0700" stop="20261015121500 +0700" channel="quangngai">
+  <title lang="vi">PHÓNG SỰ QNGTV</title>
+  <desc lang="vi">Chung tay vì người nghèo, tri ân người có công</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
+ </programme>
+ <programme start="20261015121500 +0700" stop="20261015123000 +0700" channel="quangngai">
+  <title lang="vi">KẾT NỐI NHỮNG TẤM LÒNG - SỐ 788</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
+ </programme>
+ <programme start="20261015123000 +0700" stop="20261015131500 +0700" channel="quangngai">
+  <title lang="vi">PHIM HÀN QUỐC</title>
+  <desc lang="vi">Lời hứa của tình yêu - Tập 24</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
+ </programme>
+ <programme start="20261015131500 +0700" stop="20261015133000 +0700" channel="quangngai">
+  <title lang="vi">CHUYỂN ĐỘNG DUYÊN HẢI</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
+ </programme>
+ <programme start="20261015133000 +0700" stop="20261015140000 +0700" channel="quangngai">
+  <title lang="vi">KIẾN TẠO VÀ ĐỒNG HÀNH CÙNG DOANH NGHIỆP</title>
+  <desc lang="vi">Xúc tiến thương mại trong kỷ nguyên số</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
+ </programme>
+ <programme start="20261015140000 +0700" stop="20261015143000 +0700" channel="quangngai">
+  <title lang="vi">VĂN HỌC NGHỆ THUẬT</title>
+  <desc lang="vi">Vương Trọng - Thơ để chuyển tải nỗi lòng</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
+ </programme>
+ <programme start="20261015143000 +0700" stop="20261015151500 +0700" channel="quangngai">
+  <title lang="vi">PHIM VIỆT NAM</title>
+  <desc lang="vi">Mẹ trùm - Tập 3</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
+ </programme>
+ <programme start="20261015151500 +0700" stop="20261015154000 +0700" channel="quangngai">
+  <title lang="vi">SẮC CÁC DÂN TỘC</title>
+  <desc lang="vi">Bền bỉ lửa nghề</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
+ </programme>
+ <programme start="20261015154000 +0700" stop="20261015160000 +0700" channel="quangngai">
   <title lang="vi">KHÁM PHÁ THẾ GIỚI</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+  <desc lang="vi">Khám phá đất nước Georgia - Phần 2</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261014223000 +0700" stop="20261015000000 +0700" channel="quangngai2">
-  <title lang="vi">THỜI SỰ LÂM ĐỒNG</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+ <programme start="20261015160000 +0700" stop="20261015162000 +0700" channel="quangngai">
+  <title lang="vi">BẢN TIN</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261015053000 +0700" stop="20261015053500 +0700" channel="quangngai2">
-  <title lang="vi">GIỚI THIỆU CHƯƠNG TRÌNH</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+ <programme start="20261015162000 +0700" stop="20261015163000 +0700" channel="quangngai">
+  <title lang="vi">KHÁM PHÁ VIỆT NAM</title>
+  <desc lang="vi">Mùa thu trên đảo ngọc Cát Bà</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261015053500 +0700" stop="20261015060000 +0700" channel="quangngai2">
-  <title lang="vi">CA NHẠC</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+ <programme start="20261015163000 +0700" stop="20261015170000 +0700" channel="quangngai">
+  <title lang="vi">TẠP CHÍ TRUYỀN HÌNH TIẾNG CO</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261015060000 +0700" stop="20261015063000 +0700" channel="quangngai2">
-  <title lang="vi">CHÀO NGÀY MỚI</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+ <programme start="20261015170000 +0700" stop="20261015171500 +0700" channel="quangngai">
+  <title lang="vi">MÔI TRƯỜNG VÀ CUỘC SỐNG</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261015063000 +0700" stop="20261015071500 +0700" channel="quangngai2">
-  <title lang="vi">PHIM TRUYỆN VIỆT NAM: GẶP GỠ ĐỊNH MỆNH</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+ <programme start="20261015171500 +0700" stop="20261015180000 +0700" channel="quangngai">
+  <title lang="vi">PHIM ĐÀI LOAN</title>
+  <desc lang="vi">Lãng mạn trong tay em - Tập 29</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261015071500 +0700" stop="20261015073000 +0700" channel="quangngai2">
-  <title lang="vi">ĐẢNG TRONG CUỘC SỐNG</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+ <programme start="20261015180000 +0700" stop="20261015181500 +0700" channel="quangngai">
+  <title lang="vi">TUỔI THƠ</title>
+  <desc lang="vi">Những chú chuột ngự lâm - tập 44</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261015073000 +0700" stop="20261015074500 +0700" channel="quangngai2">
-  <title lang="vi">HỘP THƯ TRUYỀN HÌNH</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+ <programme start="20261015181500 +0700" stop="20261015182800 +0700" channel="quangngai">
+  <title lang="vi">KIẾN TẠO TƯƠNG LAI SỐ</title>
+  <desc lang="vi">Công nghệ đốt rác phát điện</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261015074500 +0700" stop="20261015080000 +0700" channel="quangngai2">
-  <title lang="vi">TÁC GIẢ - TÁC PHẨM</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+ <programme start="20261015182800 +0700" stop="20261015190000 +0700" channel="quangngai">
+  <title lang="vi">CHUYỂN ĐỘNG DUYÊN HẢI</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261015080000 +0700" stop="20261015083000 +0700" channel="quangngai2">
-  <title lang="vi">PHIM TÀI LIỆU</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+ <programme start="20261015190000 +0700" stop="20261015194500 +0700" channel="quangngai">
+  <title lang="vi">TIẾP SÓNG CHƯƠNG TRÌNH THỜI SỰ ĐÀI THVN</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261015083000 +0700" stop="20261015084500 +0700" channel="quangngai2">
-  <title lang="vi">DÂN TỘC VÀ PHÁT TRIỂN</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+ <programme start="20261015194500 +0700" stop="20261015201500 +0700" channel="quangngai">
+  <title lang="vi">THỜI SỰ</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261015084500 +0700" stop="20261015090000 +0700" channel="quangngai2">
-  <title lang="vi">VÌ AN NINH, CHỦ QUYỀN BIÊN GIỚI</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+ <programme start="20261015201500 +0700" stop="20261015202000 +0700" channel="quangngai">
+  <title lang="vi">BẢN TIN THỜI TIẾT</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261015090000 +0700" stop="20261015093000 +0700" channel="quangngai2">
-  <title lang="vi">LỜI TRÁI TIM</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015093000 +0700" stop="20261015094500 +0700" channel="quangngai2">
-  <title lang="vi">GIÁO DỤC VÀ ĐÀO TẠO</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015094500 +0700" stop="20261015100000 +0700" channel="quangngai2">
-  <title lang="vi">NHỊP MỐT</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015100000 +0700" stop="20261015103000 +0700" channel="quangngai2">
-  <title lang="vi">CHƯƠNG TRÌNH TIẾNG K’HO</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015103000 +0700" stop="20261015110000 +0700" channel="quangngai2">
-  <title lang="vi">TRUYỀN HÌNH QUÂN KHU 7</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015110000 +0700" stop="20261015113000 +0700" channel="quangngai2">
-  <title lang="vi">CA NHẠC QUỐC TẾ</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015113000 +0700" stop="20261015120000 +0700" channel="quangngai2">
-  <title lang="vi">THỜI SỰ TRƯA</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015120000 +0700" stop="20261015124500 +0700" channel="quangngai2">
-  <title lang="vi">PHIM TRUYỆN: NGÔI NHÀ BÍ MẬT</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015124500 +0700" stop="20261015130000 +0700" channel="quangngai2">
-  <title lang="vi">VĂN HÓA DÂN TỘC</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015130000 +0700" stop="20261015131500 +0700" channel="quangngai2">
-  <title lang="vi">ĐẠI ĐOÀN KẾT</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015131500 +0700" stop="20261015133000 +0700" channel="quangngai2">
-  <title lang="vi">CUỘC SỐNG XANH</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015133000 +0700" stop="20261015140000 +0700" channel="quangngai2">
-  <title lang="vi">CHƯƠNG TRÌNH TIẾNG CHĂM</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015140000 +0700" stop="20261015141500 +0700" channel="quangngai2">
-  <title lang="vi">TỪ CÔNG SỞ ĐẾN LÒNG DÂN</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015141500 +0700" stop="20261015143000 +0700" channel="quangngai2">
-  <title lang="vi">KHOA HỌC VÀ CÔNG NGHỆ</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015143000 +0700" stop="20261015144500 +0700" channel="quangngai2">
-  <title lang="vi">XEM PHIM CÙNG LTV2</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015144500 +0700" stop="20261015151500 +0700" channel="quangngai2">
-  <title lang="vi">CA NHẠC</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015151500 +0700" stop="20261015164000 +0700" channel="quangngai2">
-  <title lang="vi">PHIM TRUYỆN: TÌNH YÊU VÀ NHỮNG VÌ SAO CỦA TÔI</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015164000 +0700" stop="20261015165500 +0700" channel="quangngai2">
-  <title lang="vi">DÂN VẬN KHÉO</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015165500 +0700" stop="20261015171000 +0700" channel="quangngai2">
-  <title lang="vi">BIỂN ĐẢO QUÊ HƯƠNG</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015171000 +0700" stop="20261015172000 +0700" channel="quangngai2">
-  <title lang="vi">HỌC VÀ LÀM THEO LỜI BÁC</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015172000 +0700" stop="20261015173500 +0700" channel="quangngai2">
-  <title lang="vi">PHIM TRUYỆN THIẾU NHI: 100% SÓI</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015173500 +0700" stop="20261015182000 +0700" channel="quangngai2">
-  <title lang="vi">PHIM TRUYỆN HÀN QUỐC: CHUYỆN TÌNH NHÀ VUA</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015182000 +0700" stop="20261015183500 +0700" channel="quangngai2">
-  <title lang="vi">NHÌN THẲNG NÓI THẬT</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015183500 +0700" stop="20261015184500 +0700" channel="quangngai2">
-  <title lang="vi">HÀNH TRÌNH KHÁM PHÁ</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015184500 +0700" stop="20261015190000 +0700" channel="quangngai2">
-  <title lang="vi">AN NINH LÂM ĐỒNG</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015190000 +0700" stop="20261015194500 +0700" channel="quangngai2">
-  <title lang="vi">TIẾP SÓNG CHƯƠNG TRÌNH THỜI SỰ VTV</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015194500 +0700" stop="20261015201500 +0700" channel="quangngai2">
-  <title lang="vi">THỜI SỰ TỐI</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015201500 +0700" stop="20261015210000 +0700" channel="quangngai2">
-  <title lang="vi">PHIM TRUYỆN VIỆT NAM</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015210000 +0700" stop="20261015211500 +0700" channel="quangngai2">
-  <title lang="vi">TÀI NGUYÊN VÀ MÔI TRƯỜNG</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015211500 +0700" stop="20261015213500 +0700" channel="quangngai2">
-  <title lang="vi">CHUYỂN ĐỘNG 360</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015213500 +0700" stop="20261015215000 +0700" channel="quangngai2">
-  <title lang="vi">TÀI CHÍNH - NGÂN HÀNG</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015215000 +0700" stop="20261015220500 +0700" channel="quangngai2">
-  <title lang="vi">CÂU CHUYỆN ÂM NHẠC</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
- </programme>
- <programme start="20261015220500 +0700" stop="20261015221500 +0700" channel="quangngai2">
+ <programme start="20261015202000 +0700" stop="20261015203000 +0700" channel="quangngai">
   <title lang="vi">BẢN TIN THẾ GIỚI</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261015221500 +0700" stop="20261015223000 +0700" channel="quangngai2">
+ <programme start="20261015203000 +0700" stop="20261015204500 +0700" channel="quangngai">
+  <title lang="vi">PHÓNG SỰ QNGTV</title>
+  <desc lang="vi">Chung tay vì người nghèo, tri ân người có công</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
+ </programme>
+ <programme start="20261015204500 +0700" stop="20261015210000 +0700" channel="quangngai">
+  <title lang="vi">CHECK-IN OCOP</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
+ </programme>
+ <programme start="20261015210000 +0700" stop="20261015214500 +0700" channel="quangngai">
+  <title lang="vi">PHIM VIỆT NAM</title>
+  <desc lang="vi">Mộng ước tương lai - Tập 21</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
+ </programme>
+ <programme start="20261015214500 +0700" stop="20261015220000 +0700" channel="quangngai">
+  <title lang="vi">ĐẢNG TRONG KỶ NGUYÊN MỚI</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
+ </programme>
+ <programme start="20261015220000 +0700" stop="20261015221500 +0700" channel="quangngai">
+  <title lang="vi">CẢI CÁCH HÀNH CHÍNH</title>
+  <desc lang="vi">Đưa công nghệ gần người cao tuổi</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
+ </programme>
+ <programme start="20261015221500 +0700" stop="20261015230000 +0700" channel="quangngai">
+  <title lang="vi">PHIM HÀN QUỐC</title>
+  <desc lang="vi">Lời hứa của tình yêu - Tập 24</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
+ </programme>
+ <programme start="20261015230000 +0700" stop="20261015233000 +0700" channel="quangngai">
+  <title lang="vi">BẢN TIN</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
+ </programme>
+ <programme start="20261015233000 +0700" stop="20261016000000 +0700" channel="quangngai">
   <title lang="vi">KHÁM PHÁ THẾ GIỚI</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+  <desc lang="vi">Sự kỳ diệu của cây - Phần 1</desc>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
- <programme start="20261015223000 +0700" stop="20261016000000 +0700" channel="quangngai2">
-  <title lang="vi">THỜI SỰ LÂM ĐỒNG</title>
-  <icon src="https://r2.epg.io.vn/2026-09-17/116.png" />
+ <programme start="20261015235500 +0700" stop="20261015235900 +0700" channel="quangngai">
+  <title lang="vi">GIỚI THIỆU CHƯƠNG TRÌNH NGÀY MAI</title>
+  <icon src="https://r2.epg.io.vn/2026-09-17/115.png" />
  </programme>
  <programme start="20261013000000 +0700" stop="20261013003000 +0700" channel="quangninh1">
   <title lang="vi">PHIM TÀI LIỆU</title>
@@ -62776,20 +63591,20 @@
   <desc lang="vi">Cuộc phiêu lưu của Moley - Tập 8</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/122.png" />
  </programme>
- <programme start="20261014114500 +0700" stop="20261014120500 +0700" channel="thainguyen">
+ <programme start="20261014114500 +0700" stop="20261014120600 +0700" channel="thainguyen">
   <title lang="vi">THỜI SỰ THÁI NGUYÊN</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/122.png" />
  </programme>
- <programme start="20261014120500 +0700" stop="20261014125000 +0700" channel="thainguyen">
+ <programme start="20261014120600 +0700" stop="20261014123400 +0700" channel="thainguyen">
   <title lang="vi">PHIM TRUYỆN</title>
   <desc lang="vi">Phiên tòa ác ma - Tập 25</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/122.png" />
  </programme>
- <programme start="20261014125000 +0700" stop="20261014130000 +0700" channel="thainguyen">
+ <programme start="20261014123400 +0700" stop="20261014124500 +0700" channel="thainguyen">
   <title lang="vi">BẢN TIN TIẾNG TRUNG</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/122.png" />
  </programme>
- <programme start="20261014130000 +0700" stop="20261014131000 +0700" channel="thainguyen">
+ <programme start="20261014124500 +0700" stop="20261014131000 +0700" channel="thainguyen">
   <title lang="vi">CHUYỂN ĐỘNG CÙNG CHƯƠNG TRÌNH MTQG</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/122.png" />
  </programme>
@@ -62803,12 +63618,12 @@
   <desc lang="vi">Nha khoa ngoài công lập - Thêm lựa chọn và trách nhiệm</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/122.png" />
  </programme>
- <programme start="20261014133000 +0700" stop="20261014134500 +0700" channel="thainguyen">
+ <programme start="20261014133000 +0700" stop="20261014134400 +0700" channel="thainguyen">
   <title lang="vi">NHỊP SỐNG TRẺ</title>
   <desc lang="vi">Về quê lập nghiệp</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/122.png" />
  </programme>
- <programme start="20261014134500 +0700" stop="20261014135500 +0700" channel="thainguyen">
+ <programme start="20261014134400 +0700" stop="20261014135500 +0700" channel="thainguyen">
   <title lang="vi">QUẢN LÝ VÀ BẢO VỆ RỪNG</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/122.png" />
  </programme>
@@ -62816,67 +63631,67 @@
   <title lang="vi">HÀNH TRÌNH CẢI THIỆN CHỈ SỐ PCI</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/122.png" />
  </programme>
- <programme start="20261014140500 +0700" stop="20261014142000 +0700" channel="thainguyen">
+ <programme start="20261014140500 +0700" stop="20261014142100 +0700" channel="thainguyen">
   <title lang="vi">OCOP THÁI NGUYÊN</title>
   <desc lang="vi">Đẩy mạnh xúc tiến sản phẩm OCOP Thái Nguyên - Hà Nội</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/122.png" />
  </programme>
- <programme start="20261014142000 +0700" stop="20261014143500 +0700" channel="thainguyen">
+ <programme start="20261014142100 +0700" stop="20261014143600 +0700" channel="thainguyen">
   <title lang="vi">ĐẠI BIỂU QUỐC HỘI, HĐND VỚI CỬ TRI</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/122.png" />
  </programme>
- <programme start="20261014143500 +0700" stop="20261014150000 +0700" channel="thainguyen">
+ <programme start="20261014143600 +0700" stop="20261014150000 +0700" channel="thainguyen">
   <title lang="vi">PHIM TÀI LIỆU</title>
   <desc lang="vi">Mẫu Sơn huyền thoại trong mây - Tập 2</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/122.png" />
  </programme>
- <programme start="20261014150000 +0700" stop="20261014151500 +0700" channel="thainguyen">
+ <programme start="20261014150000 +0700" stop="20261014151800 +0700" channel="thainguyen">
   <title lang="vi">THỜI SỰ THÁI NGUYÊN</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/122.png" />
  </programme>
- <programme start="20261014151500 +0700" stop="20261014160500 +0700" channel="thainguyen">
+ <programme start="20261014151800 +0700" stop="20261014160800 +0700" channel="thainguyen">
   <title lang="vi">PHIM TRUYỆN</title>
   <desc lang="vi">Bức tường không xây - Phần 2</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/122.png" />
  </programme>
- <programme start="20261014160500 +0700" stop="20261014163500 +0700" channel="thainguyen">
+ <programme start="20261014160800 +0700" stop="20261014163800 +0700" channel="thainguyen">
   <title lang="vi">TẠP CHÍ TIẾNG MÔNG</title>
   <desc lang="vi">Đổi thay ở vùng quê cách mạng</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/122.png" />
  </programme>
- <programme start="20261014163500 +0700" stop="20261014164500 +0700" channel="thainguyen">
+ <programme start="20261014163800 +0700" stop="20261014164800 +0700" channel="thainguyen">
   <title lang="vi">CỬA SỔ THÁI NGUYÊN</title>
   <desc lang="vi">Hương cốm mùa thu Khẩu Nua Lếch</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/122.png" />
  </programme>
- <programme start="20261014164500 +0700" stop="20261014170000 +0700" channel="thainguyen">
+ <programme start="20261014164800 +0700" stop="20261014170400 +0700" channel="thainguyen">
   <title lang="vi">THÁI NGUYÊN SẮC MÀU VĂN HÓA</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/122.png" />
  </programme>
- <programme start="20261014170000 +0700" stop="20261014174500 +0700" channel="thainguyen">
+ <programme start="20261014170400 +0700" stop="20261014174700 +0700" channel="thainguyen">
   <title lang="vi">PHIM TRUYỆN</title>
   <desc lang="vi">Phiên tòa ác ma - Tập 25</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/122.png" />
  </programme>
- <programme start="20261014174500 +0700" stop="20261014180000 +0700" channel="thainguyen">
+ <programme start="20261014174700 +0700" stop="20261014175900 +0700" channel="thainguyen">
   <title lang="vi">CHƯƠNG TRÌNH THIẾU NHI</title>
   <desc lang="vi">Cuộc phiêu lưu của Moley - Tập 9</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/122.png" />
  </programme>
- <programme start="20261014180000 +0700" stop="20261014181000 +0700" channel="thainguyen">
+ <programme start="20261014175900 +0700" stop="20261014180900 +0700" channel="thainguyen">
   <title lang="vi">CHUYỂN ĐỘNG CÙNG CHƯƠNG TRÌNH MTQG</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/122.png" />
  </programme>
- <programme start="20261014181000 +0700" stop="20261014182000 +0700" channel="thainguyen">
+ <programme start="20261014180900 +0700" stop="20261014182000 +0700" channel="thainguyen">
   <title lang="vi">BẢO HIỂM XÃ HỘI</title>
   <desc lang="vi">Bảo hiểm y tế học sinh - chung tay vì sức khỏe học đường</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/122.png" />
  </programme>
- <programme start="20261014182000 +0700" stop="20261014183000 +0700" channel="thainguyen">
+ <programme start="20261014182000 +0700" stop="20261014182900 +0700" channel="thainguyen">
   <title lang="vi">THỜI SỰ TRONG NƯỚC VÀ QUỐC TẾ</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/122.png" />
  </programme>
- <programme start="20261014183000 +0700" stop="20261014184000 +0700" channel="thainguyen">
+ <programme start="20261014182900 +0700" stop="20261014184000 +0700" channel="thainguyen">
   <title lang="vi">NÔNG NGHIỆP</title>
   <desc lang="vi">Sản xuất nông nghiệp gắn với bảo vệ môi trường</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/122.png" />
@@ -63848,7 +64663,7 @@
   <title lang="vi">ĐỒNG HÀNH CÙNG DOANH NGHIỆP</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/124.png" />
  </programme>
- <programme start="20261014102750 +0700" stop="20261014111140 +0700" channel="tuyenquang">
+ <programme start="20261014102400 +0700" stop="20261014110750 +0700" channel="tuyenquang">
   <title lang="vi">PHIM TRUYỆN</title>
   <desc lang="vi">Tam Quốc cơ mật (T20)</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/124.png" />
@@ -63861,12 +64676,12 @@
   <title lang="vi">ĐIỂM BÁO</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/124.png" />
  </programme>
- <programme start="20261014112950 +0700" stop="20261014113000 +0700" channel="tuyenquang">
-  <title lang="vi">NHẠC CẮT TTV</title>
+ <programme start="20261014112900 +0700" stop="20261014115900 +0700" channel="tuyenquang">
+  <title lang="vi">CHƯƠNG TRÌNH THỜI SỰ TTV</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/124.png" />
  </programme>
- <programme start="20261014113000 +0700" stop="20261014120000 +0700" channel="tuyenquang">
-  <title lang="vi">CHƯƠNG TRÌNH THỜI SỰ TTV</title>
+ <programme start="20261014112950 +0700" stop="20261014113000 +0700" channel="tuyenquang">
+  <title lang="vi">NHẠC CẮT TTV</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/124.png" />
  </programme>
  <programme start="20261014120000 +0700" stop="20261014120100 +0700" channel="tuyenquang">
@@ -63882,11 +64697,11 @@
   <title lang="vi">CLIP APP TTV</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/124.png" />
  </programme>
- <programme start="20261014124800 +0700" stop="20261014131200 +0700" channel="tuyenquang">
+ <programme start="20261014125000 +0700" stop="20261014131400 +0700" channel="tuyenquang">
   <title lang="vi">TẠP CHÍ VĂN NGHỆ</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/124.png" />
  </programme>
- <programme start="20261014131200 +0700" stop="20261014134200 +0700" channel="tuyenquang">
+ <programme start="20261014131400 +0700" stop="20261014134400 +0700" channel="tuyenquang">
   <title lang="vi">DÒNG CHẢY VĂN HÓA</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/124.png" />
  </programme>
@@ -63894,7 +64709,7 @@
   <title lang="vi">KHÁM PHÁ THẾ GIỚI</title>
   <icon src="https://r2.epg.io.vn/2026-09-17/124.png" />
  </programme>
- <programme start="20261014142905 +0700" stop="20261014150005 +0700" channel="tuyenquang">
+ <programme start="20261014143100 +0700" stop="20261014150200 +0700" channel="tuyenquang">
   <title lang="vi">CA NHẠC</title>
   <desc lang="vi">Đất nước tình yêu</desc>
   <icon src="https://r2.epg.io.vn/2026-09-17/124.png" />
@@ -64553,7 +65368,7 @@
  <programme start="20261014120000 +0700" stop="20261014125300 +0700" channel="vinhlong1hd">
   <title lang="vi">PHIM ẤN ĐỘ</title>
   <desc lang="vi">Chờ em nơi cuối đường - Tập 103</desc>
-  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/13/choemnoicuoiduongslider_1791882186597.jpg" />
+  <icon src="https://r2.epg.io.vn/2026-09-17/74.png" />
  </programme>
  <programme start="20261014125300 +0700" stop="20261014130000 +0700" channel="vinhlong1hd">
   <title lang="vi">SỐNG KHỎE MỖI NGÀY</title>
@@ -64562,7 +65377,7 @@
  <programme start="20261014130000 +0700" stop="20261014135100 +0700" channel="vinhlong1hd">
   <title lang="vi">PHIM HÀN QUỐC</title>
   <desc lang="vi">Cuộc sống rực rỡ - Tập 89</desc>
-  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/13/cuocsongrucroslider_1791882275423.jpg" />
+  <icon src="https://r2.epg.io.vn/2026-09-17/74.png" />
  </programme>
  <programme start="20261014135100 +0700" stop="20261014140100 +0700" channel="vinhlong1hd">
   <title lang="vi">PHÚT THƯ GIÃN</title>
@@ -64571,7 +65386,7 @@
  <programme start="20261014140100 +0700" stop="20261014144700 +0700" channel="vinhlong1hd">
   <title lang="vi">PHIM VIỆT NAM</title>
   <desc lang="vi">Vua bánh mì - Tập 55</desc>
-  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/13/vuabanhmislider_1791882332922.jpg" />
+  <icon src="https://r2.epg.io.vn/2026-09-17/74.png" />
  </programme>
  <programme start="20261014144700 +0700" stop="20261014145900 +0700" channel="vinhlong1hd">
   <title lang="vi">THẾ GIỚI QUANH TA</title>
@@ -64972,7 +65787,7 @@
  <programme start="20261014110000 +0700" stop="20261014114700 +0700" channel="vinhlong2hd">
   <title lang="vi">PHIM VIỆT NAM</title>
   <desc lang="vi">Nghĩa nặng hơn tình - Tập 15</desc>
-  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/13/nghiananghontinhslider_1791882168231.jpg" />
+  <icon src="https://r2.epg.io.vn/2026-09-17/75.png" />
  </programme>
  <programme start="20261014114700 +0700" stop="20261014120700 +0700" channel="vinhlong2hd">
   <title lang="vi">HƯƠNG SẮC VIỆT NAM</title>
@@ -64981,12 +65796,12 @@
  <programme start="20261014120700 +0700" stop="20261014130000 +0700" channel="vinhlong2hd">
   <title lang="vi">PHIM VIỆT NAM</title>
   <desc lang="vi">Không cần soái ca - Tập 12</desc>
-  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/13/khongcansoaicaslider_1791882234771.jpg" />
+  <icon src="https://r2.epg.io.vn/2026-09-17/75.png" />
  </programme>
  <programme start="20261014130000 +0700" stop="20261014140000 +0700" channel="vinhlong2hd">
   <title lang="vi">PHIM VIỆT NAM</title>
   <desc lang="vi">Trà táo đỏ (Phần 2) - Tập 61</desc>
-  <icon src="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/13/trataodoslider_1791882309880.jpg" />
+  <icon src="https://r2.epg.io.vn/2026-09-17/75.png" />
  </programme>
  <programme start="20261014140000 +0700" stop="20261014144000 +0700" channel="vinhlong2hd">
   <title lang="vi">PHIM PHILIPPINES</title>
