@@ -323,42 +323,27 @@ _CHANNEL_DATA: Final[dict[str, tuple[str, str]]] = {
     "yenbai": ("Yên Bái", "Yên Bái"),
     
     # ── TRUNG QUỐC (CCTV) ────────────────────────────────────────────
-    "cctv1hd": ("CCTV1", "Trung Quốc"),
     "cctv1": ("CCTV1", "Trung Quốc"),
-    "cctv2hd": ("CCTV2", "Trung Quốc"),
     "cctv2": ("CCTV2", "Trung Quốc"),
-    "cctv3hd": ("CCTV3", "Trung Quốc"),
     "cctv3": ("CCTV3", "Trung Quốc"),
-    "cctv4hd": ("CCTV4", "Trung Quốc"),
     "cctv4": ("CCTV4", "Trung Quốc"),
     "cctv5": ("CCTV5", "Trung Quốc"),
-    "cctv5hd": ("CCTV5", "Trung Quốc"),
     "cctv5p": ("CCTV5+", "Trung Quốc"),
-    "cctv5phd": ("CCTV5+", "Trung Quốc"),
-    "cctv6hd": ("CCTV6", "Trung Quốc"),
     "cctv6": ("CCTV6", "Trung Quốc"),
-    "cctv7hd": ("CCTV7", "Trung Quốc"),
     "cctv7": ("CCTV7", "Trung Quốc"),
-    "cctv8hd": ("CCTV8", "Trung Quốc"),
     "cctv8": ("CCTV8", "Trung Quốc"),
-    "cctv9hd": ("CCTV9", "Trung Quốc"),
     "cctv9": ("CCTV9", "Trung Quốc"),
-    "cctv10hd": ("CCTV10", "Trung Quốc"),
     "cctv10": ("CCTV10", "Trung Quốc"),
-    "cctv11hd": ("CCTV11", "Trung Quốc"),
     "cctv11": ("CCTV11", "Trung Quốc"),
-    "cctv12hd": ("CCTV12", "Trung Quốc"),
     "cctv12": ("CCTV12", "Trung Quốc"),
-    "cctv13hd": ("CCTV13", "Trung Quốc"),
     "cctv13": ("CCTV13", "Trung Quốc"),
-    "cctv14hd": ("CCTV14", "Trung Quốc"),
     "cctv14": ("CCTV14", "Trung Quốc"),
-    "cctv15hd": ("CCTV15", "Trung Quốc"),
     "cctv15": ("CCTV15", "Trung Quốc"),
     "cctv16": ("CCTV16", "Trung Quốc"),
-    "cctv16hd": ("CCTV16", "Trung Quốc"),
-    "cctv17hd": ("CCTV17", "Trung Quốc"),
     "cctv17": ("CCTV17", "Trung Quốc"),
+    
+    #------- Quốc Tế -------------------------------------------------
+    "cinemaworldhd": ("Cinema World", "Quốc Tế"),
 }
 
 # Tự động ánh định các tên kênh KHÔNG DẤU phổ biến về tên CÓ DẤU chuẩn
@@ -408,9 +393,12 @@ _CCTV_ORDER: Final[list[str]] = [
     "CCTV8", "CCTV9", "CCTV10", "CCTV11", "CCTV12", "CCTV13", "CCTV14",
     "CCTV15", "CCTV16", "CCTV17"
 ]
+_QTE_ORDER: Final[list[str]] = [
+    "Cinema World",
+]
 # Thứ tự hiển thị theo nhóm
 _GROUP_ORDER: Final[dict[str, int]] = {
-    "VTV": 0, "ANQP": 1, "HTV": 2, "VTVcab": 3, "SCTV": 4, "LOCAL": 5, "CHINA": 6
+    "VTV": 0, "ANQP": 1, "HTV": 2, "VTVcab": 3, "SCTV": 4, "LOCAL": 5, "CHINA": 6, "Quốc Tế"
 }
 _VTV_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_VTV_ORDER)}
 _HTV_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_HTV_ORDER)}
@@ -419,10 +407,10 @@ _SCTV_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_SCTV_
 _ANQP_IDX: Final[dict[str, int]] = {_norm_key(n): i for i, n in enumerate(_ANQP_ORDER)}
 _PROVINCE_IDX: Final[dict[str, int]] = {p: i for i, p in enumerate(_PROVINCE_ORDER)}
 _CCTV_IDX: Final[dict[str, int]] = {_norm_key(p): i for i, p in enumerate(_CCTV_ORDER)}
-
+_QTE_IDZX: Final[dict[str, int]] ={_norm_key(n): i for i, n in enumerate(_QTE_ORDER)}
 _LABEL: Final[dict[str, str]] = {
-    "VTV": "VTV", "ANQP": "ANQP", "HTV": "HTV",
-    "VTVcab": "VTVcab", "SCTV": "SCTV", "LOCAL": "Địa Phương", "CHINA": "🇨🇳| Trung Quốc",
+    "VTV": "VTV", "Thiết Yếu": "ANQP", "HTV": "HTV",
+    "VTVcab": "VTVcab", "SCTV": "SCTV", "LOCAL": "Địa Phương", "CHINA": "🇨🇳| Trung Quốc", "QTE": "Quốc Tế",
 }
 
 _LOCAL_KEYWORDS: Final[frozenset[str]] = frozenset(["địa phương", "dia phuong", "tỉnh", "tinh"])
@@ -460,6 +448,7 @@ def get_custom_logo(ch: Channel) -> str:
             "SCTV": "sctv_logo",
             "LOCAL": "thdp_logo",
             "CHINA": "cctv_logo",
+            "QTE": "qte_logo",
         }
         folder = folder_map.get(ch.group_key, "cctv_logo")
         return f"{MY_LOGO_BASE_URL}/{folder}/{ch.tvg_id}.png"
@@ -522,7 +511,9 @@ def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
 
     if tag == "Trung Quốc":
         return "CHINA"
-    if tag in ("VTV", "HTV", "VTVcab", "SCTV", "ANQP"):
+    if tag == "Quốc Tế":
+        return "QTE"
+    if tag in ("VTV", "HTV", "VTVcab", "SCTV", "ANQP",):
         return tag
     
     return "LOCAL"
@@ -602,7 +593,7 @@ def parse_m3u(text: str, excluded_set: frozenset[str] = frozenset()) -> list[Cha
 
         # LOẠI TRỪ: Chỉ giữ lại extra_lines với những kênh yêu cầu
         target_extras = extras if tvg_id in ("oninfotv", "onsports", "onsportsplus", "onsportsnews", "onfootball", "htv2hd",
-											 "sctv1hd", "sctv2hd", "sctv3hd", "sctv4hd", "sctv5hd", "sctv6hd",
+											 "cinemaworldhd", "sctv1hd", "sctv2hd", "sctv3hd", "sctv4hd", "sctv5hd", "sctv6hd",
 											 "sctv7hd", "sctv8hd", "sctv9hd", "sctv10hd", "sctv11hd", "sctv12hd",
 											 "sctv13hd", "sctv14hd", "sctv15hd", "sctv16hd", "sctv17hd", "sctv18hd",
 											 "sctv19hd", "sctv20hd", "sctv21hd", "sctv22hd", "sctvhdpth", "sctv4k") else None
@@ -669,6 +660,8 @@ def sort_channels(channels: list[Channel]) -> list[Channel]:
             return (g, _SCTV_IDX.get(norm_n, 999), ch.name)
         if ch.group_key == "CHINA":
             return (g, _CCTV_IDX.get(norm_n, 999), ch.name)
+        if ch.group_key == "QTE":
+            return (g, _QTE_IDX.get(norm_n, 999), ch.name)
         if ch.group_key == "LOCAL":
             return (g, ch.province_idx, ch.name)
         return (g, 0, ch.name)
