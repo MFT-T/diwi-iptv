@@ -31,6 +31,7 @@ SOURCES: Final[list[str]] = [
 
 # 🛑 CÁC KÊNH BỊ LOẠI BỎ RIÊNG KHI CÀO TỪ NGUỒN 1 (Nhưng vẫn lấy nếu có ở nguồn khác như Nguồn 2)
 SOURCE_1_EXCLUDED_CHANNELS: Final[frozenset[str]] = frozenset([
+	"oninfotv",
      
 ])
 
