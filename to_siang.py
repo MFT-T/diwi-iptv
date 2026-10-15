@@ -413,7 +413,7 @@ _PROVINCE_IDX: Final[dict[str, int]] = {p: i for i, p in enumerate(_PROVINCE_ORD
 _CCTV_IDX: Final[dict[str, int]] = {_norm_key(p): i for i, p in enumerate(_CCTV_ORDER)}
 _QTE_IDX: Final[dict[str, int]] ={_norm_key(n): i for i, n in enumerate(_QTE_ORDER)}
 _LABEL: Final[dict[str, str]] = {
-    "VTV": "VTV", "ANQP": "ANQP", "HTV": "HTV",
+    "VTV": "VTV", "ANQP": "ANQP", "HTV": "HTV", "HTVC": "HTV",
     "VTVcab": "VTVcab", "SCTV": "SCTV", "LOCAL": "Địa Phương", "CHINA": "🇨🇳| Trung Quốc", "QTE": "Quốc Tế",
 }
 
