@@ -31,7 +31,7 @@ SOURCES: Final[list[str]] = [
 
 # 🛑 CÁC KÊNH BỊ LOẠI BỎ RIÊNG KHI CÀO TỪ NGUỒN 1 (Nhưng vẫn lấy nếu có ở nguồn khác như Nguồn 2)
 SOURCE_1_EXCLUDED_CHANNELS: Final[frozenset[str]] = frozenset([
-    "sctv1hd", "sctv2hd", "sctv3hd", "sctv4hd", "sctv5hd", "sctv6hd", "sctv7hd",
+    "angiang3","sctv1hd", "sctv2hd", "sctv3hd", "sctv4hd", "sctv5hd", "sctv6hd", "sctv7hd",
     "sctv9hd", "sctv10hd", "sctv11hd", "sctv12hd", "sctv13hd", "sctv14hd",
     "sctv15hd", "sctv16hd", "sctv17hd", "sctv18hd", "sctv19hd", "sctv20hd", "sctv21hd",
     "sctv22hd", "sctvhdpth", "sctv4k", 
