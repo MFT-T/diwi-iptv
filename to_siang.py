@@ -35,6 +35,12 @@ SOURCE_1_EXCLUDED_CHANNELS: Final[frozenset[str]] = frozenset([
      
 ])
 
+# 🛑 CÁC KÊNH BỊ LOẠI BỎ PHỤ TRỢ (#EXTVLCOPT, #KODIPROP) KHI XUẤT FILE M3U
+# Thêm tvg_id của các kênh cần loại bỏ phụ trợ vào đây
+CHANNELS_EXCLUDE_EXTRAS: Final[frozenset[str]] = frozenset([
+    ""
+])
+
 RAW_EPG_SOURCE: Final[str] = "https://epg.io.vn/epgu.xml"
 EPG_OUTPUT_FILE: Final[str] = "diwi.epg.xml"
 MY_EPG_URL: Final[str] = f"https://raw.githubusercontent.com/MFT-T/diwi-iptv/main/{EPG_OUTPUT_FILE}"
@@ -589,12 +595,8 @@ def parse_m3u(text: str, excluded_set: frozenset[str] = frozenset()) -> list[Cha
             province = entry[1]
             province_idx = _PROVINCE_IDX.get(province, 999)
 
-        # LOẠI TRỪ: Chỉ giữ lại extra_lines với những kênh yêu cầu
-        target_extras = extras if tvg_id in ("angiang3", "oninfotv", "onsports", "onsportsplus", "onsportsnews", "onfootball", "htv2hd",
-											 "cinemaworldhd", "sctv1hd", "sctv2hd", "sctv3hd", "sctv4hd", "sctv5hd", "sctv6hd",
-											 "sctv7hd", "sctv8hd", "sctv9hd", "sctv10hd", "sctv11hd", "sctv12hd",
-											 "sctv13hd", "sctv14hd", "sctv15hd", "sctv16hd", "sctv17hd", "sctv18hd",
-											 "sctv19hd", "sctv20hd", "sctv21hd", "sctv22hd", "sctvhdpth", "sctv4k") else None
+        # 🛑 XỬ LÝ PHỤ TRỢ: Lọc bỏ phụ trợ nếu tvg_id nằm trong danh sách CHANNELS_EXCLUDE_EXTRAS
+        target_extras = None if (tvg_id in CHANNELS_EXCLUDE_EXTRAS) else extras
 
         channels.append(
             Channel(
@@ -668,7 +670,7 @@ def sort_channels(channels: list[Channel]) -> list[Channel]:
 
 
 def write_m3u(channels: list[Channel], path: str) -> None:
-    """Ghi danh sách kênh đã xử lý ra file định dạng M3U hoàn chỉnh."""
+    """Ghi danh sách kênh đã xử lý ra file định dạng M3U hoàn chỉnh kèm theo phụ trợ (nếu có)."""
     try:
         with open(path, "w", encoding="utf-8") as f:
             f.write(f'#EXTM3U url-tvg="{MY_EPG_URL}" x-tvg-url="{MY_EPG_URL}"\n')
@@ -682,7 +684,7 @@ def write_m3u(channels: list[Channel], path: str) -> None:
                     f'tvg-logo="{final_logo}" '
                     f'group-title="{ch.group_label}",{ch.name}\n'
                 )
-                # Nếu có dòng phụ trợ cào được thì ghi ra trước URL
+                # Ghi các dòng phụ trợ cào được (nếu kênh không bị đưa vào danh sách loại bỏ phụ trợ)
                 if ch.extra_lines:
                     for extra in ch.extra_lines:
                         f.write(f"{extra}\n")
