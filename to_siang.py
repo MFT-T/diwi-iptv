@@ -517,6 +517,8 @@ def _classify(tvg_id: str, src_grp: str) -> Optional[str]:
         return "CHINA"
     if tag == "Quốc Tế":
         return "QTE"
+	if tag == "HTVC":
+		return "HTV"
     if tag in ("VTV", "HTV", "VTVcab", "SCTV", "ANQP",):
         return tag
     
