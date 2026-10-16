@@ -15,7 +15,7 @@ import unicodedata
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from typing import Final, Optional
-
+import json
 import requests
 
 # ──────────────────────────────────────────────────────────────────────
@@ -45,6 +45,7 @@ RAW_EPG_SOURCE: Final[str] = "https://epg.io.vn/epgu.xml"
 EPG_OUTPUT_FILE: Final[str] = "diwi.epg.xml"
 MY_EPG_URL: Final[str] = f"https://raw.githubusercontent.com/MFT-T/diwi-iptv/main/{EPG_OUTPUT_FILE}"
 OUTPUT_FILE: Final[str] = "diwi.m3u"
+JSON_OUTPUT_FILE: Final[str] = "diwi.json"
 GLOBAL_TIMEOUT: Final[int] = 20
 HTTP_HEADERS: Final[dict[str, str]] = {
     "User-Agent": (
@@ -694,6 +695,32 @@ def write_m3u(channels: list[Channel], path: str) -> None:
     except IOError as e:
         print(f"❌  Lỗi ghi file {path}: {e}", file=sys.stderr)
         sys.exit(1)
+        
+        
+        
+        
+def write_json(channels: list[Channel], path: str) -> None:
+    """Xuất danh sách kênh đã xử lý ra file định dạng JSON cho ứng dụng Android."""
+    try:
+        data = []
+        for ch in channels:
+            item = {
+                "name": ch.name,
+                "url": ch.url,
+                "group": ch.group_label,
+                "logoUrl": get_custom_logo(ch)
+            }
+            if ch.tvg_id:
+                item["tvgId"] = ch.tvg_id
+            data.append(item)
+            
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        print(f"✅  Đã ghi {len(channels)} kênh JSON → {path}")
+    except IOError as e:
+        print(f"❌  Lỗi ghi file JSON {path}: {e}", file=sys.stderr)
+        sys.exit(1)
+        
 
 
 
@@ -774,8 +801,10 @@ def main() -> None:
     # 2. Tải, lọc nội dung XML EPG dựa trên danh sách M3U và cập nhật múi giờ (+0700)
     fix_epg_timezone(RAW_EPG_SOURCE, EPG_OUTPUT_FILE, valid_channel_ids=valid_channel_ids)
     
-    # 3. Ghi tệp danh sách M3U hoàn chỉnh ra đĩa
+    # 3. Ghi tệp danh sách M3U và JSON hoàn chỉnh ra đĩa
     write_m3u(final_channels, OUTPUT_FILE)
+    write_json(final_channels, JSON_OUTPUT_FILE)
+
 
 
 
