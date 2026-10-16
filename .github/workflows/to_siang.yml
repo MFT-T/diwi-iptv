@@ -7,7 +7,7 @@ on:
   push:
     paths:
       - "to_siang.py"   # Tự chạy khi cập nhật code
-
+      - "siangenc.py"
 permissions:
   contents: write
 
@@ -28,7 +28,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests cryptography
 
       - name: Set Timezone & Get Current Time
         run: |
@@ -39,9 +39,14 @@ jobs:
 
       - name: Run IPTV updater
         run: python to_siang.py
+      
+      - name: Run Siangenc
+        env:
+          DWENC3_PRIVATE_KEY_B64: ${{ secrets.DWENC3_PRIVATE_KEY_B64 }}
+        run: python siangenc.py
 
       - name: Commit & push playlist and EPG
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "🔄 Đã cập nhật M3U & EPG (${{ env.VIETNAM_TIME }} ICT)"
-          file_pattern: "diwi.m3u diwi.epg.xml diwi.json"
+          file_pattern: "diwi.m3u diwi.epg.xml diwi.json diwi.enc"
