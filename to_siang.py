@@ -40,7 +40,7 @@ CHANNELS_EXCLUDE_EXTRAS: Final[frozenset[str]] = frozenset([
 ])
 
 RAW_EPG_SOURCE: Final[str] = "https://epg.io.vn/epgu.xml"
-EPG_OUTPUT_FILE: Final[str] = "diwi.xml"
+EPG_OUTPUT_FILE: Final[str] = "epg.xml"
 MY_EPG_URL: Final[str] = f"https://raw.githubusercontent.com/MFT-T/diwi-iptv/main/{EPG_OUTPUT_FILE}"
 OUTPUT_FILE: Final[str] = "diwi"
 JSON_OUTPUT_FILE: Final[str] = "diwi.json"
