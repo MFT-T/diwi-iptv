@@ -732,19 +732,22 @@ def fix_epg_timezone(input_xml_url: str, output_xml_path: str = EPG_OUTPUT_FILE,
     print(f"\n⏳ Đang tải, lọc kênh và sửa múi giờ EPG từ {input_xml_url}...")
     xml_text = fetch(input_xml_url)
     if not xml_text:
-        print("  ⚠ Không thể tải file EPG XML")
-        return
+        print("  ❌ Không thể tải file EPG XML (Hàm fetch trả về trống)", file=sys.stderr)
+        sys.exit(1)
+
+    print(لج "Tải thành công EPG, dung lượng ký tự:", len(xml_text))
 
     try:
         root = ET.fromstring(xml_text)
+        print("  ⚙ Đang tiến hành lọc kênh trong XML...")
         
-        # 1. Lọc các thẻ <channel>: Chỉ giữ lại những kênh có id nằm trong danh sách M3U hợp lệ
+        # 1. Lọc các thẻ <channel>
         for channel_elem in list(root.findall('channel')):
             ch_id = channel_elem.get('id')
             if valid_channel_ids and ch_id not in valid_channel_ids:
                 root.remove(channel_elem)
 
-        # 2. Lọc các thẻ <programme>: Chỉ giữ lại chương trình thuộc các channel còn lại và sửa múi giờ
+        # 2. Lọc các thẻ <programme> và sửa múi giờ
         for prog_elem in list(root.findall('programme')):
             prog_ch = prog_elem.get('channel')
             if valid_channel_ids and prog_ch not in valid_channel_ids:
@@ -757,12 +760,14 @@ def fix_epg_timezone(input_xml_url: str, output_xml_path: str = EPG_OUTPUT_FILE,
                         if len(clean_val) == 14:
                             prog_elem.set(attr, f"{clean_val} +0700")
 
+        print("  💾 Đang ghi tệp XML đầu ra...")
         tree = ET.ElementTree(root)
         tree.write(output_xml_path, encoding='utf-8', xml_declaration=True)
         print(f"✅ Đã lọc và lưu EPG chuẩn giờ Việt Nam → {output_xml_path}")
     except Exception as e:
-        print(f"  ⚠ Lỗi xử lý XML EPG: {e}", file=sys.stderr)
+        print(f"  ❌ Lỗi xử lý XML EPG: {e}", file=sys.stderr)
         sys.exit(1)
+
         
 
 # ──────────────────────────────────────────────────────────────────────
