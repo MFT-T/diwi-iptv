@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://epg.io.vn/epgu.xml" x-tvg-url="https://epg.io.vn/epgu.xml"
+#EXTM3U url-tvg="https://raw.githubusercontent.com/MFT-T/diwi-iptv/main/diwi.xml" x-tvg-url="https://raw.githubusercontent.com/MFT-T/diwi-iptv/main/diwi.xml"
 #EXTM3U-SOURCE:https://vietmitv.id.vn/vietmitv.m3u
 #EXTM3U-SOURCE:https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/main/vmttv
 #EXTINF:-1 tvg-id="vtv1hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtv_logo/vtv1hd.png" group-title="VTV",VTV1
@@ -483,7 +483,7 @@ https://vietmitv.id.vn/c.php?k=29b9382
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://vietmitv.id.vn/c.php?k=4d647fa
 #EXTINF:-1 tvg-id="quangngai2" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/thdp_logo/quangngai2.png" group-title="Địa Phương",Quảng Ngãi 2
-https://247.dpdns.org/module/IPTV/?id=QNgTV2&accKenh=vuminhthanh1
+http://livesv1.onnamx.io.vn/hls/quangngai2/index.m3u8 .
 #EXTINF:-1 tvg-id="quangninh1" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/thdp_logo/quangninh1.png" group-title="Địa Phương",Quảng Ninh 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
