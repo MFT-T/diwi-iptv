@@ -22,8 +22,8 @@ import requests
 # CẤU HÌNH NGUỒN-LUỒNG PHÁT
 # ──────────────────────────────────────────────────────────────────────
 SOURCES: Final[list[str]] = [
+	"https://vietmitv.id.vn/vietmitv.m3u",
     "https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/main/vmttv",
-    "https://vietmitv.id.vn/vietmitv.m3u",
 	#"https://raw.githubusercontent.com/phuongnm7/Iptv-phuongnm7/refs/heads/main/tv365.m3u",
 	#"https://iptv-org.github.io/iptv/countries/vn.m3u",
 	#"https://dl.dropboxusercontent.com/s/o5vygit34v9ryly71gam4/coban66.m3u?rlkey=auyoon54hfubajt16nc7u7dbn&st=70gyvtcu&dl=0",
@@ -31,7 +31,7 @@ SOURCES: Final[list[str]] = [
 
 # 🛑 CÁC KÊNH BỊ LOẠI BỎ RIÊNG KHI CÀO TỪ NGUỒN 1 (Nhưng vẫn lấy nếu có ở nguồn khác như Nguồn 2)
 SOURCE_1_EXCLUDED_CHANNELS: Final[frozenset[str]] = frozenset([
-	"oninfotv",
+	""
      
 ])
 
