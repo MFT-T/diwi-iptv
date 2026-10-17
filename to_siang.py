@@ -32,11 +32,9 @@ SOURCES: Final[list[str]] = [
 # 🛑 CÁC KÊNH BỊ LOẠI BỎ RIÊNG KHI CÀO TỪ NGUỒN 1 (Nhưng vẫn lấy nếu có ở nguồn khác như Nguồn 2)
 SOURCE_1_EXCLUDED_CHANNELS: Final[frozenset[str]] = frozenset([
 	""
-     
 ])
 
 # 🛑 CÁC KÊNH BỊ LOẠI BỎ PHỤ TRỢ (#EXTVLCOPT, #KODIPROP) KHI XUẤT FILE M3U
-# Thêm tvg_id của các kênh cần loại bỏ phụ trợ vào đây
 CHANNELS_EXCLUDE_EXTRAS: Final[frozenset[str]] = frozenset([
     ""
 ])
@@ -47,12 +45,18 @@ MY_EPG_URL: Final[str] = f"https://raw.githubusercontent.com/MFT-T/diwi-iptv/mai
 OUTPUT_FILE: Final[str] = "diwi"
 JSON_OUTPUT_FILE: Final[str] = "diwi.json"
 GLOBAL_TIMEOUT: Final[int] = 25
+
+# Headers giả lập trình duyệt Chrome để giảm thiểu khả năng bị chặn
 HTTP_HEADERS: Final[dict[str, str]] = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/154.0.0.0 Safari/537.36"
-    )
+        "Chrome/120.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7",
+    "Referer": "https://www.google.com/",
+    "Connection": "keep-alive"
 }
 
 # Link gốc chứa Logo từ Repository tvn-logo
@@ -60,7 +64,7 @@ MY_LOGO_BASE_URL: Final[str] = "https://raw.githubusercontent.com/MFT-T/tvn-logo
 
 # DANH SÁCH CHẶN (Bất kỳ kênh nào có tvg_id hoặc tên thuộc danh sách này sẽ bị loại bỏ tuyệt đối)
 BLOCKED_CHANNELS: Final[frozenset[str]] = frozenset([
-        ""
+    ""
 ])
 
 # ──────────────────────────────────────────────────────────────────────
@@ -419,7 +423,6 @@ _LABEL: Final[dict[str, str]] = {
 }
 
 _LOCAL_KEYWORDS: Final[frozenset[str]] = frozenset(["địa phương", "dia phuong", "tỉnh", "tinh"])
-# Lọc nhiễu theo tên được ghi và loại bỏ từ các nguồn
 _NOISE_NAMES: Final[frozenset[str]] = frozenset(["SỰ KIỆN", "VTVPRIME", "FPT", "VOV"])
 
 # ──────────────────────────────────────────────────────────────────────
@@ -435,7 +438,7 @@ class Channel:
     quality: tuple[int, float]
     tvg_id: str = ""
     tvg_logo: str = ""
-    extra_lines: list[str] = None  # Chỉ dùng để chứa phụ trợ cào được cho các kênh đặc biệt
+    extra_lines: list[str] = None
 
     @property
     def group_label(self) -> str:
@@ -473,9 +476,10 @@ def quality_score(raw: str) -> tuple[int, float]:
 
 
 def fetch(url: str) -> Optional[str]:
-    """Tải nội dung văn bản từ một URL chỉ định với timeout và headers cấu hình sẵn."""
+    """Tải nội dung văn bản từ một URL với Session và Headers giả lập trình duyệt."""
     try:
-        r = requests.get(url, timeout=GLOBAL_TIMEOUT, headers=HTTP_HEADERS)
+        session = requests.Session()
+        r = session.get(url, timeout=GLOBAL_TIMEOUT, headers=HTTP_HEADERS, allow_redirects=True)
         r.raise_for_status()
         return r.text
     except Exception as e:
@@ -485,20 +489,17 @@ def fetch(url: str) -> Optional[str]:
 
 def resolve_display_name(raw: str, tvg_id: str) -> str:
     """Chuẩn hóa và tra cứu tên hiển thị chuẩn cho kênh TV."""
-    # 1. Tra cứu theo tvg_id
     if tvg_id:
         entry = _CHANNEL_DATA.get(tvg_id)
         if entry:
             return entry[0]
 
-    # 2. Xóa ngoặc đơn chứa độ phân giải và từ nhiễu
     s = re.sub(r"\(\s*\d+p\s*\)", "", raw, flags=re.I)
     s = re.sub(r"\bsports\b", "Thể Thao", s, flags=re.I)
     s = _NOISE_RE.sub("", s).strip()
     s = _PIPE_RE.sub("", s).strip()
     s = _MULTI_SPACE_RE.sub(" ", s) or raw.strip()
 
-    # 3. Tra cứu theo Tên Không Dấu trong _UNACCENTED_NAME_MAP
     dedup_k = _dedup_key(s)
     if dedup_k in _UNACCENTED_NAME_MAP:
         return _UNACCENTED_NAME_MAP[dedup_k]
@@ -549,7 +550,6 @@ def parse_m3u(text: str, excluded_set: frozenset[str] = frozenset()) -> list[Cha
             current_extras = []
             continue
             
-        # Tạm gom các dòng phụ trợ (EXTVLCOPT, KODIPROP) khi gặp trong nguồn cào
         if line.startswith("#EXTVLCOPT:") or line.startswith("#KODIPROP:"):
             current_extras.append(line)
             continue
@@ -568,18 +568,15 @@ def parse_m3u(text: str, excluded_set: frozenset[str] = frozenset()) -> list[Cha
 
         raw_name = extinf_line.rsplit(",", 1)[-1].strip() if "," in extinf_line else ""
 
-        # Lấy tvg-id từ thẻ. Nếu không có hoặc rỗng thì tự động suy ra từ tên kênh (raw_name)
         raw_tvg_id = m_id.group(1) if (m_id and m_id.group(1).strip()) else raw_name
         tvg_id = normalize_tvg_id(raw_tvg_id)
 
         tvg_logo = m_logo.group(1).strip() if m_logo else ""
         src_grp = m_grp.group(1).strip() if m_grp else ""
         
-        # Kiểm tra điều kiện nhiễu chung
         if not raw_name or _is_noise(tvg_id, raw_name.upper()):
             continue
             
-        # 🛑 CHẶN RIÊNG CHO NGUỒN ĐƯỢC CHỈ ĐỊNH: Nếu tvg_id hoặc tên nằm trong danh sách loại trừ riêng thì bỏ qua
         if tvg_id in excluded_set or _dedup_key(raw_name) in excluded_set:
             continue
 
@@ -596,7 +593,6 @@ def parse_m3u(text: str, excluded_set: frozenset[str] = frozenset()) -> list[Cha
             province = entry[1]
             province_idx = _PROVINCE_IDX.get(province, 999)
 
-        # 🛑 XỬ LÝ PHỤ TRỢ: Lọc bỏ phụ trợ nếu tvg_id nằm trong danh sách CHANNELS_EXCLUDE_EXTRAS
         target_extras = None if (tvg_id in CHANNELS_EXCLUDE_EXTRAS) else extras
 
         channels.append(
@@ -621,7 +617,6 @@ def merge_sources(lists: list[list[Channel]]) -> list[Channel]:
     best: dict[str, Channel] = {}
     source_1_keys: set[str] = set()
 
-    # BƯỚC 1: Xử lý Nguồn 1
     if lists:
         for ch in lists[0]:
             key = _dedup_key(ch.name)
@@ -630,7 +625,6 @@ def merge_sources(lists: list[list[Channel]]) -> list[Channel]:
                 best[key] = ch
                 source_1_keys.add(key)
 
-    # BƯỚC 2: Xử lý Nguồn 2, Nguồn 3...
     for lst in lists[1:]:
         for ch in lst:
             key = _dedup_key(ch.name)
@@ -679,24 +673,19 @@ def write_m3u(channels: list[Channel], path: str) -> None:
                 f.write(f"#EXTM3U-SOURCE:{src}\n")
             for ch in channels:
                 final_logo = get_custom_logo(ch)
-                # Ghi dòng thông tin chính EXTINF
                 f.write(
                     f'#EXTINF:-1 tvg-id="{ch.tvg_id}" '
                     f'tvg-logo="{final_logo}" '
                     f'group-title="{ch.group_label}",{ch.name}\n'
                 )
-                # Ghi các dòng phụ trợ cào được (nếu kênh không bị đưa vào danh sách loại bỏ phụ trợ)
                 if ch.extra_lines:
                     for extra in ch.extra_lines:
                         f.write(f"{extra}\n")
-                # Ghi đường dẫn URL luồng
                 f.write(f"{ch.url}\n")
         print(f"✅  Đã ghi {len(channels)} kênh → {path}")
     except IOError as e:
         print(f"❌  Lỗi ghi file {path}: {e}", file=sys.stderr)
         sys.exit(1)
-        
-        
         
         
 def write_json(channels: list[Channel], path: str) -> None:
@@ -720,22 +709,20 @@ def write_json(channels: list[Channel], path: str) -> None:
     except IOError as e:
         print(f"❌  Lỗi ghi file JSON {path}: {e}", file=sys.stderr)
         sys.exit(1)
-        
-
 
 
 # ──────────────────────────────────────────────────────────────────────
-# CẬP NHẬT MÚI GIỜ VÀ LỌC KÊNH EPG
+# CẬP NHẬT MÚI GIỜ VÀ LỌC KÊNH EPG (Có cơ chế an toàn chống sập script)
 # ──────────────────────────────────────────────────────────────────────
 def fix_epg_timezone(input_xml_url: str, output_xml_path: str = EPG_OUTPUT_FILE, valid_channel_ids: frozenset[str] = frozenset()) -> None:
-    """Tải file EPG XML, lọc bỏ các kênh không nằm trong danh sách M3U và chuyển đổi múi giờ (+0700)."""
+    """Tải file EPG XML, lọc bỏ kênh và chuyển múi giờ. Nếu lỗi mạng/403 sẽ cảnh báo và bỏ qua thay vì dừng script."""
     print(f"\n⏳ Đang tải, lọc kênh và sửa múi giờ EPG từ {input_xml_url}...")
     xml_text = fetch(input_xml_url)
     if not xml_text:
-        print("  ❌ Không thể tải file EPG XML (Hàm fetch trả về trống)", file=sys.stderr)
-        sys.exit(1)
+        print("  ⚠ Cảnh báo: Không thể tải file EPG XML (có thể bị chặn), giữ nguyên file EPG cũ nếu có.", file=sys.stderr)
+        return  # Không dùng sys.exit(1) để script vẫn tiếp tục chạy ghi file M3U và JSON
 
-    print("Tải thành công EPG, dung lượng ký tự:", len(xml_text))
+    print(f"  📥 Tải thành công EPG, dung lượng ký tự: {len(xml_text)}")
 
     try:
         root = ET.fromstring(xml_text)
@@ -765,10 +752,8 @@ def fix_epg_timezone(input_xml_url: str, output_xml_path: str = EPG_OUTPUT_FILE,
         tree.write(output_xml_path, encoding='utf-8', xml_declaration=True)
         print(f"✅ Đã lọc và lưu EPG chuẩn giờ Việt Nam → {output_xml_path}")
     except Exception as e:
-        print(f"  ❌ Lỗi xử lý XML EPG: {e}", file=sys.stderr)
-        sys.exit(1)
+        print(f"  ⚠ Lỗi xử lý XML EPG: {e}", file=sys.stderr)
 
-        
 
 # ──────────────────────────────────────────────────────────────────────
 # MAIN
@@ -786,7 +771,6 @@ def main() -> None:
             print("  ⚠  Bỏ qua (không phải M3U hợp lệ)")
             continue
             
-        # PHÂN BIỆT NGUỒN: Nguồn số 1 áp dụng danh sách chặn riêng, các nguồn khác để trống
         current_excluded = SOURCE_1_EXCLUDED_CHANNELS if idx == 1 else frozenset()   
             
         parsed = parse_m3u(text, excluded_set=current_excluded)
@@ -801,7 +785,6 @@ def main() -> None:
     print("\n🔀  Gộp & dedup danh sách tự động…")
     final_channels = sort_channels(merge_sources(processed))
     
-    # Gom tập hợp các tvg_id có trong danh sách M3U đã lọc để dùng cho việc lọc EPG tương ứng
     valid_channel_ids = frozenset(ch.tvg_id for ch in final_channels if ch.tvg_id)
 
     # 2. Tải, lọc nội dung XML EPG dựa trên danh sách M3U và cập nhật múi giờ (+0700)
@@ -810,8 +793,6 @@ def main() -> None:
     # 3. Ghi tệp danh sách M3U và JSON hoàn chỉnh ra đĩa
     write_m3u(final_channels, OUTPUT_FILE)
     write_json(final_channels, JSON_OUTPUT_FILE)
-
-
 
 
 if __name__ == "__main__":
