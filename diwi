@@ -190,28 +190,28 @@ https://vietmitv.id.vn/c.php?k=5c975ba
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360173&token=3def08d9cde0ed36f8d55a2dc2997bdd
+#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360173&token=007db0a215c4e152c37897494b8277a0
 https://vietmitv.id.vn/c.php?k=48a21fd
 #EXTINF:-1 tvg-id="onsportsplus" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/onsportsplus.png" group-title="VTVcab",ON Sports+
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360183&token=3def08d9cde0ed36f8d55a2dc2997bdd
+#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360183&token=007db0a215c4e152c37897494b8277a0
 https://vietmitv.id.vn/c.php?k=be48ef9
 #EXTINF:-1 tvg-id="onsportsnews" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/onsportsnews.png" group-title="VTVcab",ON Sports News
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360170&token=3def08d9cde0ed36f8d55a2dc2997bdd
+#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360170&token=007db0a215c4e152c37897494b8277a0
 https://vietmitv.id.vn/c.php?k=aac3295
 #EXTINF:-1 tvg-id="onfootball" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/onfootball.png" group-title="VTVcab",ON Football
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360174&token=3def08d9cde0ed36f8d55a2dc2997bdd
+#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360174&token=007db0a215c4e152c37897494b8277a0
 https://vietmitv.id.vn/c.php?k=d53ed82
 #EXTINF:-1 tvg-id="sctv1hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv1hd.png" group-title="SCTV",SCTV1
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -221,30 +221,17 @@ https://vietmitv.id.vn/c.php?k=82e5f0b
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://vietmitv.id.vn/c.php?k=ed84851
 #EXTINF:-1 tvg-id="sctv3hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv3hd.png" group-title="SCTV",SCTV3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sctv/cleankey.php?id=sctv3
-https://vietmitv.id.vn/c.php?k=eaa9eb5
+https://vmttv.dpdns.org/VTVGo/?sctv3
 #EXTINF:-1 tvg-id="sctv4hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv4hd.png" group-title="SCTV",SCTV4
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sctv/cleankey.php?id=sctv4
-https://vietmitv.id.vn/c.php?k=4a1be6d
+https://vmttv.dpdns.org/VTVGo/?sctv4
 #EXTINF:-1 tvg-id="sctv5hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv5hd.png" group-title="SCTV",SCTV5
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://vietmitv.id.vn/c.php?k=6dddb0c
 #EXTINF:-1 tvg-id="sctv6hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv6hd.png" group-title="SCTV",SCTV6
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vietmitv.id.vn/c.php?k=471875c
+#EXTVLCOPT:http-user-agent=VThanhTivi
+https://freem3u.xyz/api/live/play.m3u8?vid=232
 #EXTINF:-1 tvg-id="sctv7hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv7hd.png" group-title="SCTV",SCTV7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sctv/cleankey.php?id=sctv7
-https://vietmitv.id.vn/c.php?k=fc923bf
+https://vmttv.dpdns.org/VTVGo/?sctv7
 #EXTINF:-1 tvg-id="sctv8hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv8hd.png" group-title="SCTV",SCTV8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -257,23 +244,11 @@ https://vmttv.dpdns.org/VTVGo/?sctv9
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://vietmitv.id.vn/c.php?k=b451473
 #EXTINF:-1 tvg-id="sctv11hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv11hd.png" group-title="SCTV",SCTV11
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sctv/cleankey.php?id=sctv11
-https://vietmitv.id.vn/c.php?k=409491c
+https://vmttv.dpdns.org/VTVGo/?sctv11
 #EXTINF:-1 tvg-id="sctv12hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv12hd.png" group-title="SCTV",SCTV12
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sctv/cleankey.php?id=sctv12
-https://vietmitv.id.vn/c.php?k=126ec8d
+https://vmttv.dpdns.org/VTVGo/?sctv12
 #EXTINF:-1 tvg-id="sctv13hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv13hd.png" group-title="SCTV",SCTV13
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sctv/cleankey.php?id=sctv13
-https://vietmitv.id.vn/c.php?k=b92a0a7
+https://vmttv.dpdns.org/VTVGo/?sctv13
 #EXTINF:-1 tvg-id="sctv14hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv14hd.png" group-title="SCTV",SCTV14
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://vietmitv.id.vn/c.php?k=04ffacb
@@ -296,29 +271,13 @@ https://vietmitv.id.vn/c.php?k=d64f3bc
 #KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sctv/cleankey.php?id=sctv17
 https://vietmitv.id.vn/c.php?k=227db01
 #EXTINF:-1 tvg-id="sctv18hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv18hd.png" group-title="SCTV",SCTV18
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sctv/cleankey.php?id=sctv18
-https://vietmitv.id.vn/c.php?k=96c49c8
+https://vmttv.dpdns.org/VTVGo/?sctv18
 #EXTINF:-1 tvg-id="sctv19hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv19hd.png" group-title="SCTV",SCTV19
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sctv/cleankey.php?id=sctv19
-https://vietmitv.id.vn/c.php?k=fed9379
+https://vmttv.dpdns.org/VTVGo/?sctv19
 #EXTINF:-1 tvg-id="sctv20hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv20hd.png" group-title="SCTV",SCTV20
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sctv/cleankey.php?id=sctv20
-https://vietmitv.id.vn/c.php?k=834c06b
+https://vmttv.dpdns.org/VTVGo/?sctv20
 #EXTINF:-1 tvg-id="sctv21hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv21hd.png" group-title="SCTV",SCTV21
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sctv/cleankey.php?id=sctv21
-https://vietmitv.id.vn/c.php?k=e04e88a
+https://vmttv.dpdns.org/VTVGo/?sctv21
 #EXTINF:-1 tvg-id="sctv22hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv22hd.png" group-title="SCTV",SCTV22
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -326,11 +285,7 @@ https://vietmitv.id.vn/c.php?k=e04e88a
 #KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sctv/cleankey.php?id=sctv22
 https://vietmitv.id.vn/c.php?k=83434df
 #EXTINF:-1 tvg-id="sctvhdpth" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctvhdpth.png" group-title="SCTV",SCTV Phim tổng hợp
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sctv/cleankey.php?id=sctvphim
-https://vietmitv.id.vn/c.php?k=be66646
+https://vmttv.dpdns.org/VTVGo/?sctvphim
 #EXTINF:-1 tvg-id="sctv4k" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/sctv_logo/sctv4k.png" group-title="SCTV",SCTV4K
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -407,9 +362,7 @@ https://vietmitv.id.vn/c.php?k=ef39d8c
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://vietmitv.id.vn/c.php?k=8f9504a
 #EXTINF:-1 tvg-id="gialai" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/thdp_logo/gialai.png" group-title="Địa Phương",Gia Lai
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://vietmitv.id.vn/c.php?k=41e1234
+https://vmttv.dpdns.org/tv360/?id=gia-lai
 #EXTINF:-1 tvg-id="hanoi1" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/thdp_logo/hanoi1.png" group-title="Địa Phương",Hà Nội 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
