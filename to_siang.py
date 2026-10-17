@@ -762,6 +762,7 @@ def fix_epg_timezone(input_xml_url: str, output_xml_path: str = EPG_OUTPUT_FILE,
         print(f"✅ Đã lọc và lưu EPG chuẩn giờ Việt Nam → {output_xml_path}")
     except Exception as e:
         print(f"  ⚠ Lỗi xử lý XML EPG: {e}", file=sys.stderr)
+		sys.exit(1)
 
 
 # ──────────────────────────────────────────────────────────────────────
