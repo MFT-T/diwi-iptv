@@ -22,9 +22,9 @@ import requests
 # CẤU HÌNH NGUỒN-LUỒNG PHÁT
 # ──────────────────────────────────────────────────────────────────────
 SOURCES: Final[list[str]] = [
-	"https://vietmitv.id.vn/vietmitv.m3u",
+    "https://vietmitv.id.vn/vietmitv.m3u",
     "https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/main/vmttv",
-	#"https://raw.githubusercontent.com/phuongnm7/Iptv-phuongnm7/refs/heads/main/tv365.m3u",
+   	#"https://raw.githubusercontent.com/phuongnm7/Iptv-phuongnm7/refs/heads/main/tv365.m3u",
 	#"https://iptv-org.github.io/iptv/countries/vn.m3u",
 	#"https://dl.dropboxusercontent.com/s/o5vygit34v9ryly71gam4/coban66.m3u?rlkey=auyoon54hfubajt16nc7u7dbn&st=70gyvtcu&dl=0",
 ]
@@ -762,8 +762,8 @@ def fix_epg_timezone(input_xml_url: str, output_xml_path: str = EPG_OUTPUT_FILE,
         print(f"✅ Đã lọc và lưu EPG chuẩn giờ Việt Nam → {output_xml_path}")
     except Exception as e:
         print(f"  ⚠ Lỗi xử lý XML EPG: {e}", file=sys.stderr)
-		sys.exit(1)
-
+        sys.exit(1)
+        
 
 # ──────────────────────────────────────────────────────────────────────
 # MAIN
