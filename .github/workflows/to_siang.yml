@@ -45,4 +45,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "🔄 Đã cập nhật M3U & EPG (${{ env.VIETNAM_TIME }} ICT)"
-          file_pattern: "diwi.m3u diwi.epg.xml diwi.json"
+          file_pattern: "diwi.m3u diwi.json"
