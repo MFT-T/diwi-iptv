@@ -735,7 +735,7 @@ def fix_epg_timezone(input_xml_url: str, output_xml_path: str = EPG_OUTPUT_FILE,
         print("  ❌ Không thể tải file EPG XML (Hàm fetch trả về trống)", file=sys.stderr)
         sys.exit(1)
 
-    print(لج "Tải thành công EPG, dung lượng ký tự:", len(xml_text))
+    print("Tải thành công EPG, dung lượng ký tự:", len(xml_text))
 
     try:
         root = ET.fromstring(xml_text)
