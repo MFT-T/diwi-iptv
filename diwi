@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://raw.githubusercontent.com/MFT-T/diwi-iptv/main/epg.xml" x-tvg-url="https://raw.githubusercontent.com/MFT-T/diwi-iptv/main/epg.xml"
+#EXTM3U url-tvg="https://epg.io.vn/epgu.xml" x-tvg-url="https://epg.io.vn/epgu.xml"
 #EXTM3U-SOURCE:https://vietmitv.id.vn/vietmitv.m3u
 #EXTM3U-SOURCE:https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/main/vmttv
 #EXTINF:-1 tvg-id="vtv1hd" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtv_logo/vtv1hd.png" group-title="VTV",VTV1
