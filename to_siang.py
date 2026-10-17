@@ -3,19 +3,17 @@
 IPTV Auto-updater
 - Nguồn: Danh sách M3U tổng hợp / sưu tập
 - Kênh TV: VTV, ANQP, HTV, VTVcab, SCTV, Địa Phương, Quốc Tế
-- EPG: Tự động tải, lọc kênh theo M3U, sửa múi giờ Việt Nam (+0700) và xuất file iptv.epg.xml
+- EPG: Sử dụng trực tiếp nguồn EPG gốc ngoài internet (`RAW_EPG_SOURCE`)
 - Sắp xếp địa phương: Tên tỉnh thành A-Z (63 tỉnh thành)
 - tvg-id chuẩn hóa theo vnepg (viết liền, không dấu gạch ngang)
-- Output: diwi.m3u, my_list.m3u & diwi.epg.xml
+- Output: diwi.m3u & diwi.json
 """
 
 import re
 import sys
 import unicodedata
-import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from typing import Final, Optional
-import json
 import requests
 
 # ──────────────────────────────────────────────────────────────────────
@@ -24,7 +22,7 @@ import requests
 SOURCES: Final[list[str]] = [
     "https://vietmitv.id.vn/vietmitv.m3u",
     "https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/main/vmttv",
-   	#"https://raw.githubusercontent.com/phuongnm7/Iptv-phuongnm7/refs/heads/main/tv365.m3u",
+	#"https://raw.githubusercontent.com/phuongnm7/Iptv-phuongnm7/refs/heads/main/tv365.m3u",
 	#"https://iptv-org.github.io/iptv/countries/vn.m3u",
 	#"https://dl.dropboxusercontent.com/s/o5vygit34v9ryly71gam4/coban66.m3u?rlkey=auyoon54hfubajt16nc7u7dbn&st=70gyvtcu&dl=0",
 ]
@@ -39,24 +37,16 @@ CHANNELS_EXCLUDE_EXTRAS: Final[frozenset[str]] = frozenset([
     ""
 ])
 
-RAW_EPG_SOURCE: Final[str] = "https://epg.io.vn/epgu.xml"
-EPG_OUTPUT_FILE: Final[str] = "epg.xml"
-MY_EPG_URL: Final[str] = f"https://raw.githubusercontent.com/MFT-T/diwi-iptv/main/{EPG_OUTPUT_FILE}"
+# Sử dụng trực tiếp nguồn EPG gốc
+EPG_URL: Final[str] = "https://epg.io.vn/epgu.xml"
 OUTPUT_FILE: Final[str] = "diwi"
-JSON_OUTPUT_FILE: Final[str] = "diwi.json"
 GLOBAL_TIMEOUT: Final[int] = 25
-
-# Headers giả lập trình duyệt Chrome để giảm thiểu khả năng bị chặn
 HTTP_HEADERS: Final[dict[str, str]] = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/120.0.0.0 Safari/537.36"
-    ),
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
-    "Accept-Language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7",
-    "Referer": "https://www.google.com/",
-    "Connection": "keep-alive"
+        "Chrome/154.0.0.0 Safari/537.36"
+    )
 }
 
 # Link gốc chứa Logo từ Repository tvn-logo
@@ -476,10 +466,9 @@ def quality_score(raw: str) -> tuple[int, float]:
 
 
 def fetch(url: str) -> Optional[str]:
-    """Tải nội dung văn bản từ một URL với Session và Headers giả lập trình duyệt."""
+    """Tải nội dung văn bản từ một URL chỉ định với timeout và headers cấu hình sẵn."""
     try:
-        session = requests.Session()
-        r = session.get(url, timeout=GLOBAL_TIMEOUT, headers=HTTP_HEADERS, allow_redirects=True)
+        r = requests.get(url, timeout=GLOBAL_TIMEOUT, headers=HTTP_HEADERS)
         r.raise_for_status()
         return r.text
     except Exception as e:
@@ -668,7 +657,7 @@ def write_m3u(channels: list[Channel], path: str) -> None:
     """Ghi danh sách kênh đã xử lý ra file định dạng M3U hoàn chỉnh kèm theo phụ trợ (nếu có)."""
     try:
         with open(path, "w", encoding="utf-8") as f:
-            f.write(f'#EXTM3U url-tvg="{MY_EPG_URL}" x-tvg-url="{MY_EPG_URL}"\n')
+            f.write(f'#EXTM3U url-tvg="{EPG_URL}" x-tvg-url="{EPG_URL}"\n')
             for src in SOURCES:
                 f.write(f"#EXTM3U-SOURCE:{src}\n")
             for ch in channels:
@@ -687,82 +676,15 @@ def write_m3u(channels: list[Channel], path: str) -> None:
         print(f"❌  Lỗi ghi file {path}: {e}", file=sys.stderr)
         sys.exit(1)
         
-        
-def write_json(channels: list[Channel], path: str) -> None:
-    """Xuất danh sách kênh đã xử lý ra file định dạng JSON cho ứng dụng Android."""
-    try:
-        data = []
-        for ch in channels:
-            item = {
-                "name": ch.name,
-                "url": ch.url,
-                "group": ch.group_label,
-                "logoUrl": get_custom_logo(ch)
-            }
-            if ch.tvg_id:
-                item["tvgId"] = ch.tvg_id
-            data.append(item)
-            
-        with open(path, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
-        print(f"✅  Đã ghi {len(channels)} kênh JSON → {path}")
-    except IOError as e:
-        print(f"❌  Lỗi ghi file JSON {path}: {e}", file=sys.stderr)
-        sys.exit(1)
-
-
-# ──────────────────────────────────────────────────────────────────────
-# CẬP NHẬT MÚI GIỜ VÀ LỌC KÊNH EPG (Có cơ chế an toàn chống sập script)
-# ──────────────────────────────────────────────────────────────────────
-def fix_epg_timezone(input_xml_url: str, output_xml_path: str = EPG_OUTPUT_FILE, valid_channel_ids: frozenset[str] = frozenset()) -> None:
-    """Tải file EPG XML, lọc bỏ kênh và chuyển múi giờ. Nếu lỗi mạng/403 sẽ cảnh báo và bỏ qua thay vì dừng script."""
-    print(f"\n⏳ Đang tải, lọc kênh và sửa múi giờ EPG từ {input_xml_url}...")
-    xml_text = fetch(input_xml_url)
-    if not xml_text:
-        print("  ⚠ Cảnh báo: Không thể tải file EPG XML (có thể bị chặn), giữ nguyên file EPG cũ nếu có.", file=sys.stderr)
-        return  # Không dùng sys.exit(1) để script vẫn tiếp tục chạy ghi file M3U và JSON
-
-    print(f"  📥 Tải thành công EPG, dung lượng ký tự: {len(xml_text)}")
-
-    try:
-        root = ET.fromstring(xml_text)
-        print("  ⚙ Đang tiến hành lọc kênh trong XML...")
-        
-        # 1. Lọc các thẻ <channel>
-        for channel_elem in list(root.findall('channel')):
-            ch_id = channel_elem.get('id')
-            if valid_channel_ids and ch_id not in valid_channel_ids:
-                root.remove(channel_elem)
-
-        # 2. Lọc các thẻ <programme> và sửa múi giờ
-        for prog_elem in list(root.findall('programme')):
-            prog_ch = prog_elem.get('channel')
-            if valid_channel_ids and prog_ch not in valid_channel_ids:
-                root.remove(prog_elem)
-            else:
-                for attr in ['start', 'stop']:
-                    val = prog_elem.get(attr)
-                    if val:
-                        clean_val = val.split()[0]
-                        if len(clean_val) == 14:
-                            prog_elem.set(attr, f"{clean_val} +0700")
-
-        print("  💾 Đang ghi tệp XML đầu ra...")
-        tree = ET.ElementTree(root)
-        tree.write(output_xml_path, encoding='utf-8', xml_declaration=True)
-        print(f"✅ Đã lọc và lưu EPG chuẩn giờ Việt Nam → {output_xml_path}")
-    except Exception as e:
-        print(f"  ⚠ Lỗi xử lý XML EPG: {e}", file=sys.stderr)
 
 
 # ──────────────────────────────────────────────────────────────────────
 # MAIN
 # ──────────────────────────────────────────────────────────────────────
 def main() -> None:
-    """Hàm điều phối chính thực thi toàn bộ quy trình cập nhật EPG, cào và lọc M3U."""
-    print(f"📡  EPG Target: {MY_EPG_URL}")
+    """Hàm điều phối chính thực thi toàn bộ quy trình cào, lọc M3U và trỏ EPG trực tiếp."""
+    print(f"📡  External EPG Target: {EPG_URL}")
     
-    # 1. Tải và xử lý danh sách kênh IPTV tự động trước để trích xuất các tvg_id hợp lệ
     processed: list[list[Channel]] = []
     for idx, src in enumerate(SOURCES, 1):
         print(f"\n[{idx}/{len(SOURCES)}] Tải: {src}")
@@ -785,14 +707,8 @@ def main() -> None:
     print("\n🔀  Gộp & dedup danh sách tự động…")
     final_channels = sort_channels(merge_sources(processed))
     
-    valid_channel_ids = frozenset(ch.tvg_id for ch in final_channels if ch.tvg_id)
-
-    # 2. Tải, lọc nội dung XML EPG dựa trên danh sách M3U và cập nhật múi giờ (+0700)
-    fix_epg_timezone(RAW_EPG_SOURCE, EPG_OUTPUT_FILE, valid_channel_ids=valid_channel_ids)
-    
-    # 3. Ghi tệp danh sách M3U và JSON hoàn chỉnh ra đĩa
+    # Ghi tệp danh sách M3U hoàn chỉnh ra đĩa (Đã tích hợp sẵn link EPG trực tiếp trong header của M3U)
     write_m3u(final_channels, OUTPUT_FILE)
-    write_json(final_channels, JSON_OUTPUT_FILE)
 
 
 if __name__ == "__main__":
