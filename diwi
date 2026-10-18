@@ -118,9 +118,7 @@ https://vietmitv.id.vn/c.php?k=bc5919a
 #EXTINF:-1 tvg-id="tvbvn" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/tvbvn.png" group-title="VTVcab",TVB Việt Nam
 https://amg01868-amg01868c3-tvbanywhere-us-4491.playouts.now.amagi.tv/playlist1080p.m3u8
 #EXTINF:-1 tvg-id="hitv" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/hitv.png" group-title="VTVcab",HiTV
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://vietmitv.id.vn/c.php?k=01ecd93
+https://vmttv.dpdns.org/tv360/?id=hitv
 #EXTINF:-1 tvg-id="onbibi" tvg-logo="https://raw.githubusercontent.com/MFT-T/tvn-logo/main/vtvcab_logo/onbibi.png" group-title="VTVcab",ON Bibi
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
