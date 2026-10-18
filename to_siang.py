@@ -41,7 +41,7 @@ CHANNELS_EXCLUDE_EXTRAS: Final[frozenset[str]] = frozenset([
 
 # Sử dụng trực tiếp nguồn EPG gốc
 EPG_URL: Final[str] = "https://epg.io.vn/epgu.xml"
-OUTPUT_FILE: Final[str] = "diwi diwi.m3u"
+OUTPUT_FILES: Final[list[str]] = ["diwi", "diwi.m3u"]
 GLOBAL_TIMEOUT: Final[int] = 25
 HTTP_HEADERS: Final[dict[str, str]] = {
     "User-Agent": (
@@ -710,7 +710,8 @@ def main() -> None:
     final_channels = sort_channels(merge_sources(processed))
     
     # Ghi tệp danh sách M3U hoàn chỉnh ra đĩa (Đã tích hợp sẵn link EPG trực tiếp trong header của M3U)
-    write_m3u(final_channels, OUTPUT_FILE)
+    for path in OUTPUT_FILES:
+        write_m3u(final_channels, path)
 
 
 if __name__ == "__main__":
