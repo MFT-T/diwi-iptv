@@ -31,7 +31,7 @@ SOURCES: Final[list[str]] = [
 SOURCE_1_EXCLUDED_CHANNELS: Final[frozenset[str]] = frozenset([
 	"sctv3hd", "sctv4hd", "sctv6hd", "sctv7hd", "sctv11hd", "sctv12hd", "sctv13hd",
 	"sctv18hd", "sctv19hd", "sctv20hd", "sctv21hd", "sctvhdpth",
-	"gialai"
+	"gialai", "hitv"
 ])
 
 # 🛑 CÁC KÊNH BỊ LOẠI BỎ PHỤ TRỢ (#EXTVLCOPT, #KODIPROP) KHI XUẤT FILE M3U
@@ -41,7 +41,7 @@ CHANNELS_EXCLUDE_EXTRAS: Final[frozenset[str]] = frozenset([
 
 # Sử dụng trực tiếp nguồn EPG gốc
 EPG_URL: Final[str] = "https://epg.io.vn/epgu.xml"
-OUTPUT_FILE: Final[str] = "diwi"
+OUTPUT_FILE: Final[str] = "diwi diwi.m3u"
 GLOBAL_TIMEOUT: Final[int] = 25
 HTTP_HEADERS: Final[dict[str, str]] = {
     "User-Agent": (
