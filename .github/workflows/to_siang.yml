@@ -2,7 +2,7 @@ name: Siang IPTV Playlist
 
 on:
   schedule:
-    - cron: "23 */5 * * *"  # Tự động chạy 3 tiếng một lần
+    - cron: "23 */5 * * *"  # Tự động chạy 5 tiếng một lần
   workflow_dispatch:
   push:
     paths:
